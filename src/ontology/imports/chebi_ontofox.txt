@@ -1,0 +1,879 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/pestico/chebi_import.owl
+
+# NO TABS ALLOWED
+
+# NEED THESE TERMS IN RESPECTIVE ORDER BELOW
+# Bromopropylate
+# bromoxynil
+# triazbutil
+# Sulfosulfuron
+# pinolene
+# pethoxamide
+# copper oxalate
+# Chlorbenside
+# Chlorflurenol
+# chlorparaside
+
+# PROBLEM ENTRIES EXIST AND SEEM FINE BUT ONTOFOX IS NOT IMPORTING THEM:
+# http://purl.obolibrary.org/obo/CHEBI_178341
+# http://purl.obolibrary.org/obo/CHEBI_180269
+# http://purl.obolibrary.org/obo/CHEBI_180268
+# http://purl.obolibrary.org/obo/CHEBI_180239
+# http://purl.obolibrary.org/obo/CHEBI_180337
+# http://purl.obolibrary.org/obo/CHEBI_180135
+# http://purl.obolibrary.org/obo/CHEBI_180197
+# http://purl.obolibrary.org/obo/CHEBI_180327
+# http://purl.obolibrary.org/obo/CHEBI_180266
+# http://purl.obolibrary.org/obo/CHEBI_179635
+# http://purl.obolibrary.org/obo/CHEBI_179164
+# http://purl.obolibrary.org/obo/CHEBI_179456
+# http://purl.obolibrary.org/obo/CHEBI_180517
+# http://purl.obolibrary.org/obo/CHEBI_180402
+# http://purl.obolibrary.org/obo/CHEBI_180024
+
+[Source ontology]
+CHEBI
+
+[Low level source term URIs]
+
+http://purl.obolibrary.org/obo/CHEBI_60004 # mixture
+http://purl.obolibrary.org/obo/CHEBI_25944 # pesticide
+http://purl.obolibrary.org/obo/CHEBI_24527 # herbicide
+http://purl.obolibrary.org/obo/CHEBI_24127 # fungicide
+
+
+http://purl.obolibrary.org/obo/CHEBI_24536  #  hexachlorocyclohexane
+http://purl.obolibrary.org/obo/CHEBI_31020  # (+)-Sceletium A4
+http://purl.obolibrary.org/obo/CHEBI_83855  # (1S,2S)-bitertanol
+http://purl.obolibrary.org/obo/CHEBI_39340  # (1S)-trans-(alphaS)-cypermethrin
+http://purl.obolibrary.org/obo/CHEBI_52741  # (2-chloroethyl)phosphonic acid
+http://purl.obolibrary.org/obo/CHEBI_175891  # (E,E,E)-Sylvatine
+http://purl.obolibrary.org/obo/CHEBI_88608  # (E,Z)-2,4-Dodecadiene
+http://purl.obolibrary.org/obo/CHEBI_39240  # (E,Z)-alpha-farnesene
+http://purl.obolibrary.org/obo/CHEBI_18624  # (E)-1,3-dichloropropene
+http://purl.obolibrary.org/obo/CHEBI_58996  # (E)-azobenzene
+http://purl.obolibrary.org/obo/CHEBI_64020  # (R,S,S,S)-nebivolol
+http://purl.obolibrary.org/obo/CHEBI_83659  # (R)-bromacil
+http://purl.obolibrary.org/obo/CHEBI_75373  # (R)-dichlorprop
+http://purl.obolibrary.org/obo/CHEBI_50280  # (R)-lavandulyl diphosphate
+http://purl.obolibrary.org/obo/CHEBI_141475  # (R)-malathion
+http://purl.obolibrary.org/obo/CHEBI_75703  # (R)-mecoprop
+http://purl.obolibrary.org/obo/CHEBI_83781  # (R)-tebuconazole
+http://purl.obolibrary.org/obo/CHEBI_84622  # (Rp)-cAMPS
+http://purl.obolibrary.org/obo/CHEBI_39328  # (S,S)-hexythiazox
+http://purl.obolibrary.org/obo/CHEBI_62438  # (S)-2-trans-abscisic acid D-glucopyranosyl ester
+http://purl.obolibrary.org/obo/CHEBI_143154  # (S)-cloquintocet-mexyl
+http://purl.obolibrary.org/obo/CHEBI_75287  # (S)-dichlorprop(1-)
+http://purl.obolibrary.org/obo/CHEBI_83689  # (S)-fenarimol
+http://purl.obolibrary.org/obo/CHEBI_83709  # (S)-flutriafol
+http://purl.obolibrary.org/obo/CHEBI_133785  # (S)-mefenpyr-diethyl
+http://purl.obolibrary.org/obo/CHEBI_83647  # (S)-metolachlor
+http://purl.obolibrary.org/obo/CHEBI_83655  # (S)-metolachlor OXA
+http://purl.obolibrary.org/obo/CHEBI_83788  # (S)-secbumeton
+http://purl.obolibrary.org/obo/CHEBI_84004  # (S)-triadimefon
+http://purl.obolibrary.org/obo/CHEBI_18822  # (Z,Z,Z)-geranylgeraniol
+http://purl.obolibrary.org/obo/CHEBI_39239  # (Z,Z)-alpha-farnesene
+http://purl.obolibrary.org/obo/CHEBI_173333  # (Z)-4-Hexenal
+http://purl.obolibrary.org/obo/CHEBI_178341  # (Z)-Tamarindienal
+http://purl.obolibrary.org/obo/CHEBI_173728  # 1-(Methylthio)-1-hexanethiol
+http://purl.obolibrary.org/obo/CHEBI_58360  # 1-aminocyclopropanecarboxylic acid zwitterion
+http://purl.obolibrary.org/obo/CHEBI_74889  # 1-dodecylguanidine acetate
+http://purl.obolibrary.org/obo/CHEBI_132592  # 1-methylcyclopropene
+http://purl.obolibrary.org/obo/CHEBI_143541  # 1-methylester malic acid
+http://purl.obolibrary.org/obo/CHEBI_32918  # 1-naphthaleneacetic acid
+http://purl.obolibrary.org/obo/CHEBI_50947  # 1,1-dimethylaziridinium
+http://purl.obolibrary.org/obo/CHEBI_28534  # 1,2-dibromoethane
+http://purl.obolibrary.org/obo/CHEBI_37475  # 1,2-dihydrophenanthrene-1,2-diol
+http://purl.obolibrary.org/obo/CHEBI_34037  # 1,2,3-trimethylbenzene
+http://purl.obolibrary.org/obo/CHEBI_18918  # 1,3-dichloropropene
+http://purl.obolibrary.org/obo/CHEBI_534  # 1,4-bis(2-ethylhexyl) sulfosuccinate
+http://purl.obolibrary.org/obo/CHEBI_180269  # 13E-Octadecenyl acetate
+http://purl.obolibrary.org/obo/CHEBI_180268  # 13Z-Octadecenyl acetate
+http://purl.obolibrary.org/obo/CHEBI_81806  # 2-methyl-4-chlorophenoxybutyric acid
+http://purl.obolibrary.org/obo/CHEBI_151046  # 2-Tetrazene, 1,1,4,4-tetraethyl-
+http://purl.obolibrary.org/obo/CHEBI_46745  # 2,3-dihydroxy-DDT
+http://purl.obolibrary.org/obo/CHEBI_81946  # 2,3,6-TBA
+http://purl.obolibrary.org/obo/CHEBI_28854  # 2,4-D
+http://purl.obolibrary.org/obo/CHEBI_145558  # 2,4-D choline
+http://purl.obolibrary.org/obo/CHEBI_73173  # 2,4-DB
+http://purl.obolibrary.org/obo/CHEBI_27864  # 2,6-dichloro-4-nitroaniline
+http://purl.obolibrary.org/obo/CHEBI_943  # 2,6-dichlorobenzonitrile
+http://purl.obolibrary.org/obo/CHEBI_949  # 2,6-dichlorothiobenzamide
+http://purl.obolibrary.org/obo/CHEBI_143794  # 3,5,6-trichloro-2-pyridinol
+http://purl.obolibrary.org/obo/CHEBI_180239  # 3Z-Octenyl acetate
+http://purl.obolibrary.org/obo/CHEBI_50148  # 4-[3-(4-tert-butylphenyl)-2-methylpropyl]-2,6-dimethylmorpholine
+http://purl.obolibrary.org/obo/CHEBI_39349  # 4,6-dinitro-o-cresol
+http://purl.obolibrary.org/obo/CHEBI_180337  # 5-Keto-n-caprylic acid
+http://purl.obolibrary.org/obo/CHEBI_180135  # 5-oxo capric acid
+http://purl.obolibrary.org/obo/CHEBI_180197  # 7-hydroxy pelargonic acid
+http://purl.obolibrary.org/obo/CHEBI_180327  # 9-acetyl pelargonic acid
+http://purl.obolibrary.org/obo/CHEBI_180266  # 9-Octadecenyl acetate
+http://purl.obolibrary.org/obo/CHEBI_141599  # A. baumannii strain 54149 exopolysaccharide
+http://purl.obolibrary.org/obo/CHEBI_59850  # A. haemolyticus strain 57 O-specific polysaccharide
+http://purl.obolibrary.org/obo/CHEBI_39214  # abamectin
+http://purl.obolibrary.org/obo/CHEBI_34520  # acephate
+http://purl.obolibrary.org/obo/CHEBI_38592  # acequinocyl
+http://purl.obolibrary.org/obo/CHEBI_39163  # acetamiprid
+http://purl.obolibrary.org/obo/CHEBI_2394  # acetochlor
+http://purl.obolibrary.org/obo/CHEBI_73185  # acibenzolar
+http://purl.obolibrary.org/obo/CHEBI_73178  # acibenzolar-S-methyl
+http://purl.obolibrary.org/obo/CHEBI_37527  # acid
+http://purl.obolibrary.org/obo/CHEBI_73172  # acifluorfen
+http://purl.obolibrary.org/obo/CHEBI_137374  # aclonifen
+http://purl.obolibrary.org/obo/CHEBI_39091  # acrinathrin
+http://purl.obolibrary.org/obo/CHEBI_179635  # Acrylamide-acrylic acid resin
+http://purl.obolibrary.org/obo/CHEBI_78576  # aflatoxin M1
+http://purl.obolibrary.org/obo/CHEBI_2533  # alachlor
+http://purl.obolibrary.org/obo/CHEBI_30879  # alcohol
+http://purl.obolibrary.org/obo/CHEBI_2555  # aldicarb
+http://purl.obolibrary.org/obo/CHEBI_2564  # aldrin
+http://purl.obolibrary.org/obo/CHEBI_35217  # alkaline earth coordination entity
+http://purl.obolibrary.org/obo/CHEBI_2579  # Alkannin beta,beta-dimethylacrylate
+http://purl.obolibrary.org/obo/CHEBI_81949  # alloxydim
+http://purl.obolibrary.org/obo/CHEBI_16605  # allyl alcohol
+http://purl.obolibrary.org/obo/CHEBI_72324  # alogliptin benzoate
+http://purl.obolibrary.org/obo/CHEBI_30195  # alpha-aluminium hydroxide
+http://purl.obolibrary.org/obo/CHEBI_10224  # alpha-cubebene
+http://purl.obolibrary.org/obo/CHEBI_39331  # alpha-cypermethrin
+http://purl.obolibrary.org/obo/CHEBI_77017  # alpha-NAD(1-)
+http://purl.obolibrary.org/obo/CHEBI_28984  # aluminium atom
+http://purl.obolibrary.org/obo/CHEBI_33130  # aluminium hydroxide
+http://purl.obolibrary.org/obo/CHEBI_38495  # aluminium phosphide
+http://purl.obolibrary.org/obo/CHEBI_74768  # aluminium sulfate (anhydrous)
+http://purl.obolibrary.org/obo/CHEBI_83398  # ametoctradin
+http://purl.obolibrary.org/obo/CHEBI_22472  # ametryn
+http://purl.obolibrary.org/obo/CHEBI_2635  # Amidosulfuron
+http://purl.obolibrary.org/obo/CHEBI_62962  # aminopyralid
+http://purl.obolibrary.org/obo/CHEBI_81846  # amisulbrom
+http://purl.obolibrary.org/obo/CHEBI_2665  # amitraz
+http://purl.obolibrary.org/obo/CHEBI_40036  # amitrole
+http://purl.obolibrary.org/obo/CHEBI_28938  # ammonium
+http://purl.obolibrary.org/obo/CHEBI_82076  # anilazine
+http://purl.obolibrary.org/obo/CHEBI_75767  # animal metabolite
+http://purl.obolibrary.org/obo/CHEBI_22580  # anthraquinone
+http://purl.obolibrary.org/obo/CHEBI_33338  # aryl group
+http://purl.obolibrary.org/obo/CHEBI_81696  # asulam
+http://purl.obolibrary.org/obo/CHEBI_15930  # atrazine
+http://purl.obolibrary.org/obo/CHEBI_83463  # atrazine-desethyl-2-hydroxy
+http://purl.obolibrary.org/obo/CHEBI_50344  # avermectin
+http://purl.obolibrary.org/obo/CHEBI_38473  # azadirachtin
+http://purl.obolibrary.org/obo/CHEBI_38510  # azadirachtin H
+http://purl.obolibrary.org/obo/CHEBI_81746  # azimsulfuron
+http://purl.obolibrary.org/obo/CHEBI_38587  # azinphos-ethyl
+http://purl.obolibrary.org/obo/CHEBI_2953  # azinphos-methyl
+http://purl.obolibrary.org/obo/CHEBI_2959  # azocyclotin
+http://purl.obolibrary.org/obo/CHEBI_40909  # azoxystrobin
+http://purl.obolibrary.org/obo/CHEBI_33421  # barban
+http://purl.obolibrary.org/obo/CHEBI_32594  # barium atom
+http://purl.obolibrary.org/obo/CHEBI_32595  # barium(0)
+http://purl.obolibrary.org/obo/CHEBI_138192  # beflubutamid
+http://purl.obolibrary.org/obo/CHEBI_3009  # benalaxyl
+http://purl.obolibrary.org/obo/CHEBI_82779  # benalaxyl-M
+http://purl.obolibrary.org/obo/CHEBI_34556  # bendiocarb
+http://purl.obolibrary.org/obo/CHEBI_132878  # benfluralin
+http://purl.obolibrary.org/obo/CHEBI_3014  # benfuracarb
+http://purl.obolibrary.org/obo/CHEBI_3015  # benomyl
+http://purl.obolibrary.org/obo/CHEBI_132880  # bensulfuron
+http://purl.obolibrary.org/obo/CHEBI_3017  # bensulfuron-methyl
+http://purl.obolibrary.org/obo/CHEBI_39188  # bensultap
+http://purl.obolibrary.org/obo/CHEBI_3018  # bentazone
+http://purl.obolibrary.org/obo/CHEBI_83601  # benthiavalicarb
+http://purl.obolibrary.org/obo/CHEBI_16150  # benzoate
+http://purl.obolibrary.org/obo/CHEBI_81812  # benzobicyclon
+http://purl.obolibrary.org/obo/CHEBI_30746  # benzoic acid
+http://purl.obolibrary.org/obo/CHEBI_83092  # benzovindiflupyr
+http://purl.obolibrary.org/obo/CHEBI_38813  # benzoximate
+http://purl.obolibrary.org/obo/CHEBI_82171  # Benzoylprop-ethyl
+http://purl.obolibrary.org/obo/CHEBI_59754  # beta-amino-fatty acid
+http://purl.obolibrary.org/obo/CHEBI_134348  # beta-bitter acid(1-)
+http://purl.obolibrary.org/obo/CHEBI_39314  # beta-cyfluthrin
+http://purl.obolibrary.org/obo/CHEBI_38660  # bifenazate
+http://purl.obolibrary.org/obo/CHEBI_3093  # bifenthrin
+http://purl.obolibrary.org/obo/CHEBI_82153  # binapacryl
+http://purl.obolibrary.org/obo/CHEBI_3129  # bispyribac
+http://purl.obolibrary.org/obo/CHEBI_3130  # bitertanol
+http://purl.obolibrary.org/obo/CHEBI_83106  # bixafen
+http://purl.obolibrary.org/obo/CHEBI_81822  # boscalid
+http://purl.obolibrary.org/obo/CHEBI_3177  # bromacil
+http://purl.obolibrary.org/obo/CHEBI_81855  # Bromadiolone
+http://purl.obolibrary.org/obo/CHEBI_82194  # Bromofenoxim
+http://purl.obolibrary.org/obo/CHEBI_82104  # Bromofos
+#  Bromopropylate
+#  bromoxynil
+http://purl.obolibrary.org/obo/CHEBI_81900  # bromuconazole
+http://purl.obolibrary.org/obo/CHEBI_81952  # bupirimate
+http://purl.obolibrary.org/obo/CHEBI_39381  # buprofezin
+http://purl.obolibrary.org/obo/CHEBI_38465  # butocarboxim
+http://purl.obolibrary.org/obo/CHEBI_34594  # Butylate
+http://purl.obolibrary.org/obo/CHEBI_131591  # C18-steroid
+http://purl.obolibrary.org/obo/CHEBI_77481  # C30 botryococcene
+http://purl.obolibrary.org/obo/CHEBI_38588  # cadusafos
+http://purl.obolibrary.org/obo/CHEBI_31338  # calcium dibromide
+http://purl.obolibrary.org/obo/CHEBI_31346  # calcium sulfate
+http://purl.obolibrary.org/obo/CHEBI_81938  # captafol
+http://purl.obolibrary.org/obo/CHEBI_34608  # captan
+http://purl.obolibrary.org/obo/CHEBI_143793  # Captan GlcA
+http://purl.obolibrary.org/obo/CHEBI_3390  # carbaryl
+http://purl.obolibrary.org/obo/CHEBI_33403  # carbendazim
+http://purl.obolibrary.org/obo/CHEBI_3392  # carbendazim
+http://purl.obolibrary.org/obo/CHEBI_34611  # carbofuran
+http://purl.obolibrary.org/obo/CHEBI_27594  # carbon atom
+http://purl.obolibrary.org/obo/CHEBI_36927  # carbon-14 atom
+http://purl.obolibrary.org/obo/CHEBI_82107  # Carbophenothion
+http://purl.obolibrary.org/obo/CHEBI_38476  # carbosulfan
+http://purl.obolibrary.org/obo/CHEBI_3405  # carboxin
+http://purl.obolibrary.org/obo/CHEBI_34608  # carboxin
+http://purl.obolibrary.org/obo/CHEBI_3416  # carfentrazone-ethyl
+http://purl.obolibrary.org/obo/CHEBI_3436  # cartap
+http://purl.obolibrary.org/obo/CHEBI_140618  # castor oil
+http://purl.obolibrary.org/obo/CHEBI_76589  # chartaceone A4
+http://purl.obolibrary.org/obo/CHEBI_82183  # Chloramben
+http://purl.obolibrary.org/obo/CHEBI_67113  # chlorantraniliprole
+#  Chlorbenside
+http://purl.obolibrary.org/obo/CHEBI_3608  # Chlorbromuron
+http://purl.obolibrary.org/obo/CHEBI_82186  # Chlorbufam
+http://purl.obolibrary.org/obo/CHEBI_34623  # chlordane
+http://purl.obolibrary.org/obo/CHEBI_34629  # chlordimeform
+http://purl.obolibrary.org/obo/CHEBI_82235  # chlorfenac
+http://purl.obolibrary.org/obo/CHEBI_82236  # Chlorfenprop-methyl
+http://purl.obolibrary.org/obo/CHEBI_82155  # Chlorfenson
+http://purl.obolibrary.org/obo/CHEBI_38598  # chlorfenvinfos
+#  Chlorflurenol
+http://purl.obolibrary.org/obo/CHEBI_81838  # chloridazon
+http://purl.obolibrary.org/obo/CHEBI_82186  # chloridazon
+http://purl.obolibrary.org/obo/CHEBI_38603  # chlormephos
+http://purl.obolibrary.org/obo/CHEBI_81850  # chlormequat
+http://purl.obolibrary.org/obo/CHEBI_137392  # chlormequat chloride
+http://purl.obolibrary.org/obo/CHEBI_81796  # Chlorophacinone
+http://purl.obolibrary.org/obo/CHEBI_39285  # chloropicrin
+http://purl.obolibrary.org/obo/CHEBI_3639  # chlorothalonil
+http://purl.obolibrary.org/obo/CHEBI_81981  # chlorotoluron
+http://purl.obolibrary.org/obo/CHEBI_82200  # chloroxuron
+#  chlorparaside
+http://purl.obolibrary.org/obo/CHEBI_34630  # chlorpropham
+http://purl.obolibrary.org/obo/CHEBI_34631  # chlorpyrifos
+http://purl.obolibrary.org/obo/CHEBI_34632  # chlorpyrifos-methyl
+http://purl.obolibrary.org/obo/CHEBI_3652  # chlorsulfuron
+http://purl.obolibrary.org/obo/CHEBI_179164  # Chlorthal
+http://purl.obolibrary.org/obo/CHEBI_3656  # chlozolinate
+http://purl.obolibrary.org/obo/CHEBI_81982  # Cinosulfuron
+http://purl.obolibrary.org/obo/CHEBI_174068  # Citral propylene glycol acetal
+http://purl.obolibrary.org/obo/CHEBI_70721  # clethodim
+http://purl.obolibrary.org/obo/CHEBI_132841  # clodinafop
+http://purl.obolibrary.org/obo/CHEBI_132921  # clodinafop-propargyl
+http://purl.obolibrary.org/obo/CHEBI_39315  # clofentezine
+http://purl.obolibrary.org/obo/CHEBI_3751  # clomazone
+http://purl.obolibrary.org/obo/CHEBI_62961  # clopyralid
+http://purl.obolibrary.org/obo/CHEBI_143152  # cloquintocet-mexyl
+http://purl.obolibrary.org/obo/CHEBI_39178  # clothianidin
+http://purl.obolibrary.org/obo/CHEBI_75295  # compound 48/80
+http://purl.obolibrary.org/obo/CHEBI_28694  # copper atom
+http://purl.obolibrary.org/obo/CHEBI_81907  # Copper hydroxide
+#  copper oxalate
+http://purl.obolibrary.org/obo/CHEBI_134069  # copper oxide
+http://purl.obolibrary.org/obo/CHEBI_30052  # copper(0)
+http://purl.obolibrary.org/obo/CHEBI_49552  # copper(1+)
+http://purl.obolibrary.org/obo/CHEBI_53472  # copper(I) chloride
+http://purl.obolibrary.org/obo/CHEBI_49553  # copper(II) chloride
+http://purl.obolibrary.org/obo/CHEBI_23414  # copper(II) sulfate
+http://purl.obolibrary.org/obo/CHEBI_31440  # copper(II) sulfate pentahydrate
+http://purl.obolibrary.org/obo/CHEBI_80741  # Coumachlor
+http://purl.obolibrary.org/obo/CHEBI_28794  # coumarin
+http://purl.obolibrary.org/obo/CHEBI_80742  # Coumatetralyl
+http://purl.obolibrary.org/obo/CHEBI_82258  # Crimidine
+http://purl.obolibrary.org/obo/CHEBI_81908  # cuprous oxide
+http://purl.obolibrary.org/obo/CHEBI_16698  # cyanamide
+http://purl.obolibrary.org/obo/CHEBI_38069  # cyanazine
+http://purl.obolibrary.org/obo/CHEBI_132300  # cyantraniliprole
+http://purl.obolibrary.org/obo/CHEBI_81841  # cyazofamid
+http://purl.obolibrary.org/obo/CHEBI_81955  # Cycloate
+http://purl.obolibrary.org/obo/CHEBI_4033  # cycloxydim
+http://purl.obolibrary.org/obo/CHEBI_82231  # Cycluron
+http://purl.obolibrary.org/obo/CHEBI_81797  # cyflufenamid
+http://purl.obolibrary.org/obo/CHEBI_81798  # cyflumetofen
+http://purl.obolibrary.org/obo/CHEBI_4034  # cyfluthrin
+http://purl.obolibrary.org/obo/CHEBI_81863  # Cyhalofop-butyl
+http://purl.obolibrary.org/obo/CHEBI_4036  # cyhexatin
+http://purl.obolibrary.org/obo/CHEBI_81788  # cymoxanil
+http://purl.obolibrary.org/obo/CHEBI_4042  # cypermethrin
+http://purl.obolibrary.org/obo/CHEBI_81758  # cyproconazole
+http://purl.obolibrary.org/obo/CHEBI_4045  # cyprodinil
+http://purl.obolibrary.org/obo/CHEBI_132270  # cyprosulfamide
+http://purl.obolibrary.org/obo/CHEBI_30260  # cyromazine
+http://purl.obolibrary.org/obo/CHEBI_81859  # Dalapon
+http://purl.obolibrary.org/obo/CHEBI_81859  # dalapon
+http://purl.obolibrary.org/obo/CHEBI_4312  # Daminozide
+http://purl.obolibrary.org/obo/CHEBI_75212  # dazomet
+http://purl.obolibrary.org/obo/CHEBI_27841  # DDD
+http://purl.obolibrary.org/obo/CHEBI_16130  # DDT
+http://purl.obolibrary.org/obo/CHEBI_4388  # deltamethrin
+http://purl.obolibrary.org/obo/CHEBI_82117  # Demeton-S
+http://purl.obolibrary.org/obo/CHEBI_38624  # demeton-S-methyl
+http://purl.obolibrary.org/obo/CHEBI_81733  # desmedipham
+http://purl.obolibrary.org/obo/CHEBI_82222  # Desmetryn
+http://purl.obolibrary.org/obo/CHEBI_175016  # Di-4-coumaroylputrescine
+http://purl.obolibrary.org/obo/CHEBI_173874  # di-Hydroxymelatonin
+http://purl.obolibrary.org/obo/CHEBI_30113  # di-mu-chloridobis(dichloridoaluminium)
+http://purl.obolibrary.org/obo/CHEBI_39299  # diafenthiuron
+http://purl.obolibrary.org/obo/CHEBI_82158  # dialifor
+http://purl.obolibrary.org/obo/CHEBI_34682  # diazinon
+http://purl.obolibrary.org/obo/CHEBI_30075  # dibromide(.1-)
+http://purl.obolibrary.org/obo/CHEBI_81856  # dicamba
+http://purl.obolibrary.org/obo/CHEBI_74875  # dichlofluanid
+http://purl.obolibrary.org/obo/CHEBI_81956  # Dichlormid
+http://purl.obolibrary.org/obo/CHEBI_75375  # dichlorprop
+http://purl.obolibrary.org/obo/CHEBI_34690  # dichlorvos
+http://purl.obolibrary.org/obo/CHEBI_4506  # Diclobutrazol
+http://purl.obolibrary.org/obo/CHEBI_4510  # diclofop-methyl
+http://purl.obolibrary.org/obo/CHEBI_34692  # dicofol
+http://purl.obolibrary.org/obo/CHEBI_34696  # dieldrin
+http://purl.obolibrary.org/obo/CHEBI_4520  # diethofencarb
+http://purl.obolibrary.org/obo/CHEBI_80743  # Difenacoum
+http://purl.obolibrary.org/obo/CHEBI_81760  # difenoconazole
+http://purl.obolibrary.org/obo/CHEBI_81910  # Difenzoquat
+http://purl.obolibrary.org/obo/CHEBI_34703  # diflubenzuron
+http://purl.obolibrary.org/obo/CHEBI_81824  # diflufenican
+http://purl.obolibrary.org/obo/CHEBI_34713  # dimepiperate
+http://purl.obolibrary.org/obo/CHEBI_81789  # dimethenamid
+http://purl.obolibrary.org/obo/CHEBI_83640  # dimethenamid-P
+http://purl.obolibrary.org/obo/CHEBI_81912  # Dimethipin
+http://purl.obolibrary.org/obo/CHEBI_81958  # dimethirimol
+http://purl.obolibrary.org/obo/CHEBI_34714  # dimethoate
+http://purl.obolibrary.org/obo/CHEBI_81848  # dimethomorph
+http://purl.obolibrary.org/obo/CHEBI_4609  # Dimethyl phthalate
+http://purl.obolibrary.org/obo/CHEBI_59050  # dimethyl sulfate
+http://purl.obolibrary.org/obo/CHEBI_81959  # Dinitramine
+http://purl.obolibrary.org/obo/CHEBI_81914  # Dinobuton
+http://purl.obolibrary.org/obo/CHEBI_83379  # dinocap
+http://purl.obolibrary.org/obo/CHEBI_34719  # dinoseb
+http://purl.obolibrary.org/obo/CHEBI_81883  # Dinoterb
+http://purl.obolibrary.org/obo/CHEBI_168986  # Dioctyl hexanedioate
+http://purl.obolibrary.org/obo/CHEBI_82093  # Dioxacarb
+http://purl.obolibrary.org/obo/CHEBI_81915  # Diphenamid
+http://purl.obolibrary.org/obo/CHEBI_4640  # diphenylamine
+http://purl.obolibrary.org/obo/CHEBI_64163  # diquat
+http://purl.obolibrary.org/obo/CHEBI_59587  # disodium clodronate tetrahydrate
+http://purl.obolibrary.org/obo/CHEBI_38661  # disulfoton
+http://purl.obolibrary.org/obo/CHEBI_82067  # Ditalimfos
+http://purl.obolibrary.org/obo/CHEBI_81842  # dithianon
+http://purl.obolibrary.org/obo/CHEBI_116509  # diuron
+http://purl.obolibrary.org/obo/CHEBI_83466  # diuron-desmethyl
+http://purl.obolibrary.org/obo/CHEBI_165649  # Dodecyl acetate
+http://purl.obolibrary.org/obo/CHEBI_81960  # dodemorph
+http://purl.obolibrary.org/obo/CHEBI_59318  # E. coli strain F2513 LPS core oligosaccharide
+http://purl.obolibrary.org/obo/CHEBI_59309  # E. coli strain F576 LPS core oligosaccharide
+http://purl.obolibrary.org/obo/CHEBI_83160  # Echinacea extract
+http://purl.obolibrary.org/obo/CHEBI_34735  # edifenphos
+http://purl.obolibrary.org/obo/CHEBI_33403  # elemental sulfur
+http://purl.obolibrary.org/obo/CHEBI_39233  # emamectin benzoate
+http://purl.obolibrary.org/obo/CHEBI_4791  # endosulfan
+http://purl.obolibrary.org/obo/CHEBI_81916  # Endothal-disodium
+http://purl.obolibrary.org/obo/CHEBI_82121  # Endothion
+http://purl.obolibrary.org/obo/CHEBI_81927  # enilconazole
+http://purl.obolibrary.org/obo/CHEBI_4811  # epoxiconazole
+http://purl.obolibrary.org/obo/CHEBI_4738  # EPTC
+http://purl.obolibrary.org/obo/CHEBI_39346  # esfenvalerate
+http://purl.obolibrary.org/obo/CHEBI_83630  # essential oil
+http://purl.obolibrary.org/obo/CHEBI_82252  # Etacelasil
+http://purl.obolibrary.org/obo/CHEBI_81988  # Ethalfluralin
+http://purl.obolibrary.org/obo/CHEBI_18153  # ethene
+http://purl.obolibrary.org/obo/CHEBI_82214  # Ethidimuron
+http://purl.obolibrary.org/obo/CHEBI_38483  # ethiofencarb
+http://purl.obolibrary.org/obo/CHEBI_38663  # ethion
+http://purl.obolibrary.org/obo/CHEBI_81989  # ethirimol
+http://purl.obolibrary.org/obo/CHEBI_82122  # Ethoate-methyl
+http://purl.obolibrary.org/obo/CHEBI_81990  # ethofumesate
+http://purl.obolibrary.org/obo/CHEBI_38665  # ethoprophos
+http://purl.obolibrary.org/obo/CHEBI_9878  # ethoxylated alcohol
+http://purl.obolibrary.org/obo/CHEBI_77323  # ethoxyquin
+http://purl.obolibrary.org/obo/CHEBI_81748  # Ethoxysulfuron
+http://purl.obolibrary.org/obo/CHEBI_62801  # ethyl
+http://purl.obolibrary.org/obo/CHEBI_173867  # Ethyl 1-(methylthio)propyl disulfide
+http://purl.obolibrary.org/obo/CHEBI_168398  # Ethyl cellulose
+http://purl.obolibrary.org/obo/CHEBI_179456  # Ethyl methyl-p-tolylglycidate
+http://purl.obolibrary.org/obo/CHEBI_87426  # ethyl octanoate
+http://purl.obolibrary.org/obo/CHEBI_180517  # Ethyl p-coumarate
+http://purl.obolibrary.org/obo/CHEBI_4906  # etidronate disodium
+http://purl.obolibrary.org/obo/CHEBI_39348  # etofenprox
+http://purl.obolibrary.org/obo/CHEBI_39329  # etoxazole
+http://purl.obolibrary.org/obo/CHEBI_81761  # etridiazole
+http://purl.obolibrary.org/obo/CHEBI_4917  # eugenol
+http://purl.obolibrary.org/obo/CHEBI_59340  # famoxadone
+http://purl.obolibrary.org/obo/CHEBI_24026  # fatty alcohol
+http://purl.obolibrary.org/obo/CHEBI_83258  # fenamidone
+http://purl.obolibrary.org/obo/CHEBI_82078  # Fenaminosulf
+http://purl.obolibrary.org/obo/CHEBI_38680  # fenamiphos
+http://purl.obolibrary.org/obo/CHEBI_4998  # fenarimol
+http://purl.obolibrary.org/obo/CHEBI_82159  # Fenazaflor
+http://purl.obolibrary.org/obo/CHEBI_38593  # fenazaquin
+http://purl.obolibrary.org/obo/CHEBI_81762  # fenbuconazole
+http://purl.obolibrary.org/obo/CHEBI_39294  # fenbutatin oxide
+http://purl.obolibrary.org/obo/CHEBI_81993  # Fenclorim
+http://purl.obolibrary.org/obo/CHEBI_81853  # fenhexamid
+http://purl.obolibrary.org/obo/CHEBI_34757  # fenitrothion
+http://purl.obolibrary.org/obo/CHEBI_5006  # Fenothiocarb
+http://purl.obolibrary.org/obo/CHEBI_5007  # Fenothiocarb sulfoxide
+http://purl.obolibrary.org/obo/CHEBI_5008  # Fenoxaprop ethyl
+http://purl.obolibrary.org/obo/CHEBI_5009  # fenoxycarb
+http://purl.obolibrary.org/obo/CHEBI_39353  # fenpropathrin
+http://purl.obolibrary.org/obo/CHEBI_81917  # fenpropidin
+http://purl.obolibrary.org/obo/CHEBI_50145  # fenpropimorph
+http://purl.obolibrary.org/obo/CHEBI_83327  # fenpyrazamine
+http://purl.obolibrary.org/obo/CHEBI_5011  # fenpyroximate
+http://purl.obolibrary.org/obo/CHEBI_82160  # Fenson
+http://purl.obolibrary.org/obo/CHEBI_82160  # fenson
+http://purl.obolibrary.org/obo/CHEBI_34761  # fenthion
+http://purl.obolibrary.org/obo/CHEBI_81918  # fentin acetate
+http://purl.obolibrary.org/obo/CHEBI_35036  # fentin chloride
+http://purl.obolibrary.org/obo/CHEBI_30473  # fentin hydroxide
+http://purl.obolibrary.org/obo/CHEBI_82202  # Fenuron-TCA
+http://purl.obolibrary.org/obo/CHEBI_5014  # fenvalerate
+http://purl.obolibrary.org/obo/CHEBI_5015  # ferbam
+http://purl.obolibrary.org/obo/CHEBI_31605  # Ferric citrate (59 Fe)
+http://purl.obolibrary.org/obo/CHEBI_5063  # fipronil
+http://purl.obolibrary.org/obo/CHEBI_82179  # Flamprop
+http://purl.obolibrary.org/obo/CHEBI_81961  # Flamprop-M
+http://purl.obolibrary.org/obo/CHEBI_65898  # flavaspidic acid PB
+http://purl.obolibrary.org/obo/CHEBI_81749  # Flazasulfuron
+http://purl.obolibrary.org/obo/CHEBI_82009  # Florasulam
+http://purl.obolibrary.org/obo/CHEBI_133650  # florpyrauxifen
+http://purl.obolibrary.org/obo/CHEBI_5097  # fluazifop-butyl
+http://purl.obolibrary.org/obo/CHEBI_132964  # fluazifop-P-butyl
+http://purl.obolibrary.org/obo/CHEBI_81843  # fluazinam
+http://purl.obolibrary.org/obo/CHEBI_82169  # Flubenzimine
+http://purl.obolibrary.org/obo/CHEBI_39375  # flucycloxuron
+http://purl.obolibrary.org/obo/CHEBI_34763  # flucythrinate
+http://purl.obolibrary.org/obo/CHEBI_81763  # fludioxonil
+http://purl.obolibrary.org/obo/CHEBI_81920  # flufenacet
+http://purl.obolibrary.org/obo/CHEBI_83473  # flufenacet ESA
+http://purl.obolibrary.org/obo/CHEBI_39382  # flufenoxuron
+http://purl.obolibrary.org/obo/CHEBI_82008  # Flumetralin
+http://purl.obolibrary.org/obo/CHEBI_81764  # fluopicolide
+http://purl.obolibrary.org/obo/CHEBI_83070  # fluopyram
+http://purl.obolibrary.org/obo/CHEBI_5116  # Fluorodifen
+http://purl.obolibrary.org/obo/CHEBI_83253  # fluoxastrobin
+http://purl.obolibrary.org/obo/CHEBI_133997  # flupyradifurone
+http://purl.obolibrary.org/obo/CHEBI_83923  # fluquinconazole
+http://purl.obolibrary.org/obo/CHEBI_5131  # flurochloridone
+http://purl.obolibrary.org/obo/CHEBI_82017  # fluroxypyr
+http://purl.obolibrary.org/obo/CHEBI_81765  # Flurprimidol
+http://purl.obolibrary.org/obo/CHEBI_138737  # flurtamone
+http://purl.obolibrary.org/obo/CHEBI_81922  # flusilazole
+http://purl.obolibrary.org/obo/CHEBI_81792  # flutolanil
+http://purl.obolibrary.org/obo/CHEBI_81923  # flutriafol
+http://purl.obolibrary.org/obo/CHEBI_5135  # fluvalinate
+http://purl.obolibrary.org/obo/CHEBI_83113  # fluxapyroxad
+http://purl.obolibrary.org/obo/CHEBI_82019  # folpet
+http://purl.obolibrary.org/obo/CHEBI_81925  # fomesafen
+http://purl.obolibrary.org/obo/CHEBI_38689  # fonofos
+http://purl.obolibrary.org/obo/CHEBI_83502  # foramsulfuron
+http://purl.obolibrary.org/obo/CHEBI_81861  # Forchlorfenuron
+http://purl.obolibrary.org/obo/CHEBI_38491  # formetanate
+http://purl.obolibrary.org/obo/CHEBI_82126  # Formothion
+http://purl.obolibrary.org/obo/CHEBI_81962  # Fosamine
+http://purl.obolibrary.org/obo/CHEBI_40926  # fosetyl
+http://purl.obolibrary.org/obo/CHEBI_38692  # fosthiazate
+http://purl.obolibrary.org/obo/CHEBI_82133  # Fosthietan
+http://purl.obolibrary.org/obo/CHEBI_5194  # furalaxyl
+http://purl.obolibrary.org/obo/CHEBI_38504  # furathiocarb
+http://purl.obolibrary.org/obo/CHEBI_147435  # furilazole
+http://purl.obolibrary.org/obo/CHEBI_32888  # gamma-hexachlorocyclohexane
+http://purl.obolibrary.org/obo/CHEBI_175901  # gemcitabine
+http://purl.obolibrary.org/obo/CHEBI_17447  # geraniol
+http://purl.obolibrary.org/obo/CHEBI_86644  # Gibberellic acid
+http://purl.obolibrary.org/obo/CHEBI_28833  # gibberellin A3
+http://purl.obolibrary.org/obo/CHEBI_32903  # gibberellin A7
+http://purl.obolibrary.org/obo/CHEBI_52136  # glufosinate
+http://purl.obolibrary.org/obo/CHEBI_17754  # glycerol
+http://purl.obolibrary.org/obo/CHEBI_27744  # glyphosate
+http://purl.obolibrary.org/obo/CHEBI_133673  # glyphosate(1-)
+http://purl.obolibrary.org/obo/CHEBI_82843  # guazatine
+http://purl.obolibrary.org/obo/CHEBI_143513  # halauxifen-methyl
+http://purl.obolibrary.org/obo/CHEBI_81750  # Halosulfuron-methyl
+http://purl.obolibrary.org/obo/CHEBI_66006  # harziphilone
+http://purl.obolibrary.org/obo/CHEBI_34785  # heptachlor
+http://purl.obolibrary.org/obo/CHEBI_39424  # heptafluorobutyric anhydride
+http://purl.obolibrary.org/obo/CHEBI_38693  # heptenophos
+http://purl.obolibrary.org/obo/CHEBI_5692  # hexachlorobenzene
+http://purl.obolibrary.org/obo/CHEBI_24536  # hexachlorocyclohexane
+http://purl.obolibrary.org/obo/CHEBI_81766  # hexaconazole
+http://purl.obolibrary.org/obo/CHEBI_39383  # hexaflumuron
+http://purl.obolibrary.org/obo/CHEBI_5705  # Hexazinone
+http://purl.obolibrary.org/obo/CHEBI_39326  # hexythiazox
+http://purl.obolibrary.org/obo/CHEBI_52747  # hops yellow 560
+http://purl.obolibrary.org/obo/CHEBI_5770  # huperzine b
+http://purl.obolibrary.org/obo/CHEBI_16234  # hydroxide
+http://purl.obolibrary.org/obo/CHEBI_38774  # hydroxyquinoline
+http://purl.obolibrary.org/obo/CHEBI_5827  # hymexazol
+http://purl.obolibrary.org/obo/CHEBI_5868  # Imazalil nitrate
+http://purl.obolibrary.org/obo/CHEBI_138116  # imazamethabenz
+http://purl.obolibrary.org/obo/CHEBI_81857  # imazamox
+http://purl.obolibrary.org/obo/CHEBI_82021  # imazapyr
+http://purl.obolibrary.org/obo/CHEBI_82022  # Imazethapyr
+http://purl.obolibrary.org/obo/CHEBI_81751  # Imazosulfuron
+http://purl.obolibrary.org/obo/CHEBI_5870  # imidacloprid
+http://purl.obolibrary.org/obo/CHEBI_38630  # indoxacarb
+http://purl.obolibrary.org/obo/CHEBI_81741  # Iodosulfuron-methyl-sodium
+http://purl.obolibrary.org/obo/CHEBI_81821  # ioxynil
+http://purl.obolibrary.org/obo/CHEBI_81928  # Ioxynil octanoate
+http://purl.obolibrary.org/obo/CHEBI_81770  # ipconazole
+http://purl.obolibrary.org/obo/CHEBI_28909  # iprodione
+http://purl.obolibrary.org/obo/CHEBI_82023  # iprovalicarb
+http://purl.obolibrary.org/obo/CHEBI_82174  # isocarbamid
+http://purl.obolibrary.org/obo/CHEBI_6009  # isofenphos
+http://purl.obolibrary.org/obo/CHEBI_83065  # isofetamid
+http://purl.obolibrary.org/obo/CHEBI_82189  # Isopropalin
+http://purl.obolibrary.org/obo/CHEBI_180402  # Isopropyl benzoate
+http://purl.obolibrary.org/obo/CHEBI_6049  # isoproturon
+http://purl.obolibrary.org/obo/CHEBI_83126  # isopyrazam
+http://purl.obolibrary.org/obo/CHEBI_30879  # ISOTRIDECYL ALCOHOL
+http://purl.obolibrary.org/obo/CHEBI_63956  # isoxaben
+http://purl.obolibrary.org/obo/CHEBI_132496  # isoxadifen
+http://purl.obolibrary.org/obo/CHEBI_132497  # isoxadifen-ethyl
+http://purl.obolibrary.org/obo/CHEBI_141213  # isoxaflutole
+http://purl.obolibrary.org/obo/CHEBI_63052  # Jeffamine ED-2001
+http://purl.obolibrary.org/obo/CHEBI_87579  # kappa-bifenthrin
+http://purl.obolibrary.org/obo/CHEBI_2962  # kresoxim-methyl
+http://purl.obolibrary.org/obo/CHEBI_58454  # kynurenate
+http://purl.obolibrary.org/obo/CHEBI_39325  # lambda-cyhalothrin
+http://purl.obolibrary.org/obo/CHEBI_6364  # laminarin
+http://purl.obolibrary.org/obo/CHEBI_165652  # Lauryl linoleate
+http://purl.obolibrary.org/obo/CHEBI_61995  # lecithin
+http://purl.obolibrary.org/obo/CHEBI_6407  # lenacil
+http://purl.obolibrary.org/obo/CHEBI_34814  # Leucomycin A4
+http://purl.obolibrary.org/obo/CHEBI_86784  # lignin cw compound-251
+http://purl.obolibrary.org/obo/CHEBI_6482  # linuron
+http://purl.obolibrary.org/obo/CHEBI_76198  # loxoprofen sodium
+http://purl.obolibrary.org/obo/CHEBI_39384  # lufenuron
+http://purl.obolibrary.org/obo/CHEBI_6651  # malathion
+http://purl.obolibrary.org/obo/CHEBI_18300  # maleic acid
+http://purl.obolibrary.org/obo/CHEBI_81771  # Maleic hydrazide
+http://purl.obolibrary.org/obo/CHEBI_25140  # maltodextrin
+http://purl.obolibrary.org/obo/CHEBI_52492  # mancozeb
+http://purl.obolibrary.org/obo/CHEBI_81802  # mandipropamid
+http://purl.obolibrary.org/obo/CHEBI_34608  # maneb
+http://purl.obolibrary.org/obo/CHEBI_52497  # maneb
+http://purl.obolibrary.org/obo/CHEBI_81929  # MCPA-thioethyl
+http://purl.obolibrary.org/obo/CHEBI_75711  # mecoprop
+http://purl.obolibrary.org/obo/CHEBI_133767  # mefenpyr
+http://purl.obolibrary.org/obo/CHEBI_133786  # mefenpyr-diethyl
+http://purl.obolibrary.org/obo/CHEBI_144514  # mefentrifluconazole
+http://purl.obolibrary.org/obo/CHEBI_6751  # mepanipyrim
+http://purl.obolibrary.org/obo/CHEBI_83372  # meptyldinocap
+http://purl.obolibrary.org/obo/CHEBI_143796  # Mercapturic conjugation of Boscalid
+http://purl.obolibrary.org/obo/CHEBI_38321  # mesotrione
+http://purl.obolibrary.org/obo/CHEBI_81803  # Metaflumizone
+http://purl.obolibrary.org/obo/CHEBI_6790  # metalaxyl
+http://purl.obolibrary.org/obo/CHEBI_60607  # metalaxyl-M
+http://purl.obolibrary.org/obo/CHEBI_81931  # metaldehyde
+http://purl.obolibrary.org/obo/CHEBI_81737  # metam-sodium
+http://purl.obolibrary.org/obo/CHEBI_141326  # metam(1-)
+http://purl.obolibrary.org/obo/CHEBI_6791  # metamitron
+http://purl.obolibrary.org/obo/CHEBI_6798  # metazachlor
+http://purl.obolibrary.org/obo/CHEBI_81773  # metconazole
+http://purl.obolibrary.org/obo/CHEBI_6803  # Methabenzthiazuron
+http://purl.obolibrary.org/obo/CHEBI_6803  # methabenzthiazuron
+http://purl.obolibrary.org/obo/CHEBI_38721  # methamidophos
+http://purl.obolibrary.org/obo/CHEBI_34837  # methidathion
+http://purl.obolibrary.org/obo/CHEBI_38508  # methiocarb
+http://purl.obolibrary.org/obo/CHEBI_83542  # methiocarb-sulfoxide
+http://purl.obolibrary.org/obo/CHEBI_6835  # methomyl
+http://purl.obolibrary.org/obo/CHEBI_34839  # methoprene
+http://purl.obolibrary.org/obo/CHEBI_82226  # methoprotryne
+http://purl.obolibrary.org/obo/CHEBI_6842  # methoxychlor
+http://purl.obolibrary.org/obo/CHEBI_38449  # methoxyfenozide
+http://purl.obolibrary.org/obo/CHEBI_72775  # methyl benzoate
+http://purl.obolibrary.org/obo/CHEBI_32875  # methyl group
+http://purl.obolibrary.org/obo/CHEBI_78337  # methyl isothiocyanate
+http://purl.obolibrary.org/obo/CHEBI_87432  # methyl octanoate
+http://purl.obolibrary.org/obo/CHEBI_81539  # metiram
+http://purl.obolibrary.org/obo/CHEBI_81964  # Metobromuron
+http://purl.obolibrary.org/obo/CHEBI_6902  # metolachlor
+http://purl.obolibrary.org/obo/CHEBI_83509  # metolachlor morpholinone
+http://purl.obolibrary.org/obo/CHEBI_82024  # Metosulam
+http://purl.obolibrary.org/obo/CHEBI_6907  # metoxuron
+http://purl.obolibrary.org/obo/CHEBI_83345  # metrafenone
+http://purl.obolibrary.org/obo/CHEBI_34846  # metribuzin
+http://purl.obolibrary.org/obo/CHEBI_83448  # metribuzin-diketo
+http://purl.obolibrary.org/obo/CHEBI_39678  # metsulfuron methyl
+http://purl.obolibrary.org/obo/CHEBI_38725  # mevinphos
+http://purl.obolibrary.org/obo/CHEBI_6914  # Mexicanin E
+http://purl.obolibrary.org/obo/CHEBI_39225  # milbemectin
+http://purl.obolibrary.org/obo/CHEBI_39229  # milbemycin A4
+http://purl.obolibrary.org/obo/CHEBI_60004  # mixture
+http://purl.obolibrary.org/obo/CHEBI_6964  # molinate
+http://purl.obolibrary.org/obo/CHEBI_30634  # molybdenum tetrachloride
+http://purl.obolibrary.org/obo/CHEBI_38728  # monocrotophos
+http://purl.obolibrary.org/obo/CHEBI_81965  # Monolinuron
+http://purl.obolibrary.org/obo/CHEBI_38214  # monuron
+http://purl.obolibrary.org/obo/CHEBI_82210  # Monuron-TCA
+http://purl.obolibrary.org/obo/CHEBI_75281  # myclobutanil
+http://purl.obolibrary.org/obo/CHEBI_141770  # N-{beta-D-Man-(1->2)-beta-D-Man-(1->2)-beta-D-ManO[CH2]3S[CH2]2NHC(O)[CH2O]4C(O)[CH2]2S[CH2]2C(O)}-YGKDVKDLFDYAQE-NH-[CH2O]3[CH2]2C(O)NHC(CO2H)[CH2]4N3
+http://purl.obolibrary.org/obo/CHEBI_29022  # N-benzyladenine
+http://purl.obolibrary.org/obo/CHEBI_81934  # nabam
+http://purl.obolibrary.org/obo/CHEBI_57540  # NAD(1-)
+http://purl.obolibrary.org/obo/CHEBI_38729  # naled
+http://purl.obolibrary.org/obo/CHEBI_35629  # naphthylacetic acid
+http://purl.obolibrary.org/obo/CHEBI_82025  # napropamide
+http://purl.obolibrary.org/obo/CHEBI_60833  # naptalam
+http://purl.obolibrary.org/obo/CHEBI_7491  # Neburon
+http://purl.obolibrary.org/obo/CHEBI_7554  # nicosulfuron
+http://purl.obolibrary.org/obo/CHEBI_18723  # nicotine
+http://purl.obolibrary.org/obo/CHEBI_7590  # nitrofen
+http://purl.obolibrary.org/obo/CHEBI_33403  # Nitrothal-isopropyl
+http://purl.obolibrary.org/obo/CHEBI_82026  # Nitrothal-isopropyl
+http://purl.obolibrary.org/obo/CHEBI_25589  # nonyl group
+http://purl.obolibrary.org/obo/CHEBI_82233  # Noruron
+http://purl.obolibrary.org/obo/CHEBI_39385  # novaluron
+http://purl.obolibrary.org/obo/CHEBI_33403  # nuarimol
+http://purl.obolibrary.org/obo/CHEBI_7645  # nuarimol
+http://purl.obolibrary.org/obo/CHEBI_25646  # octanoate
+http://purl.obolibrary.org/obo/CHEBI_71003  # octanoyl-beta-D-glucuronide
+http://purl.obolibrary.org/obo/CHEBI_174371  # Octyl octanoate
+http://purl.obolibrary.org/obo/CHEBI_88213  # Oil red O
+http://purl.obolibrary.org/obo/CHEBI_88213  # oil red O
+http://purl.obolibrary.org/obo/CHEBI_84314  # oligomycin mixture
+http://purl.obolibrary.org/obo/CHEBI_38730  # omethoate
+http://purl.obolibrary.org/obo/CHEBI_171726  # Orange B
+http://purl.obolibrary.org/obo/CHEBI_141068  # orthosulfamuron
+http://purl.obolibrary.org/obo/CHEBI_73163  # oryzalin
+http://purl.obolibrary.org/obo/CHEBI_50917  # oxa-steroid
+http://purl.obolibrary.org/obo/CHEBI_81786  # Oxadiazon
+http://purl.obolibrary.org/obo/CHEBI_81937  # oxadixyl
+http://purl.obolibrary.org/obo/CHEBI_38539  # oxamyl
+http://purl.obolibrary.org/obo/CHEBI_83268  # oxathiapiprolin
+http://purl.obolibrary.org/obo/CHEBI_16571  # oxidised poly(vinyl alcohol)
+http://purl.obolibrary.org/obo/CHEBI_7858  # oxycarboxin
+http://purl.obolibrary.org/obo/CHEBI_38735  # oxydemeton-methyl
+http://purl.obolibrary.org/obo/CHEBI_82029  # Oxyfluorfen
+http://purl.obolibrary.org/obo/CHEBI_35089  # p-Aminosalicylic acid methyl ester
+http://purl.obolibrary.org/obo/CHEBI_37833  # P,P-diphenylphosphinimidic amide
+http://purl.obolibrary.org/obo/CHEBI_35088  # p,p'-Methoxychlor olefin
+http://purl.obolibrary.org/obo/CHEBI_73162  # paclobutrazol
+http://purl.obolibrary.org/obo/CHEBI_34905  # paraquat
+http://purl.obolibrary.org/obo/CHEBI_27928  # parathion
+http://purl.obolibrary.org/obo/CHEBI_38746  # parathion-methyl
+http://purl.obolibrary.org/obo/CHEBI_81970  # penconazole
+http://purl.obolibrary.org/obo/CHEBI_7957  # pencycuron
+http://purl.obolibrary.org/obo/CHEBI_83569  # pendimethalin
+http://purl.obolibrary.org/obo/CHEBI_81776  # Penoxsulam
+http://purl.obolibrary.org/obo/CHEBI_37830  # pentane
+http://purl.obolibrary.org/obo/CHEBI_81777  # penthiopyrad
+http://purl.obolibrary.org/obo/CHEBI_82181  # Perfluidone
+http://purl.obolibrary.org/obo/CHEBI_34911  # permethrin
+http://purl.obolibrary.org/obo/CHEBI_83523  # pethoxamide
+#  pethoxamide
+http://purl.obolibrary.org/obo/CHEBI_8039  # Phalaenopsine T
+http://purl.obolibrary.org/obo/CHEBI_81734  # phenmedipham
+http://purl.obolibrary.org/obo/CHEBI_34917  # phenthoate
+http://purl.obolibrary.org/obo/CHEBI_38764  # phorate
+http://purl.obolibrary.org/obo/CHEBI_8121  # phosalone
+http://purl.obolibrary.org/obo/CHEBI_38786  # phosmet
+http://purl.obolibrary.org/obo/CHEBI_38832  # phosphamidon
+http://purl.obolibrary.org/obo/CHEBI_132576  # phosphatidylcholine 35:6
+http://purl.obolibrary.org/obo/CHEBI_33469  # phosphide(1-)
+http://purl.obolibrary.org/obo/CHEBI_38812  # phoxim
+http://purl.obolibrary.org/obo/CHEBI_180024  # Phytyl acetate
+http://purl.obolibrary.org/obo/CHEBI_34922  # picloram
+http://purl.obolibrary.org/obo/CHEBI_138736  # picolinafen
+http://purl.obolibrary.org/obo/CHEBI_83197  # picoxystrobin
+#  pinolene
+http://purl.obolibrary.org/obo/CHEBI_83524  # pinoxaden
+http://purl.obolibrary.org/obo/CHEBI_32687  # piperonyl butoxide
+http://purl.obolibrary.org/obo/CHEBI_174138  # Piperonyl isobutyrate
+http://purl.obolibrary.org/obo/CHEBI_8248  # pirimicarb
+http://purl.obolibrary.org/obo/CHEBI_38843  # pirimiphos-methyl
+http://purl.obolibrary.org/obo/CHEBI_59325  # pneumococcal strain CSR SCS2 polysaccharide
+http://purl.obolibrary.org/obo/CHEBI_53347  # poly(9,9'-dioctylfluorene) macromolecule
+http://purl.obolibrary.org/obo/CHEBI_142273  # Polyoxyethylene (600) monoricinoleate
+http://purl.obolibrary.org/obo/CHEBI_59830  # polysiloxane macromolecule
+http://purl.obolibrary.org/obo/CHEBI_26216  # potassium atom
+http://purl.obolibrary.org/obo/CHEBI_81862  # potassium hydrogencarbonate
+http://purl.obolibrary.org/obo/CHEBI_32036  # potassium sulfate
+http://purl.obolibrary.org/obo/CHEBI_34931  # Pretilachlor
+http://purl.obolibrary.org/obo/CHEBI_82031  # Primisulfuron
+http://purl.obolibrary.org/obo/CHEBI_8434  # prochloraz
+http://purl.obolibrary.org/obo/CHEBI_8450  # procymidone
+http://purl.obolibrary.org/obo/CHEBI_38845  # profenofos
+http://purl.obolibrary.org/obo/CHEBI_144786  # profoxydim
+http://purl.obolibrary.org/obo/CHEBI_137380  # prohexadione
+http://purl.obolibrary.org/obo/CHEBI_82096  # Promecarb
+http://purl.obolibrary.org/obo/CHEBI_26276  # prometryn
+http://purl.obolibrary.org/obo/CHEBI_19503  # propachlor
+http://purl.obolibrary.org/obo/CHEBI_83520  # propachlor OXA
+http://purl.obolibrary.org/obo/CHEBI_82033  # propamocarb
+http://purl.obolibrary.org/obo/CHEBI_81735  # Propamocarb hydrochloride
+http://purl.obolibrary.org/obo/CHEBI_34936  # propanil
+http://purl.obolibrary.org/obo/CHEBI_82034  # propaquizafop
+http://purl.obolibrary.org/obo/CHEBI_39300  # propargite
+http://purl.obolibrary.org/obo/CHEBI_82035  # propham
+http://purl.obolibrary.org/obo/CHEBI_8489  # propiconazole
+http://purl.obolibrary.org/obo/CHEBI_81755  # propineb
+http://purl.obolibrary.org/obo/CHEBI_30768  # propionic acid
+http://purl.obolibrary.org/obo/CHEBI_83162  # propolis extract
+http://purl.obolibrary.org/obo/CHEBI_34938  # propoxur
+http://purl.obolibrary.org/obo/CHEBI_34935  # propyzamide
+http://purl.obolibrary.org/obo/CHEBI_83555  # proquinazid
+http://purl.obolibrary.org/obo/CHEBI_81941  # prosulfocarb
+http://purl.obolibrary.org/obo/CHEBI_8523  # Prosulfuron
+http://purl.obolibrary.org/obo/CHEBI_36080  # protein
+http://purl.obolibrary.org/obo/CHEBI_8572  # protein serine
+http://purl.obolibrary.org/obo/CHEBI_82036  # prothioconazole
+http://purl.obolibrary.org/obo/CHEBI_82147  # Prothoate
+http://purl.obolibrary.org/obo/CHEBI_26384  # pullulans
+http://purl.obolibrary.org/obo/CHEBI_39311  # pymetrozine
+http://purl.obolibrary.org/obo/CHEBI_78780  # pyraclostrobin
+http://purl.obolibrary.org/obo/CHEBI_138287  # pyraflufen
+http://purl.obolibrary.org/obo/CHEBI_81828  # pyraflufen-ethyl
+http://purl.obolibrary.org/obo/CHEBI_81942  # pyrazophos
+http://purl.obolibrary.org/obo/CHEBI_81830  # pyrazoxyfen
+http://purl.obolibrary.org/obo/CHEBI_27815  # pyrethrin I
+http://purl.obolibrary.org/obo/CHEBI_27474  # pyrethrin II
+http://purl.obolibrary.org/obo/CHEBI_39098  # pyrethrins
+http://purl.obolibrary.org/obo/CHEBI_38626  # pyridaben
+http://purl.obolibrary.org/obo/CHEBI_38881  # pyridaphenthion
+http://purl.obolibrary.org/obo/CHEBI_81971  # Pyridate
+http://purl.obolibrary.org/obo/CHEBI_81972  # pyrifenox
+http://purl.obolibrary.org/obo/CHEBI_8674  # pyrimethanil
+http://purl.obolibrary.org/obo/CHEBI_83346  # pyriofenone
+http://purl.obolibrary.org/obo/CHEBI_39260  # pyriproxyfen
+http://purl.obolibrary.org/obo/CHEBI_8712  # quinalphos
+http://purl.obolibrary.org/obo/CHEBI_81974  # quinclorac
+http://purl.obolibrary.org/obo/CHEBI_84199  # quinmerac
+http://purl.obolibrary.org/obo/CHEBI_34620  # quinomethionate
+http://purl.obolibrary.org/obo/CHEBI_82040  # quinoxyfen
+http://purl.obolibrary.org/obo/CHEBI_81943  # quizalofop
+http://purl.obolibrary.org/obo/CHEBI_137938  # quizalofop-P-ethyl
+http://purl.obolibrary.org/obo/CHEBI_33491  # radon-220 atom
+http://purl.obolibrary.org/obo/CHEBI_172545  # Rhazidigenine Nb-oxide
+http://purl.obolibrary.org/obo/CHEBI_8866  # rimsulfuron
+http://purl.obolibrary.org/obo/CHEBI_28201  # rotenone
+http://purl.obolibrary.org/obo/CHEBI_86935  # S b SA acetate
+http://purl.obolibrary.org/obo/CHEBI_168512  # Santalyl acetate
+http://purl.obolibrary.org/obo/CHEBI_28332  # scilliroside
+http://purl.obolibrary.org/obo/CHEBI_82228  # secbumeton
+http://purl.obolibrary.org/obo/CHEBI_142275  # sedanonic acid
+http://purl.obolibrary.org/obo/CHEBI_83173  # sedaxane
+http://purl.obolibrary.org/obo/CHEBI_81815  # Sethoxydim
+http://purl.obolibrary.org/obo/CHEBI_80506  # Shale oils
+http://purl.obolibrary.org/obo/CHEBI_61459  # silicone polymer
+http://purl.obolibrary.org/obo/CHEBI_83393  # silthiofam
+http://purl.obolibrary.org/obo/CHEBI_27496  # simazine
+http://purl.obolibrary.org/obo/CHEBI_83476  # simazine-2-hydroxy
+http://purl.obolibrary.org/obo/CHEBI_155875  # sodium 2-butyloctyl sulfate
+http://purl.obolibrary.org/obo/CHEBI_26708  # sodium atom
+http://purl.obolibrary.org/obo/CHEBI_65242  # sodium chlorate
+http://purl.obolibrary.org/obo/CHEBI_32139  # sodium hydrogencarbonate
+http://purl.obolibrary.org/obo/CHEBI_31204  # sodium p-aminohippurate
+http://purl.obolibrary.org/obo/CHEBI_169001  # Sorbitan laurate
+http://purl.obolibrary.org/obo/CHEBI_82041  # Spinetoram
+http://purl.obolibrary.org/obo/CHEBI_39211  # spinosad
+http://purl.obolibrary.org/obo/CHEBI_38639  # spirodiclofen
+http://purl.obolibrary.org/obo/CHEBI_38640  # spiromesifen
+http://purl.obolibrary.org/obo/CHEBI_81975  # spirotetramat
+http://purl.obolibrary.org/obo/CHEBI_9242  # spiroxamine
+http://purl.obolibrary.org/obo/CHEBI_83465  # sulcotrione
+http://purl.obolibrary.org/obo/CHEBI_82218  # Sulfallate
+#  Sulfosulfuron
+http://purl.obolibrary.org/obo/CHEBI_38945  # sulfotep
+http://purl.obolibrary.org/obo/CHEBI_133305  # sulfoxaflor
+http://purl.obolibrary.org/obo/CHEBI_39443  # sulfuryl halide
+http://purl.obolibrary.org/obo/CHEBI_39367  # tau-fluvalinate
+http://purl.obolibrary.org/obo/CHEBI_81781  # tebuconazole
+http://purl.obolibrary.org/obo/CHEBI_38452  # tebufenozide
+http://purl.obolibrary.org/obo/CHEBI_9422  # tebufenpyrad
+http://purl.obolibrary.org/obo/CHEBI_39387  # teflubenzuron
+http://purl.obolibrary.org/obo/CHEBI_9430  # tefluthrin
+http://purl.obolibrary.org/obo/CHEBI_38954  # temephos
+http://purl.obolibrary.org/obo/CHEBI_82149  # TEPP
+http://purl.obolibrary.org/obo/CHEBI_81816  # Tepraloxydim
+http://purl.obolibrary.org/obo/CHEBI_9447  # Terbacil
+http://purl.obolibrary.org/obo/CHEBI_38960  # terbufos
+http://purl.obolibrary.org/obo/CHEBI_81947  # terbumeton
+http://purl.obolibrary.org/obo/CHEBI_83523  # terbuthylazine
+#  terbuthylazine
+http://purl.obolibrary.org/obo/CHEBI_44156  # terbutryn
+http://purl.obolibrary.org/obo/CHEBI_30263  # terbutylazine
+http://purl.obolibrary.org/obo/CHEBI_9456  # Terpenoid EA-I
+http://purl.obolibrary.org/obo/CHEBI_32876  # tertiary amine
+http://purl.obolibrary.org/obo/CHEBI_35005  # tetrachlorvinphos
+http://purl.obolibrary.org/obo/CHEBI_81782  # tetraconazole
+http://purl.obolibrary.org/obo/CHEBI_39330  # tetradifon
+http://purl.obolibrary.org/obo/CHEBI_81836  # thallium sulfate
+http://purl.obolibrary.org/obo/CHEBI_45979  # thiabendazole
+http://purl.obolibrary.org/obo/CHEBI_39175  # thiacloprid
+http://purl.obolibrary.org/obo/CHEBI_39185  # thiamethoxam
+http://purl.obolibrary.org/obo/CHEBI_82215  # Thiazafluron
+http://purl.obolibrary.org/obo/CHEBI_81977  # Thidiazuron
+http://purl.obolibrary.org/obo/CHEBI_145501  # thiencarbazone
+http://purl.obolibrary.org/obo/CHEBI_83453  # thifensulfuron-methyl
+http://purl.obolibrary.org/obo/CHEBI_35011  # Thiobencarb
+http://purl.obolibrary.org/obo/CHEBI_38548  # thiodicarb
+http://purl.obolibrary.org/obo/CHEBI_38549  # thiofanox
+http://purl.obolibrary.org/obo/CHEBI_38962  # thiometon
+http://purl.obolibrary.org/obo/CHEBI_82165  # Thionazin
+http://purl.obolibrary.org/obo/CHEBI_82060  # thiophanate
+http://purl.obolibrary.org/obo/CHEBI_35014  # thiophanate-methyl
+http://purl.obolibrary.org/obo/CHEBI_9495  # thiram
+http://purl.obolibrary.org/obo/CHEBI_27607  # thymol
+http://purl.obolibrary.org/obo/CHEBI_82045  # Tiocarbazil
+http://purl.obolibrary.org/obo/CHEBI_81731  # tolclofos-methyl
+http://purl.obolibrary.org/obo/CHEBI_75182  # tolylfluanid
+http://purl.obolibrary.org/obo/CHEBI_9644  # Toxiferine I
+http://purl.obolibrary.org/obo/CHEBI_81948  # tralkoxydim
+http://purl.obolibrary.org/obo/CHEBI_39400  # tralomethrin
+http://purl.obolibrary.org/obo/CHEBI_35852  # transplatin
+http://purl.obolibrary.org/obo/CHEBI_81978  # Tri-allate
+http://purl.obolibrary.org/obo/CHEBI_9665  # triadimefon
+http://purl.obolibrary.org/obo/CHEBI_9666  # triadimenol
+http://purl.obolibrary.org/obo/CHEBI_9673  # triasulfuron
+http://purl.obolibrary.org/obo/CHEBI_38576  # triazamate
+#  triazbutil
+http://purl.obolibrary.org/obo/CHEBI_38963  # triazophos
+http://purl.obolibrary.org/obo/CHEBI_83571  # tribenuron
+http://purl.obolibrary.org/obo/CHEBI_9678  # tribenuron methyl
+http://purl.obolibrary.org/obo/CHEBI_9682  # trichlopyr
+http://purl.obolibrary.org/obo/CHEBI_6908  # trichlorfon
+http://purl.obolibrary.org/obo/CHEBI_82150  # Trichloronat
+http://purl.obolibrary.org/obo/CHEBI_81783  # tricyclazole
+http://purl.obolibrary.org/obo/CHEBI_9700  # tridemorph
+http://purl.obolibrary.org/obo/CHEBI_82251  # Tridiphane
+http://purl.obolibrary.org/obo/CHEBI_82264  # Trifenmorph
+http://purl.obolibrary.org/obo/CHEBI_81833  # trifloxystrobin
+http://purl.obolibrary.org/obo/CHEBI_39388  # triflumuron
+http://purl.obolibrary.org/obo/CHEBI_35027  # trifluralin
+http://purl.obolibrary.org/obo/CHEBI_142847  # triflusulfuron
+http://purl.obolibrary.org/obo/CHEBI_9715  # triforine
+http://purl.obolibrary.org/obo/CHEBI_83454  # trinexapac
+http://purl.obolibrary.org/obo/CHEBI_48151  # trisiloxane
+http://purl.obolibrary.org/obo/CHEBI_81980  # triticonazole
+http://purl.obolibrary.org/obo/CHEBI_83500  # tritosulfuron
+http://purl.obolibrary.org/obo/CHEBI_9878  # unsaturated alcohol
+http://purl.obolibrary.org/obo/CHEBI_173624  # Valeraldehyde dibutyl acetal
+http://purl.obolibrary.org/obo/CHEBI_83610  # valifenalate
+http://purl.obolibrary.org/obo/CHEBI_38990  # vamidothion
+http://purl.obolibrary.org/obo/CHEBI_9986  # vinclozolin
+http://purl.obolibrary.org/obo/CHEBI_10033  # warfarin
+http://purl.obolibrary.org/obo/CHEBI_73702  # wax
+http://purl.obolibrary.org/obo/CHEBI_81884  # Zinc phosphide
+http://purl.obolibrary.org/obo/CHEBI_52498  # zineb
+http://purl.obolibrary.org/obo/CHEBI_79736  # ziram
+http://purl.obolibrary.org/obo/CHEBI_77566  # zirconium tetrachloride
+http://purl.obolibrary.org/obo/CHEBI_82048  # zoxamide
+
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CHEBI_24431
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
+
+[Source annotation URIs to be excluded]
