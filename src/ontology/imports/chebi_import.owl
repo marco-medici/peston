@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/fpestico/pestico_import.owl.#"
-     xml:base="http://purl.obolibrary.org/obo/fpestico/pestico_import.owl."
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/pestico/chebi_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/pestico/chebi_import.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/fpestico/pestico_import.owl."/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pestico/chebi_import.owl"/>
     
 
 
@@ -2717,6 +2717,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24127">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fungicide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35718"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance used to destroy fungal pests.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24129">
@@ -2901,6 +2913,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">halohydrocarbon</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17792"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound derived from a hydrocarbon by replacing a hydrogen atom with a halogen atom.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24527 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24527">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">herbicide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance used to destroy plant pests.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -3802,6 +3825,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-quinones</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36141"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quinone in which the two oxo groups of the quinone are located para to each other on the 6-membered quinonoid ring.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25944">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pesticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strictly, a substance intended to kill pests. In common usage, any substance used for controlling, preventing, or destroying animal, microbiological or plant pests.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -5410,6 +5444,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33232">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50906"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intended use of the molecular entity or part thereof by humans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33238 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33238">
@@ -5561,6 +5606,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22563"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36358"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anion consisting of more than one atom.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33281">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antimicrobial agent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance that kills or slows the growth of microorganisms, including bacteria, viruses, fungi and protozoans.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -7777,6 +7833,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35715"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72695"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitro compound having the nitro group (-NO2) attached to a carbon atom.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35718">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antifungal agent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33281"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An  antimicrobial agent that destroys fungi by suppressing their ability to grow or reproduce.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
