@@ -78,6 +78,14 @@ AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000300> 
 #   Classes
 ############################
 
+# Class: obo:NCIT_C25164 (Date)
+
+SubClassOf(obo:NCIT_C25164 obo:IAO_0000027)
+
+# Class: obo:NCIT_C54131 (Company)
+
+SubClassOf(obo:NCIT_C54131 obo:BFO_0000040)
+
 # Class: obo:PESTON_0000001 (pesticide authorization status)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000001 <http://orcid.org/0000-0002-8844-9165>)
@@ -146,14 +154,14 @@ SubClassOf(obo:PESTON_0000009 obo:PESTON_0000007)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000010 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000010 "2021-11-23T00:23:08Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000010 "primary address"@en)
-SubClassOf(obo:PESTON_0000010 obo:NCIT_C93880)
+SubClassOf(obo:PESTON_0000010 obo:IAO_0000422)
 
 # Class: obo:PESTON_0000011 (legally registered address)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000011 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000011 "2021-11-23T00:23:38Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000011 "legally registered address"@en)
-SubClassOf(obo:PESTON_0000011 obo:NCIT_C93880)
+SubClassOf(obo:PESTON_0000011 obo:IAO_0000422)
 
 # Class: obo:PESTON_0000012 (pesticide product)
 

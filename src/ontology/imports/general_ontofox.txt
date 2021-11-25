@@ -10,47 +10,15 @@ http://purl.obolibrary.org/obo/NCIT_C25464 # country
 http://purl.obolibrary.org/obo/NCIT_C25160 # city OR http://purl.obolibrary.org/obo/ENVO_00000856
 http://purl.obolibrary.org/obo/NCIT_C54131 # company
 
-http://purl.obolibrary.org/obo/NCIT_C93880 # Organizational Contact Postal Address
+#http://purl.obolibrary.org/obo/NCIT_C93880 # Organizational Contact Postal Address
 
 http://purl.obolibrary.org/obo/NCIT_C71476 # approval date (issue date)
 http://purl.obolibrary.org/obo/NCIT_C164516 # expiration date
 
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/NCIT_C19498 # document
 http://purl.obolibrary.org/obo/NCIT_C16632 # geographic area
-http://purl.obolibrary.org/obo/NCIT_C43359 # group
 http://purl.obolibrary.org/obo/NCIT_C25164 # date
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
-http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
-http://www.geneontology.org/formats/oboInOwl#hasSynonym
-http://purl.obolibrary.org/obo/IAO_0000114
-http://purl.obolibrary.org/obo/IAO_0000119
-http://purl.obolibrary.org/obo/OBI_0001886
-
-http://www.w3.org/2002/07/owl#deprecated
-http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
-
-[Source annotation URIs to be excluded]
-
-# *******************************************
-
-[Source ontology]
-AFR
-
-[Low level source term URIs]
-http://purl.allotrope.org/ontologies/result#AFR_0001218 # formulation description
-http://purl.allotrope.org/ontologies/role#AFRL_0000351 # active pharmaceutical ingredient role
-
-
-[Top level source term URIs and target direct superclass URIs]
-
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -68,6 +36,15 @@ http://www.w3.org/2002/07/owl#deprecated
 http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
 
 [Source annotation URIs to be excluded]
+
+# *******************************************
+
+#[Source ontology]
+#AFR
+
+#[Low level source term URIs]
+#http://purl.allotrope.org/ontologies/result#AFR_0001218 # formulation description
+#http://purl.allotrope.org/ontologies/role#AFRL_0000351 # active pharmaceutical ingredient role
 
 # *******************************************
 
@@ -110,13 +87,11 @@ OBI
 
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/IAO_0000136 # is about
 http://purl.obolibrary.org/obo/OBI_0000011 # planned process
-http://purl.obolibrary.org/obo/IAO_0000027 # data item
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000040 # material entity
-http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
 http://purl.obolibrary.org/obo/BFO_0000015 # process
 
 [Source term retrieval setting]
@@ -138,5 +113,35 @@ http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
 [Source annotation URIs to be excluded]
 
 # *******************************************
+[Source ontology]
+IAO
 
 
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IAO_0000136 # is about
+http://purl.obolibrary.org/obo/IAO_0000422 # postal address
+http://purl.obolibrary.org/obo/IAO_0000027 # data item
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000119
+http://purl.obolibrary.org/obo/OBI_0001886
+
+http://www.w3.org/2002/07/owl#deprecated
+http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
+
+[Source annotation URIs to be excluded]
+
+# *******************************************
