@@ -1,0 +1,1481 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/pestico/wikidata_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/pestico/wikidata_import.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pestico/wikidata_import.owl"/>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+     <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q34615">
+        <rdfs:label>Adria</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2282673">
+        <rdfs:label>Afidnes</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q71610">
+        <rdfs:label>Afragola</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q47465">
+        <rdfs:label>Aix En Provence</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q95054">
+        <rdfs:label>Albano Sant'alessandro</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q103417">
+        <rdfs:label>Alfianello</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1055">
+        <rdfs:label>Amburgo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q477311">
+        <rdfs:label>Amposta</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q727">
+        <rdfs:label>Amsterdam</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q12413015">
+        <rdfs:label>Andheri</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q46542">
+        <rdfs:label>Angiari</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q18431771">
+        <rdfs:label>Anoia Superiore</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q244042">
+        <rdfs:label>Appiano Gentile</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q128052">
+        <rdfs:label>Aprilia</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42796">
+        <rdfs:label>Arese</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13378">
+        <rdfs:label>Arezzo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q52218">
+        <rdfs:label>Argelato</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42916">
+        <rdfs:label>Arluno</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q254970">
+        <rdfs:label>Arre</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q171639">
+        <rdfs:label>Ashdod</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42991">
+        <rdfs:label>Assago</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q515710">
+        <rdfs:label>Asse</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1524">
+        <rdfs:label>Atene</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q51183">
+        <rdfs:label>Atessa</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q15468">
+        <rdfs:label>Badalona</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q34672">
+        <rdfs:label>Badia Polesine</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2509805">
+        <rdfs:label>Bagsvaerd</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q257622">
+        <rdfs:label>Bandra</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1492">
+        <rdfs:label>Barcelona</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q78">
+        <rdfs:label>Basilea</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q80652">
+        <rdfs:label>Battipaglia</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q94548">
+        <rdfs:label>Bazzano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q813366">
+        <rdfs:label>Beaucouze'</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q723728">
+        <rdfs:label>Beerse</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q41843">
+        <rdfs:label>Beersheba</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q478226">
+        <rdfs:label>Belpasso</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q628">
+        <rdfs:label>Bergamo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q820839">
+        <rdfs:label>Berkel En Rodenrijs</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q64">
+        <rdfs:label>Berlin</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q52066">
+        <rdfs:label>Bibbiena</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2256">
+        <rdfs:label>Birmingham</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1891">
+        <rdfs:label>Bologna</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q184579">
+        <rdfs:label>Bolton</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q6526">
+        <rdfs:label>Bolzano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q100038">
+        <rdfs:label>Bomporto</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1479">
+        <rdfs:label>Bordeaux</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q9062">
+        <rdfs:label>Borgofranco D'ivrea</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q34371">
+        <rdfs:label>Borgoricco</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q40844">
+        <rdfs:label>Breda</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2127005">
+        <rdfs:label>Brezovica Pri Ljubljani</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q252197">
+        <rdfs:label>Brixlegg</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q239">
+        <rdfs:label>Brussels</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q239">
+        <rdfs:label>Bruxelles</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q10032">
+        <rdfs:label>Bunnik</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1986252">
+        <rdfs:label>Bursledon</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q46765">
+        <rdfs:label>Bussolengo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q350">
+        <rdfs:label>Cambridge</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q431300">
+        <rdfs:label>Campobello Di Licata</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q268268">
+        <rdfs:label>Camporosso</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q51176">
+        <rdfs:label>Capo D'orlando</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q29578">
+        <rdfs:label>Carbonera</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q9182">
+        <rdfs:label>Carignano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q537853">
+        <rdfs:label>Carmel, Indiana</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q94638">
+        <rdfs:label>Casalecchio Di Reno</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q47010">
+        <rdfs:label>Casaleone</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42294">
+        <rdfs:label>Casalpusterlengo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q94754">
+        <rdfs:label>Castel Guelfo Di Bologna</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q94757">
+        <rdfs:label>Castel Maggiore</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q94779">
+        <rdfs:label>Castel San Pietro Terme</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q147015">
+        <rdfs:label>Castellanza</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q54942">
+        <rdfs:label>Castellon</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1012244">
+        <rdfs:label>Castets</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1903">
+        <rdfs:label>Catania</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q100046">
+        <rdfs:label>Cavezzo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q3128898">
+        <rdfs:label>Ce Hazerswoude</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1012">
+        <rdfs:label>Celje</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q18442319">
+        <rdfs:label>Cella Di Noceto</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q95094">
+        <rdfs:label>Cento</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q185619">
+        <rdfs:label>Cernusco Sul Naviglio</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q39973">
+        <rdfs:label>Cesano Maderno</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q6662">
+        <rdfs:label>Cesena</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q19944">
+        <rdfs:label>Ceva</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q46320">
+        <rdfs:label>Chiampo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13138">
+        <rdfs:label>Chieti</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q431492">
+        <rdfs:label>Cianciana</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q20413">
+        <rdfs:label>Cittˆ Di Castello</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42298">
+        <rdfs:label>Codogno</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1070283">
+        <rdfs:label>Cologne</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42906">
+        <rdfs:label>Cologno Monzese</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q47224">
+        <rdfs:label>Conegliano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q52978">
+        <rdfs:label>Conselice</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q34385">
+        <rdfs:label>Conselve</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q550210">
+        <rdfs:label>Constant’</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42133">
+        <rdfs:label>Cornaredo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42423">
+        <rdfs:label>Corsico</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q52980">
+        <rdfs:label>Cotignola</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42793">
+        <rdfs:label>Crema</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q47465">
+        <rdfs:label>Cremona</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q6231">
+        <rdfs:label>Cremona</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q94795">
+        <rdfs:label>Crespellano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2213391">
+        <rdfs:label>Croydon</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q25279">
+        <rdfs:label>Curacao</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q486556">
+        <rdfs:label>Dassel</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q34984824">
+        <rdfs:label>De Lier</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q723990">
+        <rdfs:label>Diegem</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q641134">
+        <rdfs:label>Dilbeek</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q145845">
+        <rdfs:label>Doetinchem</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1891">
+        <rdfs:label>Dosso</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q20025">
+        <rdfs:label>Dronero</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1761">
+        <rdfs:label>Dublin</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1718">
+        <rdfs:label>Dusseldorf</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q661789">
+        <rdfs:label>Ebenfurth</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q273748">
+        <rdfs:label>Ecully</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q31987379">
+        <rdfs:label>Einbeck</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q9832">
+        <rdfs:label>Eindhoven</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q130580">
+        <rdfs:label>Elst</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q275193">
+        <rdfs:label>Eltville Am Rhein</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q534670">
+        <rdfs:label>Emmerthal</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q6697">
+        <rdfs:label>Empoli</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q15620">
+        <rdfs:label>Esparreguera</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q5840286">
+        <rdfs:label>Espinardo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q15621">
+        <rdfs:label>Esplugues De Llobregat</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q724283">
+        <rdfs:label>Essen</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q160967">
+        <rdfs:label>Fabrica Di Roma</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q52981">
+        <rdfs:label>Faenza</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13362">
+        <rdfs:label>Ferrara</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q242618">
+        <rdfs:label>Fiano Romano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2044">
+        <rdfs:label>Firenze</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q80944">
+        <rdfs:label>Fisciano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q128084">
+        <rdfs:label>Fondi</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q101077">
+        <rdfs:label>Fornovo San Giovanni</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q904212">
+        <rdfs:label>Fraga</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1794">
+        <rdfs:label>Frankfurt</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q25444">
+        <rdfs:label>Funchal</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q43001">
+        <rdfs:label>Gadesco-pieve Delmona</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2199899">
+        <rdfs:label>Gaibana</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q46317">
+        <rdfs:label>Gambugliano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q40851">
+        <rdfs:label>Garlasco</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q111197">
+        <rdfs:label>Gattatico</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q221968">
+        <rdfs:label>Gennevilliers</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1449">
+        <rdfs:label>Genova</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42993">
+        <rdfs:label>Gessate</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q8802">
+        <rdfs:label>Getafe</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q6596">
+        <rdfs:label>Gorizia</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q101145">
+        <rdfs:label>Gorle</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q101151">
+        <rdfs:label>Grassobbio</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13298">
+        <rdfs:label>Graz</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q892526">
+        <rdfs:label>Groningen</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q52576">
+        <rdfs:label>Grumento Nova</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q213465">
+        <rdfs:label>Guildford</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1055">
+        <rdfs:label>Hamburg</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q12315699">
+        <rdfs:label>Harboore</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q215829">
+        <rdfs:label>Harrogate</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q9799">
+        <rdfs:label>Heerlen</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q12875662">
+        <rdfs:label>Heraklion</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q673183">
+        <rdfs:label>Herzogenburg</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q68286">
+        <rdfs:label>Horgen</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q16555">
+        <rdfs:label>Houston</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q184775">
+        <rdfs:label>Ipswich</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q9676">
+        <rdfs:label>Isle Of Man</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q47044">
+        <rdfs:label>Isola Vicentina</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2589436">
+        <rdfs:label>Kinsealy</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q535902">
+        <rdfs:label>Knaresborough</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q365">
+        <rdfs:label>Koln</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q818036">
+        <rdfs:label>La Chambre</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q987729">
+        <rdfs:label>La Defense</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q53643">
+        <rdfs:label>Lamezia Terme</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q420235">
+        <rdfs:label>Lana</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q592747">
+        <rdfs:label>Las Rozas De Madrid</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13410">
+        <rdfs:label>Latina</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q3827479">
+        <rdfs:label>Latina Scalo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q640202">
+        <rdfs:label>Lauschied</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1174262">
+        <rdfs:label>Le Meux</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q275366">
+        <rdfs:label>Le Pecq</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13386">
+        <rdfs:label>Lecce</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42782">
+        <rdfs:label>Legnano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q502632">
+        <rdfs:label>Lemvig</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q490761">
+        <rdfs:label>Lercara Friddi</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q10046">
+        <rdfs:label>Leusden</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q40396">
+        <rdfs:label>Limbiate</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q605677">
+        <rdfs:label>Limonest</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q41329">
+        <rdfs:label>Linz</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q587819">
+        <rdfs:label>Londerzeel</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1785229">
+        <rdfs:label>London</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2910">
+        <rdfs:label>Ludwigshafen</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q52983">
+        <rdfs:label>Lugo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q101224">
+        <rdfs:label>Madone</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2807">
+        <rdfs:label>Madrid</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q18125">
+        <rdfs:label>Manchester</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q105148">
+        <rdfs:label>Manerbio</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q6247">
+        <rdfs:label>Mantova</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q58706">
+        <rdfs:label>Marcianise</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q271649">
+        <rdfs:label>Marcq-en-baroeul</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q23194">
+        <rdfs:label>Margherita Di Savoia</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1436916">
+        <rdfs:label>Marillac</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q481514">
+        <rdfs:label>Marsala</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q34519">
+        <rdfs:label>Masera' Di Padova</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q16205">
+        <rdfs:label>Massa-carrara</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1989342">
+        <rdfs:label>Massalfassar</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q18112">
+        <rdfs:label>Meda</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q41045">
+        <rdfs:label>Mede</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q94944">
+        <rdfs:label>Medicina</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q52157">
+        <rdfs:label>Melendugno</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q131605">
+        <rdfs:label>Merano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q205551">
+        <rdfs:label>Merignac</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q106225029">
+        <rdfs:label>Milano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q47860">
+        <rdfs:label>Minerbe</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q279">
+        <rdfs:label>Modena</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q34602">
+        <rdfs:label>Monselice</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q46806">
+        <rdfs:label>Montebelluna</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q52089">
+        <rdfs:label>Montevarchi</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1450501">
+        <rdfs:label>Montorio</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q6252">
+        <rdfs:label>Monza</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q53288">
+        <rdfs:label>Mortegliano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1156">
+        <rdfs:label>Mumbai</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q34519">
+        <rdfs:label>Mumbai</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1726">
+        <rdfs:label>Munich</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q69783">
+        <rdfs:label>Munsingen</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q506599">
+        <rdfs:label>Munster</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q12225">
+        <rdfs:label>Murcia</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2634">
+        <rdfs:label>Napoli</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q56206">
+        <rdfs:label>Nicosia</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q106115238">
+        <rdfs:label>Nogueres</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q3928">
+        <rdfs:label>Norderstedt</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q130191">
+        <rdfs:label>Norwich</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q106115238">
+        <rdfs:label>Nougueres</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1946089">
+        <rdfs:label>Nova Sarzyna</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q6046">
+        <rdfs:label>Novara</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42399">
+        <rdfs:label>Novate Milanese</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q48087">
+        <rdfs:label>Oderzo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1228441">
+        <rdfs:label>Olerdola</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q47698">
+        <rdfs:label>Oppeano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1767914">
+        <rdfs:label>Orcoyen</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q40375">
+        <rdfs:label>Origgio</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q487786">
+        <rdfs:label>Orihuela</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q41009">
+        <rdfs:label>Ornago</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q51940">
+        <rdfs:label>Orta Nova</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q585">
+        <rdfs:label>Oslo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2854501">
+        <rdfs:label>Ougree</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q29080">
+        <rdfs:label>Ozzano Dell'emilia</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q617">
+        <rdfs:label>Padova</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q81263">
+        <rdfs:label>Pagani</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q12595">
+        <rdfs:label>Palafolls</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2656">
+        <rdfs:label>Palermo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q15437">
+        <rdfs:label>Parets Del Valles</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q90">
+        <rdfs:label>Paris</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2683">
+        <rdfs:label>Parma</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q23042">
+        <rdfs:label>Paterna</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q132671">
+        <rdfs:label>Pau</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q52092">
+        <rdfs:label>Pergine Valdarno</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42996">
+        <rdfs:label>Pero</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2704">
+        <rdfs:label>Pescara</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1345">
+        <rdfs:label>Philadelphia</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13329">
+        <rdfs:label>Piacenza</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q94979">
+        <rdfs:label>Pianoro</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q54729">
+        <rdfs:label>Pizzoni</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q372218">
+        <rdfs:label>Plaisir</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q459">
+        <rdfs:label>Plovdiv</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q243172">
+        <rdfs:label>Pomezia</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1070029">
+        <rdfs:label>Pont-du-casse</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1024900">
+        <rdfs:label>Pontypridd</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q626282">
+        <rdfs:label>Port La Nouvelle</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42212">
+        <rdfs:label>Porto Mantovano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42429">
+        <rdfs:label>Pozzo D'adda</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1085">
+        <rdfs:label>Prague</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2311705">
+        <rdfs:label>Race</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13674">
+        <rdfs:label>Ragusa</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q478769">
+        <rdfs:label>Ramacca</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13364">
+        <rdfs:label>Ravenna</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q432498">
+        <rdfs:label>Realmonte</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13360">
+        <rdfs:label>Reggio Emilia</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q18439645">
+        <rdfs:label>Renazzo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1248943">
+        <rdfs:label>Ringwood</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42324">
+        <rdfs:label>Rodigo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q220">
+        <rdfs:label>Roma</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q265626">
+        <rdfs:label>Ronco Scrivia</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q157871">
+        <rdfs:label>Rosignano Marittimo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q34370">
+        <rdfs:label>Rotterdam</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q279373">
+        <rdfs:label>Rovereto</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q6572">
+        <rdfs:label>Rovigo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42794">
+        <rdfs:label>Rozzano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13934">
+        <rdfs:label>Rubi</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q474011">
+        <rdfs:label>Saint Andiol</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1617501">
+        <rdfs:label>Saint Didier Au Mont D'or</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q163108">
+        <rdfs:label>Saint Malo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q189153">
+        <rdfs:label>Saint-cloud</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q160506">
+        <rdfs:label>Saint-denis</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42400">
+        <rdfs:label>Salerano Sul Lambro</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q100092">
+        <rdfs:label>San Cesario Sul Panaro</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42404">
+        <rdfs:label>San Colombano Al Lambro</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q94988">
+        <rdfs:label>San Giorgio Di Piano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q47853">
+        <rdfs:label>San Giovanni Lupatoto</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q51285">
+        <rdfs:label>San Giovanni Teatino</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q94991">
+        <rdfs:label>San Lazzaro Di Savena</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q301866">
+        <rdfs:label>San Michele All'adige</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q51956">
+        <rdfs:label>San Paolo Di Civitate</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q46608">
+        <rdfs:label>San Polo Di Piave</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42815">
+        <rdfs:label>San Vittore Olona</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q376944">
+        <rdfs:label>Sand In Taufers</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13936">
+        <rdfs:label>Sant Cugat Del Vallès</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q95139">
+        <rdfs:label>Sant'agostino</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q111284">
+        <rdfs:label>Sant'ilario D'enza</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q34693">
+        <rdfs:label>Santa Giustina In Colle</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q10293">
+        <rdfs:label>Santena</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q40862">
+        <rdfs:label>Saronno</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q72619">
+        <rdfs:label>Saviano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q34123">
+        <rdfs:label>Scicli</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q101576">
+        <rdfs:label>Seriate</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q18438720">
+        <rdfs:label>Sesto Imolese</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q43005">
+        <rdfs:label>Sesto San Giovanni</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q43042">
+        <rdfs:label>Settimo Milanese</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q173699">
+        <rdfs:label>Setubal</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q696578">
+        <rdfs:label>Sint-katelijne-waver</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q37792">
+        <rdfs:label>Sint-truiden</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q190187">
+        <rdfs:label>Sintra</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q40109">
+        <rdfs:label>Solbiate Olona</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q37792">
+        <rdfs:label>St. Truiden</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q6949">
+        <rdfs:label>Stade</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q101631">
+        <rdfs:label>Stezzano</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q545275">
+        <rdfs:label>Stulln</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q23111">
+        <rdfs:label>Suffolk</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13498">
+        <rdfs:label>Taranto</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q904194">
+        <rdfs:label>Tardienta</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q752137">
+        <rdfs:label>Tarrega</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q490851">
+        <rdfs:label>Termini Imerese</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q128226">
+        <rdfs:label>Terracina</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1490">
+        <rdfs:label>Tokyo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q51300">
+        <rdfs:label>Tollo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q495">
+        <rdfs:label>Torino</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q72719">
+        <rdfs:label>Torre Del Greco</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q22641">
+        <rdfs:label>Trecate</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q3376">
+        <rdfs:label>Trento</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q101685">
+        <rdfs:label>Treviglio</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q5475">
+        <rdfs:label>Treviso</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42946">
+        <rdfs:label>Trezzano Sul Naviglio</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q546">
+        <rdfs:label>Trieste</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q40036">
+        <rdfs:label>Tromello</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q31644">
+        <rdfs:label>Trostberg</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q3806">
+        <rdfs:label>Tubingen</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q40674">
+        <rdfs:label>Uboldo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q3949">
+        <rdfs:label>Unna</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q34406">
+        <rdfs:label>Urbana</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q39297398">
+        <rdfs:label>Utrecht</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q24017120">
+        <rdfs:label>Valencia</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q40815">
+        <rdfs:label>Varedo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q270">
+        <rdfs:label>Varsavia</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2691366">
+        <rdfs:label>Venhuizen</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2028">
+        <rdfs:label>Verona</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q180000">
+        <rdfs:label>Vidauban</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1741">
+        <rdfs:label>Vienna</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q47368">
+        <rdfs:label>Vigonovo</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q18192">
+        <rdfs:label>Villanova Biellese</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q10360">
+        <rdfs:label>Villastellone</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q34130">
+        <rdfs:label>Vittoria</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2797402">
+        <rdfs:label>Waardenburg</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q215733">
+        <rdfs:label>Warrington</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q23083">
+        <rdfs:label>West Yorkshire</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1646181">
+        <rdfs:label>Worcester</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q28898">
+        <rdfs:label>Zaventem</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q68144">
+        <rdfs:label>Zug</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2176982">
+        <rdfs:label>Zwijnaarde</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+
+</rdf:RDF>

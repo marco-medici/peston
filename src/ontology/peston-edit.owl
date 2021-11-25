@@ -9,6 +9,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Ontology(<https://marco-medici.github.io/peston/peston.owl/>
 Import(<http://purl.obolibrary.org/obo/pestico/chebi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pestico/general_import.owl>)
+Import(<http://purl.obolibrary.org/obo/pestico/wikidata_import.owl>)
 
 Declaration(Class(<http://purl.obolibrary.org/obo/PESTON_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PESTON_0000002>))
