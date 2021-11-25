@@ -53,6 +53,7 @@ Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000221>))
 Declaration(DataProperty(<http://semanticscience.org/resource/SIO_000300>))
 Declaration(AnnotationProperty(obo:IAO_0000117))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId>))
 
 ############################
 #   Object Properties
@@ -162,10 +163,11 @@ AnnotationAssertion(rdfs:label obo:PESTON_0000012 "pesticide product"@en)
 SubClassOf(obo:PESTON_0000012 obo:BFO_0000040)
 SubClassOf(obo:PESTON_0000012 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_25944))
 
-# Class: obo:PESTON_0000013 (fungicide product)
+# Class: obo:PESTON_0000013 (FUNGICIDA)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000013 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000013 "2021-11-25T03:40:22Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000013 "FUNGICIDA"@it)
 AnnotationAssertion(rdfs:label obo:PESTON_0000013 "fungicide product"@en)
 SubClassOf(obo:PESTON_0000013 obo:PESTON_0000012)
 
