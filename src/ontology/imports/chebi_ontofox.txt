@@ -3,7 +3,7 @@ http://purl.obolibrary.org/obo/pestico/chebi_import.owl
 
 # NO TABS ALLOWED
 
-# NEED THESE TERMS IN RESPECTIVE ORDER BELOW
+# NEED TO FIND THESE TERMS AND PLACE IN RESPECTIVE ORDER BELOW
 # Bromopropylate
 # bromoxynil
 # triazbutil
@@ -37,13 +37,29 @@ CHEBI
 
 [Low level source term URIs]
 
+
+http://purl.obolibrary.org/obo/CHEBI_178341
+http://purl.obolibrary.org/obo/CHEBI_180269
+http://purl.obolibrary.org/obo/CHEBI_180268
+http://purl.obolibrary.org/obo/CHEBI_180239
+http://purl.obolibrary.org/obo/CHEBI_180337
+http://purl.obolibrary.org/obo/CHEBI_180135
+http://purl.obolibrary.org/obo/CHEBI_180197
+http://purl.obolibrary.org/obo/CHEBI_180327
+http://purl.obolibrary.org/obo/CHEBI_180266
+http://purl.obolibrary.org/obo/CHEBI_179635
+http://purl.obolibrary.org/obo/CHEBI_179164
+http://purl.obolibrary.org/obo/CHEBI_179456
+http://purl.obolibrary.org/obo/CHEBI_180517
+http://purl.obolibrary.org/obo/CHEBI_180402
+http://purl.obolibrary.org/obo/CHEBI_180024
+
+
 http://purl.obolibrary.org/obo/CHEBI_60004 # mixture
 http://purl.obolibrary.org/obo/CHEBI_25944 # pesticide
 http://purl.obolibrary.org/obo/CHEBI_24527 # herbicide
 http://purl.obolibrary.org/obo/CHEBI_24127 # fungicide
 
-
-http://purl.obolibrary.org/obo/CHEBI_24536  #  hexachlorocyclohexane
 http://purl.obolibrary.org/obo/CHEBI_31020  # (+)-Sceletium A4
 http://purl.obolibrary.org/obo/CHEBI_83855  # (1S,2S)-bitertanol
 http://purl.obolibrary.org/obo/CHEBI_39340  # (1S)-trans-(alphaS)-cypermethrin
@@ -223,7 +239,6 @@ http://purl.obolibrary.org/obo/CHEBI_36927  # carbon-14 atom
 http://purl.obolibrary.org/obo/CHEBI_82107  # Carbophenothion
 http://purl.obolibrary.org/obo/CHEBI_38476  # carbosulfan
 http://purl.obolibrary.org/obo/CHEBI_3405  # carboxin
-http://purl.obolibrary.org/obo/CHEBI_34608  # carboxin
 http://purl.obolibrary.org/obo/CHEBI_3416  # carfentrazone-ethyl
 http://purl.obolibrary.org/obo/CHEBI_3436  # cartap
 http://purl.obolibrary.org/obo/CHEBI_140618  # castor oil
@@ -241,7 +256,6 @@ http://purl.obolibrary.org/obo/CHEBI_82155  # Chlorfenson
 http://purl.obolibrary.org/obo/CHEBI_38598  # chlorfenvinfos
 #  Chlorflurenol
 http://purl.obolibrary.org/obo/CHEBI_81838  # chloridazon
-http://purl.obolibrary.org/obo/CHEBI_82186  # chloridazon
 http://purl.obolibrary.org/obo/CHEBI_38603  # chlormephos
 http://purl.obolibrary.org/obo/CHEBI_81850  # chlormequat
 http://purl.obolibrary.org/obo/CHEBI_137392  # chlormequat chloride
@@ -422,7 +436,6 @@ http://purl.obolibrary.org/obo/CHEBI_50145  # fenpropimorph
 http://purl.obolibrary.org/obo/CHEBI_83327  # fenpyrazamine
 http://purl.obolibrary.org/obo/CHEBI_5011  # fenpyroximate
 http://purl.obolibrary.org/obo/CHEBI_82160  # Fenson
-http://purl.obolibrary.org/obo/CHEBI_82160  # fenson
 http://purl.obolibrary.org/obo/CHEBI_34761  # fenthion
 http://purl.obolibrary.org/obo/CHEBI_81918  # fentin acetate
 http://purl.obolibrary.org/obo/CHEBI_35036  # fentin chloride
@@ -437,6 +450,8 @@ http://purl.obolibrary.org/obo/CHEBI_81961  # Flamprop-M
 http://purl.obolibrary.org/obo/CHEBI_65898  # flavaspidic acid PB
 http://purl.obolibrary.org/obo/CHEBI_81749  # Flazasulfuron
 http://purl.obolibrary.org/obo/CHEBI_82009  # Florasulam
+
+
 http://purl.obolibrary.org/obo/CHEBI_133650  # florpyrauxifen
 http://purl.obolibrary.org/obo/CHEBI_5097  # fluazifop-butyl
 http://purl.obolibrary.org/obo/CHEBI_132964  # fluazifop-P-butyl
