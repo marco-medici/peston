@@ -11,6 +11,7 @@ Ontology(<https://marco-medici.github.io/peston/peston.owl/>
 Import(<http://purl.obolibrary.org/obo/pestico/chebi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pestico/general_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pestico/wikidata_import.owl>)
+Import(<http://purl.obolibrary.org/obo/peston/imports/address_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/company_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/pesticide_import.owl>)
 
@@ -49,8 +50,15 @@ Declaration(Class(obo:PESTON_0000032))
 Declaration(Class(obo:PESTON_0000033))
 Declaration(Class(obo:PESTON_0000034))
 Declaration(Class(obo:PESTON_0000035))
+Declaration(Class(obo:PESTON_0000036))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000221>))
 Declaration(DataProperty(<http://semanticscience.org/resource/SIO_000300>))
+Declaration(DataProperty(<https://schema.org/addressCountry>))
+Declaration(DataProperty(<https://schema.org/addressLocality>))
+Declaration(DataProperty(<https://schema.org/addressRegion>))
+Declaration(DataProperty(<https://schema.org/postOfficeBoxNumber>))
+Declaration(DataProperty(<https://schema.org/postalCode>))
+Declaration(DataProperty(<https://schema.org/streetAddress>))
 Declaration(AnnotationProperty(obo:IAO_0000117))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId>))
@@ -178,6 +186,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000013 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000013 "FUNGICIDA"@it)
 AnnotationAssertion(rdfs:label obo:PESTON_0000013 "fungicide product"@en)
 SubClassOf(obo:PESTON_0000013 obo:PESTON_0000012)
+SubClassOf(obo:PESTON_0000013 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_24127))
 
 # Class: obo:PESTON_0000014 (herbicide product)
 
@@ -332,6 +341,13 @@ AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000035 <http://orcid.org/0000-00
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000035 "2021-11-25T04:17:52Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000035 "bactericide product"@en)
 SubClassOf(obo:PESTON_0000035 obo:PESTON_0000012)
+
+# Class: obo:PESTON_0000036 (product format)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000036 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000036 "2021-11-25T22:44:27Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000036 "product format"@en)
+SubClassOf(obo:PESTON_0000036 obo:BFO_0000019)
 
 
 )

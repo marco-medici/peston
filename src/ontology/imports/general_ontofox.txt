@@ -10,8 +10,6 @@ http://purl.obolibrary.org/obo/NCIT_C25464 # country
 http://purl.obolibrary.org/obo/NCIT_C25160 # city OR http://purl.obolibrary.org/obo/ENVO_00000856
 http://purl.obolibrary.org/obo/NCIT_C54131 # company
 
-#http://purl.obolibrary.org/obo/NCIT_C93880 # Organizational Contact Postal Address
-
 http://purl.obolibrary.org/obo/NCIT_C71476 # approval date (issue date)
 http://purl.obolibrary.org/obo/NCIT_C164516 # expiration date
 
@@ -93,6 +91,7 @@ http://purl.obolibrary.org/obo/OBI_0000011 # planned process
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000040 # material entity
 http://purl.obolibrary.org/obo/BFO_0000015 # process
+http://purl.obolibrary.org/obo/BFO_0000019 # quality
 
 [Source term retrieval setting]
 includeAllIntermediates
@@ -120,7 +119,9 @@ IAO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/IAO_0000136 # is about
 http://purl.obolibrary.org/obo/IAO_0000422 # postal address
+http://purl.obolibrary.org/obo/IAO_0000646 # postal code
 http://purl.obolibrary.org/obo/IAO_0000027 # data item
+http://purl.obolibrary.org/obo/IAO_0000117 # term editor
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
