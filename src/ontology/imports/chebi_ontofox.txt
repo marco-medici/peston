@@ -4,16 +4,13 @@ http://purl.obolibrary.org/obo/pestico/chebi_import.owl
 # NO TABS ALLOWED
 
 # NEED TO FIND THESE TERMS AND PLACE IN RESPECTIVE ORDER BELOW
-# Bromopropylate
-# bromoxynil
+# Bromopropylate  
 # triazbutil
 # Sulfosulfuron
 # pinolene
-# pethoxamide
 # copper oxalate
-# Chlorbenside
 # Chlorflurenol
-# chlorparaside
+
 
 
 [Source ontology]
@@ -183,7 +180,7 @@ http://purl.obolibrary.org/obo/CHEBI_81855  # Bromadiolone
 http://purl.obolibrary.org/obo/CHEBI_82194  # Bromofenoxim
 http://purl.obolibrary.org/obo/CHEBI_82104  # Bromofos
 #  Bromopropylate
-#  bromoxynil
+http://purl.obolibrary.org/obo/CHEBI_17192  # bromoxynil
 http://purl.obolibrary.org/obo/CHEBI_81900  # bromuconazole
 http://purl.obolibrary.org/obo/CHEBI_81952  # bupirimate
 http://purl.obolibrary.org/obo/CHEBI_39381  # buprofezin
@@ -212,7 +209,7 @@ http://purl.obolibrary.org/obo/CHEBI_140618  # castor oil
 http://purl.obolibrary.org/obo/CHEBI_76589  # chartaceone A4
 http://purl.obolibrary.org/obo/CHEBI_82183  # Chloramben
 http://purl.obolibrary.org/obo/CHEBI_67113  # chlorantraniliprole
-#  Chlorbenside
+http://purl.obolibrary.org/obo/CHEBI_34625  #  Chlorbenside
 http://purl.obolibrary.org/obo/CHEBI_3608  # Chlorbromuron
 http://purl.obolibrary.org/obo/CHEBI_82186  # Chlorbufam
 http://purl.obolibrary.org/obo/CHEBI_34623  # chlordane
@@ -231,7 +228,7 @@ http://purl.obolibrary.org/obo/CHEBI_39285  # chloropicrin
 http://purl.obolibrary.org/obo/CHEBI_3639  # chlorothalonil
 http://purl.obolibrary.org/obo/CHEBI_81981  # chlorotoluron
 http://purl.obolibrary.org/obo/CHEBI_82200  # chloroxuron
-#  chlorparaside
+http://purl.obolibrary.org/obo/CHEBI_34625  #  chlorparaside
 http://purl.obolibrary.org/obo/CHEBI_34630  # chlorpropham
 http://purl.obolibrary.org/obo/CHEBI_34631  # chlorpyrifos
 http://purl.obolibrary.org/obo/CHEBI_34632  # chlorpyrifos-methyl
@@ -645,7 +642,7 @@ http://purl.obolibrary.org/obo/CHEBI_81777  # penthiopyrad
 http://purl.obolibrary.org/obo/CHEBI_82181  # Perfluidone
 http://purl.obolibrary.org/obo/CHEBI_34911  # permethrin
 http://purl.obolibrary.org/obo/CHEBI_83523  # pethoxamide
-#  pethoxamide
+http://purl.obolibrary.org/obo/CHEBI_83523  # pethoxamide
 http://purl.obolibrary.org/obo/CHEBI_8039  # Phalaenopsine T
 http://purl.obolibrary.org/obo/CHEBI_81734  # phenmedipham
 http://purl.obolibrary.org/obo/CHEBI_34917  # phenthoate
