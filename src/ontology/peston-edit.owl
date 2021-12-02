@@ -31,13 +31,11 @@ Declaration(Class(obo:PESTON_0000013))
 Declaration(Class(obo:PESTON_0000014))
 Declaration(Class(obo:PESTON_0000015))
 Declaration(Class(obo:PESTON_0000016))
-Declaration(Class(obo:PESTON_0000017))
 Declaration(Class(obo:PESTON_0000018))
 Declaration(Class(obo:PESTON_0000019))
 Declaration(Class(obo:PESTON_0000020))
 Declaration(Class(obo:PESTON_0000021))
 Declaration(Class(obo:PESTON_0000022))
-Declaration(Class(obo:PESTON_0000023))
 Declaration(Class(obo:PESTON_0000024))
 Declaration(Class(obo:PESTON_0000025))
 Declaration(Class(obo:PESTON_0000026))
@@ -47,7 +45,6 @@ Declaration(Class(obo:PESTON_0000029))
 Declaration(Class(obo:PESTON_0000030))
 Declaration(Class(obo:PESTON_0000031))
 Declaration(Class(obo:PESTON_0000032))
-Declaration(Class(obo:PESTON_0000033))
 Declaration(Class(obo:PESTON_0000034))
 Declaration(Class(obo:PESTON_0000035))
 Declaration(Class(obo:PESTON_0000036))
@@ -259,13 +256,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000016 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000016 "insect repellant product"@en)
 SubClassOf(obo:PESTON_0000016 obo:PESTON_0000012)
 
-# Class: obo:PESTON_0000017 (drier product)
-
-AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000017 <http://orcid.org/0000-0002-8844-9165>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000017 "2021-11-25T03:45:11Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000017 "drier product"@en)
-SubClassOf(obo:PESTON_0000017 obo:PESTON_0000012)
-
 # Class: obo:PESTON_0000018 (pheromone product)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000018 <http://orcid.org/0000-0002-8844-9165>)
@@ -301,13 +291,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000022 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000022 "organic insecticide product"@en)
 SubClassOf(obo:PESTON_0000022 obo:PESTON_0000012)
 
-# Class: obo:PESTON_0000023 (elicitor product)
-
-AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000023 <http://orcid.org/0000-0002-8844-9165>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000023 "2021-11-25T03:58:50Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000023 "elicitor product"@en)
-SubClassOf(obo:PESTON_0000023 obo:PESTON_0000012)
-
 # Class: obo:PESTON_0000024 (acaricide product)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000024 <http://orcid.org/0000-0002-8844-9165>)
@@ -329,11 +312,11 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000026 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000026 "food preservative product"@en)
 SubClassOf(obo:PESTON_0000026 obo:PESTON_0000012)
 
-# Class: obo:PESTON_0000027 (sex attractant product)
+# Class: obo:PESTON_0000027 (pheromone product)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000027 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000027 "2021-11-25T04:09:32Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000027 "sex attractant product"@en)
+AnnotationAssertion(rdfs:label obo:PESTON_0000027 "pheromone product"@en)
 SubClassOf(obo:PESTON_0000027 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000028 (molluscicide product)
@@ -371,18 +354,11 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000032 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000032 "organic fungicide product"@en)
 SubClassOf(obo:PESTON_0000032 obo:PESTON_0000012)
 
-# Class: obo:PESTON_0000033 (thinning agent)
-
-AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000033 <http://orcid.org/0000-0002-8844-9165>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000033 "2021-11-25T04:15:51Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000033 "thinning agent"@en)
-SubClassOf(obo:PESTON_0000033 obo:PESTON_0000012)
-
-# Class: obo:PESTON_0000034 (germination inhibitor product)
+# Class: obo:PESTON_0000034 (plant hormone product)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000034 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000034 "2021-11-25T04:16:22Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000034 "germination inhibitor product"@en)
+AnnotationAssertion(rdfs:label obo:PESTON_0000034 "plant hormone product"@en)
 SubClassOf(obo:PESTON_0000034 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000035 (bactericide product)
