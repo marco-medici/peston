@@ -31,23 +31,19 @@ Declaration(Class(obo:PESTON_0000013))
 Declaration(Class(obo:PESTON_0000014))
 Declaration(Class(obo:PESTON_0000015))
 Declaration(Class(obo:PESTON_0000016))
-Declaration(Class(obo:PESTON_0000017))
 Declaration(Class(obo:PESTON_0000018))
 Declaration(Class(obo:PESTON_0000019))
 Declaration(Class(obo:PESTON_0000020))
 Declaration(Class(obo:PESTON_0000021))
 Declaration(Class(obo:PESTON_0000022))
-Declaration(Class(obo:PESTON_0000023))
 Declaration(Class(obo:PESTON_0000024))
 Declaration(Class(obo:PESTON_0000025))
 Declaration(Class(obo:PESTON_0000026))
-Declaration(Class(obo:PESTON_0000027))
 Declaration(Class(obo:PESTON_0000028))
 Declaration(Class(obo:PESTON_0000029))
 Declaration(Class(obo:PESTON_0000030))
 Declaration(Class(obo:PESTON_0000031))
 Declaration(Class(obo:PESTON_0000032))
-Declaration(Class(obo:PESTON_0000033))
 Declaration(Class(obo:PESTON_0000034))
 Declaration(Class(obo:PESTON_0000035))
 Declaration(Class(obo:PESTON_0000036))
@@ -102,11 +98,16 @@ Declaration(DataProperty(<https://schema.org/postalCode>))
 Declaration(DataProperty(<https://schema.org/streetAddress>))
 Declaration(AnnotationProperty(obo:IAO_0000117))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
+Declaration(AnnotationProperty(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002>))
 Declaration(AnnotationProperty(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId>))
 ############################
 #   Annotation Properties
 ############################
+
+# Annotation Property: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> (definition)
+
+AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> "definition")
 
 # Annotation Property: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> (formulation code)
 
@@ -233,6 +234,8 @@ SubClassOf(obo:PESTON_0000012 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_2594
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000013 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000013 "2021-11-25T03:40:22Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000013 "A substance used to kill parasitic fungi or their spores."@en)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000013 "Sostanza utilizzata per eliminare spore e funghi parassiti."@it)
 AnnotationAssertion(rdfs:label obo:PESTON_0000013 "FUNGICIDA"@it)
 AnnotationAssertion(rdfs:label obo:PESTON_0000013 "fungicide product"@en)
 SubClassOf(obo:PESTON_0000013 obo:PESTON_0000012)
@@ -242,6 +245,7 @@ SubClassOf(obo:PESTON_0000013 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_2412
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000014 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000014 "2021-11-25T03:40:33Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000014 "A substance used to destroy or limit weed species."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000014 "herbicide product"@en)
 SubClassOf(obo:PESTON_0000014 obo:PESTON_0000012)
 
@@ -249,27 +253,23 @@ SubClassOf(obo:PESTON_0000014 obo:PESTON_0000012)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000015 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000015 "2021-11-25T03:44:29Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000015 "A substance used to kill or repell members of the class Insecta."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000015 "insecticide product"@en)
 SubClassOf(obo:PESTON_0000015 obo:PESTON_0000012)
 
-# Class: obo:PESTON_0000016 (insect repellant product)
+# Class: obo:PESTON_0000016 (insect repellent product)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000016 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000016 "2021-11-25T03:44:49Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000016 "insect repellant product"@en)
-SubClassOf(obo:PESTON_0000016 obo:PESTON_0000012)
-
-# Class: obo:PESTON_0000017 (drier product)
-
-AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000017 <http://orcid.org/0000-0002-8844-9165>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000017 "2021-11-25T03:45:11Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000017 "drier product"@en)
-SubClassOf(obo:PESTON_0000017 obo:PESTON_0000012)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000016 "A substance applied to a surface to discourage insects from populating that surface."@en)
+AnnotationAssertion(rdfs:label obo:PESTON_0000016 "insect repellent product"@en)
+SubClassOf(obo:PESTON_0000016 obo:PESTON_0000015)
 
 # Class: obo:PESTON_0000018 (pheromone product)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000018 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000018 "2021-11-25T03:46:23Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000018 "A substance used to elict a change in sexual or social behaviour between organisms of the same specie."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000018 "pheromone product"@en)
 SubClassOf(obo:PESTON_0000018 obo:PESTON_0000012)
 
@@ -277,6 +277,7 @@ SubClassOf(obo:PESTON_0000018 obo:PESTON_0000012)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000019 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000019 "2021-11-25T03:46:36Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000019 "A substance used to kill pests of the phylum Nematoda."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000019 "nematicide product"@en)
 SubClassOf(obo:PESTON_0000019 obo:PESTON_0000012)
 
@@ -284,6 +285,7 @@ SubClassOf(obo:PESTON_0000019 obo:PESTON_0000012)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000020 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000020 "2021-11-25T03:46:57Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000020 "A substance used to affect the rate of growth of a plant."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000020 "plant growth regulator product"@en)
 SubClassOf(obo:PESTON_0000020 obo:PESTON_0000012)
 
@@ -291,6 +293,7 @@ SubClassOf(obo:PESTON_0000020 obo:PESTON_0000012)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000021 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000021 "2021-11-25T03:57:45Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000021 "A substance used to kill members of the family Aphididae."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000021 "aphicide product"@en)
 SubClassOf(obo:PESTON_0000021 obo:PESTON_0000015)
 
@@ -298,20 +301,15 @@ SubClassOf(obo:PESTON_0000021 obo:PESTON_0000015)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000022 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000022 "2021-11-25T03:58:06Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000022 "A substance used to biologically kill or repell members of the class Insecta."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000022 "organic insecticide product"@en)
 SubClassOf(obo:PESTON_0000022 obo:PESTON_0000012)
-
-# Class: obo:PESTON_0000023 (elicitor product)
-
-AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000023 <http://orcid.org/0000-0002-8844-9165>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000023 "2021-11-25T03:58:50Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000023 "elicitor product"@en)
-SubClassOf(obo:PESTON_0000023 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000024 (acaricide product)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000024 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000024 "2021-11-25T03:59:08Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000024 "A substance used to kill members of the subclass Acari."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000024 "acaricide product"@en)
 SubClassOf(obo:PESTON_0000024 obo:PESTON_0000015)
 
@@ -319,6 +317,7 @@ SubClassOf(obo:PESTON_0000024 obo:PESTON_0000015)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000025 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000025 "2021-11-25T04:04:54Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000025 "A substance that is used to increase the efficacy or potency of other pesticide products."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000025 "adjuvant product"@en)
 SubClassOf(obo:PESTON_0000025 obo:PESTON_0000012)
 
@@ -326,20 +325,15 @@ SubClassOf(obo:PESTON_0000025 obo:PESTON_0000012)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000026 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000026 "2021-11-25T04:05:36Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000026 "A substances added to food to limit undesirable chemical changes."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000026 "food preservative product"@en)
 SubClassOf(obo:PESTON_0000026 obo:PESTON_0000012)
-
-# Class: obo:PESTON_0000027 (sex attractant product)
-
-AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000027 <http://orcid.org/0000-0002-8844-9165>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000027 "2021-11-25T04:09:32Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000027 "sex attractant product"@en)
-SubClassOf(obo:PESTON_0000027 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000028 (molluscicide product)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000028 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000028 "2021-11-25T04:10:04Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000028 "A substance used to kill pests of the phylum Mollusca."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000028 "molluscicide product"@en)
 SubClassOf(obo:PESTON_0000028 obo:PESTON_0000012)
 
@@ -347,6 +341,7 @@ SubClassOf(obo:PESTON_0000028 obo:PESTON_0000012)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000029 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000029 "2021-11-25T04:10:28Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000029 "A substance used to kill rodents."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000029 "rodenticide product"@en)
 SubClassOf(obo:PESTON_0000029 obo:PESTON_0000012)
 
@@ -354,6 +349,7 @@ SubClassOf(obo:PESTON_0000029 obo:PESTON_0000012)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000030 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000030 "2021-11-25T04:11:46Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000030 "A substance used to improve the selectivity of herbicide products."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000030 "herbicide product safener"@en)
 SubClassOf(obo:PESTON_0000030 obo:PESTON_0000012)
 
@@ -361,6 +357,7 @@ SubClassOf(obo:PESTON_0000030 obo:PESTON_0000012)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000031 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000031 "2021-11-25T04:12:35Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000031 "A substance used to kill talps."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000031 "talpicide product"@en)
 SubClassOf(obo:PESTON_0000031 obo:PESTON_0000029)
 
@@ -368,27 +365,23 @@ SubClassOf(obo:PESTON_0000031 obo:PESTON_0000029)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000032 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000032 "2021-11-25T04:15:18Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000032 "A substance used to biologically kill parasitic fungi or their spores."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000032 "organic fungicide product"@en)
 SubClassOf(obo:PESTON_0000032 obo:PESTON_0000012)
 
-# Class: obo:PESTON_0000033 (thinning agent)
-
-AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000033 <http://orcid.org/0000-0002-8844-9165>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000033 "2021-11-25T04:15:51Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000033 "thinning agent"@en)
-SubClassOf(obo:PESTON_0000033 obo:PESTON_0000012)
-
-# Class: obo:PESTON_0000034 (germination inhibitor product)
+# Class: obo:PESTON_0000034 (plant hormone product)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000034 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000034 "2021-11-25T04:16:22Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000034 "germination inhibitor product"@en)
-SubClassOf(obo:PESTON_0000034 obo:PESTON_0000012)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000034 "A substance used to influence the formation of stems, leaves and flowers of plants, or to influence the ripening of fruit."@en)
+AnnotationAssertion(rdfs:label obo:PESTON_0000034 "plant hormone product"@en)
+SubClassOf(obo:PESTON_0000034 obo:PESTON_0000020)
 
 # Class: obo:PESTON_0000035 (bactericide product)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000035 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000035 "2021-11-25T04:17:52Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000035 "A substance used to kill or limit the growth of bacteria."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000035 "bactericide product"@en)
 SubClassOf(obo:PESTON_0000035 obo:PESTON_0000012)
 
