@@ -1,3 +1,7 @@
+To regenerate an OntoFox file like "general_import.owl" from command line rather than website (ontofox.hegroup.org)
+
+curl -s -F file=@"general_ontofox.txt" -o general_import.owl http://ontofox.hegroup.org/service.php
+
 To regenerate an owl file from a robot template, run this style of command:
 NOTE: --input command ONLY ALLOWS ONE INPUT file; if you do multiple --input
 only LAST one is used. Hence we need a merged version:

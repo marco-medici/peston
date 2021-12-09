@@ -129,8 +129,10 @@ Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001080>))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001081>))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001082>))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001083>))
+Declaration(ObjectProperty(obo:RO_0000087))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000221>))
 Declaration(DataProperty(<http://semanticscience.org/resource/SIO_000300>))
+Declaration(DataProperty(<http://www.bioassayontology.org/bao#BAO_0002666>))
 Declaration(DataProperty(<https://schema.org/addressCountry>))
 Declaration(DataProperty(<https://schema.org/addressLocality>))
 Declaration(DataProperty(<https://schema.org/addressRegion>))
@@ -172,6 +174,10 @@ AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000221> 
 
 AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000300> "has value"@en)
 
+# Data Property: <http://www.bioassayontology.org/bao#BAO_0002666> (has concentration value)
+
+AnnotationAssertion(rdfs:label <http://www.bioassayontology.org/bao#BAO_0002666> "has concentration value"@en)
+
 
 
 ############################
@@ -185,6 +191,10 @@ SubClassOf(obo:NCIT_C25164 obo:IAO_0000027)
 # Class: obo:NCIT_C54131 (Company)
 
 SubClassOf(obo:NCIT_C54131 obo:BFO_0000040)
+
+# Class: obo:NCIT_C82533 (Active Ingredient)
+
+SubClassOf(obo:NCIT_C82533 obo:BFO_0000040)
 
 # Class: obo:PESTON_0000001 (pesticide authorization status)
 
