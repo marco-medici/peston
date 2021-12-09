@@ -11,7 +11,7 @@ robot template --template robot_company.tsv \
   --output company_import.owl
 
 
-robot template --template robot_pesticide.tsv \
+./robot.bat template --template robot_pesticide.tsv \
   --input "peston-merged.owl" \
   --prefix "PESTON:http://purl.obolibrary.org/obo/PESTON_" \
   --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/pesticide_import.owl" \
