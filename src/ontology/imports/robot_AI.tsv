@@ -1,5 +1,5 @@
 ID	index	Product	CHEBI Label		CHEBI ID	Concentration
-ID		I 'active ingredient in'		TYPE	TYPE	I 'has concentration value'
+ID		I 'active ingredient in'	LABEL	TYPE	TYPE	I 'has concentration value'
 PESTON:0701649	1649	ATHOS	(+)-Sceletium A4	Active Ingredient	CHEBI:31020	1.8
 PESTON:0707126	7126	EOS	(+)-Sceletium A4	Active Ingredient	CHEBI:31020	1
 PESTON:0713543	13543	OLEOSAN PLUS	(1S)-trans-(alphaS)-cypermethrin	Active Ingredient	CHEBI:39340	0
