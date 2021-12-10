@@ -6,7 +6,7 @@ To regenerate an owl file from a robot template, run this style of command:
 NOTE: --input command ONLY ALLOWS ONE INPUT file; if you do multiple --input
 only LAST one is used. Hence we need a merged version:
 
-robot merge --input "../peston-edit.owl" --output peston-merged.owl
+./robot.bat merge --input "../peston-edit.owl" --output peston-merged.owl
 
 robot template --template robot_company.tsv \
   --input "peston-merged.owl" \
@@ -20,7 +20,7 @@ robot template --template robot_company.tsv \
   --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/pesticide_import.owl" \
   --output pesticide_import.owl
 
-./robot.bat template --template robot-AI.tsv \
+./robot.bat template --template robot_AI.tsv \
   --input "peston-merged.owl" \
   --prefix "PESTON:http://purl.obolibrary.org/obo/PESTON_" \
   --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/pesticide_import.owl" \
