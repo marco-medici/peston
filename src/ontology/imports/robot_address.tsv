@@ -1,4 +1,4 @@
-ID	index	Address.Type	for.Company.(primary.key)	address	PO.box	postal.code	City	Region	Country
+ID	index	Address Type	for Company (primary key)	address	PO box	postal code	City	Region	Country
 ID		TYPE SPLIT=|	I 'is about'	I streetAddress	I postOfficeBoxNumber	I postalCode	I addressLocality	I addressRegion	I addressCountry
 PESTON:0600001	1	legally registered address | primary address	AAKO B.V.	p.o. box 205		3830 AE	Leusden		
 PESTON:0600002	2	legally registered address | primary address	ABION FRANCE SARL	place gambetta, 44		33000	Bordeaux		
@@ -66,7 +66,7 @@ PESTON:0600063	63	legally registered address | primary address	AGROCAL CHEMICALS
 PESTON:0600064	64	legally registered address | primary address	AGROCHIMICA S.P.A.	via copernico, 11		39100	Bolzano		
 PESTON:0600065	65	legally registered address	AGROFRESH HOLDING FRANCE SAS	23-25 avenue mac-mahon		F-75017	Paris		
 PESTON:0600066	66	primary address	AGROFRESH HOLDING FRANCE SAS	266, avenue de president wilson - 23, avenue jules rimet		F-93200	Saint-Denis		
-PESTON:0600067	67	legally registered address | primary address	AGROLAC S.A.	avenida dels vents, 9-13 esc. a, 6Â¡ 2^		8917	Badalona		
+PESTON:0600067	67	legally registered address | primary address	AGROLAC S.A.	avenida dels vents, 9-13 esc. a, 6¡ 2^		8917	Badalona		
 PESTON:0600068	68	legally registered address | primary address	AGROLINZ ITALIA S.R.L.	via sempione 13		21053	Castellanza		
 PESTON:0600069	69	legally registered address | primary address	AGRONATURALIS LTD	suite 2, crown house, 2 southamphton road		BH24 1 HY	Ringwood		
 PESTON:0600070	70	legally registered address | primary address	AGRONOVA S.R.L.	via massarenti, 221/6		40138	Bologna		
@@ -143,7 +143,7 @@ PESTON:0600140	140	legally registered address	BENFER-SCHELLER S.P.A.	via vittor 
 PESTON:0600141	141	primary address	BENFER-SCHELLER S.P.A.	via monza, 265		20126	Milano		
 PESTON:0600142	142	legally registered address | primary address	BI-PA PRODOTTI BIOLOGICI PER L'AGRICOLTURA N.V.	technologielaan, 7		B-1840	Londerzeel		
 PESTON:0600143	143	legally registered address | primary address	BIAGRO S.L.	c/jaime i, 8 - pol. ind. del mediterraneo		E-46560	Massalfassar		
-PESTON:0600144	144	legally registered address | primary address	BIO-FERM GMBH	industriestraÂ§e 21		A-3130	Herzogenburg		
+PESTON:0600144	144	legally registered address | primary address	BIO-FERM GMBH	industriestra§e 21		A-3130	Herzogenburg		
 PESTON:0600145	145	legally registered address	BIOCARE GESELLSHAFT FUR BIOLOGISCHE SCHUTZMITTEL GMBH	dorfstrasse, 4		D-37574	Einbeck		
 PESTON:0600146	146	primary address	BIOCARE GESELLSHAFT FUR BIOLOGISCHE SCHUTZMITTEL GMBH	wellerser strasse, 57		D-37586	Dassel		
 PESTON:0600147	147	legally registered address	BIOCHEM S.R.L. (GORIZIA)	via e. fermi, 33		34170	Gorizia		
@@ -151,7 +151,7 @@ PESTON:0600148	148	primary address	BIOCHEM S.R.L. (GORIZIA)	via dei carriolanti,
 PESTON:0600149	149	legally registered address | primary address	BIOCONTROL TECHNOLOGIES S.L.	avinguda madrid, 215-217, entresol a		8014	Barcelona		
 PESTON:0600150	150	legally registered address | primary address	BIOFA AG	rudolf-diesel str. 2		D-72525	Munsingen		
 PESTON:0600151	151	legally registered address	BIOIBERICA S.A.U.	c/antic cami' de tordera 109-119		8389	Palafolls		
-PESTON:0600152	152	primary address	BIOIBERICA S.A.U.	av. paisons catalans 34, planta 2Â»		8950	Esplugues De Llobregat		
+PESTON:0600152	152	primary address	BIOIBERICA S.A.U.	av. paisons catalans 34, planta 2»		8950	Esplugues De Llobregat		
 PESTON:0600153	153	legally registered address | primary address	BIOLCHIM S.P.A.	via s. carlo, 2130		40059	Medicina		
 PESTON:0600154	154	legally registered address | primary address	BIONATURA S.R.L.	via s. carlo, 2130		40059	Medicina		
 PESTON:0600155	155	legally registered address | primary address	BIOWORKS EUROPE LIMITED	4, princess square		HG1 1LX	Harrogate		
@@ -187,7 +187,7 @@ PESTON:0600184	184	legally registered address | primary address	CHEMIL S.R.L.	vi
 PESTON:0600185	185	legally registered address	CHEMINOVA A/S	thyboronvej 78		DK767	Harboore		
 PESTON:0600186	186	primary address	CHEMINOVA A/S	p.o. box 9		DK 76	Lemvig		
 PESTON:0600187	187	legally registered address | primary address	CHEMINOVA AGRO ITALIA S.R.L.	via f.lli bronzetti, 32/38		24124	Bergamo		
-PESTON:0600188	188	legally registered address | primary address	CHEMINOVA AGRO S.A.	paseo de la castellana 257, 5Â¡			Madrid		
+PESTON:0600188	188	legally registered address | primary address	CHEMINOVA AGRO S.A.	paseo de la castellana 257, 5¡			Madrid		
 PESTON:0600189	189	legally registered address | primary address	CHEMINOVA DEUTSCHLAND GMBH & CO. KG	stader elbstrasse, 26		21683	Stade		
 PESTON:0600190	190	legally registered address	CHEMTRADE S.R.L.	via risorgimento, 101		20099	Sesto San Giovanni		
 PESTON:0600191	191	primary address	CHEMTRADE S.R.L.	via v. monti, 8		20123	Milano		
@@ -200,7 +200,7 @@ PESTON:0600197	197	legally registered address | primary address	CHIMITAL	via zoc
 PESTON:0600198	198	legally registered address | primary address	CHIMITALIA S.A.S.	strada comunale di val s.martino inferiore, 167		10131	Torino		
 PESTON:0600199	199	legally registered address | primary address	CIECH SARZYNA S.A.	ul. chemikow 1		37-310	Nova Sarzyna		
 PESTON:0600200	200	legally registered address | primary address	CIFO S.R.L.	via oradour, 6		40016	San Giorgio Di Piano		
-PESTON:0600201	201	legally registered address | primary address	CINKARNA CELJE, INC.	kidriÂeva, 26		SLO-3001	Celje		
+PESTON:0600201	201	legally registered address | primary address	CINKARNA CELJE, INC.	kidrieva, 26		SLO-3001	Celje		
 PESTON:0600202	202	legally registered address | primary address	CLERICO LORENZO						
 PESTON:0600203	203	legally registered address | primary address	COLIA TRADE S.R.L.	via g. sismondi, 53		20133	Milano		
 PESTON:0600204	204	legally registered address | primary address	COLKIM S.R.L.	via piemonte, 50		40064	Ozzano Dell'emilia		
@@ -402,7 +402,7 @@ PESTON:0600399	399	primary address	KOLLANT S.R.L.	via c. colombo, 7/7a		30030	Vi
 PESTON:0600400	400	legally registered address | primary address	KOPPERT B.V.	veilingweg 14-17 p.o. box 155		AD-2650	Berkel en Rodenrijs		
 PESTON:0600401	401	legally registered address	KOPPERT ITALIA S.R.L.	via delle nazioni, 7		37012	Bussolengo		
 PESTON:0600402	402	primary address	KOPPERT ITALIA S.R.L.	via delle nazioni, 7			Bussolengo		
-PESTON:0600403	403	legally registered address | primary address	KWIZDA AGRO GMBH	universitÅ tsring 6		A-1010	Vienna		
+PESTON:0600403	403	legally registered address | primary address	KWIZDA AGRO GMBH	universitŠtsring 6		A-1010	Vienna		
 PESTON:0600404	404	legally registered address | primary address	KWIZDA ITALIA S.R.L.	via amendola, 17		40121	Bologna		
 PESTON:0600405	405	legally registered address	L. GOBBI S.R.L.	via b. bosco, 57/2		16121	Genova		
 PESTON:0600406	406	primary address	L. GOBBI S.R.L.	via vallecalda, 33		16013	Genova		
@@ -491,7 +491,7 @@ PESTON:0600488	488	legally registered address	PAVONI & C. S.p.A.	corso italia, 2
 PESTON:0600489	489	primary address	PAVONI & C. S.p.A.	via catania, 17		95040	Ramacca		
 PESTON:0600490	490	legally registered address	PETRONAS LUBRICANTS ITALY S.P.A. - DIVISIONE RONDINE	via santena, 1		10029	Villastellone		
 PESTON:0600491	491	primary address	PETRONAS LUBRICANTS ITALY S.P.A. - DIVISIONE RONDINE	via sempione, 191		20016	Pero		
-PESTON:0600492	492	legally registered address | primary address	PHYTEUROP S.A.	avenue de la grande armÅ½e, 83		F-75782	Paris		
+PESTON:0600492	492	legally registered address | primary address	PHYTEUROP S.A.	avenue de la grande armŽe, 83		F-75782	Paris		
 PESTON:0600493	493	legally registered address | primary address	PHYTORUS S.A.	parc d'ariane batiment b11 bld de la grande thumin		13090	Aix en Provence		
 PESTON:0600494	494	legally registered address | primary address	PILARQUIM EUROPE LTD	carmelite, 50 victoria embankmetn blackfriars		EC4YODX	London		
 PESTON:0600495	495	legally registered address	PIONEER HI-BRED ITALIA S.R.L.	via pari opportunita', 2		26030	Gadesco-Pieve Delmona		
@@ -505,7 +505,7 @@ PESTON:0600502	502	legally registered address | primary address	POLISENIO S.R.L.
 PESTON:0600503	503	legally registered address | primary address	PRATO LONGHI DI F. LONGHI	via s. lucia, 44		20052	Monza		
 PESTON:0600504	504	legally registered address | primary address	PRO.PHY.M SARL	z.i. les attignours		7130	La Chambre		
 PESTON:0600505	505	legally registered address | primary address	PROBELTE S.A.	c.tra de madrid km 384,6 - p.i. el tiro		E-30100	Espinardo		
-PESTON:0600506	506	legally registered address | primary address	PROBODELT S.L	c/ brasil 10-12, 2Â¼ 2Â»		E-43870	Amposta		
+PESTON:0600506	506	legally registered address | primary address	PROBODELT S.L	c/ brasil 10-12, 2¼ 2»		E-43870	Amposta		
 PESTON:0600507	507	legally registered address | primary address	PROCHIMAG DI MANDRIOLI GIUSEPPE	via byron, 10		40128	Bologna		
 PESTON:0600508	508	legally registered address	PROCHIMAG ITALIA S.R.L.	via aldini, 28		40136	Bologna		
 PESTON:0600509	509	primary address	PROCHIMAG ITALIA S.R.L.	via statale 365/e		44040	Dosso		
@@ -632,7 +632,7 @@ PESTON:0600629	629	legally registered address | primary address	TECNOTREA S.R.L.
 PESTON:0600630	630	legally registered address | primary address	TECOMAG S.R.L.	via bellaria, 356/a		41010	Modena		
 PESTON:0600631	631	legally registered address	TERSAN S.P.A.	via podgora,5		20131	Milano		
 PESTON:0600632	632	primary address	TERSAN S.P.A.	via podgora, 5		20131	Milano		
-PESTON:0600633	633	legally registered address | primary address	TIMAC AGRO ESPAâ€žA SA	polâ€™gono industrial de arazuri-orcoyen, calle c, num. 32		E-031160	Orcoyen		
+PESTON:0600633	633	legally registered address | primary address	TIMAC AGRO ESPA„A SA	pol’gono industrial de arazuri-orcoyen, calle c, num. 32		E-031160	Orcoyen		
 PESTON:0600634	634	legally registered address | primary address	TOMEN ITALIA S.P.A.	corso italia, 6		20122	Milano		
 PESTON:0600635	635	legally registered address | primary address	TOSVAR S.R.L.	via del lavoro, 10		20060	Pozzo D'adda		
 PESTON:0600636	636	legally registered address | primary address	TOTALENERGIES FLUIDS S.A.S.	cours michelet, 24 la defense 10		F-92069	La Defense		
@@ -642,7 +642,7 @@ PESTON:0600639	639	legally registered address | primary address	UCE S.P.A.	via c
 PESTON:0600640	640	legally registered address | primary address	UNITED PHOSPHORUS ITALY S.R.L.	via xx settembre, 3		10123	Torino		
 PESTON:0600641	641	legally registered address | primary address	UPL AGRICULTURAL SOLUTIONS ITALY S.R.L.	viale abruzzi, 94		20131	Milano		
 PESTON:0600642	642	legally registered address | primary address	UPL EUROPE LTD	chadwick house, birchwood park warrington		WA3 6AE	Warrington		
-PESTON:0600643	643	legally registered address | primary address	UPL HOLDINGS COâ€¦PERATIEF U.A.	claudius prinsenlaan 144 a, blok a		NL-4818CP	Breda		
+PESTON:0600643	643	legally registered address | primary address	UPL HOLDINGS CO…PERATIEF U.A.	claudius prinsenlaan 144 a, blok a		NL-4818CP	Breda		
 PESTON:0600644	644	legally registered address | primary address	UPL IBERIA S.A.	av. jose' tarradellas, 20 planta 4 puerta 7		8029	Barcelona		
 PESTON:0600645	645	legally registered address | primary address	UPL ITALIA S.R.L.	via terni, 275		47023	Cesena		
 PESTON:0600646	646	legally registered address | primary address	VALAGRO S.P.A.	loc. saletti zona ind.le		66040	Atessa		
