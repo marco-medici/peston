@@ -1472,7 +1472,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/PESTON_0500160">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54131"/>
-        <rdfs:label xml:lang="en">COMPTOIR COMMERCIAL DES LUBRIFIANTS  S.A.S.</rdfs:label>
+        <rdfs:label xml:lang="en">COMPTOIR COMMERCIAL DES LUBRIFIANTS S.A.S.</rdfs:label>
     </owl:NamedIndividual>
     
 
