@@ -12,6 +12,7 @@ Import(<http://purl.obolibrary.org/obo/pestico/chebi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pestico/general_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pestico/wikidata_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/address_import.owl>)
+Import(<http://purl.obolibrary.org/obo/peston/imports/ai_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/company_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/pesticide_import.owl>)
 
