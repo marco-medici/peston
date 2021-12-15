@@ -46,11 +46,11 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q47465">
-        <rdfs:label>Aix En Provence</rdfs:label>
+        <rdfs:label>Aix en Provence</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q95054">
-        <rdfs:label>Albano Sant'alessandro</rdfs:label>
+        <rdfs:label>Albano Sant'Alessandro</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q103417">
@@ -182,7 +182,7 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q820839">
-        <rdfs:label>Berkel En Rodenrijs</rdfs:label>
+        <rdfs:label>Berkel en Rodenrijs</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q64">
@@ -374,7 +374,7 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q20413">
-        <rdfs:label>Cittˆ Di Castello</rdfs:label>
+        <rdfs:label>Città di Castello</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42298">
@@ -570,7 +570,7 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q43001">
-        <rdfs:label>Gadesco-pieve Delmona</rdfs:label>
+        <rdfs:label>Gadesco-Pieve Delmona</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2199899">
@@ -670,7 +670,7 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q9676">
-        <rdfs:label>Isle Of Man</rdfs:label>
+        <rdfs:label>Isle of Man</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q47044">
@@ -802,7 +802,7 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q271649">
-        <rdfs:label>Marcq-en-baroeul</rdfs:label>
+        <rdfs:label>Marcq-en-Barœul</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q23194">
@@ -822,7 +822,7 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q16205">
-        <rdfs:label>Massa-carrara</rdfs:label>
+        <rdfs:label>Province of Massa-Carrara</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1989342">
@@ -1070,7 +1070,7 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1070029">
-        <rdfs:label>Pont-du-casse</rdfs:label>
+        <rdfs:label>Pont-du-Casse</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1024900">
@@ -1174,11 +1174,11 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q189153">
-        <rdfs:label>Saint-cloud</rdfs:label>
+        <rdfs:label>Saint-Cloud</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q160506">
-        <rdfs:label>Saint-denis</rdfs:label>
+        <rdfs:label>Saint-Denis</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q42400">
@@ -1226,11 +1226,11 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q376944">
-        <rdfs:label>Sand In Taufers</rdfs:label>
+        <rdfs:label>Sand in Taufers</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13936">
-        <rdfs:label>Sant Cugat Del Vallès</rdfs:label>
+        <rdfs:label>Sant Cugat del Vallès</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q95139">
@@ -1242,7 +1242,7 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q34693">
-        <rdfs:label>Santa Giustina In Colle</rdfs:label>
+        <rdfs:label>Santa Giustina in Colle</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q10293">
@@ -1282,11 +1282,11 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q696578">
-        <rdfs:label>Sint-katelijne-waver</rdfs:label>
+        <rdfs:label>Sint-Katelijne-Waver</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q37792">
-        <rdfs:label>Sint-truiden</rdfs:label>
+        <rdfs:label>Sint-Truiden</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q190187">
@@ -1323,6 +1323,10 @@
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q904194">
         <rdfs:label>Tardienta</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q15088">
+        <rdfs:label>Tarragona</rdfs:label>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25160"/>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q752137">
