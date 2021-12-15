@@ -705,10 +705,10 @@ AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <h
 AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001044> "aerosol dispenser")
 SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001044> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> (any other liquid)
+# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> (liquid product format)
 
 AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> "AL")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> "any other liquid")
+AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> "liquid product format")
 SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
 
 # Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001046> (bait concentrate)
