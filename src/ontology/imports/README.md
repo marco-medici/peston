@@ -20,11 +20,11 @@ robot template --template robot_company.tsv \
   --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/pesticide_import.owl" \
   --output pesticide_import.owl
 
-./robot.bat template --template robot_AI.tsv \
+./robot.bat template --template robot_ai.tsv \
   --input "peston-merged.owl" \
   --prefix "PESTON:http://purl.obolibrary.org/obo/PESTON_" \
-  --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/pesticide_import.owl" \
-  --output pesticide_import.owl
+  --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/ai_import.owl" \
+  --output ai_import.owl
 
 ./robot.bat template --template robot_address.tsv \
   --input "peston-merged.owl" \
@@ -32,8 +32,4 @@ robot template --template robot_company.tsv \
   --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/address_import.owl" \
   --output address_import.owl
 
-  robot template --template robot_active_ingredient.tsv \
-  --input "peston-merged.owl" \
-  --prefix "PESTON:http://purl.obolibrary.org/obo/PESTON_" \
-  --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/active_ingredient_import.owl" \
-  --output active_ingredient_import.owl
+

@@ -12,6 +12,7 @@ Import(<http://purl.obolibrary.org/obo/pestico/chebi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pestico/general_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pestico/wikidata_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/address_import.owl>)
+Import(<http://purl.obolibrary.org/obo/peston/imports/ai_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/company_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/pesticide_import.owl>)
 
@@ -131,10 +132,10 @@ Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001082>))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001083>))
 Declaration(ObjectProperty(obo:RO_0000087))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000221>))
+Declaration(ObjectProperty(<https://schema.org/addressCountry>))
+Declaration(ObjectProperty(<https://schema.org/addressLocality>))
 Declaration(DataProperty(<http://semanticscience.org/resource/SIO_000300>))
 Declaration(DataProperty(<http://www.bioassayontology.org/bao#BAO_0002666>))
-Declaration(DataProperty(<https://schema.org/addressCountry>))
-Declaration(DataProperty(<https://schema.org/addressLocality>))
 Declaration(DataProperty(<https://schema.org/addressRegion>))
 Declaration(DataProperty(<https://schema.org/postOfficeBoxNumber>))
 Declaration(DataProperty(<https://schema.org/postalCode>))
@@ -160,6 +161,10 @@ AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_
 ############################
 #   Object Properties
 ############################
+
+# Object Property: obo:RO_0000087 (has role)
+
+AnnotationAssertion(rdfs:label obo:RO_0000087 "has role"@en)
 
 # Object Property: <http://semanticscience.org/resource/SIO_000221> (has unit)
 
@@ -701,10 +706,10 @@ AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <h
 AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001044> "aerosol dispenser")
 SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001044> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> (any other liquid)
+# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> (liquid product format)
 
 AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> "AL")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> "any other liquid")
+AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> "liquid product format")
 SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
 
 # Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001046> (bait concentrate)
