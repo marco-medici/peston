@@ -42,13 +42,25 @@ Declaration(Class(obo:PESTON_0000023))
 Declaration(Class(obo:PESTON_0000024))
 Declaration(Class(obo:PESTON_0000025))
 Declaration(Class(obo:PESTON_0000026))
+Declaration(Class(obo:PESTON_0000027))
 Declaration(Class(obo:PESTON_0000028))
 Declaration(Class(obo:PESTON_0000029))
 Declaration(Class(obo:PESTON_0000030))
 Declaration(Class(obo:PESTON_0000031))
 Declaration(Class(obo:PESTON_0000032))
+Declaration(Class(obo:PESTON_0000033))
 Declaration(Class(obo:PESTON_0000034))
 Declaration(Class(obo:PESTON_0000035))
+Declaration(Class(obo:PESTON_0000036))
+Declaration(Class(obo:PESTON_0000037))
+Declaration(Class(obo:PESTON_0000039))
+Declaration(Class(obo:PESTON_0000040))
+Declaration(Class(obo:PESTON_0000041))
+Declaration(Class(obo:PESTON_0000042))
+Declaration(Class(obo:PESTON_0000043))
+Declaration(Class(obo:PESTON_0000044))
+Declaration(Class(obo:PESTON_0000045))
+Declaration(Class(obo:PESTON_0000046))
 Declaration(Class(obo:PESTON_0001000))
 Declaration(Class(obo:PESTON_0001005))
 Declaration(Class(obo:PESTON_0001043))
@@ -97,8 +109,6 @@ Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000221>))
 Declaration(ObjectProperty(<https://schema.org/addressCountry>))
 Declaration(ObjectProperty(<https://schema.org/addressLocality>))
 Declaration(DataProperty(<http://semanticscience.org/resource/SIO_000300>))
-Declaration(DataProperty(<http://www.bioassayontology.org/bao#BAO_0002666>))
-Declaration(DataProperty(<http://www.bioassayontology.org/bao#BAO_0002874>))
 Declaration(DataProperty(<https://schema.org/addressRegion>))
 Declaration(DataProperty(<https://schema.org/postOfficeBoxNumber>))
 Declaration(DataProperty(<https://schema.org/postalCode>))
@@ -136,14 +146,6 @@ AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000221> 
 # Data Property: <http://semanticscience.org/resource/SIO_000300> (has value)
 
 AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000300> "has value"@en)
-
-# Data Property: <http://www.bioassayontology.org/bao#BAO_0002666> (has concentration value)
-
-AnnotationAssertion(rdfs:label <http://www.bioassayontology.org/bao#BAO_0002666> "has concentration value"@en)
-
-# Data Property: <http://www.bioassayontology.org/bao#BAO_0002874> (has unit)
-
-AnnotationAssertion(rdfs:label <http://www.bioassayontology.org/bao#BAO_0002874> "has unit"@en)
 
 
 
@@ -362,6 +364,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000026 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000026 "food preservative product"@en)
 SubClassOf(obo:PESTON_0000026 obo:PESTON_0000012)
 
+# Class: obo:PESTON_0000027 (chemical by hazardous nature)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000027 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000027 "2022-01-29T08:25:19Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000027 "chemical by hazardous nature"@en)
+SubClassOf(obo:PESTON_0000027 obo:BFO_0000040)
+
 # Class: obo:PESTON_0000028 (molluscicide product)
 
 AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000028 "A substance used to kill pests of the phylum Mollusca."@en)
@@ -402,6 +411,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000032 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000032 "organic fungicide product"@en)
 SubClassOf(obo:PESTON_0000032 obo:PESTON_0000012)
 
+# Class: obo:PESTON_0000033 (chemical irritant)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000033 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000033 "2022-01-29T08:27:01Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000033 "chemical irritant"@en)
+SubClassOf(obo:PESTON_0000033 obo:PESTON_0000027)
+
 # Class: obo:PESTON_0000034 (plant hormone product)
 
 AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000034 "A substance used to influence the formation of stems, leaves and flowers of plants, or to influence the ripening of fruit."@en)
@@ -417,6 +433,76 @@ AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000035 <http://orcid.org/0000-00
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000035 "2021-11-25T04:17:52Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000035 "bactericide product"@en)
 SubClassOf(obo:PESTON_0000035 obo:PESTON_0000012)
+
+# Class: obo:PESTON_0000036 (toxic chemical)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000036 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000036 "2022-01-29T08:27:39Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000036 "toxic chemical"@en)
+SubClassOf(obo:PESTON_0000036 obo:PESTON_0000027)
+
+# Class: obo:PESTON_0000037 (harmful chemical)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000037 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000037 "2022-01-29T08:33:17Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000037 "harmful chemical"@en)
+SubClassOf(obo:PESTON_0000037 obo:PESTON_0000027)
+
+# Class: obo:PESTON_0000039 (very toxic chemical)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000039 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000039 "2022-01-29T08:34:16Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000039 "very toxic chemical"@en)
+SubClassOf(obo:PESTON_0000039 obo:PESTON_0000027)
+
+# Class: obo:PESTON_0000040 (corrosive chemical)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000040 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000040 "2022-01-29T08:34:25Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000040 "corrosive chemical"@en)
+SubClassOf(obo:PESTON_0000040 obo:PESTON_0000027)
+
+# Class: obo:PESTON_0000041 (oxidizing chemical)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000041 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000041 "2022-01-29T08:34:37Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000041 "oxidizing chemical"@en)
+SubClassOf(obo:PESTON_0000041 obo:PESTON_0000027)
+
+# Class: obo:PESTON_0000042 (highly flammable chemical)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000042 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000042 "2022-01-29T08:34:49Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000042 "highly flammable chemical"@en)
+SubClassOf(obo:PESTON_0000042 obo:PESTON_0000027)
+
+# Class: obo:PESTON_0000043 (extremely flammable chemical)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000043 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000043 "2022-01-29T08:35:02Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000043 "extremely flammable chemical"@en)
+SubClassOf(obo:PESTON_0000043 obo:PESTON_0000027)
+
+# Class: obo:PESTON_0000044 (chemical harmful to aquatic life)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000044 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000044 "2022-01-29T08:35:11Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000044 "chemical harmful to aquatic life"@en)
+SubClassOf(obo:PESTON_0000044 obo:PESTON_0000027)
+
+# Class: obo:PESTON_0000045 (chemical dangerous for environment)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000045 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000045 "2022-01-29T08:35:42Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000045 "chemical dangerous for environment"@en)
+SubClassOf(obo:PESTON_0000045 obo:PESTON_0000027)
+
+# Class: obo:PESTON_0000046 (flammable chemical)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000046 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000046 "2022-01-29T08:37:51Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000046 "flammable chemical"@en)
+SubClassOf(obo:PESTON_0000046 obo:PESTON_0000027)
 
 # Class: obo:PESTON_0001000 (chemical product format)
 

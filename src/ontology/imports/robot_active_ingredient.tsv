@@ -1,5 +1,5 @@
 ID of active ingredient instance	index	ID_product	Product	type	CHEBI.Label	CHEBI.ID	Concentration	value	unit																	
-ID			I 'active ingredient in'	TYPE		TI %		I has concentration value	I has unit																	
+ID			I 'active ingredient in'	TYPE		TI %		I has value	I has unit																	
 PESTON:0700001	1	PESTON:0110137	EOS	Active Ingredient	(+)-Sceletium A4	CHEBI:31020	1	1	https://w3id.org/uom/%25																	
 PESTON:0700002	2	PESTON:0110469	ATHOS	Active Ingredient	(+)-Sceletium A4	CHEBI:31020	1.8	1.8	https://w3id.org/uom/%25																	
 PESTON:0700003	3	PESTON:0115135	OLEOSAN PLUS	Active Ingredient	(1S)-trans-(alphaS)-cypermethrin	CHEBI:39340	0	0	https://w3id.org/uom/%25																	
