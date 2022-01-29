@@ -32,11 +32,13 @@ Declaration(Class(obo:PESTON_0000013))
 Declaration(Class(obo:PESTON_0000014))
 Declaration(Class(obo:PESTON_0000015))
 Declaration(Class(obo:PESTON_0000016))
+Declaration(Class(obo:PESTON_0000017))
 Declaration(Class(obo:PESTON_0000018))
 Declaration(Class(obo:PESTON_0000019))
 Declaration(Class(obo:PESTON_0000020))
 Declaration(Class(obo:PESTON_0000021))
 Declaration(Class(obo:PESTON_0000022))
+Declaration(Class(obo:PESTON_0000023))
 Declaration(Class(obo:PESTON_0000024))
 Declaration(Class(obo:PESTON_0000025))
 Declaration(Class(obo:PESTON_0000026))
@@ -47,115 +49,71 @@ Declaration(Class(obo:PESTON_0000031))
 Declaration(Class(obo:PESTON_0000032))
 Declaration(Class(obo:PESTON_0000034))
 Declaration(Class(obo:PESTON_0000035))
-Declaration(Class(obo:PESTON_0000036))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001005>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001006>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001007>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001008>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001009>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001010>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001011>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001012>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001013>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001014>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001015>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001016>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001017>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001018>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001019>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001020>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001021>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001022>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001023>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001024>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001025>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001026>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001027>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001028>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001029>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001030>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001031>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001032>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001033>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001034>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001035>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001036>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001037>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001038>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001039>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001040>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001041>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001042>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001044>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001046>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001047>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001048>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001049>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001050>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001051>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001052>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001053>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001054>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001055>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001056>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001057>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001058>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001059>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001060>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001061>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001062>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001063>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001064>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001065>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001066>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001067>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001068>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001069>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001070>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001071>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001072>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001073>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001074>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001075>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001076>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001077>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001078>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001079>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001080>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001081>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001082>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001083>))
+Declaration(Class(obo:PESTON_0001000))
+Declaration(Class(obo:PESTON_0001005))
+Declaration(Class(obo:PESTON_0001043))
+Declaration(Class(obo:PESTON_0001044))
+Declaration(Class(obo:PESTON_0001045))
+Declaration(Class(obo:PESTON_0001046))
+Declaration(Class(obo:PESTON_0001047))
+Declaration(Class(obo:PESTON_0001048))
+Declaration(Class(obo:PESTON_0001049))
+Declaration(Class(obo:PESTON_0001050))
+Declaration(Class(obo:PESTON_0001051))
+Declaration(Class(obo:PESTON_0001052))
+Declaration(Class(obo:PESTON_0001053))
+Declaration(Class(obo:PESTON_0001054))
+Declaration(Class(obo:PESTON_0001055))
+Declaration(Class(obo:PESTON_0001056))
+Declaration(Class(obo:PESTON_0001057))
+Declaration(Class(obo:PESTON_0001058))
+Declaration(Class(obo:PESTON_0001059))
+Declaration(Class(obo:PESTON_0001060))
+Declaration(Class(obo:PESTON_0001061))
+Declaration(Class(obo:PESTON_0001062))
+Declaration(Class(obo:PESTON_0001063))
+Declaration(Class(obo:PESTON_0001064))
+Declaration(Class(obo:PESTON_0001065))
+Declaration(Class(obo:PESTON_0001066))
+Declaration(Class(obo:PESTON_0001067))
+Declaration(Class(obo:PESTON_0001068))
+Declaration(Class(obo:PESTON_0001069))
+Declaration(Class(obo:PESTON_0001070))
+Declaration(Class(obo:PESTON_0001071))
+Declaration(Class(obo:PESTON_0001072))
+Declaration(Class(obo:PESTON_0001073))
+Declaration(Class(obo:PESTON_0001074))
+Declaration(Class(obo:PESTON_0001075))
+Declaration(Class(obo:PESTON_0001076))
+Declaration(Class(obo:PESTON_0001077))
+Declaration(Class(obo:PESTON_0001078))
+Declaration(Class(obo:PESTON_0001079))
+Declaration(Class(obo:PESTON_0001080))
+Declaration(Class(obo:PESTON_0001081))
+Declaration(Class(obo:PESTON_0001082))
+Declaration(Class(obo:PESTON_0001083))
 Declaration(ObjectProperty(obo:RO_0000087))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000221>))
 Declaration(ObjectProperty(<https://schema.org/addressCountry>))
 Declaration(ObjectProperty(<https://schema.org/addressLocality>))
 Declaration(DataProperty(<http://semanticscience.org/resource/SIO_000300>))
 Declaration(DataProperty(<http://www.bioassayontology.org/bao#BAO_0002666>))
+Declaration(DataProperty(<http://www.bioassayontology.org/bao#BAO_0002874>))
 Declaration(DataProperty(<https://schema.org/addressRegion>))
 Declaration(DataProperty(<https://schema.org/postOfficeBoxNumber>))
 Declaration(DataProperty(<https://schema.org/postalCode>))
 Declaration(DataProperty(<https://schema.org/streetAddress>))
 Declaration(AnnotationProperty(obo:IAO_0000117))
+Declaration(AnnotationProperty(obo:PESTON_0001003))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
-Declaration(AnnotationProperty(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002>))
-Declaration(AnnotationProperty(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId>))
 ############################
 #   Annotation Properties
 ############################
 
-# Annotation Property: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> (definition)
+# Annotation Property: obo:PESTON_0001003 (formulation code)
 
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> "definition")
-
-# Annotation Property: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> (formulation code)
-
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> "formulation code")
+AnnotationAssertion(rdfs:label obo:PESTON_0001003 "formulation code")
 
 
 ############################
@@ -182,6 +140,10 @@ AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000300> 
 # Data Property: <http://www.bioassayontology.org/bao#BAO_0002666> (has concentration value)
 
 AnnotationAssertion(rdfs:label <http://www.bioassayontology.org/bao#BAO_0002666> "has concentration value"@en)
+
+# Data Property: <http://www.bioassayontology.org/bao#BAO_0002874> (has unit)
+
+AnnotationAssertion(rdfs:label <http://www.bioassayontology.org/bao#BAO_0002874> "has unit"@en)
 
 
 
@@ -225,6 +187,7 @@ SubClassOf(obo:PESTON_0000003 obo:PESTON_0000001)
 # Class: obo:PESTON_0000004 (pesticide re-registered)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000004 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(obo:IAO_0000118 obo:PESTON_0000004 "pesticide re-authorized"@en)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000004 "2021-11-23T00:18:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000004 "pesticide re-registered"@en)
 SubClassOf(obo:PESTON_0000004 obo:PESTON_0000001)
@@ -234,7 +197,7 @@ SubClassOf(obo:PESTON_0000004 obo:PESTON_0000001)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000005 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000005 "2021-11-23T00:19:40Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000005 "pesticide revocation date"@en)
-SubClassOf(obo:PESTON_0000005 obo:IAO_0000027)
+SubClassOf(obo:PESTON_0000005 obo:NCIT_C25164)
 
 # Class: obo:PESTON_0000006 (phytosanitary product)
 
@@ -288,10 +251,10 @@ SubClassOf(obo:PESTON_0000012 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_2594
 
 # Class: obo:PESTON_0000013 (FUNGICIDA)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000013 "A substance used to kill parasitic fungi or their spores."@en)
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000013 "Sostanza utilizzata per eliminare spore e funghi parassiti."@it)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000013 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000013 "2021-11-25T03:40:22Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000013 "A substance used to kill parasitic fungi or their spores."@en)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000013 "Sostanza utilizzata per eliminare spore e funghi parassiti."@it)
 AnnotationAssertion(rdfs:label obo:PESTON_0000013 "FUNGICIDA"@it)
 AnnotationAssertion(rdfs:label obo:PESTON_0000013 "fungicide product"@en)
 SubClassOf(obo:PESTON_0000013 obo:PESTON_0000012)
@@ -299,650 +262,424 @@ SubClassOf(obo:PESTON_0000013 ObjectSomeValuesFrom(obo:RO_0000087 obo:CHEBI_2412
 
 # Class: obo:PESTON_0000014 (herbicide product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000014 "A substance used to destroy or limit weed species."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000014 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000014 "2021-11-25T03:40:33Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000014 "A substance used to destroy or limit weed species."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000014 "herbicide product"@en)
 SubClassOf(obo:PESTON_0000014 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000015 (insecticide product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000015 "A substance used to kill or repell members of the class Insecta."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000015 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000015 "2021-11-25T03:44:29Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000015 "A substance used to kill or repell members of the class Insecta."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000015 "insecticide product"@en)
 SubClassOf(obo:PESTON_0000015 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000016 (insect repellent product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000016 "A substance applied to a surface to discourage insects from populating that surface."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000016 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000016 "2021-11-25T03:44:49Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000016 "A substance applied to a surface to discourage insects from populating that surface."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000016 "insect repellent product"@en)
 SubClassOf(obo:PESTON_0000016 obo:PESTON_0000015)
 
+# Class: obo:PESTON_0000017 (germination inhibitor product)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000017 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000017 "2022-01-29T05:11:45Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000017 "germination inhibitor product"@en)
+SubClassOf(obo:PESTON_0000017 obo:PESTON_0000012)
+
 # Class: obo:PESTON_0000018 (pheromone product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000018 "A substance used to elict a change in sexual or social behaviour between organisms of the same specie."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000018 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000018 "2021-11-25T03:46:23Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000018 "A substance used to elict a change in sexual or social behaviour between organisms of the same specie."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000018 "pheromone product"@en)
 SubClassOf(obo:PESTON_0000018 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000019 (nematicide product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000019 "A substance used to kill pests of the phylum Nematoda."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000019 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000019 "2021-11-25T03:46:36Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000019 "A substance used to kill pests of the phylum Nematoda."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000019 "nematicide product"@en)
 SubClassOf(obo:PESTON_0000019 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000020 (plant growth regulator product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000020 "A substance used to affect the rate of growth of a plant."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000020 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000020 "2021-11-25T03:46:57Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000020 "A substance used to affect the rate of growth of a plant."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000020 "plant growth regulator product"@en)
 SubClassOf(obo:PESTON_0000020 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000021 (aphicide product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000021 "A substance used to kill members of the family Aphididae."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000021 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000021 "2021-11-25T03:57:45Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000021 "A substance used to kill members of the family Aphididae."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000021 "aphicide product"@en)
 SubClassOf(obo:PESTON_0000021 obo:PESTON_0000015)
 
 # Class: obo:PESTON_0000022 (organic insecticide product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000022 "A substance used to biologically kill or repell members of the class Insecta."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000022 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000022 "2021-11-25T03:58:06Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000022 "A substance used to biologically kill or repell members of the class Insecta."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000022 "organic insecticide product"@en)
 SubClassOf(obo:PESTON_0000022 obo:PESTON_0000012)
 
+# Class: obo:PESTON_0000023 (drier product)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000023 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000023 "2022-01-29T05:18:27Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0000023 "drier product"@en)
+SubClassOf(obo:PESTON_0000023 obo:PESTON_0000012)
+
 # Class: obo:PESTON_0000024 (acaricide product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000024 "A substance used to kill members of the subclass Acari."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000024 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000024 "2021-11-25T03:59:08Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000024 "A substance used to kill members of the subclass Acari."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000024 "acaricide product"@en)
 SubClassOf(obo:PESTON_0000024 obo:PESTON_0000015)
 
 # Class: obo:PESTON_0000025 (adjuvant product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000025 "A substance that is used to increase the efficacy or potency of other pesticide products."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000025 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000025 "2021-11-25T04:04:54Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000025 "A substance that is used to increase the efficacy or potency of other pesticide products."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000025 "adjuvant product"@en)
 SubClassOf(obo:PESTON_0000025 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000026 (food preservative product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000026 "A substances added to food to limit undesirable chemical changes."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000026 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000026 "2021-11-25T04:05:36Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000026 "A substances added to food to limit undesirable chemical changes."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000026 "food preservative product"@en)
 SubClassOf(obo:PESTON_0000026 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000028 (molluscicide product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000028 "A substance used to kill pests of the phylum Mollusca."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000028 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000028 "2021-11-25T04:10:04Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000028 "A substance used to kill pests of the phylum Mollusca."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000028 "molluscicide product"@en)
 SubClassOf(obo:PESTON_0000028 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000029 (rodenticide product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000029 "A substance used to kill rodents."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000029 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000029 "2021-11-25T04:10:28Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000029 "A substance used to kill rodents."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000029 "rodenticide product"@en)
 SubClassOf(obo:PESTON_0000029 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000030 (herbicide product safener)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000030 "A substance used to improve the selectivity of herbicide products."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000030 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000030 "2021-11-25T04:11:46Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000030 "A substance used to improve the selectivity of herbicide products."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000030 "herbicide product safener"@en)
 SubClassOf(obo:PESTON_0000030 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000031 (talpicide product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000031 "A substance used to kill talps."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000031 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000031 "2021-11-25T04:12:35Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000031 "A substance used to kill talps."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000031 "talpicide product"@en)
 SubClassOf(obo:PESTON_0000031 obo:PESTON_0000029)
 
 # Class: obo:PESTON_0000032 (organic fungicide product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000032 "A substance used to biologically kill parasitic fungi or their spores."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000032 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000032 "2021-11-25T04:15:18Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000032 "A substance used to biologically kill parasitic fungi or their spores."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000032 "organic fungicide product"@en)
 SubClassOf(obo:PESTON_0000032 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000034 (plant hormone product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000034 "A substance used to influence the formation of stems, leaves and flowers of plants, or to influence the ripening of fruit."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000034 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000034 "2021-11-25T04:16:22Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000034 "A substance used to influence the formation of stems, leaves and flowers of plants, or to influence the ripening of fruit."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000034 "plant hormone product"@en)
 SubClassOf(obo:PESTON_0000034 obo:PESTON_0000020)
 
 # Class: obo:PESTON_0000035 (bactericide product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000035 "A substance used to kill or limit the growth of bacteria."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000035 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000035 "2021-11-25T04:17:52Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:PESTON_0000035 "A substance used to kill or limit the growth of bacteria."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000035 "bactericide product"@en)
 SubClassOf(obo:PESTON_0000035 obo:PESTON_0000012)
 
-# Class: obo:PESTON_0000036 (product format)
+# Class: obo:PESTON_0001000 (chemical product format)
 
-AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000036 <http://orcid.org/0000-0002-8844-9165>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000036 "2021-11-25T22:44:27Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000036 "product format"@en)
-SubClassOf(obo:PESTON_0000036 obo:BFO_0000019)
+AnnotationAssertion(rdfs:comment obo:PESTON_0001000 "SHOULD THIS BE MERGED WITH \"product format\" ?")
+AnnotationAssertion(rdfs:label obo:PESTON_0001000 "chemical product format")
+SubClassOf(obo:PESTON_0001000 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> (chemical product format)
+# Class: obo:PESTON_0001005 (any other liquid)
 
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> "chemical product format")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> obo:IAO_0000027)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001005 "AL")
+AnnotationAssertion(rdfs:label obo:PESTON_0001005 "any other liquid")
+SubClassOf(obo:PESTON_0001005 obo:PESTON_0001000)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> (dispersible powder)
+# Class: obo:PESTON_0001043 (product format)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> "DP")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> "dispersible powder")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001043 "A mixture or structure prepared according to a specific formula.")
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0001043 <http://orcid.org/0000-0003-4684-7672>)
+AnnotationAssertion(rdfs:label obo:PESTON_0001043 "product format")
+SubClassOf(obo:PESTON_0001043 obo:BFO_0000040)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004> (aerosol dispenser)
+# Class: obo:PESTON_0001044 (aerosol dispenser)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004> "AE")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004> "aerosol dispenser")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001044 "AE")
+AnnotationAssertion(rdfs:label obo:PESTON_0001044 "aerosol dispenser")
+SubClassOf(obo:PESTON_0001044 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001005> (any other liquid)
+# Class: obo:PESTON_0001045 (liquid product format)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001005> "AL")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001005> "any other liquid")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001005> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001045 "AL")
+AnnotationAssertion(rdfs:label obo:PESTON_0001045 "liquid product format")
+SubClassOf(obo:PESTON_0001045 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001006> (bait concentrate)
+# Class: obo:PESTON_0001046 (bait concentrate)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001006> "CB")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001006> "bait concentrate")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001006> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001046 "CB")
+AnnotationAssertion(rdfs:label obo:PESTON_0001046 "bait concentrate")
+SubClassOf(obo:PESTON_0001046 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001007> (contact powder)
+# Class: obo:PESTON_0001047 (contact powder)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001007> "CP")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001007> "contact powder")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001007> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001047 "CP")
+AnnotationAssertion(rdfs:label obo:PESTON_0001047 "contact powder")
+SubClassOf(obo:PESTON_0001047 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001008> (capsule suspension)
+# Class: obo:PESTON_0001048 (capsule suspension)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001008> "CS")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001008> "capsule suspension")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001008> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001048 "CS")
+AnnotationAssertion(rdfs:label obo:PESTON_0001048 "capsule suspension")
+SubClassOf(obo:PESTON_0001048 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001009> (dispersible concentrate)
+# Class: obo:PESTON_0001049 (dispersible concentrate)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001009> "DC")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001009> "dispersible concentrate")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001009> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001049 "DC")
+AnnotationAssertion(rdfs:label obo:PESTON_0001049 "dispersible concentrate")
+SubClassOf(obo:PESTON_0001049 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001010> (powder for dry seed treatment)
+# Class: obo:PESTON_0001050 (dispersible powder)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001010> "DS")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001010> "powder for dry seed treatment")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001010> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001050 "DP")
+AnnotationAssertion(rdfs:label obo:PESTON_0001050 "dispersible powder")
+SubClassOf(obo:PESTON_0001050 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001011> (emulsifiable concentrate)
+# Class: obo:PESTON_0001051 (powder for dry seed treatment)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001011> "EC")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001011> "emulsifiable concentrate")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001011> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001051 "DS")
+AnnotationAssertion(rdfs:label obo:PESTON_0001051 "powder for dry seed treatment")
+SubClassOf(obo:PESTON_0001051 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001012> (emulsifiable granule)
+# Class: obo:PESTON_0001052 (emulsifiable concentrate)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001012> "EG")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001012> "emulsifiable granule")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001012> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001052 "EC")
+AnnotationAssertion(rdfs:label obo:PESTON_0001052 "emulsifiable concentrate")
+SubClassOf(obo:PESTON_0001052 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001013> (emulsion, water in oil)
+# Class: obo:PESTON_0001053 (emulsifiable granule)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001013> "EO")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001013> "emulsion, water in oil")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001013> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001053 "EG")
+AnnotationAssertion(rdfs:label obo:PESTON_0001053 "emulsifiable granule")
+SubClassOf(obo:PESTON_0001053 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001014> (emulsifiable dust)
+# Class: obo:PESTON_0001054 (emulsion, water in oil)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001014> "EP")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001014> "emulsifiable dust")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001014> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001054 "EO")
+AnnotationAssertion(rdfs:label obo:PESTON_0001054 "emulsion, water in oil")
+SubClassOf(obo:PESTON_0001054 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001015> (emulsion for seed treatment)
+# Class: obo:PESTON_0001055 (emulsifiable dust)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001015> "ES")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001015> "emulsion for seed treatment")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001015> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001055 "EP")
+AnnotationAssertion(rdfs:label obo:PESTON_0001055 "emulsifiable dust")
+SubClassOf(obo:PESTON_0001055 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001016> (emulsion, oil in water)
+# Class: obo:PESTON_0001056 (emulsion for seed treatment)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001016> "EW")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001016> "emulsion, oil in water")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001016> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001056 "ES")
+AnnotationAssertion(rdfs:label obo:PESTON_0001056 "emulsion for seed treatment")
+SubClassOf(obo:PESTON_0001056 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001017> (flowable concentrate for seed treatment)
+# Class: obo:PESTON_0001057 (emulsion, oil in water)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001017> "FS")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001017> "flowable concentrate for seed treatment")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001017> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001057 "EW")
+AnnotationAssertion(rdfs:label obo:PESTON_0001057 "emulsion, oil in water")
+SubClassOf(obo:PESTON_0001057 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001018> (smoke generator)
+# Class: obo:PESTON_0001058 (flowable concentrate for seed treatment)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001018> "FU")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001018> "smoke generator")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001018> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001058 "FS")
+AnnotationAssertion(rdfs:label obo:PESTON_0001058 "flowable concentrate for seed treatment")
+SubClassOf(obo:PESTON_0001058 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001019> (gas)
+# Class: obo:PESTON_0001059 (smoke generator)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001019> "GA")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001019> "gas")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001019> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001059 "FU")
+AnnotationAssertion(rdfs:label obo:PESTON_0001059 "smoke generator")
+SubClassOf(obo:PESTON_0001059 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001020> (granule (generic, but defined size range))
+# Class: obo:PESTON_0001060 (gas)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001020> "GR")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001020> "granule (generic, but defined size range)")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001020> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001060 "GA")
+AnnotationAssertion(rdfs:label obo:PESTON_0001060 "gas")
+SubClassOf(obo:PESTON_0001060 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001021> (grease)
+# Class: obo:PESTON_0001061 (granule (generic, but defined size range))
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001021> "GS")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001021> "grease")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001021> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001061 "GR")
+AnnotationAssertion(rdfs:comment obo:PESTON_0001061 "generic, but defined size range")
+AnnotationAssertion(rdfs:label obo:PESTON_0001061 "granule (generic, but defined size range)")
+SubClassOf(obo:PESTON_0001061 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001022> (hot fogging concentrate)
+# Class: obo:PESTON_0001062 (grease)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001022> "HN")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001022> "hot fogging concentrate")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001022> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(rdfs:comment obo:PESTON_0001062 "GS")
+AnnotationAssertion(rdfs:label obo:PESTON_0001062 "grease")
+SubClassOf(obo:PESTON_0001062 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001023> (micro-emulsion)
+# Class: obo:PESTON_0001063 (hot fogging concentrate)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001023> "ME")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001023> "micro-emulsion")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001023> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(rdfs:comment obo:PESTON_0001063 "HN")
+AnnotationAssertion(rdfs:label obo:PESTON_0001063 "hot fogging concentrate")
+SubClassOf(obo:PESTON_0001063 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001024> (oil dispersion)
+# Class: obo:PESTON_0001064 (micro-emulsion)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001024> "OD")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001024> "oil dispersion")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001024> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001064 "ME")
+AnnotationAssertion(rdfs:label obo:PESTON_0001064 "micro-emulsion")
+SubClassOf(obo:PESTON_0001064 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001025> (oil miscible flowable concentrate (oil miscible suspension))
+# Class: obo:PESTON_0001065 (oil dispersion)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001025> "OD")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001025> "oil miscible flowable concentrate (oil miscible suspension)")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001025> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001065 "OD")
+AnnotationAssertion(rdfs:label obo:PESTON_0001065 "oil dispersion")
+SubClassOf(obo:PESTON_0001065 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001026> (oil miscible liquid)
+# Class: obo:PESTON_0001066 (oil miscible flowable concentrate (oil miscible suspension))
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001026> "OL")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001026> "oil miscible liquid")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001026> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001066 "OF")
+AnnotationAssertion(rdfs:label obo:PESTON_0001066 "oil miscible flowable concentrate (oil miscible suspension)")
+AnnotationAssertion(rdfs:label obo:PESTON_0001066 "oil miscible suspension")
+SubClassOf(obo:PESTON_0001066 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001027> (oil dispersible powder)
+# Class: obo:PESTON_0001067 (oil miscible liquid)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001027> "OP")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001027> "oil dispersible powder")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001027> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001067 "OL")
+AnnotationAssertion(rdfs:label obo:PESTON_0001067 "oil miscible liquid")
+SubClassOf(obo:PESTON_0001067 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001028> (paste (water-based, film forming))
+# Class: obo:PESTON_0001068 (oil dispersible powder)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001028> "PA")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001028> "paste (water-based, film forming)")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001028> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001068 "OP")
+AnnotationAssertion(rdfs:label obo:PESTON_0001068 "oil dispersible powder")
+SubClassOf(obo:PESTON_0001068 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001029> (plant rodlet)
+# Class: obo:PESTON_0001069 (paste (water-based, film forming))
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001029> "PR")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001029> "plant rodlet")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001029> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001069 "PA")
+AnnotationAssertion(rdfs:comment obo:PESTON_0001069 "water-based, film forming")
+AnnotationAssertion(rdfs:label obo:PESTON_0001069 "paste (water-based, film forming)")
+SubClassOf(obo:PESTON_0001069 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001030> (bait (ready for use))
+# Class: obo:PESTON_0001070 (plant rodlet)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001030> "RB")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001030> "bait (ready for use)")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001030> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001070 "PR")
+AnnotationAssertion(rdfs:label obo:PESTON_0001070 "plant rodlet")
+SubClassOf(obo:PESTON_0001070 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001031> (suspension concentrate)
+# Class: obo:PESTON_0001071 (bait (ready for use))
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001031> "SC")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001031> "suspension concentrate")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001031> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001071 "RB")
+AnnotationAssertion(rdfs:comment obo:PESTON_0001071 "ready for use")
+AnnotationAssertion(rdfs:label obo:PESTON_0001071 "bait (ready for use)")
+SubClassOf(obo:PESTON_0001071 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001032> (suspo-emulsion)
+# Class: obo:PESTON_0001072 (suspension concentrate (= flowable concentrate))
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001032> "SE")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001032> "suspo-emulsion")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001032> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001072 "SC")
+AnnotationAssertion(rdfs:label obo:PESTON_0001072 "suspension concentrate (= flowable concentrate)")
+SubClassOf(obo:PESTON_0001072 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001033> (water soluble granules)
+# Class: obo:PESTON_0001073 (suspo-emulsion)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001033> "SG")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001033> "water soluble granules")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001033> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001073 "SE")
+AnnotationAssertion(rdfs:label obo:PESTON_0001073 "suspo-emulsion")
+SubClassOf(obo:PESTON_0001073 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001034> (soluble concentrate)
+# Class: obo:PESTON_0001074 (water soluble granules)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001034> "SL")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001034> "soluble concentrate")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001034> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001074 "SG")
+AnnotationAssertion(rdfs:label obo:PESTON_0001074 "water soluble granules")
+SubClassOf(obo:PESTON_0001074 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001035> (water soluble powder)
+# Class: obo:PESTON_0001075 (soluble concentrate)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001035> "SP")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001035> "water soluble powder")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001035> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001075 "SL")
+AnnotationAssertion(rdfs:label obo:PESTON_0001075 "soluble concentrate")
+SubClassOf(obo:PESTON_0001075 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001036> (ultra-low volume (ULV) suspension)
+# Class: obo:PESTON_0001076 (water soluble powder)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001036> "SU")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001036> "ultra-low volume (ULV) suspension")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001036> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001076 "SP")
+AnnotationAssertion(rdfs:label obo:PESTON_0001076 "water soluble powder")
+SubClassOf(obo:PESTON_0001076 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001037> (tablet)
+# Class: obo:PESTON_0001077 (ultra-low volume (ulv) suspension)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001037> "TB")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001037> "tablet")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001037> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001077 "SU")
+AnnotationAssertion(rdfs:label obo:PESTON_0001077 "ultra-low volume (ulv) suspension")
+SubClassOf(obo:PESTON_0001077 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001038> (vapour releasing product)
+# Class: obo:PESTON_0001078 (tablet)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001038> "VP")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001038> "vapour releasing product")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001038> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001078 "TB")
+AnnotationAssertion(rdfs:label obo:PESTON_0001078 "tablet")
+SubClassOf(obo:PESTON_0001078 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001039> (water dispersible granules)
+# Class: obo:PESTON_0001079 (vapour releasing product)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001039> "WG")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001039> "water dispersible granules")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001039> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001079 "VP")
+AnnotationAssertion(rdfs:label obo:PESTON_0001079 "vapour releasing product")
+SubClassOf(obo:PESTON_0001079 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001040> (wettable powder)
+# Class: obo:PESTON_0001080 (water dispersible granules)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001040> "WP")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001040> "wettable powder")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001040> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001080 "WG")
+AnnotationAssertion(rdfs:label obo:PESTON_0001080 "water dispersible granules")
+SubClassOf(obo:PESTON_0001080 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001041> (water dispersible powder for slurry seed treatment)
+# Class: obo:PESTON_0001081 (wettable powder)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001041> "WS")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001041> "water dispersible powder for slurry seed treatment")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001041> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001081 "WP")
+AnnotationAssertion(rdfs:label obo:PESTON_0001081 "wettable powder")
+SubClassOf(obo:PESTON_0001081 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001042> (others)
+# Class: obo:PESTON_0001082 (water dispersible powder for slurry seed treatment)
 
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001042> "XX")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001042> "others")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001042> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001082 "WS")
+AnnotationAssertion(rdfs:label obo:PESTON_0001082 "water dispersible powder for slurry seed treatment")
+SubClassOf(obo:PESTON_0001082 obo:PESTON_0001043)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043> (product format)
+# Class: obo:PESTON_0001083 (others)
 
-AnnotationAssertion(obo:IAO_0000117 <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043> <http://orcid.org/0000-0003-4684-7672>)
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043> "A mixture or structure prepared according to a specific formula.")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043> "product format")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043> obo:BFO_0000040)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001044> (aerosol dispenser)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001044> "AE")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001044> "aerosol dispenser")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001044> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> (liquid product format)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> "AL")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> "liquid product format")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001045> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001046> (bait concentrate)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001046> "CB")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001046> "bait concentrate")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001046> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001047> (contact powder)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001047> "CP")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001047> "contact powder")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001047> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001048> (capsule suspension)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001048> "CS")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001048> "capsule suspension")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001048> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001049> (dispersible concentrate)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001049> "DC")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001049> "dispersible concentrate")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001049> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001050> (dispersible powder)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001050> "DP")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001050> "dispersible powder")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001050> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001051> (powder for dry seed treatment)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001051> "DS")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001051> "powder for dry seed treatment")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001051> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001052> (emulsifiable concentrate)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001052> "EC")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001052> "emulsifiable concentrate")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001052> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001053> (emulsifiable granule)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001053> "EG")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001053> "emulsifiable granule")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001053> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001054> (emulsion, water in oil)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001054> "EO")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001054> "emulsion, water in oil")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001054> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001055> (emulsifiable dust)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001055> "EP")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001055> "emulsifiable dust")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001055> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001056> (emulsion for seed treatment)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001056> "ES")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001056> "emulsion for seed treatment")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001056> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001057> (emulsion, oil in water)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001057> "EW")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001057> "emulsion, oil in water")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001057> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001058> (flowable concentrate for seed treatment)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001058> "FS")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001058> "flowable concentrate for seed treatment")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001058> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001059> (smoke generator)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001059> "FU")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001059> "smoke generator")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001059> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001060> (gas)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001060> "GA")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001060> "gas")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001060> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001061> (granule (generic, but defined size range))
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001061> "GR")
-AnnotationAssertion(rdfs:comment <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001061> "generic, but defined size range")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001061> "granule (generic, but defined size range)")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001061> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001062> (grease)
-
-AnnotationAssertion(rdfs:comment <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001062> "GS")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001062> "grease")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001062> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001063> (hot fogging concentrate)
-
-AnnotationAssertion(rdfs:comment <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001063> "HN")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001063> "hot fogging concentrate")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001063> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001064> (micro-emulsion)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001064> "ME")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001064> "micro-emulsion")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001064> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001065> (oil dispersion)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001065> "OD")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001065> "oil dispersion")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001065> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001066> (oil miscible flowable concentrate (oil miscible suspension))
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001066> "OF")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001066> "oil miscible flowable concentrate (oil miscible suspension)")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001066> "oil miscible suspension")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001066> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001067> (oil miscible liquid)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001067> "OL")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001067> "oil miscible liquid")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001067> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001068> (oil dispersible powder)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001068> "OP")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001068> "oil dispersible powder")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001068> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001069> (paste (water-based, film forming))
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001069> "PA")
-AnnotationAssertion(rdfs:comment <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001069> "water-based, film forming")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001069> "paste (water-based, film forming)")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001069> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001070> (plant rodlet)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001070> "PR")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001070> "plant rodlet")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001070> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001071> (bait (ready for use))
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001071> "RB")
-AnnotationAssertion(rdfs:comment <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001071> "ready for use")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001071> "bait (ready for use)")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001071> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001072> (suspension concentrate (= flowable concentrate))
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001072> "SC")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001072> "suspension concentrate (= flowable concentrate)")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001072> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001073> (suspo-emulsion)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001073> "SE")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001073> "suspo-emulsion")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001073> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001074> (water soluble granules)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001074> "SG")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001074> "water soluble granules")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001074> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001075> (soluble concentrate)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001075> "SL")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001075> "soluble concentrate")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001075> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001076> (water soluble powder)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001076> "SP")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001076> "water soluble powder")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001076> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001077> (ultra-low volume (ulv) suspension)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001077> "SU")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001077> "ultra-low volume (ulv) suspension")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001077> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001078> (tablet)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001078> "TB")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001078> "tablet")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001078> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001079> (vapour releasing product)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001079> "VP")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001079> "vapour releasing product")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001079> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001080> (water dispersible granules)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001080> "WG")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001080> "water dispersible granules")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001080> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001081> (wettable powder)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001081> "WP")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001081> "wettable powder")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001081> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001082> (water dispersible powder for slurry seed treatment)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001082> "WS")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001082> "water dispersible powder for slurry seed treatment")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001082> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001083> (others)
-
-AnnotationAssertion(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001083> "XX")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001083> "others")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001083> <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001043>)
+AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001083 "XX")
+AnnotationAssertion(rdfs:label obo:PESTON_0001083 "others")
+SubClassOf(obo:PESTON_0001083 obo:PESTON_0001043)
 
 
 )

@@ -121,7 +121,6 @@ IAO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/IAO_0000136 # is about
 http://purl.obolibrary.org/obo/IAO_0000422 # postal address
-http://purl.obolibrary.org/obo/IAO_0000646 # postal code
 http://purl.obolibrary.org/obo/IAO_0000027 # data item
 http://purl.obolibrary.org/obo/IAO_0000117 # term editor
 
@@ -147,4 +146,6 @@ http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
 
 [Source annotation URIs to be excluded]
 
+
+http://purl.obolibrary.org/obo/UO_0000187
 

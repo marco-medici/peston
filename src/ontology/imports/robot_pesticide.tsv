@@ -1,5 +1,5 @@
 id	Chemical_role	Chemical_role_ITA	Reg_no	Product	Company	Issue_date	Authorisation_expiry_date	Revocation_date	Authorization_status	Authorization_status_en	Revocation_reason	Revocation_decision_date	Formulation_code	Formulation_description	Formulation_use	Hazard_mention	Hazard_code	IP	PFnPO	PFnPE	Comment
-ID	TYPE SPLIT=|		AT hasAlternativeId^^xsd:nonNegativeInteger	AL rdfs:label@it	I 'produced by'									TYPE SPLIT=|							
+ID	TYPE SPLIT=|		AT hasAlternativeId^^xsd:nonNegativeInteger	AL rdfs:label@it	I 'produced by'									TI % SPLIT=|							
 PESTON:0100001	pesticide product		1	ENOVIT	SIPCAM S.P.A.	1970-04-14		1983-07-14	Revocato	revoked			DP	dispersible powder	D						
 PESTON:0100002	pesticide product		2	CONTRAX STANGE	KEMIO	1971-01-21		1997-03-05	Revocato	revoked	REVOCA PER MANCATA RISPOSTA A RICHIESTE UFFICIO		PR	plant rodlet	R						
 PESTON:0100003	pesticide product		3	QUINTAMON	DU PONT DE NEMOURS ITALIANA S.R.L.	1971-09-07		1990-04-07	Revocato	revoked			DP	dispersible powder	D						
@@ -2391,7 +2391,7 @@ PESTON:0102627	pesticide product		2627	ZOLFO HI 80	AVENTIS CROPSCIENCE ITALIA S.
 PESTON:0102628	pesticide product		2628	ZOLFO HI 50	AVENTIS CROPSCIENCE ITALIA S.P.A.	1977-07-02		1991-05-04	Revocato	revoked											
 PESTON:0102629	pesticide product		2629	GAMMA TECNITERRA INODORO	TECNITERRA S.R.L.	1977-07-04		1991-10-25	Revocato	revoked			DP	dispersible powder	D						
 PESTON:0102630	fungicide product	FUNGICIDA	2630	MAZEB RAMATO	CORTEVA AGRISCIENCE ITALIA S.R.L.	1979-05-25		2009-12-01	Revocato	revoked			WP	wettable powder	W	harmful	Xn				
-PESTON:0102631	insect repellant product	REPELLENTE	2631	MORKIT P.B.	BAYER CROPSCIENCE S.R.L.	1977-07-02		2009-06-15	Revocato	revoked			WP	wettable powder	W	irritant	Xi				
+PESTON:0102631	insect repellent product	REPELLENTE	2631	MORKIT P.B.	BAYER CROPSCIENCE S.R.L.	1977-07-02		2009-06-15	Revocato	revoked			WP	wettable powder	W	irritant	Xi				
 PESTON:0102632	pesticide product		2632	MORESTAN	BAYER CROPSCIENCE S.R.L.	1977-07-02		2002-10-31	Revocato	revoked			WP	wettable powder	W						
 PESTON:0102633	pesticide product		2633	ACATION MT	ISAGRO S.P.A.	1977-07-07		1991-10-25	Revocato	revoked											
 PESTON:0102634	herbicide product	DISERBANTE	2634	BUGGY	SIPCAM ITALIA S.P.A.	1977-07-02	2017-12-31	2016-08-22	Revocato	revoked			AL	liquid product format	M	dangerous for environment|irritant	N|Xi				
@@ -2610,7 +2610,7 @@ PESTON:0102850	pesticide product		2850	SIMAZ	CHEMIA S.P.A.	1979-01-31		2004-09-1
 PESTON:0102851	pesticide product		2851	ENDILFOS PB	AVENTIS CROPSCIENCE ITALIA S.P.A.	1978-08-08		1991-07-25	Revocato	revoked											
 PESTON:0102852	fungicide product	FUNGICIDA	2852	CURITAL	BAYER CROPSCIENCE S.R.L.	1978-08-08		2008-09-01	Revocato	revoked			WP	wettable powder	W						
 PESTON:0102853	pesticide product		2853	CURITAL POLVERE	BAYER CROPSCIENCE S.R.L.	1978-08-08		2004-07-30	Revocato	revoked			DP	dispersible powder	D						
-PESTON:0102854	insect repellant product	REPELLENTE	2854	ORNISTOP 20 PS	SIAPA S.R.L.	1978-08-05		2009-06-15	Revocato	revoked			DP	dispersible powder	D	irritant	Xi				
+PESTON:0102854	insect repellent product	REPELLENTE	2854	ORNISTOP 20 PS	SIAPA S.R.L.	1978-08-05		2009-06-15	Revocato	revoked			DP	dispersible powder	D	irritant	Xi				
 PESTON:0102855	pesticide product		2855	CAMPAROL S	SYNGENTA ITALIA S.P.A.	1980-01-14		1997-11-17	Revocato	revoked			WP	wettable powder	W						
 PESTON:0102856	pesticide product		2856	SUTAN	SIAPA S.R.L.	1978-08-07		2003-07-26	Revocato	revoked			EC	emulsifiable concentrate	W						
 PESTON:0102857	pesticide product		2857	SOFFOCOL	S.A.R.I.A.F. S.P.A.	1978-06-09		1996-12-02	Revocato	revoked			RB	bait (ready for use)	B						
@@ -5176,7 +5176,7 @@ PESTON:0105416	pesticide product		5416	TRALIN	ENOTRIA S.P.A.	1983-07-14		1990-08
 PESTON:0105417	pesticide product		5417	MESTHAN 2	ENOTRIA S.P.A.	1983-07-04		1995-10-16	Revocato	revoked											
 PESTON:0105418	fungicide product	FUNGICIDA	5418	FOLMAN	NEW AGRI S.R.L.	1983-07-04		2007-10-31	Revocato	revoked			WP	wettable powder	W	harmful	Xn				
 PESTON:0105419	pesticide product		5419	IDRONET GR	VISPLANT CHIMIREN S.P.A.	1983-01-01		1996-10-14	Revocato	revoked											
-PESTON:0105420	insect repellant product	REPELLENTE	5420	MORKIT CONCIA SEMI	BAYER CROPSCIENCE S.R.L.	1983-09-14		2009-06-15	Revocato	revoked			DS	powder for dry seed treatment	S	irritant	Xi				
+PESTON:0105420	insect repellent product	REPELLENTE	5420	MORKIT CONCIA SEMI	BAYER CROPSCIENCE S.R.L.	1983-09-14		2009-06-15	Revocato	revoked			DS	powder for dry seed treatment	S	irritant	Xi				
 PESTON:0105421	pesticide product		5421	APER R	SYNGENTA ITALIA S.P.A.	1983-09-14		2001-03-23	Revocato	revoked			WP	wettable powder	W						
 PESTON:0105422	pesticide product		5422	TAMARON 25 PB	BAYER CROPSCIENCE S.R.L.	1983-10-10		1991-07-25	Revocato	revoked											
 PESTON:0105423	pesticide product		5423	PRECURAN S	SYNGENTA ITALIA S.P.A.	1983-09-14		1997-11-17	Revocato	revoked			DP	dispersible powder	D						
@@ -6477,7 +6477,7 @@ PESTON:0106718	pesticide product		6718	LASSO LINURON L	SIPCAM S.P.A.	1986-06-04	
 PESTON:0106719	adjuvant product	COADIUVANTE	6719	LIOSOL BETA	ARYSTA LIFESCIENCE BENELUX SPRL	1986-06-04	2015-12-31	2015-12-31	Revocato	revoked			SL	soluble concentrate	W						
 PESTON:0106720	acaricide product	ACARICIDA	6720	PENNSTYL 25 PB	UPL ITALIA S.R.L.	1986-06-04		2008-10-04	Revocato	revoked			WP	wettable powder	W	harmful|dangerous for environment	Xn|N				
 PESTON:0106721	pesticide product		6721	MESSIDOR	ITAL-AGRO S.R.L.	1986-06-04		2004-07-30	Revocato	revoked			WP	wettable powder	W						
-PESTON:0106722	insect repellant product	REPELLENTE	6722	HANTREX PB	ITAL-AGRO S.R.L.	1986-06-04		2009-06-15	Revocato	revoked			WP	wettable powder	W	irritant	Xi				
+PESTON:0106722	insect repellent product	REPELLENTE	6722	HANTREX PB	ITAL-AGRO S.R.L.	1986-06-04		2009-06-15	Revocato	revoked			WP	wettable powder	W	irritant	Xi				
 PESTON:0106723	pesticide product		6723	BENDAC	AVENTIS CROPSCIENCE ITALIA S.P.A.	1986-06-04		1992-03-16	Revocato	revoked											
 PESTON:0106724	pesticide product		6724	CEREALBEN	AVENTIS CROPSCIENCE ITALIA S.P.A.	1986-06-04		1996-02-01	Revocato	revoked			WP	wettable powder	W						
 PESTON:0106725	pesticide product		6725	VELPAZIN	AVENTIS CROPSCIENCE ITALIA S.P.A.	1986-06-04		1987-03-04	Revocato	revoked											
@@ -13940,7 +13940,7 @@ PESTON:0114884	herbicide product	DISERBANTE	14884	CORUM	BASF ITALIA S.P.A.	2011-
 PESTON:0114885	herbicide product	DISERBANTE	14885	ROUNDUP RAPIDO	EVERGREEN GARDEN CARE FRANCE SAS	2012-11-19	2022-12-15		Autorizzato	authorised			AL	liquid product format	M				SI		
 PESTON:0114889	fungicide product	FUNGICIDA	14889	SULPHOZOL DF	SULPHUR MILLS LTD	2011-03-02	2021-12-31		Autorizzato	authorised			WG	water dispersible granules	W	irritant	Xi			SI	
 PESTON:0114890	fungicide product	FUNGICIDA	14890	SANBLIGHT	NISSAN CHEMICAL EUROPE S.A.S	2011-09-26	2024-06-30	2015-04-01	Revocato	revoked			WG	water dispersible granules	W	dangerous for environment|harmful	N|Xn				
-PESTON:0114891	insect repellant product	REPELLENTE	14891	TRICO	KWIZDA AGRO GMBH	2013-05-10	2022-07-31		Autorizzato	authorised			OL	oil miscible liquid	U					SI	
+PESTON:0114891	insect repellent product	REPELLENTE	14891	TRICO	KWIZDA AGRO GMBH	2013-05-10	2022-07-31		Autorizzato	authorised			OL	oil miscible liquid	U					SI	
 PESTON:0114892	fungicide product	FUNGICIDA	14892	S EXTRA	ARYSTA LIFESCIENCE BENELUX SPRL	2011-05-11	2020-12-31	2017-06-19	Revocato	revoked			WP	wettable powder	W	irritant	Xi				
 PESTON:0114894	insecticide product	INSETTICIDA	14894	LANNATE 25 WP	DU PONT DE NEMOURS ITALIANA S.R.L.	2012-05-10	2019-08-31	2019-09-20	Revocato	revoked			WP	wettable powder	W	dangerous for environment|toxic	N|T				
 PESTON:0114895	insecticide product	INSETTICIDA	14895	LANNATE 20 SL	DU PONT DE NEMOURS ITALIANA S.R.L.	2012-05-10	2019-08-31	2019-09-20	Revocato	revoked			SL	soluble concentrate	W	dangerous for environment|toxic	N|T				
@@ -14562,7 +14562,7 @@ PESTON:0115571	herbicide product	DISERBANTE	15571	METSY	NUFARM ITALIA S.R.L.	201
 PESTON:0115572	fungicide product	FUNGICIDA	15572	ZOMINEX	GOWAN ITALIA S.R.L.	2012-10-08	2034-06-30	2021-01-25	Revocato	revoked			SC	suspension concentrate (= flowable concentrate)	W	dangerous for environment	N				
 PESTON:0115573	fungicide product	FUNGICIDA	15573	PROMESS SL	ARYSTA LIFESCIENCE BENELUX SPRL	2012-11-26	2022-07-31		Ri-registrato	re-registered			SL	soluble concentrate	W						
 PESTON:0115574	fungicide product	FUNGICIDA	15574	KARMA 85	CERTIS EUROPE B.V.	2012-12-13	2022-08-31		Autorizzato in regime di Riconoscimento Reciproco	authorised - under mutual recognition - Regulation (EC) No 764/2008			WP	wettable powder	W					SI	
-PESTON:0115575	insect repellant product	REPELLENTE	15575	MESUROL 500 FS	BAYER CROPSCIENCE S.R.L.	2013-11-11	2020-07-31	2019-11-21	Revocato	revoked			FS	flowable concentrate for seed treatment	S	dangerous for environment|toxic	N|T				
+PESTON:0115575	insect repellent product	REPELLENTE	15575	MESUROL 500 FS	BAYER CROPSCIENCE S.R.L.	2013-11-11	2020-07-31	2019-11-21	Revocato	revoked			FS	flowable concentrate for seed treatment	S	dangerous for environment|toxic	N|T				
 PESTON:0115576	herbicide product	DISERBANTE	15576	CLERANDA	BASF ITALIA S.P.A.	2013-01-23	2025-10-31		Autorizzato in regime di Riconoscimento Reciproco	authorised - under mutual recognition - Regulation (EC) No 764/2008			SC	suspension concentrate (= flowable concentrate)	W	dangerous for environment|irritant	N|Xi				
 PESTON:0115577	herbicide product	DISERBANTE	15577	ROUNDUP GEL	EVERGREEN GARDEN CARE FRANCE SAS	2013-03-26	2022-12-15		Autorizzato in regime di Riconoscimento Reciproco	authorised - under mutual recognition - Regulation (EC) No 764/2008									SI		
 PESTON:0115578	insecticide product	INSETTICIDA	15578	PYPHEN 10 EC	COLIA TRADE S.R.L.	2012-10-02	2014-01-31		Scaduto	expired			EC	emulsifiable concentrate	W	irritant|dangerous for environment	Xi|N	SI			
@@ -16441,7 +16441,7 @@ PESTON:0117878	fungicide product	FUNGICIDA	17878	DENTAMET SYM	DIACHEM S.P.A.	202
 PESTON:0117879	fungicide product	FUNGICIDA	17879	CAMPLAN SC	SIPCAM ITALIA S.P.A.	2021-07-22	2022-08-31		Autorizzato	authorised			SC	suspension concentrate (= flowable concentrate)	W						
 PESTON:0117880	fungicide product	FUNGICIDA	17880	AZULEO	ISK BIOSCIENCES EUROPE N.V.	2021-07-28	2037-07-31		Autorizzato	authorised			SC	suspension concentrate (= flowable concentrate)	W						
 PESTON:0117884	insecticide product	INSETTICIDA	17884	CONETRAP BACTROCERA	PROBODELT S.L	2021-09-08	2024-03-31		Autorizzato in regime di Riconoscimento Reciproco	authorised - under mutual recognition - Regulation (EC) No 764/2008			RB	bait (ready for use)	B						
-PESTON:0117885	insect repellant product	REPELLENTE	17885	CURB LIQUID	AGRICO S.R.L.	2021-09-15	2022-01-12		Autorizzato in deroga (art. 53 Reg. 1107/2009)	authorised - in derogation from Regulation (EC) No 1107/2009, art. 53			SL	soluble concentrate	W						
+PESTON:0117885	insect repellent product	REPELLENTE	17885	CURB LIQUID	AGRICO S.R.L.	2021-09-15	2022-01-12		Autorizzato in deroga (art. 53 Reg. 1107/2009)	authorised - in derogation from Regulation (EC) No 1107/2009, art. 53			SL	soluble concentrate	W						
 PESTON:0117887	drier product	DISSECCANTE	17887	AGER-BI SUPER SECCO	NOVAMONT S.P.A.	2021-08-11	2021-12-09		Autorizzato in deroga (art. 53 Reg. 1107/2009)	authorised - in derogation from Regulation (EC) No 1107/2009, art. 53			EC	emulsifiable concentrate	W						
 PESTON:0117888	insecticide product	INSETTICIDA	17888	VOLIAM	CHEMINOVA AGRO ITALIA S.R.L.	2021-09-16	2024-04-30		Autorizzato	authorised			SC	suspension concentrate (= flowable concentrate)	W						
 PESTON:0117889	insecticide product	INSETTICIDA	17889	SIMPLY	DIACHEM S.P.A.	2021-09-03	2024-12-31		Autorizzato	authorised			GR	granule (generic, but defined size range)	D						
