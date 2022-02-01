@@ -32,4 +32,8 @@ robot template --template robot_company.tsv \
   --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/address_import.owl" \
   --output address_import.owl
 
-
+./robot.bat template --template robot_events.tsv \
+  --input "peston-merged.owl" \
+  --prefix "PESTON:http://purl.obolibrary.org/obo/PESTON_" \
+  --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/events_import.owl" \
+  --output events_import.owl
