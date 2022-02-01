@@ -279,7 +279,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C164516 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C164516">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25164"/>
+        <rdfs:subClassOf rdf:resource="https://marco-medici.github.io/peston/peston.owl/events"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label>pesticide authorization expiry date</rdfs:label>
     </owl:Class>
@@ -341,7 +341,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C71476 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C71476">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25164"/>
+        <rdfs:subClassOf rdf:resource="https://marco-medici.github.io/peston/peston.owl/events"/>
         <obo:IAO_0000115>A date of an official approvation, recognition, or acceptance as satisfactory.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label>pesticide issue date</rdfs:label>
@@ -369,6 +369,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">planned process</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- https://marco-medici.github.io/peston/peston.owl/events -->
+
+    <owl:Class rdf:about="https://marco-medici.github.io/peston/peston.owl/events"/>
 </rdf:RDF>
 
 
