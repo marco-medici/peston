@@ -105,6 +105,7 @@ Declaration(Class(obo:PESTON_0001081))
 Declaration(Class(obo:PESTON_0001082))
 Declaration(Class(obo:PESTON_0001083))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>))
+Declaration(Class(:events))
 Declaration(ObjectProperty(obo:RO_0000087))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000221>))
 Declaration(ObjectProperty(<https://schema.org/addressCountry>))
@@ -200,7 +201,7 @@ SubClassOf(obo:PESTON_0000004 obo:PESTON_0000001)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000005 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000005 "2021-11-23T00:19:40Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000005 "pesticide revocation date"@en)
-SubClassOf(obo:PESTON_0000005 obo:NCIT_C25164)
+SubClassOf(obo:PESTON_0000005 :events)
 
 # Class: obo:PESTON_0000006 (phytosanitary product)
 
@@ -772,7 +773,11 @@ SubClassOf(obo:PESTON_0001083 obo:PESTON_0001043)
 
 AnnotationAssertion(rdfs:comment <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> "Parallel importing refer to branded goods that have been manufactured by or under license of the brand owner, but they may have been formulated or packaged for a particular market and are imported into a different jurisdiction in contradiction to the brand owner’s intention, thereby sold at reduced price. Parallel importing is regulated differently between countries."@en)
 AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> "IP")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> obo:IAO_0000027)
+SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> obo:IAO_0000030)
+
+# Class: :events (:events)
+
+SubClassOf(:events obo:NCIT_C25164)
 
 
 )
