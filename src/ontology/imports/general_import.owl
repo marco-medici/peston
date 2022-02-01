@@ -372,6 +372,15 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000">
+        <rdfs:subClassOf rdf:resource="https://marco-medici.github.io/peston/peston.owl/events"/>
+        <rdfs:label>pesticide revocation date</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://marco-medici.github.io/peston/peston.owl/events -->
 
     <owl:Class rdf:about="https://marco-medici.github.io/peston/peston.owl/events"/>
