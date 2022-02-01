@@ -772,7 +772,7 @@ SubClassOf(obo:PESTON_0001083 obo:PESTON_0001043)
 
 AnnotationAssertion(rdfs:comment <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> "Parallel importing refer to branded goods that have been manufactured by or under license of the brand owner, but they may have been formulated or packaged for a particular market and are imported into a different jurisdiction in contradiction to the brand owner’s intention, thereby sold at reduced price. Parallel importing is regulated differently between countries."@en)
 AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> "IP")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> obo:PESTON_0000006)
+SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> obo:IAO_0000027)
 
 
 )
