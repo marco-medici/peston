@@ -179,11 +179,11 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000002 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000002 "pesticide authorized"@en)
 SubClassOf(obo:PESTON_0000002 obo:PESTON_0000001)
 
-# Class: obo:PESTON_0000003 (pesticide revolked)
+# Class: obo:PESTON_0000003 (pesticide revoked)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000003 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000003 "2021-11-23T00:18:01Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000003 "pesticide revolked"@en)
+AnnotationAssertion(rdfs:label obo:PESTON_0000003 "pesticide revoked"@en)
 SubClassOf(obo:PESTON_0000003 obo:PESTON_0000001)
 
 # Class: obo:PESTON_0000004 (pesticide re-registered)
