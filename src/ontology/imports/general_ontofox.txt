@@ -18,7 +18,10 @@ http://purl.obolibrary.org/obo/NCIT_C164516 # expiration date
 http://purl.obolibrary.org/obo/NCIT_C16632 # geographic area
 http://purl.obolibrary.org/obo/NCIT_C25164 # date
 
-http://purl.obolibrary.org/obo/NCIT_C82533 # Active Ingredient
+http://purl.obolibrary.org/obo/NCIT_C51981 # Ingredient
+http://purl.obolibrary.org/obo/NCIT_C82533 #    Active Ingredient
+http://purl.obolibrary.org/obo/NCIT_C177929 #   Drug Product Component
+
 
 [Source term retrieval setting]
 includeNoIntermediates

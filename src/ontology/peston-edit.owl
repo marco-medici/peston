@@ -104,6 +104,7 @@ Declaration(Class(obo:PESTON_0001080))
 Declaration(Class(obo:PESTON_0001081))
 Declaration(Class(obo:PESTON_0001082))
 Declaration(Class(obo:PESTON_0001083))
+Declaration(Class(obo:PESTON_0003000))
 Declaration(ObjectProperty(obo:RO_0000087))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000221>))
 Declaration(ObjectProperty(<https://schema.org/addressCountry>))
@@ -364,11 +365,11 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000026 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000026 "food preservative product"@en)
 SubClassOf(obo:PESTON_0000026 obo:PESTON_0000012)
 
-# Class: obo:PESTON_0000027 (chemical by hazardous nature)
+# Class: obo:PESTON_0000027 (chemical hazard)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000027 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000027 "2022-01-29T08:25:19Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000027 "chemical by hazardous nature"@en)
+AnnotationAssertion(rdfs:label obo:PESTON_0000027 "chemical hazard"@en)
 SubClassOf(obo:PESTON_0000027 obo:BFO_0000040)
 
 # Class: obo:PESTON_0000028 (molluscicide product)
@@ -766,6 +767,13 @@ SubClassOf(obo:PESTON_0001082 obo:PESTON_0001043)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001083 "XX")
 AnnotationAssertion(rdfs:label obo:PESTON_0001083 "others")
 SubClassOf(obo:PESTON_0001083 obo:PESTON_0001043)
+
+# Class: obo:PESTON_0003000 (pesticide ingredient)
+
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0003000 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0003000 "2022-01-31T21:08:42Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0003000 "pesticide ingredient"@en)
+SubClassOf(obo:PESTON_0003000 obo:BFO_0000040)
 
 
 )
