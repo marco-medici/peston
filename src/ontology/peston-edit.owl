@@ -14,13 +14,13 @@ Import(<http://purl.obolibrary.org/obo/pestico/wikidata_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/address_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/ai_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/company_import.owl>)
+Import(<http://purl.obolibrary.org/obo/peston/imports/events_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/pesticide_import.owl>)
 
 Declaration(Class(obo:PESTON_0000001))
 Declaration(Class(obo:PESTON_0000002))
 Declaration(Class(obo:PESTON_0000003))
 Declaration(Class(obo:PESTON_0000004))
-Declaration(Class(obo:PESTON_0000005))
 Declaration(Class(obo:PESTON_0000006))
 Declaration(Class(obo:PESTON_0000007))
 Declaration(Class(obo:PESTON_0000008))
@@ -106,7 +106,6 @@ Declaration(Class(obo:PESTON_0001082))
 Declaration(Class(obo:PESTON_0001083))
 Declaration(Class(obo:PESTON_0001084))
 Declaration(Class(obo:PESTON_0001085))
-Declaration(Class(obo:PESTON_0001086))
 Declaration(ObjectProperty(obo:RO_0000087))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000221>))
 Declaration(ObjectProperty(<https://schema.org/addressCountry>))
@@ -156,17 +155,13 @@ AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000300> 
 #   Classes
 ############################
 
-# Class: obo:NCIT_C25164 (Date)
-
-SubClassOf(obo:NCIT_C25164 obo:IAO_0000027)
-
 # Class: obo:NCIT_C54131 (Company)
 
 SubClassOf(obo:NCIT_C54131 obo:BFO_0000040)
 
 # Class: obo:NCIT_C82533 (Active Ingredient)
 
-SubClassOf(obo:NCIT_C82533 obo:BFO_0000040)
+SubClassOf(obo:NCIT_C82533 obo:PESTON_0001084)
 
 # Class: obo:PESTON_0000001 (pesticide authorization status)
 
@@ -196,13 +191,6 @@ AnnotationAssertion(obo:IAO_0000118 obo:PESTON_0000004 "pesticide re-authorized"
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000004 "2021-11-23T00:18:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000004 "pesticide re-registered"@en)
 SubClassOf(obo:PESTON_0000004 obo:PESTON_0000001)
-
-# Class: obo:PESTON_0000005 (pesticide revocation date)
-
-AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000005 <http://orcid.org/0000-0002-8844-9165>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000005 "2021-11-23T00:19:40Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000005 "pesticide revocation date"@en)
-SubClassOf(obo:PESTON_0000005 obo:PESTON_0001086)
 
 # Class: obo:PESTON_0000006 (phytosanitary product)
 
@@ -237,14 +225,14 @@ SubClassOf(obo:PESTON_0000009 obo:PESTON_0000007)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000010 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000010 "2021-11-23T00:23:08Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000010 "primary address"@en)
-SubClassOf(obo:PESTON_0000010 obo:IAO_0000422)
+SubClassOf(obo:PESTON_0000010 <https://schema.org/PostalAddress>)
 
 # Class: obo:PESTON_0000011 (legally registered address)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000011 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000011 "2021-11-23T00:23:38Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000011 "legally registered address"@en)
-SubClassOf(obo:PESTON_0000011 obo:IAO_0000422)
+SubClassOf(obo:PESTON_0000011 <https://schema.org/PostalAddress>)
 
 # Class: obo:PESTON_0000012 (pesticide product)
 
@@ -782,11 +770,6 @@ SubClassOf(obo:PESTON_0001084 obo:BFO_0000040)
 AnnotationAssertion(rdfs:comment obo:PESTON_0001085 "Parallel importing refer to branded goods that have been manufactured by or under license of the brand owner, but they may have been formulated or packaged for a particular market and are imported into a different jurisdiction in contradiction to the brand owner’s intention, thereby sold at reduced price. Parallel importing is regulated differently between countries."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0001085 "IP")
 SubClassOf(obo:PESTON_0001085 obo:IAO_0000030)
-
-# Class: obo:PESTON_0001086 (events)
-
-SubClassOf(obo:PESTON_0001086 obo:NCIT_C25164)
-
 
 
 )

@@ -264,28 +264,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000422 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000422">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000115>A textual entity that is used as directive to deliver something to a person, or organization</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label xml:lang="en">postal address</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C164516 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C164516">
-        <rdfs:subClassOf rdf:resource="https://marco-medici.github.io/peston/peston.owl/events"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>pesticide authorization expiry date</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C16632 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16632">
@@ -338,17 +316,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C71476 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C71476">
-        <rdfs:subClassOf rdf:resource="https://marco-medici.github.io/peston/peston.owl/events"/>
-        <obo:IAO_0000115>A date of an official approvation, recognition, or acceptance as satisfactory.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>pesticide issue date</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C82533 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C82533">
@@ -372,18 +339,45 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000 -->
+    <!-- http://purl.obolibrary.org/obo/PESTON_0000038 -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000">
-        <rdfs:subClassOf rdf:resource="https://marco-medici.github.io/peston/peston.owl/events"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PESTON_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25164"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>pesticide authorization expiry date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PESTON_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PESTON_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25164"/>
+        <obo:IAO_0000115>A date of an official approvation, recognition, or acceptance as satisfactory.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>pesticide issue date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PESTON_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PESTON_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25164"/>
         <rdfs:label>pesticide revocation date</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://marco-medici.github.io/peston/peston.owl/events -->
+    <!-- https://schema.org/PostalAddress -->
 
-    <owl:Class rdf:about="https://marco-medici.github.io/peston/peston.owl/events"/>
+    <owl:Class rdf:about="https://schema.org/PostalAddress">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A textual entity that is used as directive to deliver something to a person, or organization</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">postal address</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
