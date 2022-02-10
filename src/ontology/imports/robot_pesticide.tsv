@@ -1,4 +1,4 @@
-id	Chemical_role	Chemical_role_ITA	Reg_no	Product	Company	Authorization_status	Authorization_status_en	Revocation_reason	Revocation_decision_date	Formulation_description	Hazard_mention	pesticide parallel importing	PFnPO	PFnPE	Comment
+id	Chemical_role	Chemical_role_ITA	Reg_no	Product	Company	Authorization_status	Authorization_status_en	Revocation_reason	Revocation_decision_date	Formulation_description	Hazard_mention	IP	PFnPO	PFnPE	Comment
 ID	TYPE SPLIT=|		AT hasAlternativeId^^xsd:nonNegativeInteger	AL rdfs:label@it	I 'produced by'					TI % SPLIT=|	TI % SPLIT=|	TI %	TI %	TI %	
 PESTON:0115779	insecticide product	INSETTICIDA	15779	ABANTO	INDUSTRIAS AFRASA S.A	Ri-registrato	re-registered			emulsifiable concentrate	chemical dangerous for environment				
 PESTON:0111399	fungicide product	FUNGICIDA	11399	ABOTRIL PB	MANICA S.P.A.	Revocato	revoked			wettable powder	chemical dangerous for environment				
@@ -11,9 +11,9 @@ PESTON:0106753	acaricide product	ACARICIDA	6753	ACAROX	ITAL-AGRO S.R.L.	Revocato
 PESTON:0100276	acaricide product	ACARICIDA	276	ACARSTIN	SIPCAM S.P.A.	Revocato	revoked			wettable powder	chemical dangerous for environment				
 PESTON:0105963	acaricide product	ACARICIDA	5963	ACARSTIN LS	SIPCAM S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0111322	acaricide product	ACARICIDA	11322	ACARTOX	ARYSTA LIFESCIENCE BENELUX SPRL	Revocato	revoked			wettable powder	chemical dangerous for environment				
-PESTON:0115468	fungicide product	FUNGICIDA	15468	ACASTA	AGCHEM ACCESS LTD.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115468	fungicide product	FUNGICIDA	15468	ACASTA	AGCHEM ACCESS LTD.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment	IP			
 PESTON:0113216	herbicide product	DISERBANTE	13216	ACCENT	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment				
-PESTON:0115504	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	15504	ACRIATE FLO	COLIA TRADE S.R.L.	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115504	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	15504	ACRIATE FLO	COLIA TRADE S.R.L.	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment	IP			
 PESTON:0114685	fungicide product	FUNGICIDA	14685	ACROBAT R 3B	BASF ITALIA S.P.A.	Ri-registrato	re-registered			wettable powder	chemical dangerous for environment				
 PESTON:0116010	acaricide product	ACARICIDA	16010	ACRUX 10 WP	ASCENZA AGRO S.A.	Ri-registrato	re-registered			wettable powder	chemical dangerous for environment				
 PESTON:0114766	insecticide product	INSETTICIDA	14766	ACTARA 240 SC	SYNGENTA ITALIA S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
@@ -28,7 +28,7 @@ PESTON:0111582	insecticide product	INSETTICIDA	11582	AFIDINA 40 WG	SCAM S.P.A.	R
 PESTON:0112415	pesticide product		12415	AFIDINA MICRO C	UPL ITALIA S.R.L.	Revocato	revoked			capsule suspension	chemical dangerous for environment				
 PESTON:0113721	insecticide product	INSETTICIDA	13721	AFIDINA QUICK	ADAMA ITALIA S.R.L.	Revocato	revoked			capsule suspension	chemical dangerous for environment				
 PESTON:0104840	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	4840	AFITAN	GUABER S.P.A.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment				
-PESTON:0114607	herbicide product	DISERBANTE	14607	AGLIF 360	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Revocato	revoked			soluble concentrate	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0114607	herbicide product	DISERBANTE	14607	AGLIF 360	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Revocato	revoked			soluble concentrate	chemical dangerous for environment	IP			
 PESTON:0113569	insecticide product	INSETTICIDA	13569	AGOS	SIVAM S.P.A.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment				
 PESTON:0108067	fungicide product	FUNGICIDA	8067	AGRIGOLF	SUMITOMO CHEMICAL AGRO EUROPE S.A.S.	Revocato	revoked			wettable powder	chemical dangerous for environment				
 PESTON:0111427	fungicide product	FUNGICIDA	11427	AGRIGOLF GOLD	SUMITOMO CHEMICAL AGRO EUROPE S.A.S.	Ri-registrato	re-registered			wettable powder	chemical dangerous for environment				
@@ -37,7 +37,7 @@ PESTON:0111721	fungicide product	FUNGICIDA	11721	AGRIMIR	AGRIM S.R.L.	Revocato	r
 PESTON:0112634	insecticide product	INSETTICIDA	12634	AGRIMIX ETOFENPROX 280	AGRIMIX S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment				
 PESTON:0112576	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	12576	AGRIMIX FLUFEN 50 DC	AGRIMIX S.R.L.	Revocato	revoked			dispersible concentrate	chemical dangerous for environment				
 PESTON:0113404	insecticide product	INSETTICIDA	13404	AGRIMIX TRIFLUMURON 480	AGRIMIX S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
-PESTON:0114625	herbicide product	DISERBANTE	14625	AGRO TRIBENURON	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Revocato	revoked			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0114625	herbicide product	DISERBANTE	14625	AGRO TRIBENURON	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Revocato	revoked			water dispersible granules	chemical dangerous for environment	IP			
 PESTON:0112532	herbicide product	DISERBANTE	12532	AGRO-NICO 40	AGRO TRADE GMBH	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0108001	insecticide product	INSETTICIDA	8001	AGRO-PYR	COPYR S.P.A.	Ri-registrato	re-registered			emulsifiable concentrate	chemical dangerous for environment			PFnPE (edible)	
 PESTON:0110315	insecticide product	INSETTICIDA	10315	AGROCYDE 100 EC	SBM DEVELOPPEMENT S.A.S.	Ri-registrato	re-registered			emulsifiable concentrate	chemical dangerous for environment				
@@ -62,8 +62,8 @@ PESTON:0109005	herbicide product	DISERBANTE	9005	AGIL	ADAMA QUENA N.V.	Ri-regist
 PESTON:0114031	fungicide product	FUNGICIDA	14031	AKSUM	ROCCA FRUTTA S.R.L.	Revocato	revoked			wettable powder	chemical dangerous for environment|chemical irritant				
 PESTON:0109076	herbicide product	DISERBANTE	9076	2,4 DISERBIN E	NUFARM S.A.S.	Revocato	revoked			soluble concentrate	chemical dangerous for environment|harmful chemical				
 PESTON:0114751	insecticide product	INSETTICIDA	14751	ABALAR	PROPLAN PLANT PROTECTION COMPANY S.L.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
-PESTON:0114702	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	14702	ABAROC	ROCCA FRUTTA S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
-PESTON:0115697	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	15697	ABBA-M 18	AGCHEM ACCESS LTD.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0114702	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	14702	ABAROC	ROCCA FRUTTA S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
+PESTON:0115697	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	15697	ABBA-M 18	AGCHEM ACCESS LTD.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0114857	fungicide product	FUNGICIDA	14857	ABOTRIL 500	SHARDA CROPCHEM LIMITED	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical				
 PESTON:0100177	herbicide product	DISERBANTE	177	ACANOS 450	NUFARM S.A.S.	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment|harmful chemical				
 PESTON:0109418	acaricide product	ACARICIDA	9418	ACARION EW	CHEMTURA ITALY S.R.L.	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment|harmful chemical				
@@ -141,7 +141,7 @@ PESTON:0101151	acaricide product	ACARICIDA	1151	ACARED 40 S	AGRIPHAR ITALIA S.R.
 PESTON:0105053	insecticide product	INSETTICIDA	5053	ACTELLIC 5	NEWPHARM S.R.L.	Ri-registrato	re-registered			liquid product format	harmful chemical				
 PESTON:0111687	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	11687	ACTELLIC 5 NEWPHARM	NEWPHARM S.R.L.	Ri-registrato	re-registered			soluble concentrate	harmful chemical				
 PESTON:0107920	insecticide product	INSETTICIDA	7920	ACTELLIC FUMOGENO	ACTIVA S.R.L.	Revocato	revoked			smoke generator	harmful chemical				
-PESTON:0115704	plant growth regulator product	FITOREGOLATORE	15704	ADELANTE 48	ROCCA FRUTTA S.R.L.	Scaduto	expired			soluble concentrate	harmful chemical	pesticide parallel importing			
+PESTON:0115704	plant growth regulator product	FITOREGOLATORE	15704	ADELANTE 48	ROCCA FRUTTA S.R.L.	Scaduto	expired			soluble concentrate	harmful chemical	IP			
 PESTON:0104480	insecticide product	INSETTICIDA	4480	ADIREX	ISAGRO S.P.A.	Revocato	revoked			water soluble powder	harmful chemical				
 PESTON:0103482	fungicide product	FUNGICIDA	3482	ADODIN	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			wettable powder	harmful chemical				
 PESTON:0109907	fungicide product	FUNGICIDA	9907	ADOMAR	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate	harmful chemical				
@@ -316,7 +316,7 @@ PESTON:0105552	pesticide product		5552	ACSIUS 5	SCAM S.P.A.	Revocato	revoked			e
 PESTON:0107955	pesticide product		7955	ACTAN	SYNGENTA ITALIA S.P.A.	Revocato	revoked			water dispersible granules					
 PESTON:0107952	pesticide product		7952	ACTAN MZ	SYNGENTA ITALIA S.P.A.	Revocato	revoked			wettable powder					
 PESTON:0102796	pesticide product		2796	ACTAN SEED DRESSING	SOLPLANT S.P.A.	Revocato	revoked								
-PESTON:0114094	insecticide product	INSETTICIDA	14094	ACTARA 25 WG	PA.MAG S.R.L.	Scaduto	expired			water dispersible granules		pesticide parallel importing			
+PESTON:0114094	insecticide product	INSETTICIDA	14094	ACTARA 25 WG	PA.MAG S.R.L.	Scaduto	expired			water dispersible granules		IP			
 PESTON:0102518	insecticide product	INSETTICIDA	2518	ACTELLIC 2P	NEWPHARM S.R.L.	Ri-registrato	re-registered			dispersible powder					
 PESTON:0111678	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	11678	ACTELLIC 2P NEWPHARM	NEWPHARM S.R.L.	Ri-registrato	re-registered			dispersible powder					
 PESTON:0102507	pesticide product		2507	ACTELLIC 5 GRANULI	SOLPLANT S.P.A.	Revocato	revoked			granule (generic, but defined size range)					
@@ -847,7 +847,7 @@ PESTON:0111181	pesticide product		11181	AMIR	GOWAN ITALIA S.R.L.	Revocato	revoke
 PESTON:0102235	pesticide product		2235	AMIROX	SCAM S.P.A.	Revocato	revoked	REVOCA LISTA C RICLASSIFICAZIONE	31/12/2003	wettable powder					
 PESTON:0102907	insecticide product	INSETTICIDA	2907	AMIROX EC	SCAM S.P.A.	Revocato	revoked			emulsifiable concentrate	very toxic chemical				
 PESTON:0110118	fungicide product	FUNGICIDA	10118	AMISTAR	SYNGENTA ITALIA S.P.A.	Ri-registrato	re-registered			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
-PESTON:0114370	fungicide product	FUNGICIDA	14370	AMISTAR	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0114370	fungicide product	FUNGICIDA	14370	AMISTAR	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment	IP			
 PESTON:0116252	fungicide product	FUNGICIDA	16252	AMISTAR GOLD	SYNGENTA ITALIA S.P.A.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			suspension concentrate (= flowable concentrate)					
 PESTON:0115010	fungicide product	FUNGICIDA	15010	AMISTAR PLUS	SYNGENTA ITALIA S.P.A.	Ri-registrato (Air 1 Fase 1)	re-registered			emulsifiable concentrate	harmful chemical|chemical dangerous for environment				
 PESTON:0115790	fungicide product	FUNGICIDA	15790	AMISTAR TOP	SYNGENTA ITALIA S.P.A.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical				
@@ -1097,8 +1097,8 @@ PESTON:0117104	fungicide product	FUNGICIDA	17104	ARCO 70 WG	BASF ITALIA S.P.A.	A
 PESTON:0113761	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	13761	ARDENT E-FLO	CHEMINOVA A/S	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment				
 PESTON:0112656	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	12656	ARDENT NOVA	CHEMINOVA AGRO ITALIA S.R.L.	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment|chemical irritant				
 PESTON:0101312	pesticide product		1312	ARDIL	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
-PESTON:0114572	insecticide product	INSETTICIDA	14572	ARDITO 10 EC	ROCCA FRUTTA S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
-PESTON:0116253	insecticide product	INSETTICIDA	16253	ARDITO ECHO	ROCCA FRUTTA S.R.L.	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0114572	insecticide product	INSETTICIDA	14572	ARDITO 10 EC	ROCCA FRUTTA S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|chemical irritant	IP			
+PESTON:0116253	insecticide product	INSETTICIDA	16253	ARDITO ECHO	ROCCA FRUTTA S.R.L.	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment	IP			
 PESTON:0113624	herbicide product	DISERBANTE	13624	ARDO 120	DIACHEM S.P.A.	Revocato	revoked			soluble concentrate					
 PESTON:0101489	pesticide product		1489	AREB	TECNITERRA S.R.L.	Revocato	revoked			wettable powder					
 PESTON:0101490	pesticide product		1490	AREB AZZURRO	TECNITERRA S.R.L.	Revocato	revoked								
@@ -1263,7 +1263,7 @@ PESTON:0112492	adjuvant product	COADIUVANTE	12492	ASTROL NUOVO	CORTEVA AGRISCIEN
 PESTON:0114875	adjuvant product	COADIUVANTE	14875	ASTROL PLUS	CHEMINOVA AGRO ITALIA S.R.L.	Revocato	revoked			soluble concentrate	chemical irritant				
 PESTON:0102863	insecticide product	INSETTICIDA	2863	ASU704801	CHEMINOVA AGRO ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0100929	herbicide product	DISERBANTE	929	ASULOX	UPL IBERIA S.A.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|chemical irritant				
-PESTON:0110583	pesticide product		10583	ASULOX	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Revocato	revoked			liquid product format		pesticide parallel importing			
+PESTON:0110583	pesticide product		10583	ASULOX	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Revocato	revoked			liquid product format		IP			
 PESTON:0107560	pesticide product		7560	ASUMIN	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked	REVOCA ADEMPIMENTO REG. 2076 (NON ISCRIZIONE ALL. I) INSERITO ANCHE IN REVOCA LISTA C RICLASSIFICAZIONE		wettable powder					
 PESTON:0108895	pesticide product		8895	ATARA	MAKHTESHIM AGAN HOLLAND B.V.	Revocato	revoked			liquid product format					
 PESTON:0116108	fungicide product	FUNGICIDA	16108	ATELIER	BAYER CROPSCIENCE S.R.L.	Autorizzato in regime di Riconoscimento Reciproco	authorised - under mutual recognition - Regulation (EC) No 764/2008			emulsifiable concentrate					
@@ -1338,7 +1338,7 @@ PESTON:0101996	pesticide product		1996	ATTIVAR 90	CORTEVA AGRISCIENCE ITALIA S.R
 PESTON:0104177	pesticide product		4177	ATTIVAR FLOW	SIPCAM S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0117821	insecticide product	INSETTICIDA	17821	ATTRACAP	BIOCARE GESELLSHAFT FUR BIOLOGISCHE SCHUTZMITTEL GMBH	Scaduto	expired			granule (generic, but defined size range)					
 PESTON:0101781	pheromone product	ATTRATTIVO	1781	ATTRATTIVO CAFFARO	SUMITOMO CHEMICAL ITALIA S.R.L.	Revocato	revoked			bait concentrate					
-PESTON:0115467	fungicide product	FUNGICIDA	15467	AUBRAC	AGCHEM ACCESS LTD.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115467	fungicide product	FUNGICIDA	15467	AUBRAC	AGCHEM ACCESS LTD.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment	IP			
 PESTON:0115083	insecticide product	INSETTICIDA	15083	AUDACE	CHEMINOVA AGRO ITALIA S.R.L.	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
 PESTON:0117142	organic fungicide product	BIOFUNGICIDA	17142	AUGET WP	AGRIFUTUR S.R.L.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			wettable powder					
 PESTON:0111012	herbicide product	DISERBANTE	11012	AURA	BASF ITALIA S.P.A.	Ri-registrato	re-registered			emulsifiable concentrate	harmful chemical				
@@ -1996,7 +1996,7 @@ PESTON:0106240	pesticide product		6240	BETTER	CORTEVA AGRISCIENCE ITALIA S.R.L.	
 PESTON:0108103	herbicide product	DISERBANTE	8103	BETTER	SIPCAM S.P.A.	Revocato	revoked			liquid product format					
 PESTON:0106978	herbicide product	DISERBANTE	6978	BETTER 400	SIPCAM S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|chemical irritant				
 PESTON:0107264	pesticide product		7264	BETTER DF	SIPCAM S.P.A.	Revocato	revoked	REVOCA LISTA C RICLASSIFICAZIONE	31/12/2003	granule (generic, but defined size range)					
-PESTON:0114822	insecticide product	INSETTICIDA	14822	BEVERLY 10 SC	ROCCA FRUTTA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0114822	insecticide product	INSETTICIDA	14822	BEVERLY 10 SC	ROCCA FRUTTA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0110925	herbicide product	DISERBANTE	10925	BEYOND	BASF ITALIA S.P.A.	Autorizzato	authorised			soluble concentrate	chemical dangerous for environment				
 PESTON:0116698	herbicide product	DISERBANTE	16698	BEYOND PLUS	BASF ITALIA S.P.A.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			soluble concentrate					
 PESTON:0106165	pesticide product		6165	BEZIN 80	EUROZOLFI S.R.L.	Revocato	revoked	REVOCA PER NON ISCRIZIONE ZINEB ALL. 1 DIR. 91/414 (DM 18.5.01)	12/07/2001	wettable powder					
@@ -2066,12 +2066,12 @@ PESTON:0101680	pesticide product		1680	BINARAN 50 PB	INTERNAZIONALE B.P.D. S.R.L
 PESTON:0101679	pesticide product		1679	BINARAN E	INTERNAZIONALE B.P.D. S.R.L.	Revocato	revoked								
 PESTON:0116503	herbicide product	DISERBANTE	16503	BINARY T	CHEMINOVA A/S	Revocato	revoked			suspo-emulsion					
 PESTON:0109526	pesticide product		9526	BINGO	ADAMA AGAN LTD	Revocato	revoked			suspension concentrate (= flowable concentrate)					
-PESTON:0115456	herbicide product	DISERBANTE	15456	BIO DIQUAT	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			liquid product format	chemical dangerous for environment|very toxic chemical	pesticide parallel importing			
-PESTON:0115846	plant growth regulator product	FITOREGOLATORE	15846	BIO ETEFON	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			soluble concentrate	harmful chemical	pesticide parallel importing			
-PESTON:0115904	herbicide product	DISERBANTE	15904	BIO IMAZAMOX	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			soluble concentrate	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115470	herbicide product	DISERBANTE	15470	BIO PROPIZAMIDE	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
-PESTON:0115579	insecticide product	INSETTICIDA	15579	BIO PYRIPROXYFEN	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
-PESTON:0115980	herbicide product	DISERBANTE	15980	BIO TRIBENURON	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115456	herbicide product	DISERBANTE	15456	BIO DIQUAT	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			liquid product format	chemical dangerous for environment|very toxic chemical	IP			
+PESTON:0115846	plant growth regulator product	FITOREGOLATORE	15846	BIO ETEFON	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			soluble concentrate	harmful chemical	IP			
+PESTON:0115904	herbicide product	DISERBANTE	15904	BIO IMAZAMOX	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			soluble concentrate	chemical dangerous for environment	IP			
+PESTON:0115470	herbicide product	DISERBANTE	15470	BIO PROPIZAMIDE	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical	IP			
+PESTON:0115579	insecticide product	INSETTICIDA	15579	BIO PYRIPROXYFEN	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|chemical irritant	IP			
+PESTON:0115980	herbicide product	DISERBANTE	15980	BIO TRIBENURON	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	IP			
 PESTON:0111707	plant growth regulator product	FITOREGOLATORE	11707	BIO-ERG L	BIONATURA S.R.L.	Revocato	revoked			soluble concentrate					
 PESTON:0111709	plant growth regulator product	FITOREGOLATORE	11709	BIO-GIBBER A3 PASTIGLIE	NUFARM ITALIA S.R.L.	Autorizzato	authorised			tablet					
 PESTON:0111705	plant growth regulator product	FITOREGOLATORE	11705	BIO-GLOBAL L	NUFARM ITALIA S.R.L.	Autorizzato	authorised			liquid product format					
@@ -2454,7 +2454,7 @@ PESTON:0111898	pesticide product		11898	BUGGY 800 SG N.E.T.	SIPCAM S.P.A.	Revoca
 PESTON:0116989	herbicide product	DISERBANTE	16989	BUGGY BF	SIPCAM OXON S.P.A.	Autorizzato	authorised			soluble concentrate					
 PESTON:0108344	herbicide product	DISERBANTE	8344	BUGGY COMBI	SIPCAM S.P.A.	Revocato	revoked			liquid product format					
 PESTON:0111691	herbicide product	DISERBANTE	11691	BUGGY FL N.E.T.	SIPCAM S.P.A.	Revocato	revoked	REVOCA MANCATA PRESENTAZIONE ALLEGATO III GLIFOSATE	08/09/2005	soluble concentrate					
-PESTON:0116916	herbicide product	DISERBANTE	16916	BUGGY G	SIPCAM ITALIA S.P.A.	Autorizzato	authorised			soluble concentrate		pesticide parallel importing			
+PESTON:0116916	herbicide product	DISERBANTE	16916	BUGGY G	SIPCAM ITALIA S.P.A.	Autorizzato	authorised			soluble concentrate		IP			
 PESTON:0109350	pesticide product		9350	BUGGY M	SIPCAM OXON S.P.A.	Scaduto	expired			liquid product format					
 PESTON:0111854	herbicide product	DISERBANTE	11854	BUGGY TF	MONSANTO AGRICOLTURA ITALIA S.P.A.	Ri-registrato	re-registered			soluble concentrate					
 PESTON:0116089	herbicide product	DISERBANTE	16089	BUGUIS	PROPLAN PLANT PROTECTION COMPANY S.L.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			emulsifiable concentrate					
@@ -2798,7 +2798,7 @@ PESTON:0102691	pesticide product		2691	CASTRIX	BAYER CROPSCIENCE S.R.L.	Revocato
 PESTON:0106169	pesticide product		6169	CASTRIX PELLETS	BAYER CROPSCIENCE S.R.L.	Revocato	revoked								
 PESTON:0108155	insecticide product	INSETTICIDA	8155	CATOR	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
 PESTON:0108154	pesticide product		8154	CATOR 11 L	SCAM S.P.A.	Revocato	revoked			emulsifiable concentrate					
-PESTON:0114820	insecticide product	INSETTICIDA	14820	CAUDILLO 25 WG	ROCCA FRUTTA S.R.L.	Scaduto	expired			water dispersible granules		pesticide parallel importing			
+PESTON:0114820	insecticide product	INSETTICIDA	14820	CAUDILLO 25 WG	ROCCA FRUTTA S.R.L.	Scaduto	expired			water dispersible granules		IP			
 PESTON:0109823	fungicide product	FUNGICIDA	9823	CAULISAN	CIFO S.R.L.	Revocato	revoked			soluble concentrate					
 PESTON:0110444	fungicide product	FUNGICIDA	10444	CAULISAN 99	CIFO S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0111051	fungicide product	FUNGICIDA	11051	CAULISAN PR	CIFO S.R.L.	Revocato	revoked			soluble concentrate					
@@ -2944,7 +2944,7 @@ PESTON:0117390	pheromone product	FEROMONE	17390	CHECKMATE VMB 2019	SUTERRA EUROP
 PESTON:0117575	pheromone product	FEROMONE	17575	CHECKMATE VMB 2020	SUTERRA EUROPE BIOCONTROL S.L.	Scaduto	expired			vapour releasing product					
 PESTON:0117715	pheromone product	FEROMONE	17715	CHECKMATE VMB-PRO	SUTERRA EUROPE BIOCONTROL S.L.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			vapour releasing product					
 PESTON:0116397	pheromone product	FEROMONE	16397	CHECKMATE VMB-XL	SUTERRA EUROPE BIOCONTROL S.L.	Scaduto	expired			vapour releasing product					
-PESTON:0114264	acaricide product	ACARICIDA	14264	CHECKOUT	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0114264	acaricide product	ACARICIDA	14264	CHECKOUT	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0100343	pesticide product		343	CHELAMON	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked								
 PESTON:0103158	herbicide product	DISERBANTE	3158	CHEM-RICE	DIACHEM S.P.A.	Revocato	revoked			liquid product format	harmful chemical				
 PESTON:0110012	herbicide product	DISERBANTE	10012	CHEM-RICE 450 SC	SELEZIONE PAC S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
@@ -2974,7 +2974,7 @@ PESTON:0105142	pesticide product		5142	CHENDAL G	SEPRAN S.A.S.	Revocato	revoked	
 PESTON:0102089	pesticide product		2089	CHEP 30	CHEMIA S.P.A.	Revocato	revoked	REVOCA NON ISCRIZIONE ALL. I PARATION METILE		wettable powder					
 PESTON:0117814	fungicide product	FUNGICIDA	17814	CHEPREC	SYNGENTA CROP PROTECTION AG	Autorizzato	authorised			emulsifiable concentrate					
 PESTON:0112473	acaricide product	ACARICIDA	12473	CHEYENNE	ROCCA FRUTTA S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
-PESTON:0114762	herbicide product	DISERBANTE	14762	CHIKARA	AGROPIAVE S.R.L.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0114762	herbicide product	DISERBANTE	14762	CHIKARA	AGROPIAVE S.R.L.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	IP			
 PESTON:0110929	herbicide product	DISERBANTE	10929	CHIKARA 25 WG	ISK BIOSCIENCES EUROPE N.V.	Autorizzato	authorised			water dispersible granules	chemical dangerous for environment				
 PESTON:0115237	herbicide product	DISERBANTE	15237	CHIKARA DUO	ISK BIOSCIENCES EUROPE N.V.	Autorizzato	authorised			water dispersible granules					
 PESTON:0103515	pesticide product		3515	CHILDION	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			emulsifiable concentrate					
@@ -3164,11 +3164,11 @@ PESTON:0102461	pesticide product		2461	CLONEL A	AVENTIS CROPSCIENCE ITALIA S.P.A
 PESTON:0106064	pesticide product		6064	CLONEL FLO	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0105953	pesticide product		5953	CLONEL S	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked								
 PESTON:0102697	pesticide product		2697	CLONEL V	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked								
-PESTON:0115823	insecticide product	INSETTICIDA	15823	CLONIPROL 200	GENETTI S.R.L.-GMBH	Scaduto	expired			suspension concentrate (= flowable concentrate)	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115823	insecticide product	INSETTICIDA	15823	CLONIPROL 200	GENETTI S.R.L.-GMBH	Scaduto	expired			suspension concentrate (= flowable concentrate)	chemical dangerous for environment	IP			
 PESTON:0109232	pesticide product		9232	CLOPIGAN	ADAMA AGAN LTD	Revocato	revoked			liquid product format					
 PESTON:0108727	pesticide product		8727	CLOPIX	SCAM S.P.A.	Revocato	revoked			liquid product format					
 PESTON:0107638	pesticide product		7638	CLOPIZON	SIAPA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
-PESTON:0115696	insecticide product	INSETTICIDA	15696	CLOPROLE	AGCHEM ACCESS LTD.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115696	insecticide product	INSETTICIDA	15696	CLOPROLE	AGCHEM ACCESS LTD.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	IP			
 PESTON:0114248	insecticide product	INSETTICIDA	14248	CLOR QUICK	ADAMA MAKHTESHIM LTD	Revocato	revoked			capsule suspension	chemical dangerous for environment				
 PESTON:0108199	fungicide product	FUNGICIDA	8199	CLORAL FL	AGRIPHAR ITALIA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	very toxic chemical				
 PESTON:0107162	pesticide product		7162	CLORALIN	SOCOA S.A.S.	Revocato	revoked								
@@ -3288,8 +3288,8 @@ PESTON:0106771	adjuvant product	COADIUVANTE	6771	COESIL	CIFO S.R.L.	Autorizzato	
 PESTON:0116278	fungicide product	FUNGICIDA	16278	COIMBRA	ASCENZA ITALIA S.R.L.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			suspension concentrate (= flowable concentrate)					
 PESTON:0111450	insecticide product	INSETTICIDA	11450	COKILL	SCAM S.P.A.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0106630	pesticide product		6630	COLFIX	SIPCAM S.P.A.	Revocato	revoked	REVOCA LISTA C RICLASSIFICAZIONE	31/12/2003	wettable powder					
-PESTON:0115825	herbicide product	DISERBANTE	15825	COLIAFLIX	COLIA TRADE S.R.L.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
-PESTON:0115695	insecticide product	INSETTICIDA	15695	COLIAGREN	COLIA TRADE S.R.L.	Scaduto	expired			suspension concentrate (= flowable concentrate)	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115825	herbicide product	DISERBANTE	15825	COLIAFLIX	COLIA TRADE S.R.L.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|chemical irritant	IP			
+PESTON:0115695	insecticide product	INSETTICIDA	15695	COLIAGREN	COLIA TRADE S.R.L.	Scaduto	expired			suspension concentrate (= flowable concentrate)	chemical dangerous for environment	IP			
 PESTON:0107887	insecticide product	INSETTICIDA	7887	COLIFON	SIAPA S.R.L.	Revocato	revoked			soluble concentrate	corrosive chemical				
 PESTON:0112866	fungicide product	FUNGICIDA	12866	COLLIS	BASF ITALIA S.P.A.	Ri-registrato (Air 1 Fase 1)	re-registered			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical				
 PESTON:0100687	pesticide product		687	COLLOIDALE VESUVIO	INDUSTRIA CHIMICA DEL MEZZOGIORNO S.P.A.	Revocato	revoked			wettable powder					
@@ -3995,12 +3995,12 @@ PESTON:0107103	fungicide product	FUNGICIDA	7103	CYMOZATE M	DU PONT DE NEMOURS IT
 PESTON:0117729	fungicide product	FUNGICIDA	17729	CYMTRIPLO	SIPCAM OXON S.P.A.	Autorizzato	authorised			water dispersible granules					
 PESTON:0117728	fungicide product	FUNGICIDA	17728	CYMZETA	SIPCAM OXON S.P.A.	Autorizzato	authorised			water dispersible granules					
 PESTON:0101538	pesticide product		1538	CYNAWEED GIALLO	BASF AGRO S.P.A.	Revocato	revoked								
-PESTON:0114538	insecticide product	INSETTICIDA	14538	CYPALFA 10 SC	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0114538	insecticide product	INSETTICIDA	14538	CYPALFA 10 SC	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0112717	insecticide product	INSETTICIDA	12717	CYPER SC	CHEMIA S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0117551	insecticide product	INSETTICIDA	17551	CYPERFOR 100 EW	SBM DEVELOPPEMENT S.A.S.	Autorizzato	authorised			emulsion, oil in water					
 PESTON:0115610	insecticide product	INSETTICIDA	15610	CYPERKILL 50 EC	ARYSTA LIFESCIENCE BENELUX SPRL	Autorizzato	authorised			emulsifiable concentrate	chemical irritant|chemical dangerous for environment				
 PESTON:0113631	insecticide product	INSETTICIDA	13631	CYPLAN 5 EC	ARYSTA LIFESCIENCE BENELUX SPRL	Ri-registrato	re-registered			emulsifiable concentrate	chemical irritant|chemical dangerous for environment				
-PESTON:0115698	fungicide product	FUNGICIDA	15698	CYPONIL	AGCHEM ACCESS LTD.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115698	fungicide product	FUNGICIDA	15698	CYPONIL	AGCHEM ACCESS LTD.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	IP			
 PESTON:0110347	fungicide product	FUNGICIDA	10347	CYPROC WDG	GUABER S.R.L.	Revocato	revoked			water dispersible granules	harmful chemical				
 PESTON:0117367	fungicide product	FUNGICIDA	17367	CYPRONIL	SHARDA CROPCHEM ESPANA S.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0109566	fungicide product	FUNGICIDA	9566	CYPRUS	NUFARM ITALIA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
@@ -4099,7 +4099,7 @@ PESTON:0103801	pesticide product		3801	DALPIR	AVENTIS CROPSCIENCE ITALIA S.P.A.	
 PESTON:0100893	herbicide product	DISERBANTE	893	DALTOR	SIAPA S.R.L.	Revocato	revoked			wettable powder	harmful chemical				
 PESTON:0107568	insecticide product	INSETTICIDA	7568	DALUSIN	ISAGRO S.P.A.	Revocato	revoked			wettable powder					
 PESTON:0111036	herbicide product	DISERBANTE	11036	DALYS	SHARDA CROPCHEM ESPANA S.L.	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
-PESTON:0114703	plant growth regulator product	FITOREGOLATORE	14703	DAMIROC 85	ROCCA FRUTTA S.R.L.	Scaduto	expired			water dispersible granules		pesticide parallel importing	PFnPO (ornamental)		
+PESTON:0114703	plant growth regulator product	FITOREGOLATORE	14703	DAMIROC 85	ROCCA FRUTTA S.R.L.	Scaduto	expired			water dispersible granules		IP	PFnPO (ornamental)		
 PESTON:0111187	insecticide product	INSETTICIDA	11187	DAMIT	AGROWIN BIOSCIENCES S.R.L.	Revocato	revoked			wettable powder					
 PESTON:0112627	insecticide product	INSETTICIDA	12627	DANADIM 400 ST	CHEMINOVA AGRO ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate	harmful chemical				
 PESTON:0105274	pesticide product		5274	DANADIM EC	CHEMINOVA A/S	Revocato	revoked	REVOCA LISTA C RICLASSIFICAZIONE	31/12/2003	emulsifiable concentrate					
@@ -4196,7 +4196,7 @@ PESTON:0104426	insecticide product	INSETTICIDA	4426	DECIS	BAYER CROPSCIENCE S.R.
 PESTON:0110352	pesticide product		10352	DECIS 15 EW	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			emulsion, oil in water					
 PESTON:0104522	insecticide product	INSETTICIDA	4522	DECIS BLU	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			suspo-emulsion					
 PESTON:0106050	insecticide product	INSETTICIDA	6050	DECIS D	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			emulsifiable concentrate	harmful chemical				
-PESTON:0111772	insecticide product	INSETTICIDA	11772	DECIS EC 2,5	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0111772	insecticide product	INSETTICIDA	11772	DECIS EC 2,5	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0114344	insecticide product	INSETTICIDA	14344	DECIS ENERGY GIARDINO	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			oil dispersion	chemical dangerous for environment|chemical irritant		PFnPO (ornamental)		
 PESTON:0113361	insecticide product	INSETTICIDA	13361	DECIS ENERGY O-TEQ	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment|chemical irritant				
 PESTON:0115059	insecticide product	INSETTICIDA	15059	DECIS EVO	BAYER CROPSCIENCE S.R.L.	Autorizzato	authorised			emulsion, oil in water	chemical dangerous for environment|chemical irritant				
@@ -4262,7 +4262,7 @@ PESTON:0102591	pesticide product		2591	DELFOS 25 PB	AVENTIS CROPSCIENCE ITALIA S
 PESTON:0101039	pesticide product		1039	DELFOS M 20	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked								
 PESTON:0106443	insecticide product	INSETTICIDA	6443	DELIC 5 PRONTO	NEWPHARM S.R.L.	Ri-registrato	re-registered			liquid product format	harmful chemical				
 PESTON:0111735	molluscicide product	MOLLUSCHICIDA	11735	DELICIA CONTRA-LUMACHE	FRUNOL DELICIA GMBH	Autorizzato	authorised			bait (ready for use)					
-PESTON:0114449	insecticide product	INSETTICIDA	14449	DELMET 25 EC	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0114449	insecticide product	INSETTICIDA	14449	DELMET 25 EC	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0116761	insecticide product	INSETTICIDA	16761	DELMUR	EXCLUSIVAS SARABIA S.A.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			emulsifiable concentrate					
 PESTON:0117511	insecticide product	INSETTICIDA	17511	DELMUS	ARYSTA LIFESCIENCE BENELUX SPRL	Autorizzato	authorised			emulsifiable concentrate					
 PESTON:0107861	pesticide product		7861	DELOXIL	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			emulsifiable concentrate					
@@ -4274,7 +4274,7 @@ PESTON:0108410	fungicide product	FUNGICIDA	8410	DELSENE 50 DF	DU PONT DE NEMOURS
 PESTON:0107415	pesticide product		7415	DELSENE 75 WP	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			wettable powder					
 PESTON:0115494	insecticide product	INSETTICIDA	15494	DELSTAR	ASCENZA AGRO S.A.	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
 PESTON:0107578	herbicide product	DISERBANTE	7578	DELTA	SIVAM S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)	harmful chemical				
-PESTON:0114448	insecticide product	INSETTICIDA	14448	DELTA 25 EC	ROCCA FRUTTA S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0114448	insecticide product	INSETTICIDA	14448	DELTA 25 EC	ROCCA FRUTTA S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0111471	pesticide product		11471	DELTACHAMP	SCAM S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0110448	pesticide product		10448	DELTACID L	SCAM S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0111487	pesticide product		11487	DELTACROP SC	ZAPI INDUSTRIE CHIMICHE S.P.A.	Revocato	revoked	REVOCA NON CONFORMITA' ISCRIZIONE DELTAMETRINA	29/04/2004	suspension concentrate (= flowable concentrate)					
@@ -4347,7 +4347,7 @@ PESTON:0100329	herbicide product	DISERBANTE	329	DESORMONE PESANTE	NUFARM GMBH & 
 PESTON:0103579	pesticide product		3579	DESORMONE TOTALE C	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked								
 PESTON:0114389	herbicide product	DISERBANTE	14389	DESSICASH 200 SL	SHARDA CROPCHEM LIMITED	Revocato	revoked			liquid product format	chemical dangerous for environment|toxic chemical				
 PESTON:0112028	insecticide product	INSETTICIDA	12028	DESTROYER 480 EC	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment				
-PESTON:0115706	plant growth regulator product	FITOREGOLATORE	15706	DETEFON 480	GENETTI S.R.L.-GMBH	Scaduto	expired			soluble concentrate	harmful chemical	pesticide parallel importing			
+PESTON:0115706	plant growth regulator product	FITOREGOLATORE	15706	DETEFON 480	GENETTI S.R.L.-GMBH	Scaduto	expired			soluble concentrate	harmful chemical	IP			
 PESTON:0114630	nematicide product	NEMATOCIDA	14630	DEVGUARD 500 SC	DEVGEN NV	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical				
 PESTON:0108156	insecticide product	INSETTICIDA	8156	DEVOX	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|chemical irritant				
 PESTON:0107484	herbicide product	DISERBANTE	7484	DEVRINOL 50 WP	UPL EUROPE LTD	Autorizzato	authorised			wettable powder					
@@ -4502,12 +4502,12 @@ PESTON:0101415	insecticide product	INSETTICIDA	1415	DIETOL 40	SUN COMPANY S.R.L.
 PESTON:0112557	insecticide product	INSETTICIDA	12557	DIETOL PLUS 40 ST	CHEMINOVA AGRO ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0117112	fungicide product	FUNGICIDA	17112	DIFCOR	GLOBACHEM NV	Autorizzato in regime di Riconoscimento Reciproco	authorised - under mutual recognition - Regulation (EC) No 764/2008			emulsifiable concentrate					
 PESTON:0112489	fungicide product	FUNGICIDA	12489	DIFCOR 250	GLOBACHEM NV	Ri-registrato	re-registered			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
-PESTON:0115458	fungicide product	FUNGICIDA	15458	DIFECON 250 EC	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0115458	fungicide product	FUNGICIDA	15458	DIFECON 250 EC	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0100092	pesticide product		92	DIFEN 80	SIPCAM S.P.A.	Revocato	revoked	REVOCA ADEMPIMENTO REG. 2076 (NON ISCRIZIONE ALL. I)	04/06/2003	wettable powder					
 PESTON:0107460	pesticide product		7460	DIFENAMIDE 90W	AGRICO S.R.L.	Revocato	revoked	REVOCA ADEMPIMENTO REG. 2076 (NON ISCRIZIONE ALL. I)	04/06/2003	wettable powder					
 PESTON:0115638	fungicide product	FUNGICIDA	15638	DIFEND	GLOBACHEM NV	Autorizzato in regime di Riconoscimento Reciproco	authorised - under mutual recognition - Regulation (EC) No 764/2008			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0116550	fungicide product	FUNGICIDA	16550	DIFEND EXTRA	GLOBACHEM NV	Autorizzato in regime di Riconoscimento Reciproco	authorised - under mutual recognition - Regulation (EC) No 764/2008			suspension concentrate (= flowable concentrate)					
-PESTON:0115684	fungicide product	FUNGICIDA	15684	DIFENOX	CHEMIA S.P.A.	Scaduto	expired			emulsifiable concentrate	harmful chemical|chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115684	fungicide product	FUNGICIDA	15684	DIFENOX	CHEMIA S.P.A.	Scaduto	expired			emulsifiable concentrate	harmful chemical|chemical dangerous for environment	IP			
 PESTON:0105331	pesticide product		5331	DIFENSAR	GOWAN ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0115689	fungicide product	FUNGICIDA	15689	DIFENZONE	SHARDA CROPCHEM ESPANA S.L.	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
 PESTON:0113354	fungicide product	FUNGICIDA	13354	DIFFERENCE	GLOBACHEM NV	Ri-registrato	re-registered			emulsifiable concentrate	chemical dangerous for environment				
@@ -4616,7 +4616,7 @@ PESTON:0109651	insecticide product	INSETTICIDA	9651	DIMOL 5 WP	ADICA S.R.L.	Revo
 PESTON:0107557	herbicide product	DISERBANTE	7557	DIMON	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			soluble concentrate	harmful chemical				
 PESTON:0101260	pesticide product		1260	DIMONT	ISAGRO S.P.A.	Revocato	revoked								
 PESTON:0101271	pesticide product		1271	DINAGRONE	SOLPLANT S.P.A.	Revocato	revoked								
-PESTON:0115694	fungicide product	FUNGICIDA	15694	DINAL	AGCHEM ACCESS LTD.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0115694	fungicide product	FUNGICIDA	15694	DINAL	AGCHEM ACCESS LTD.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0107356	pesticide product		7356	DINAM	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked								
 PESTON:0105145	pesticide product		5145	DINAMIDE	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
 PESTON:0110647	fungicide product	FUNGICIDA	10647	DINAPIC	INDUSTRIAS AFRASA S.A	Ri-registrato	re-registered			water soluble granules	chemical irritant				
@@ -5092,12 +5092,12 @@ PESTON:0107297	pesticide product		7297	DURSBAN 22	BASF A.G. (AKTIENGESELLSHAFT)	
 PESTON:0106820	pesticide product		6820	DURSBAN 25 PB	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
 PESTON:0109155	insecticide product	INSETTICIDA	9155	DURSBAN 5G	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked			granule (generic, but defined size range)	chemical dangerous for environment				
 PESTON:0110049	insecticide product	INSETTICIDA	10049	DURSBAN 75 WG	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment|harmful chemical				
-PESTON:0112131	pesticide product		12131	DURSBAN 75 WG	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Revocato	revoked			water dispersible granules		pesticide parallel importing			
-PESTON:0115463	insecticide product	INSETTICIDA	15463	DURSBAN 75WG II	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			granule (generic, but defined size range)	harmful chemical|chemical dangerous for environment	pesticide parallel importing			
+PESTON:0112131	pesticide product		12131	DURSBAN 75 WG	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Revocato	revoked			water dispersible granules		IP			
+PESTON:0115463	insecticide product	INSETTICIDA	15463	DURSBAN 75WG II	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			granule (generic, but defined size range)	harmful chemical|chemical dangerous for environment	IP			
 PESTON:0101700	insecticide product	INSETTICIDA	1700	DURSBAN GRANULARE	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked			granule (generic, but defined size range)	harmful chemical				
 PESTON:0107021	pesticide product		7021	DURSBAN GRANULARE	BASF A.G. (AKTIENGESELLSHAFT)	Revocato	revoked			granule (generic, but defined size range)					
 PESTON:0106821	pesticide product		6821	DURSBAN POLVERE	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
-PESTON:0114219	insecticide product	INSETTICIDA	14219	DURSBAN WG	GENETTI S.R.L.-GMBH	Scaduto	expired			water dispersible granules	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0114219	insecticide product	INSETTICIDA	14219	DURSBAN WG	GENETTI S.R.L.-GMBH	Scaduto	expired			water dispersible granules	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0102794	pesticide product		2794	DUSTION	GOWAN ITALIA S.R.L.	Revocato	revoked			dispersible powder					
 PESTON:0114414	insecticide product	INSETTICIDA	14414	DUSTY	SEPRAN S.A.S.	Autorizzato	authorised			emulsion, oil in water	chemical irritant			PFnPE (edible)	
 PESTON:0102955	pesticide product		2955	DUTEN 3 PS	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked								
@@ -5281,7 +5281,7 @@ PESTON:0109178	fungicide product	FUNGICIDA	9178	EMERALD	ISAGRO S.P.A.	Revocato	r
 PESTON:0114919	fungicide product	FUNGICIDA	14919	EMERALD 125	ISAGRO S.P.A.	Ri-registrato	re-registered			emulsion, water in oil	chemical harmful to aquatic life			PFnPE (edible)	
 PESTON:0110604	fungicide product	FUNGICIDA	10604	EMERALD 40 EW	ISAGRO S.P.A.	Ri-registrato	re-registered			emulsion, oil in water				PFnPE (edible)	
 PESTON:0109449	fungicide product	FUNGICIDA	9449	EMERALD COMBI	ISAGRO S.P.A.	Ri-registrato	re-registered			water dispersible granules	chemical irritant			PFnPE (edible)	
-PESTON:0115699	plant growth regulator product	FITOREGOLATORE	15699	EMI 48	ROCCA FRUTTA S.R.L.	Scaduto	expired			soluble concentrate	harmful chemical	pesticide parallel importing			
+PESTON:0115699	plant growth regulator product	FITOREGOLATORE	15699	EMI 48	ROCCA FRUTTA S.R.L.	Scaduto	expired			soluble concentrate	harmful chemical	IP			
 PESTON:0102548	pesticide product		2548	EMIL	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
 PESTON:0108793	fungicide product	FUNGICIDA	8793	EMINENT 40 EW	ISAGRO S.P.A.	Ri-registrato	re-registered			emulsion, oil in water	chemical harmful to aquatic life				
 PESTON:0109379	fungicide product	FUNGICIDA	9379	EMINENT R	ISAGRO S.P.A.	Revocato	revoked			wettable powder	chemical dangerous for environment|harmful chemical				
@@ -5603,11 +5603,11 @@ PESTON:0110033	plant growth regulator product	FITOREGOLATORE	10033	ETEDOR	AGRIMP
 PESTON:0113932	plant growth regulator product	FITOREGOLATORE	13932	ETEDOR SL	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			soluble concentrate	harmful chemical				
 PESTON:0110111	plant growth regulator product	FITOREGOLATORE	10111	ETEFON 40	GOWAN ITALIA S.R.L.	Revocato	revoked			soluble concentrate	corrosive chemical				
 PESTON:0113933	plant growth regulator product	FITOREGOLATORE	13933	ETEFON 40 SL	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			soluble concentrate	harmful chemical				
-PESTON:0114270	plant growth regulator product	FITOREGOLATORE	14270	ETEFON 480	GENETTI S.R.L.-GMBH	Revocato	revoked			soluble concentrate	harmful chemical	pesticide parallel importing			
+PESTON:0114270	plant growth regulator product	FITOREGOLATORE	14270	ETEFON 480	GENETTI S.R.L.-GMBH	Revocato	revoked			soluble concentrate	harmful chemical	IP			
 PESTON:0112602	plant growth regulator product	FITOREGOLATORE	12602	ETEPLUS	HERMOO BELGIUM N.V.	Revocato	revoked			soluble concentrate	harmful chemical				
 PESTON:0112187	insecticide product	INSETTICIDA	12187	ETERNITY	NUFARM ITALIA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical harmful to aquatic life				
 PESTON:0109967	plant growth regulator product	FITOREGOLATORE	9967	ETEROC	ROCCA FRUTTA S.R.L.	Revocato	revoked			soluble concentrate	corrosive chemical				
-PESTON:0114269	plant growth regulator product	FITOREGOLATORE	14269	ETEROC 480	ROCCA FRUTTA S.R.L.	Revocato	revoked			soluble concentrate	harmful chemical	pesticide parallel importing			
+PESTON:0114269	plant growth regulator product	FITOREGOLATORE	14269	ETEROC 480	ROCCA FRUTTA S.R.L.	Revocato	revoked			soluble concentrate	harmful chemical	IP			
 PESTON:0101563	pesticide product		1563	ETHANE 25	TECNITERRA S.R.L.	Revocato	revoked			wettable powder					
 PESTON:0101716	pesticide product		1716	ETHANE 48 E	TECNITERRA S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0115723	herbicide product	DISERBANTE	15723	ETHOFOL 500 SC	UPL EUROPE LTD	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical irritant				
@@ -5766,7 +5766,7 @@ PESTON:0108364	pesticide product		8364	EXPRESS 15 GR	DU PONT DE NEMOURS ITALIANA
 PESTON:0108362	pesticide product		8362	EXPRESS 20 DF	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			granule (generic, but defined size range)					
 PESTON:0113833	herbicide product	DISERBANTE	13833	EXPRESS 50 SX	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			water soluble granules	chemical dangerous for environment|chemical irritant				
 PESTON:0108368	herbicide product	DISERBANTE	8368	EXPRESS COMPRESSE	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			tablet	chemical dangerous for environment				
-PESTON:0114443	herbicide product	DISERBANTE	14443	EXPRESS SX	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
+PESTON:0114443	herbicide product	DISERBANTE	14443	EXPRESS SX	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|chemical irritant	IP			
 PESTON:0117902	fungicide product	FUNGICIDA	17902	EXSTASE SC	SYNGENTA ITALIA S.P.A.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)					
 PESTON:0101337	pesticide product		1337	EXTAR A	SYNGENTA ITALIA S.P.A.	Revocato	revoked								
 PESTON:0117657	fungicide product	FUNGICIDA	17657	EXTASE R	SYNGENTA ITALIA S.P.A.	Autorizzato	authorised			water dispersible granules					
@@ -6098,7 +6098,7 @@ PESTON:0110096	pesticide product		10096	FITOCIL	GRIFFIN (EUROPE) S.A.	Revocato	r
 PESTON:0104781	plant growth regulator product	FITOREGOLATORE	4781	FITOCOR	CIFO S.R.L.	Revocato	revoked			liquid product format	chemical irritant				
 PESTON:0106829	fungicide product	FUNGICIDA	6829	FITOCUPRYL 50 PB	LABORATORIO BIOFARMACOTECNICO ITALIANO S.R.L.	Revocato	revoked			wettable powder	harmful chemical				
 PESTON:0109321	fungicide product	FUNGICIDA	9321	FITOCUR	CASTALDO S.P.A.	Revocato	revoked			soluble concentrate					
-PESTON:0114535	fungicide product	FUNGICIDA	14535	FITOCUR 720	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			soluble concentrate		pesticide parallel importing			
+PESTON:0114535	fungicide product	FUNGICIDA	14535	FITOCUR 720	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			soluble concentrate		IP			
 PESTON:0112645	pesticide product		12645	FITODEK	PROCHIMAG DI MANDRIOLI GIUSEPPE	Revocato	revoked			soluble concentrate					
 PESTON:0103881	pesticide product		3881	FITODEL	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked			wettable powder					
 PESTON:0102306	pesticide product		2306	FITODEL 90	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked			wettable powder					
@@ -6177,10 +6177,10 @@ PESTON:0102450	herbicide product	DISERBANTE	2450	FLASH TZ	SIPCAM S.P.A.	Revocato
 PESTON:0108671	pesticide product		8671	FLASHBACK	SIAPA S.R.L.	Revocato	revoked			soluble concentrate					
 PESTON:0102220	pesticide product		2220	FLAVINA SANDOZ	SYNGENTA ITALIA S.P.A.	Revocato	revoked								
 PESTON:0109900	herbicide product	DISERBANTE	9900	FLAVOS	NUFARM ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
-PESTON:0115701	herbicide product	DISERBANTE	15701	FLAZA 25	AGCHEM ACCESS LTD.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115701	herbicide product	DISERBANTE	15701	FLAZA 25	AGCHEM ACCESS LTD.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	IP			
 PESTON:0117691	herbicide product	DISERBANTE	17691	FLAZARUS 25 WG	ASCENZA ITALIA S.R.L.	Autorizzato	authorised			water dispersible granules					
 PESTON:0112782	herbicide product	DISERBANTE	12782	FLAZIMAX 125	GENETTI S.R.L.-GMBH	Revocato	revoked			emulsifiable concentrate	harmful chemical|chemical dangerous for environment				
-PESTON:0115460	herbicide product	DISERBANTE	15460	FLAZURON	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115460	herbicide product	DISERBANTE	15460	FLAZURON	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	IP			
 PESTON:0107041	herbicide product	DISERBANTE	7041	FLEX	SYNGENTA ITALIA S.P.A.	Revocato	revoked			liquid product format	chemical irritant				
 PESTON:0117628	herbicide product	DISERBANTE	17628	FLEXCARD 500 SC	ASCENZA ITALIA S.R.L.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)					
 PESTON:0115346	fungicide product	FUNGICIDA	15346	FLEXITY	BASF ITALIA S.P.A.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
@@ -6195,7 +6195,7 @@ PESTON:0115841	nematicide product	NEMATOCIDA	15841	FLOCTER	BAYER CROPSCIENCE S.R
 PESTON:0106083	pesticide product		6083	FLOMAN FL	SCAM S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0117130	fungicide product	FUNGICIDA	17130	FLOMILL	SULPHUR MILLS LTD	Autorizzato in regime di Riconoscimento Reciproco	authorised - under mutual recognition - Regulation (EC) No 764/2008			suspension concentrate (= flowable concentrate)					
 PESTON:0110292	pesticide product		10292	FLOMYDE	PROCHIMAG DI MANDRIOLI GIUSEPPE	Revocato	revoked			suspension concentrate (= flowable concentrate)					
-PESTON:0114346	insecticide product	INSETTICIDA	14346	FLONIC	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			water dispersible granules	chemical harmful to aquatic life	pesticide parallel importing			
+PESTON:0114346	insecticide product	INSETTICIDA	14346	FLONIC	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			water dispersible granules	chemical harmful to aquatic life	IP			
 PESTON:0110714	herbicide product	DISERBANTE	10714	FLOPPY	AGROWIN BIOSCIENCES S.R.L.	Revocato	revoked			emulsifiable concentrate	harmful chemical				
 PESTON:0110589	insecticide product	INSETTICIDA	10589	FLORA VERDE	COPYR S.P.A.	Ri-registrato	re-registered			emulsifiable concentrate	chemical dangerous for environment			PFnPE (edible)	
 PESTON:0112863	acaricide product	ACARICIDA	12863	FLORAMITE 240 SC	UPL HOLDINGS CO…PERATIEF U.A.	Autorizzato	authorised		07/07/2022	suspension concentrate (= flowable concentrate)	chemical dangerous for environment|chemical irritant				
@@ -6294,7 +6294,7 @@ PESTON:0116068	fungicide product	FUNGICIDA	16068	FOLDER 80 WG	ARYSTA LIFESCIENCE
 PESTON:0117088	fungicide product	FUNGICIDA	17088	FOLDI	SHARDA CROPCHEM ESPANA S.L.	Autorizzato	authorised			water dispersible granules					
 PESTON:0117087	fungicide product	FUNGICIDA	17087	FOLDIM	SHARDA CROPCHEM ESPANA S.L.	Autorizzato	authorised			water dispersible granules					
 PESTON:0107749	pesticide product		7749	FOLDITION M	PASQUALE MORMINO & FIGLIO S.R.L.	Revocato	revoked	REVOCA LISTA C RICLASSIFICAZIONE	31/12/2003	wettable powder					
-PESTON:0114823	herbicide product	DISERBANTE	14823	FOLGORE	ROCCA FRUTTA S.R.L.	Revocato	revoked			soluble concentrate	toxic chemical	pesticide parallel importing			
+PESTON:0114823	herbicide product	DISERBANTE	14823	FOLGORE	ROCCA FRUTTA S.R.L.	Revocato	revoked			soluble concentrate	toxic chemical	IP			
 PESTON:0116178	fungicide product	FUNGICIDA	16178	FOLIANE 80 WG	ASCENZA AGRO S.A.	Autorizzato	authorised			water dispersible granules	chemical dangerous for environment|harmful chemical				
 PESTON:0108581	fungicide product	FUNGICIDA	8581	FOLIANE SC	ASCENZA AGRO S.A.	Ri-registrato	re-registered			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical				
 PESTON:0115309	fungicide product	FUNGICIDA	15309	FOLICUR 250 EW	BAYER CROPSCIENCE S.R.L.	Autorizzato	authorised			emulsion, oil in water	chemical dangerous for environment|harmful chemical				
@@ -6738,7 +6738,7 @@ PESTON:0106942	insecticide product | nematicide product	INSETTICIDA-NEMATOCIDA	6
 PESTON:0106661	insecticide product	INSETTICIDA	6661	FURACON 5 G FIORI	VERDE VIVO S.R.L. (PADOVA)	Revocato	revoked			granule (generic, but defined size range)	harmful chemical				
 PESTON:0102754	pesticide product		2754	FURAN	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
 PESTON:0106147	pesticide product		6147	FURESAN	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked								
-PESTON:0114537	herbicide product	DISERBANTE	14537	FURON 25 WG	ROCCA FRUTTA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0114537	herbicide product	DISERBANTE	14537	FURON 25 WG	ROCCA FRUTTA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment	IP			
 PESTON:0112241	herbicide product	DISERBANTE	12241	FURORE	AGRIPHAR ITALIA S.R.L.	Revocato	revoked			granule (generic, but defined size range)					
 PESTON:0109747	insecticide product	INSETTICIDA	9747	FURY	FMC CHEMICAL SPRL	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment			PFnPE (edible)	
 PESTON:0115370	insecticide product	INSETTICIDA	15370	FURY GEO	FMC CHEMICAL SPRL	Revocato	revoked			granule (generic, but defined size range)	chemical dangerous for environment				
@@ -6765,7 +6765,7 @@ PESTON:0116078	plant growth regulator product	FITOREGOLATORE	16078	FYSIUM	JANSSE
 PESTON:0100033	pesticide product		33	GA-SOL	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked								
 PESTON:0112497	plant growth regulator product	FITOREGOLATORE	12497	GA47	BIOLCHIM S.P.A.	Revocato	revoked			soluble concentrate					
 PESTON:0100387	pesticide product		387	GABEROL PB 25	ISAGRO S.P.A.	Revocato	revoked								
-PESTON:0117378	fungicide product	FUNGICIDA	17378	GACHINKO	NISSAN CHEMICAL EUROPE S.A.S	Autorizzato	authorised			suspension concentrate (= flowable concentrate)		pesticide parallel importing			
+PESTON:0117378	fungicide product	FUNGICIDA	17378	GACHINKO	NISSAN CHEMICAL EUROPE S.A.S	Autorizzato	authorised			suspension concentrate (= flowable concentrate)		IP			
 PESTON:0107947	herbicide product	DISERBANTE	7947	GAIO	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment				
 PESTON:0112296	herbicide product	DISERBANTE	12296	GAIO SX	CHEMINOVA AGRO ITALIA S.R.L.	Autorizzato	authorised			water soluble granules	chemical dangerous for environment				
 PESTON:0113753	herbicide product	DISERBANTE	13753	GAL-GONE	GLOBACHEM NV	Ri-registrato (Air 1 Fase 1)	re-registered			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
@@ -6857,7 +6857,7 @@ PESTON:0111495	herbicide product	DISERBANTE	11495	GARTREL	CORTEVA AGRISCIENCE IT
 PESTON:0106094	pesticide product		6094	GARVOX 3 G	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked			granule (generic, but defined size range)					
 PESTON:0111868	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	11868	GASER	START-UP S.A.S. DI GALANTI SERGIO E C.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0100578	pesticide product		578	GASOL DD	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked								
-PESTON:0116593	insecticide product	INSETTICIDA	16593	GASPER	ITACA S.R.L.	Scaduto	expired			emulsifiable concentrate		pesticide parallel importing			
+PESTON:0116593	insecticide product	INSETTICIDA	16593	GASPER	ITACA S.R.L.	Scaduto	expired			emulsifiable concentrate		IP			
 PESTON:0102266	pesticide product		2266	GASTEROX	SIPCAM S.P.A.	Revocato	revoked	REVOCA LISTA C RICLASSIFICAZIONE	31/12/2003	dispersible powder					
 PESTON:0106038	pesticide product		6038	GASTOXIN B	BENFER-SCHELLER S.P.A.	Revocato	revoked			tablet					
 PESTON:0105429	pesticide product		5429	GASTROCID	SIPCAM S.P.A.	Revocato	revoked	REVOCA LISTA C RICLASSIFICAZIONE	31/12/2003	bait (ready for use)					
@@ -6886,17 +6886,17 @@ PESTON:0101816	pesticide product		1816	GEMAFOS 10 G	SCAM S.P.A.	Revocato	revoked
 PESTON:0100174	pesticide product		174	GEMAFOS 50	SCAM S.P.A.	Revocato	revoked	REVOCA PER ATTUAZIONE DECISIONE UE NON ISCRIZIONE PARATION	09/01/2002	emulsifiable concentrate					
 PESTON:0116490	insecticide product	INSETTICIDA	16490	GEMINI GEO	FMC CHEMICAL SPRL	Revocato	revoked			granule (generic, but defined size range)					
 PESTON:0112741	herbicide product	DISERBANTE	12741	GEMINISTAR	CORTEVA AGRISCIENCE ITALIA S.R.L.	Ri-registrato (Air 1 Fase 1)	re-registered		16/06/2021	suspo-emulsion	chemical dangerous for environment|chemical irritant				
-PESTON:0115242	herbicide product	DISERBANTE	15242	GEN-DIQUAT 200	GENETTI S.R.L.-GMBH	Scaduto	expired			liquid product format	very toxic chemical|chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115240	fungicide product	FUNGICIDA	15240	GEN-FENCO 250	GENETTI S.R.L.-GMBH	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115241	herbicide product	DISERBANTE	15241	GEN-IMAZAMOX 40	CHEMIA S.P.A.	Scaduto	expired			soluble concentrate	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115155	fungicide product	FUNGICIDA	15155	GEN-PROPI 250	GENETTI S.R.L.-GMBH	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115242	herbicide product	DISERBANTE	15242	GEN-DIQUAT 200	GENETTI S.R.L.-GMBH	Scaduto	expired			liquid product format	very toxic chemical|chemical dangerous for environment	IP			
+PESTON:0115240	fungicide product	FUNGICIDA	15240	GEN-FENCO 250	GENETTI S.R.L.-GMBH	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	IP			
+PESTON:0115241	herbicide product	DISERBANTE	15241	GEN-IMAZAMOX 40	CHEMIA S.P.A.	Scaduto	expired			soluble concentrate	chemical dangerous for environment	IP			
+PESTON:0115155	fungicide product	FUNGICIDA	15155	GEN-PROPI 250	GENETTI S.R.L.-GMBH	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	IP			
 PESTON:0115018	herbicide product	DISERBANTE	15018	GENDER WP	NUFARM ITALIA S.R.L.	Revocato	revoked			wettable powder	chemical dangerous for environment|harmful chemical				
 PESTON:0112412	insecticide product	INSETTICIDA	12412	GENESIS	PHYTEUROP S.A.	Revocato	revoked			bait (ready for use)	harmful chemical				
 PESTON:0111963	plant growth regulator product	FITOREGOLATORE	11963	GENIAL GA 3	SELEZIONE PAC S.R.L.	Revocato	revoked			water soluble powder					
 PESTON:0111682	plant growth regulator product	FITOREGOLATORE	11682	GENIAL PRO	SELEZIONE PAC S.R.L.	Revocato	revoked			soluble concentrate	chemical irritant				
 PESTON:0110020	plant growth regulator product	FITOREGOLATORE	10020	GENIAL SL	NUFARM ITALIA S.R.L.	Autorizzato	authorised			soluble concentrate	chemical irritant				
 PESTON:0114328	plant growth regulator product	FITOREGOLATORE	14328	GENIAL TAB	NUFARM ITALIA S.R.L.	Autorizzato	authorised			tablet					
-PESTON:0115473	insecticide product	INSETTICIDA	15473	GENIALROC	ROCCA FRUTTA S.R.L.	Revocato	revoked			wettable powder		pesticide parallel importing			
+PESTON:0115473	insecticide product	INSETTICIDA	15473	GENIALROC	ROCCA FRUTTA S.R.L.	Revocato	revoked			wettable powder		IP			
 PESTON:0111519	insecticide product	INSETTICIDA	11519	GENIALROC 75 WP	ROCCA FRUTTA S.R.L.	Revocato	revoked			wettable powder	chemical irritant				
 PESTON:0111473	fungicide product	FUNGICIDA	11473	GENIUS 12 SC	AGRIMPORT S.P.A.	Scaduto	expired			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical				
 PESTON:0109218	pesticide product		9218	GENIUS 6 WP	MARGARITA INTERNATIONAL	Revocato	revoked			wettable powder					
@@ -7044,8 +7044,8 @@ PESTON:0102100	pesticide product		2100	GESFID POLVERE	SHELL ITALIA S.P.A.	Revoca
 PESTON:0101282	pesticide product		1282	GESIK	GOWAN ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0105019	pesticide product		5019	GETINFOS 20	AGRICOLTURA ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0115789	fungicide product	FUNGICIDA	15789	GETT	SYNGENTA ITALIA S.P.A.	Revocato	revoked			water dispersible granules					
-PESTON:0113031	fungicide product	FUNGICIDA	13031	GEYSER	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0113902	fungicide product	FUNGICIDA	13902	GEYSER	PA.MAG S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0113031	fungicide product	FUNGICIDA	13031	GEYSER	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	IP			
+PESTON:0113902	fungicide product	FUNGICIDA	13902	GEYSER	PA.MAG S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	IP			
 PESTON:0105949	pesticide product		5949	GHEMON	VISPLANT CHIMIREN S.P.A.	Revocato	revoked								
 PESTON:0107245	pesticide product		7245	GHEOBROM	SCAM S.P.A.	Revocato	revoked								
 PESTON:0101303	pesticide product		1303	GHER	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			wettable powder					
@@ -7095,7 +7095,7 @@ PESTON:0113904	plant growth regulator product	FITOREGOLATORE	13904	GIBAIFAR COMP
 PESTON:0107456	pesticide product		7456	GIBAMON	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked								
 PESTON:0105732	plant growth regulator product	FITOREGOLATORE	5732	GIBAUXIN	SIVAM S.P.A.	Revocato	revoked			liquid product format	chemical irritant				
 PESTON:0112989	plant growth regulator product	FITOREGOLATORE	12989	GIBB PLUS	GLOBACHEM NV	Ri-registrato	re-registered			soluble concentrate					
-PESTON:0114622	plant growth regulator product	FITOREGOLATORE	14622	GIBBALIN	S&B CONSULT SNC	Revocato	revoked			soluble concentrate		pesticide parallel importing			
+PESTON:0114622	plant growth regulator product	FITOREGOLATORE	14622	GIBBALIN	S&B CONSULT SNC	Revocato	revoked			soluble concentrate		IP			
 PESTON:0105581	plant growth regulator product	FITOREGOLATORE	5581	GIBBERELLINA CIFO	NUFARM ITALIA S.R.L.	Autorizzato	authorised			tablet					
 PESTON:0106048	plant growth regulator product	FITOREGOLATORE	6048	GIBEFOL	BAM S.R.L.	Revocato	revoked			tablet					
 PESTON:0106027	pesticide product		6027	GIBEFOL R	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
@@ -7130,7 +7130,7 @@ PESTON:0110466	acaricide product	ACARICIDA	10466	GIUTURNA	NUFARM ITALIA S.R.L.	R
 PESTON:0111469	herbicide product	DISERBANTE	11469	GIVER TOP 70 WG	AGROPIAVE S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment|harmful chemical				
 PESTON:0114839	fungicide product	FUNGICIDA	14839	GIZMO 25 FS	NUFARM ITALIA S.R.L.	Autorizzato	authorised			flowable concentrate for seed treatment	chemical irritant				
 PESTON:0115817	insecticide product	INSETTICIDA	15817	GLADIATOR	CORTEVA AGRISCIENCE ITALIA S.R.L.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)					
-PESTON:0114499	fungicide product	FUNGICIDA	14499	GLADIO	ROCCA FRUTTA S.R.L.	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0114499	fungicide product	FUNGICIDA	14499	GLADIO	ROCCA FRUTTA S.R.L.	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment	IP			
 PESTON:0111295	fungicide product	FUNGICIDA	11295	GLADIOR WDG	GOWAN ITALIA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment				
 PESTON:0113036	fungicide product	FUNGICIDA	13036	GLAROS	AGRIMPORT S.P.A.	Revocato	revoked			wettable powder	chemical irritant				
 PESTON:0106729	pesticide product		6729	GLEAN 20 DF	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			dispersible powder					
@@ -7167,7 +7167,7 @@ PESTON:0105946	pesticide product		5946	GLIFOLANFOL	AVENTIS CROPSCIENCE ITALIA S.
 PESTON:0105193	herbicide product	DISERBANTE	5193	GLIFONE	HELM AG	Revocato	revoked			liquid product format	chemical dangerous for environment|chemical irritant				
 PESTON:0109189	pesticide product		9189	GLIFONET	BIONATURA S.R.L.	Scaduto	expired			liquid product format					
 PESTON:0115431	herbicide product	DISERBANTE	15431	GLIFOPEC	ASCENZA AGRO S.A.	Revocato	revoked			soluble concentrate	chemical dangerous for environment|chemical irritant				
-PESTON:0114714	herbicide product	DISERBANTE	14714	GLIFOROC 360	ROCCA FRUTTA S.R.L.	Scaduto	expired			soluble concentrate	chemical irritant	pesticide parallel importing			
+PESTON:0114714	herbicide product	DISERBANTE	14714	GLIFOROC 360	ROCCA FRUTTA S.R.L.	Scaduto	expired			soluble concentrate	chemical irritant	IP			
 PESTON:0104401	pesticide product		4401	GLIFOSAN	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked			liquid product format					
 PESTON:0109726	herbicide product	DISERBANTE	9726	GLIFOSAN	NUFARM ITALIA S.R.L.	Revocato	revoked			soluble concentrate	chemical dangerous for environment				
 PESTON:0109602	herbicide product	DISERBANTE	9602	GLIFOSAR	GOWAN ITALIA S.R.L.	Revocato	revoked			liquid product format	chemical dangerous for environment|chemical irritant				
@@ -7191,12 +7191,12 @@ PESTON:0108911	pesticide product		8911	GLISOL-304	ALTHALLER ITALIA S.R.L.	Revoca
 PESTON:0115090	fungicide product	FUNGICIDA	15090	GLISOMPA	PROBELTE S.A.	Revocato	revoked			soluble concentrate	chemical dangerous for environment|chemical irritant				
 PESTON:0108201	herbicide product	DISERBANTE	8201	GLISTER	AGROWIN BIOSCIENCES S.R.L.	Revocato	revoked			soluble concentrate	chemical dangerous for environment|chemical irritant				
 PESTON:0116867	herbicide product	DISERBANTE	16867	GLISTER STAR	SINON EU GMBH	Autorizzato in regime di Riconoscimento Reciproco	authorised - under mutual recognition - Regulation (EC) No 764/2008			liquid product format					
-PESTON:0114505	herbicide product	DISERBANTE	14505	GLISTO 360	GENETTI S.R.L.-GMBH	Revocato	revoked			soluble concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0114505	herbicide product	DISERBANTE	14505	GLISTO 360	GENETTI S.R.L.-GMBH	Revocato	revoked			soluble concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0108897	pesticide product		8897	GLITER	AGRIPHAR ITALIA S.R.L.	Revocato	revoked	REVOCA MANCATA PRESENTAZIONE ALLEGATO III GLIFOSATE	08/09/2005	liquid product format					
 PESTON:0112647	herbicide product	DISERBANTE	12647	GLITTER	SHARDA CROPCHEM ESPANA S.L.	Ri-registrato	re-registered			oil dispersion	chemical dangerous for environment				
 PESTON:0109146	pesticide product		9146	GLIVIL GLIFOSATE 30 SAM	INDUSTRIA CHIMICA SCARMAGNAN ALBERTO & C. S.A.S.	Revocato	revoked			soluble concentrate					
 PESTON:0112808	herbicide product	DISERBANTE	12808	GLOBAL SC	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment			PFnPE (edible)	
-PESTON:0114623	plant growth regulator product	FITOREGOLATORE	14623	GLOBARYLL 100	S&B CONSULT SNC	Revocato	revoked			soluble concentrate	chemical irritant	pesticide parallel importing			
+PESTON:0114623	plant growth regulator product	FITOREGOLATORE	14623	GLOBARYLL 100	S&B CONSULT SNC	Revocato	revoked			soluble concentrate	chemical irritant	IP			
 PESTON:0115113	fungicide product	FUNGICIDA	15113	GLOBAZTAR AZT 250 SC	SYNGENTA CROP PROTECTION AG	Ri-registrato	re-registered			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0116019	plant growth regulator product	FITOREGOLATORE	16019	GLOBBARIL 100 SL	GLOBACHEM NV	Autorizzato	authorised			soluble concentrate					
 PESTON:0109272	pesticide product		9272	GLOBE	CHEMINOVA AGRO ITALIA S.R.L.	Revocato	revoked			capsule suspension					
@@ -7214,7 +7214,7 @@ PESTON:0117543	herbicide product	DISERBANTE	17543	GLOSS	ROTAM AGROCHEMICAL EUROP
 PESTON:0116695	herbicide product	DISERBANTE	16695	GLOSSET 600 SC	GLOBACHEM NV	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			suspension concentrate (= flowable concentrate)					
 PESTON:0111468	fungicide product	FUNGICIDA	11468	GLOW 80 WG	GREEN TRADE S.R.L.	Revocato	revoked			water dispersible granules	chemical irritant				
 PESTON:0113403	herbicide product	DISERBANTE	13403	GLOXY	ADAMA AGAN LTD	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
-PESTON:0114539	herbicide product	DISERBANTE	14539	GLUFOS 20	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			soluble concentrate	toxic chemical	pesticide parallel importing			
+PESTON:0114539	herbicide product	DISERBANTE	14539	GLUFOS 20	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			soluble concentrate	toxic chemical	IP			
 PESTON:0112724	pesticide product		12724	GLUFOSAM	EURO TSA S.R.L.	Revocato	revoked			soluble concentrate					
 PESTON:0112206	fungicide product	FUNGICIDA	12206	GLUTEX CU 90	AGRISYSTEM S.R.L.	Revocato	revoked			liquid product format	chemical dangerous for environment|chemical irritant				
 PESTON:0107630	herbicide product	DISERBANTE	7630	GLYFIN	NOVAFITO S.P.A.	Revocato	revoked			liquid product format	chemical dangerous for environment|chemical irritant				
@@ -7367,8 +7367,8 @@ PESTON:0103991	pesticide product		3991	GRANOX S-48	FORMENTI S.P.A.	Revocato	revo
 PESTON:0107258	pesticide product		7258	GRANOZOL	BASF ITALIA S.P.A.	Revocato	revoked								
 PESTON:0116872	insecticide product	INSETTICIDA	16872	GRANPROTEC	SHARDA CROPCHEM ESPANA S.L.	Autorizzato in regime di Riconoscimento Reciproco	authorised - under mutual recognition - Regulation (EC) No 764/2008			emulsifiable concentrate					
 PESTON:0107997	herbicide product	DISERBANTE	7997	GRANSTAR	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			granule (generic, but defined size range)	chemical dangerous for environment				
-PESTON:0110683	pesticide product		10683	GRANSTAR	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Revocato	revoked			water dispersible granules		pesticide parallel importing			
-PESTON:0111929	herbicide product	DISERBANTE	11929	GRANSTAR	TECOMAG S.R.L.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0110683	pesticide product		10683	GRANSTAR	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Revocato	revoked			water dispersible granules		IP			
+PESTON:0111929	herbicide product	DISERBANTE	11929	GRANSTAR	TECOMAG S.R.L.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	IP			
 PESTON:0108332	pesticide product		8332	GRANSTAR 15 GR	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			granule (generic, but defined size range)					
 PESTON:0108365	pesticide product		8365	GRANSTAR 20 DF	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			granule (generic, but defined size range)					
 PESTON:0112192	herbicide product	DISERBANTE	12192	GRANSTAR 50 SX	CHEMINOVA AGRO ITALIA S.R.L.	Ri-registrato	re-registered			water dispersible granules	chemical dangerous for environment|chemical irritant				
@@ -7502,7 +7502,7 @@ PESTON:0117332	herbicide product	DISERBANTE	17332	HANUKYS	ADAMA AGAN LTD	Autoriz
 PESTON:0116465	herbicide product	DISERBANTE	16465	HARASS	CHEMINOVA A/S	Revocato	revoked			granule (generic, but defined size range)					
 PESTON:0117831	herbicide product	DISERBANTE	17831	HARMONIX DISPEL	ALPHA BIOPESTICIDES LTD	Autorizzato	authorised			emulsifiable concentrate					
 PESTON:0107946	herbicide product	DISERBANTE	7946	HARMONY	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			granule (generic, but defined size range)	chemical dangerous for environment				
-PESTON:0113427	herbicide product	DISERBANTE	13427	HARMONY	GENETTI S.R.L.-GMBH	Scaduto	expired			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0113427	herbicide product	DISERBANTE	13427	HARMONY	GENETTI S.R.L.-GMBH	Scaduto	expired			water dispersible granules	chemical dangerous for environment	IP			
 PESTON:0112671	herbicide product	DISERBANTE	12671	HARMONY 50 SX	CHEMINOVA AGRO ITALIA S.R.L.	Autorizzato	authorised			water dispersible granules	chemical dangerous for environment				
 PESTON:0117291	insecticide product	INSETTICIDA	17291	HARPUN	GALENIKA-FITOFARMACIJA D.O.O.	Autorizzato in regime di Riconoscimento Reciproco	authorised - under mutual recognition - Regulation (EC) No 764/2008			emulsifiable concentrate					
 PESTON:0108458	pesticide product		8458	HARVADE FLO	CHEMTURA ITALY S.R.L.	Scaduto	expired			suspension concentrate (= flowable concentrate)					
@@ -7714,7 +7714,7 @@ PESTON:0107522	pesticide product		7522	ILLOXAN COMBI S	AVENTIS CROPSCIENCE ITALI
 PESTON:0107658	pesticide product		7658	ILOPON	EMME ITALIA S.R.L.	Revocato	revoked	REVOCA ADEMPIMENTO REG. 2076 (NON ISCRIZIONE ALL. I)		wettable powder					
 PESTON:0117186	herbicide product	DISERBANTE	17186	IMA-GINE	SHARDA CROPCHEM ESPANA S.L.	Autorizzato	authorised			soluble concentrate					
 PESTON:0116405	herbicide product	DISERBANTE	16405	IMAGE GOLD	NUFARM ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate					
-PESTON:0115936	herbicide product	DISERBANTE	15936	IMAZAMOX 40	COLIA TRADE S.R.L.	Scaduto	expired			soluble concentrate	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115936	herbicide product	DISERBANTE	15936	IMAZAMOX 40	COLIA TRADE S.R.L.	Scaduto	expired			soluble concentrate	chemical dangerous for environment	IP			
 PESTON:0117181	herbicide product	DISERBANTE	17181	IMAZATEK	SHARDA CROPCHEM ESPANA S.L.	Autorizzato	authorised			soluble concentrate					
 PESTON:0117187	herbicide product	DISERBANTE	17187	IMAZATOP	SHARDA CROPCHEM ESPANA S.L.	Autorizzato	authorised			soluble concentrate					
 PESTON:0113435	insecticide product	INSETTICIDA	13435	IMD INSETTICIDA SISTEMICO	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			aerosol dispenser	extremely flammable chemical		PFnPO (ornamental)		
@@ -7732,7 +7732,7 @@ PESTON:0109960	insecticide product	INSETTICIDA	9960	IMIDOR	BAYER CROPSCIENCE S.R
 PESTON:0107633	pesticide product		7633	IMITOL	BASF AGRO S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0107670	pesticide product		7670	IMIVENGE	BASF ITALIA S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0108064	fungicide product	FUNGICIDA	8064	IMPACT	CHEMINOVA AGRO ITALIA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	harmful chemical				
-PESTON:0110164	fungicide product	FUNGICIDA	10164	IMPACT 125 FL	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Scaduto	expired			suspension concentrate (= flowable concentrate)	harmful chemical	pesticide parallel importing			
+PESTON:0110164	fungicide product	FUNGICIDA	10164	IMPACT 125 FL	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Scaduto	expired			suspension concentrate (= flowable concentrate)	harmful chemical	IP			
 PESTON:0112790	fungicide product	FUNGICIDA	12790	IMPACT 250 SC	CHEMINOVA AGRO ITALIA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical				
 PESTON:0108065	fungicide product	FUNGICIDA	8065	IMPACT RAME	CHEMINOVA AGRO ITALIA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0113707	fungicide product	FUNGICIDA	13707	IMPACT SUPREME	CHEMINOVA AGRO ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment				
@@ -8410,7 +8410,7 @@ PESTON:0108932	herbicide product	DISERBANTE	8932	LEGION	BAYER CROPSCIENCE S.R.L.
 PESTON:0101890	pesticide product		1890	LEGOR	SIAPA S.R.L.	Revocato	revoked			soluble concentrate					
 PESTON:0101059	pesticide product		1059	LEGUMIN	SIPCAM S.P.A.	Revocato	revoked	REVOCA NON CONFORMITA' DISPOSIZIONI ISCRIZIONE 2,4 DB ALL. I	30/06/2004	emulsifiable concentrate					
 PESTON:0114406	fungicide product	FUNGICIDA	14406	LEIMAY	SCAM S.P.A.	Ri-registrato	re-registered			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
-PESTON:0114351	pheromone product	FEROMONE	14351	LENA MATE C	LENA S.R.L.	Revocato	revoked				chemical irritant	pesticide parallel importing			
+PESTON:0114351	pheromone product	FEROMONE	14351	LENA MATE C	LENA S.R.L.	Revocato	revoked				chemical irritant	IP			
 PESTON:0103578	herbicide product	DISERBANTE	3578	LENAC FLO	CHEMIA S.P.A.	Revocato	revoked			dispersible powder	chemical dangerous for environment				
 PESTON:0111671	herbicide product	DISERBANTE	11671	LENACIL 80 WP	AGRICOLA LTD	Revocato	revoked			wettable powder					
 PESTON:0111200	herbicide product	DISERBANTE	11200	LENACILO FCS	ADAMA DEUTSCHLAND GMBH	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
@@ -8607,7 +8607,7 @@ PESTON:0111491	herbicide product	DISERBANTE	11491	LOGAL 24 EC	EURO TSA S.R.L.	Re
 PESTON:0110027	pesticide product		10027	LOGRADO	COMERCIAL QUIMICA MASSO' S.A.	Revocato	revoked			soluble concentrate					
 PESTON:0110575	herbicide product	DISERBANTE	10575	LOGRADO 360	COMERCIAL QUIMICA MASSO' S.A.	Revocato	revoked			soluble concentrate	chemical dangerous for environment|chemical irritant				
 PESTON:0116255	herbicide product	DISERBANTE	16255	LOGRADO 490	BARCLAY CHEMICALS (R&D) LTD.	Autorizzato	authorised			soluble concentrate				PFnPE (edible)	
-PESTON:0116917	herbicide product	DISERBANTE	16917	LOGRADO PLUS	COMERCIAL QUIMICA MASSO' S.A.	Autorizzato	authorised			soluble concentrate		pesticide parallel importing			
+PESTON:0116917	herbicide product	DISERBANTE	16917	LOGRADO PLUS	COMERCIAL QUIMICA MASSO' S.A.	Autorizzato	authorised			soluble concentrate		IP			
 PESTON:0108547	herbicide product	DISERBANTE	8547	LOGRAN	SYNGENTA ITALIA S.P.A.	Revocato	revoked			water dispersible granules	chemical dangerous for environment				
 PESTON:0100962	pesticide product		962	LONACOL	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			wettable powder					
 PESTON:0100961	pesticide product		961	LONACOL BLU	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			wettable powder					
@@ -8931,7 +8931,7 @@ PESTON:0111789	herbicide product	DISERBANTE	11789	MANAGER	ADAMA AGAN LTD	Ri-regi
 PESTON:0116950	fungicide product	FUNGICIDA	16950	MANAMID 100 SC	MANICA S.P.A.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			suspension concentrate (= flowable concentrate)					
 PESTON:0104067	pesticide product		4067	MANATANE	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
 PESTON:0109552	fungicide product	FUNGICIDA	9552	MANAUS	ROCCA FRUTTA S.R.L.	Revocato	revoked			wettable powder	chemical irritant				
-PESTON:0114712	fungicide product	FUNGICIDA	14712	MANAUS 80 WG	ROCCA FRUTTA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
+PESTON:0114712	fungicide product	FUNGICIDA	14712	MANAUS 80 WG	ROCCA FRUTTA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment|chemical irritant	IP			
 PESTON:0103408	pesticide product		3408	MANCAP	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked								
 PESTON:0101934	pesticide product		1934	MANCOCIDE	BASF AGRO S.P.A.	Revocato	revoked								
 PESTON:0109119	fungicide product	FUNGICIDA	9119	MANCOCIM MZ	ARYSTA LIFESCIENCE BENELUX SPRL	Revocato	revoked			wettable powder	chemical dangerous for environment|harmful chemical				
@@ -9172,14 +9172,14 @@ PESTON:0101024	pesticide product		1024	MEBANE AZZURRO	SIPCAM S.P.A.	Revocato	rev
 PESTON:0101025	pesticide product		1025	MEBANE BIANCO	SIPCAM S.P.A.	Revocato	revoked	REVOCA LISTA C RICLASSIFICAZIONE	31/12/2003	wettable powder					
 PESTON:0105005	pesticide product		5005	MEBANE RAME	SIPCAM S.P.A.	Revocato	revoked	REVOCA LISTA C RICLASSIFICAZIONE	31/12/2003	wettable powder					
 PESTON:0107566	pesticide product		7566	MEBRON	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			wettable powder					
-PESTON:0114536	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	14536	MEC 18	ROCCA FRUTTA S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0114536	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	14536	MEC 18	ROCCA FRUTTA S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0109951	herbicide product	DISERBANTE	9951	MECLIN	SCAM S.P.A.	Revocato	revoked			wettable powder	chemical dangerous for environment				
 PESTON:0110386	herbicide product	DISERBANTE	10386	MECLIN MGD	SCAM S.P.A.	Revocato	revoked			water dispersible granules	chemical dangerous for environment				
 PESTON:0105045	pesticide product		5045	MECO	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
 PESTON:0110663	fungicide product	FUNGICIDA	10663	MECODIN 35	SIPCAM S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)	harmful chemical				
 PESTON:0106731	pesticide product		6731	MECONIL	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			soluble concentrate					
 PESTON:0106118	pesticide product		6118	MECOSIP	SIPCAM S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
-PESTON:0115604	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	15604	MECTIN	ROCCA FRUTTA S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0115604	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	15604	MECTIN	ROCCA FRUTTA S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0109399	fungicide product	FUNGICIDA	9399	MEDAL 25	ADAMA MAKHTESHIM LTD	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment				
 PESTON:0110622	pesticide product		10622	MEDAL 25	ADAMA MAKHTESHIM LTD	Revocato	revoked			emulsifiable concentrate					
 PESTON:0111347	pesticide product		11347	MEDAL EC 25	AGRICO S.R.L.	Revocato	revoked			emulsifiable concentrate					
@@ -9245,10 +9245,10 @@ PESTON:0108206	pesticide product		8206	MERCURY 163	BAYER CROPSCIENCE S.R.L.	Revo
 PESTON:0111080	herbicide product	DISERBANTE	11080	MERCURY SE	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			suspo-emulsion	chemical dangerous for environment|chemical irritant				
 PESTON:0110603	insecticide product	INSETTICIDA	10603	MERIT GREEN	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			soluble concentrate					
 PESTON:0109278	herbicide product	DISERBANTE	9278	MERLIN	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			water dispersible granules	harmful chemical				
-PESTON:0112963	pesticide product		12963	MERLIN 750 WG	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Revocato	revoked			water dispersible granules		pesticide parallel importing			
-PESTON:0112964	pesticide product		12964	MERLIN 750 WG	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Revocato	revoked			water dispersible granules		pesticide parallel importing			
-PESTON:0113029	pesticide product		13029	MERLIN 750 WG	U.B.M. S.R.L.	Revocato	revoked			water dispersible granules		pesticide parallel importing			
-PESTON:0113030	pesticide product		13030	MERLIN 750 WG	U.B.M. S.R.L.	Revocato	revoked			water dispersible granules		pesticide parallel importing			
+PESTON:0112963	pesticide product		12963	MERLIN 750 WG	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Revocato	revoked			water dispersible granules		IP			
+PESTON:0112964	pesticide product		12964	MERLIN 750 WG	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Revocato	revoked			water dispersible granules		IP			
+PESTON:0113029	pesticide product		13029	MERLIN 750 WG	U.B.M. S.R.L.	Revocato	revoked			water dispersible granules		IP			
+PESTON:0113030	pesticide product		13030	MERLIN 750 WG	U.B.M. S.R.L.	Revocato	revoked			water dispersible granules		IP			
 PESTON:0109279	herbicide product	DISERBANTE	9279	MERLIN COMBI	BAYER CROPSCIENCE S.R.L.	Ri-registrato	re-registered			suspension concentrate (= flowable concentrate)	harmful chemical|chemical dangerous for environment				
 PESTON:0110321	herbicide product	DISERBANTE	10321	MERLIN DUO	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical				
 PESTON:0112824	herbicide product	DISERBANTE	12824	MERLIN EXPERT	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
@@ -9685,7 +9685,7 @@ PESTON:0113193	fungicide product	FUNGICIDA	13193	MINERALE DI ZOLFO 33%	S.A.I.M. 
 PESTON:0110783	insecticide product	INSETTICIDA	10783	MINEROL	CIFO S.R.L.	Revocato	revoked			emulsifiable concentrate			PFnPO (ornamental)		
 PESTON:0112484	insecticide product	INSETTICIDA	12484	MINEROL MT	CIFO S.R.L.	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment		PFnPO (ornamental)		
 PESTON:0116232	herbicide product	DISERBANTE	16232	MINERVE	ROTAM AGROCHEMICAL EUROPE LIMITED	Autorizzato	authorised			water dispersible granules					
-PESTON:0114624	herbicide product	DISERBANTE	14624	MING	ROCCA FRUTTA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0114624	herbicide product	DISERBANTE	14624	MING	ROCCA FRUTTA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment	IP			
 PESTON:0112893	herbicide product	DISERBANTE	12893	MING 75 WG	ROCCA FRUTTA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment				
 PESTON:0102208	pesticide product		2208	MINITROL 75	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked								
 PESTON:0114904	insecticide product	INSETTICIDA	14904	MINOIL	ZAPI INDUSTRIE CHIMICHE S.P.A.	Revocato	revoked			emulsifiable concentrate					
@@ -9731,7 +9731,7 @@ PESTON:0105473	pesticide product		5473	MITAC 20 CE	BAYER CROPSCIENCE S.R.L.	Revo
 PESTON:0108298	pesticide product		8298	MITAC 20 HF	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0109500	pesticide product		9500	MITAC TOP	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0109433	pesticide product		9433	MITAGRO	CHEMINOVA AGRO ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate					
-PESTON:0115466	fungicide product	FUNGICIDA	15466	MITAM 700	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
+PESTON:0115466	fungicide product	FUNGICIDA	15466	MITAM 700	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|chemical irritant	IP			
 PESTON:0105629	pesticide product		5629	MITAN	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked	REVOCA PUBBLICATA SU G.U. N. 67 DEL 21.3.1986							
 PESTON:0105014	pesticide product		5014	MITAZAR	VISPLANT CHIMIREN S.P.A.	Revocato	revoked								
 PESTON:0110956	acaricide product	ACARICIDA	10956	MITENE	DIACHEM S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
@@ -10152,7 +10152,7 @@ PESTON:0116892	fungicide product	FUNGICIDA	16892	NEXY	AGRAUXINE S.A.	Autorizzato
 PESTON:0100461	pesticide product		461	NF 178	SOLPLANT S.P.A.	Revocato	revoked								
 PESTON:0115060	fungicide product	FUNGICIDA	15060	NF-149 50 EW	NISSO CHEMICAL EUROPE GMBH	Autorizzato	authorised			emulsion, oil in water	chemical dangerous for environment|chemical irritant				
 PESTON:0110274	acaricide product	ACARICIDA	10274	NIAGARA	ROCCA FRUTTA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical irritant				
-PESTON:0114713	acaricide product	ACARICIDA	14713	NIAGARA 42 SC	ROCCA FRUTTA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical harmful to aquatic life	pesticide parallel importing			
+PESTON:0114713	acaricide product	ACARICIDA	14713	NIAGARA 42 SC	ROCCA FRUTTA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical harmful to aquatic life	IP			
 PESTON:0113133	herbicide product	DISERBANTE	13133	NIBER 35 WG	ADAMA ITALIA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment				
 PESTON:0116098	herbicide product	DISERBANTE	16098	NIBER 70 DF	ADAMA DEUTSCHLAND GMBH	Autorizzato	authorised			granule (generic, but defined size range)	chemical dangerous for environment				
 PESTON:0110282	herbicide product	DISERBANTE	10282	NIBER WG	SIAPA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment				
@@ -10427,7 +10427,7 @@ PESTON:0110824	insecticide product	INSETTICIDA	10824	OLIGREEN	OVERTY S.R.L.	Revo
 PESTON:0113418	plant growth regulator product	FITOREGOLATORE	13418	OLIMPIAKOS	GREEN RAVENNA S.R.L.	Revocato	revoked			soluble concentrate					
 PESTON:0114789	plant growth regulator product	FITOREGOLATORE	14789	OLIMPIAKOS PLUS	STI SOLFOTECNICA ITALIANA S.P.A.	Autorizzato	authorised			soluble concentrate					
 PESTON:0112475	herbicide product	DISERBANTE	12475	OLIMPO	ROCCA FRUTTA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
-PESTON:0114710	herbicide product	DISERBANTE	14710	OLIMPO 6 SC	ROCCA FRUTTA S.R.L.	Scaduto	expired			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
+PESTON:0114710	herbicide product	DISERBANTE	14710	OLIMPO 6 SC	ROCCA FRUTTA S.R.L.	Scaduto	expired			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|chemical irritant	IP			
 PESTON:0104934	pesticide product		4934	OLIO BIANCO 80	AGRICO S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0111239	insecticide product	INSETTICIDA	11239	OLIO BIANCO 80	SUN COMPANY S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0104901	insecticide product	INSETTICIDA	4901	OLIO BIANCO LBI	LABORATORIO BIOFARMACOTECNICO ITALIANO S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment				
@@ -10598,9 +10598,9 @@ PESTON:0100609	pesticide product		609	ORVAL 5 POLVERE	BASF AGRO S.P.A.	Revocato	
 PESTON:0101213	pesticide product		1213	ORVAL PB 45 BLU	BASF AGRO S.P.A.	Revocato	revoked			wettable powder					
 PESTON:0117164	fungicide product	FUNGICIDA	17164	ORVEGO	BASF ITALIA S.P.A.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)					
 PESTON:0116981	fungicide product	FUNGICIDA	16981	ORVEGO TOP	BASF ITALIA S.P.A.	Ri-registrato	re-registered			water dispersible granules					
-PESTON:0114149	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	14149	ORYTIS	GENETTI S.R.L.-GMBH	Scaduto	expired			emulsion, oil in water	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0114149	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	14149	ORYTIS	GENETTI S.R.L.-GMBH	Scaduto	expired			emulsion, oil in water	chemical dangerous for environment	IP			
 PESTON:0113760	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	13760	ORYTIS EW	CHEMINOVA A/S	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment				
-PESTON:0115631	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	15631	ORYTIS II	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			emulsion, oil in water	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115631	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	15631	ORYTIS II	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			emulsion, oil in water	chemical dangerous for environment	IP			
 PESTON:0110376	herbicide product	DISERBANTE	10376	ORYZA	TECOMAG S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0106694	pesticide product		6694	ORYZOL	ISAGRO S.P.A.	Revocato	revoked			liquid product format					
 PESTON:0115070	adjuvant product	SINERGIZZANTE	15070	OS-169	NIHON NOHYAKU CO. LTD	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
@@ -11039,8 +11039,8 @@ PESTON:0108959	pesticide product		8959	PHALTAN 6	ZOLFI VENTILATI MANNINO S.P.A.	
 PESTON:0112062	herbicide product	DISERBANTE	12062	PHANTOM	ROCCA FRUTTA S.R.L.	Revocato	revoked			soluble concentrate					
 PESTON:0113616	herbicide product	DISERBANTE	13616	PHEMO	UPL EUROPE LTD	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0112609	fungicide product	FUNGICIDA	12609	PHILABUSTER 400 SC	JANSSEN PHARMACEUTICA N.V.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical				
-PESTON:0116122	pheromone product	FEROMONE	16122	PHOENIMATE C+	ISAGRO S.P.A.	Revocato	revoked				chemical irritant	pesticide parallel importing			
-PESTON:0116123	pheromone product	FEROMONE	16123	PHOENIMATE OFM	ISAGRO S.P.A.	Revocato	revoked				chemical irritant	pesticide parallel importing			
+PESTON:0116122	pheromone product	FEROMONE	16122	PHOENIMATE C+	ISAGRO S.P.A.	Revocato	revoked				chemical irritant	IP			
+PESTON:0116123	pheromone product	FEROMONE	16123	PHOENIMATE OFM	ISAGRO S.P.A.	Revocato	revoked				chemical irritant	IP			
 PESTON:0108879	pesticide product		8879	PHOENIX T	SYNGENTA ITALIA S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0108871	pesticide product		8871	PHOENIX T 40	SYNGENTA ITALIA S.P.A.	Revocato	revoked			wettable powder					
 PESTON:0104447	pesticide product		4447	PHORATE 5 G CYANAMID	BASF AGRO S.P.A.	Revocato	revoked								
@@ -11190,13 +11190,13 @@ PESTON:0111641	pesticide product		11641	PIZETA	CHEMIA S.P.A.	Revocato	revoked	RE
 PESTON:0109794	fungicide product	FUNGICIDA	9794	PLANET C	UPL EUROPE LTD	Ri-registrato	re-registered			suspension concentrate (= flowable concentrate)					
 PESTON:0103637	pesticide product		3637	PLANISAN 4	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
 PESTON:0105627	pesticide product		5627	PLANIZIN 20 LE	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
-PESTON:0117528	plant growth regulator product	FITOREGOLATORE	17528	PLANT MH 80	SIMONIS B.V.	Autorizzato	authorised			water soluble granules		pesticide parallel importing			
+PESTON:0117528	plant growth regulator product	FITOREGOLATORE	17528	PLANT MH 80	SIMONIS B.V.	Autorizzato	authorised			water soluble granules		IP			
 PESTON:0115069	fungicide product	FUNGICIDA	15069	PLANT TRUST	ICL ITALIA TREVISO S.R.L.	Autorizzato	authorised			water dispersible granules					
 PESTON:0110036	pesticide product		10036	PLANTACUR	COMERCIAL QUIMICA MASSO' S.A.	Revocato	revoked			soluble concentrate					
 PESTON:0110557	fungicide product	FUNGICIDA	10557	PLANTACUR	COMERCIAL QUIMICA MASSO' S.A.	Revocato	revoked			soluble concentrate					
 PESTON:0106588	pesticide product		6588	PLANTAFOL	MARGESIN S.P.A.	Revocato	revoked								
-PESTON:0116274	insecticide product	INSETTICIDA	16274	PLANTAGEN	PLANT CHEM S.R.L.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)		pesticide parallel importing			
-PESTON:0116592	fungicide product	FUNGICIDA	16592	PLANTAN 70 WDG	PLANT CHEM S.R.L.	Autorizzato	authorised			water dispersible granules		pesticide parallel importing			
+PESTON:0116274	insecticide product	INSETTICIDA	16274	PLANTAGEN	PLANT CHEM S.R.L.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)		IP			
+PESTON:0116592	fungicide product	FUNGICIDA	16592	PLANTAN 70 WDG	PLANT CHEM S.R.L.	Autorizzato	authorised			water dispersible granules		IP			
 PESTON:0112301	herbicide product	DISERBANTE	12301	PLANTAR FL	PLANT CHEM S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0112303	herbicide product	DISERBANTE	12303	PLANTASTA	PLANT CHEM S.R.L.	Revocato	revoked			soluble concentrate					
 PESTON:0112290	insecticide product	INSETTICIDA	12290	PLANTAUD	PLANT CHEM S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment				
@@ -11251,9 +11251,9 @@ PESTON:0103053	pesticide product		3053	PLIKIL	SYNGENTA ITALIA S.P.A.	Revocato	re
 PESTON:0114750	insecticide product	INSETTICIDA	14750	PLINTO	INDUSTRIAS AFRASA S.A	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
 PESTON:0112406	plant growth regulator product	FITOREGOLATORE	12406	PLIS	GLOBACHEM NV	Ri-registrato	re-registered			soluble concentrate	chemical irritant				
 PESTON:0103056	pesticide product		3056	PLONDREL 50 PB	BASF AGRO S.P.A.	Revocato	revoked								
-PESTON:0113776	fungicide product	FUNGICIDA	13776	PLOVER	PA.MAG S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0114066	fungicide product	FUNGICIDA	14066	PLOVER	GENETTI S.R.L.-GMBH	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115461	fungicide product	FUNGICIDA	15461	PLOVER II	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0113776	fungicide product	FUNGICIDA	13776	PLOVER	PA.MAG S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	IP			
+PESTON:0114066	fungicide product	FUNGICIDA	14066	PLOVER	GENETTI S.R.L.-GMBH	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	IP			
+PESTON:0115461	fungicide product	FUNGICIDA	15461	PLOVER II	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment	IP			
 PESTON:0106172	pesticide product		6172	PLURAL PS	EUROZOLFI S.R.L.	Revocato	revoked			dispersible powder					
 PESTON:0117262	insecticide product	INSETTICIDA	17262	PLUTINUS	PROPLAN PLANT PROTECTION COMPANY S.L.	Autorizzato	authorised			emulsifiable concentrate					
 PESTON:0117202	fungicide product	FUNGICIDA	17202	PLYNIO 80 WG	UPL EUROPE LTD	Autorizzato	authorised			water dispersible granules					
@@ -11587,7 +11587,7 @@ PESTON:0105575	pesticide product		5575	PRINTAN 22 L	AVENTIS CROPSCIENCE ITALIA S
 PESTON:0101347	pesticide product		1347	PRINTAZOL 75	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked			soluble concentrate					
 PESTON:0104506	pesticide product		4506	PRINTAZOL PESANTE	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0117742	herbicide product	DISERBANTE	17742	PRIVIUM	NUFARM ITALIA S.R.L.	Autorizzato	authorised			emulsifiable concentrate					
-PESTON:0115659	insecticide product	INSETTICIDA	15659	PRIXY 100	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
+PESTON:0115659	insecticide product	INSETTICIDA	15659	PRIXY 100	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|chemical irritant	IP			
 PESTON:0115452	fungicide product	FUNGICIDA	15452	PRO	SHARDA CROPCHEM LIMITED	Revocato	revoked			water dispersible granules	chemical dangerous for environment|harmful chemical				
 PESTON:0111320	fungicide product	FUNGICIDA	11320	PRO TURF	ADAMA MAKHTESHIM LTD	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment				
 PESTON:0112171	insecticide product	INSETTICIDA	12171	PRO-FUME	DOUGLAS BLG BVBA	Autorizzato provvisoriamente	temporarily authorised			smoke generator	chemical dangerous for environment|toxic chemical				
@@ -11670,7 +11670,7 @@ PESTON:0104366	pesticide product		4366	PROMET	CHEMIA S.P.A.	Revocato	revoked	REV
 PESTON:0107334	pesticide product		7334	PROMETALIN	SIPCAM S.P.A.	Revocato	revoked	REVOCA NON CONFORMITA' DISPOSIZIONI ISCRIZIONE PENDIMETALIN ALL. I	30/06/2004	suspension concentrate (= flowable concentrate)					
 PESTON:0102189	pesticide product		2189	PROMETAR	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
 PESTON:0115949	insecticide product	INSETTICIDA	15949	PROMEX	CHEMINOVA AGRO ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
-PESTON:0115826	herbicide product	DISERBANTE	15826	PROMIDE 400	EZCROP LTD	Scaduto	expired				chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0115826	herbicide product	DISERBANTE	15826	PROMIDE 400	EZCROP LTD	Scaduto	expired				chemical dangerous for environment|harmful chemical	IP			
 PESTON:0115129	fungicide product	FUNGICIDA	15129	PROMINENT	ISAGRO S.P.A.	Autorizzato	authorised			soluble concentrate	chemical dangerous for environment|harmful chemical				
 PESTON:0109157	fungicide product	FUNGICIDA	9157	PROMIX 26 F	DIACHEM S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0109593	fungicide product	FUNGICIDA	9593	PROMO	AGRIMIX S.R.L.	Revocato	revoked			soluble concentrate					
@@ -11678,7 +11678,7 @@ PESTON:0109971	fungicide product	FUNGICIDA	9971	PROMOCARB	ARYSTA LIFESCIENCE BEN
 PESTON:0111279	fungicide product	FUNGICIDA	11279	PROMOSOL	EURO TSA S.R.L.	Revocato	revoked			soluble concentrate					
 PESTON:0112490	plant growth regulator product	FITOREGOLATORE	12490	PROMOTER	NUFARM S.A.S.	Autorizzato	authorised			tablet					
 PESTON:0115675	fungicide product	FUNGICIDA	15675	PRONEXT	ITACA S.R.L.	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment|chemical irritant			PFnPE (edible)	
-PESTON:0115692	fungicide product	FUNGICIDA	15692	PROP 250	AGCHEM ACCESS LTD.	Scaduto	expired			emulsifiable concentrate	harmful chemical	pesticide parallel importing			
+PESTON:0115692	fungicide product	FUNGICIDA	15692	PROP 250	AGCHEM ACCESS LTD.	Scaduto	expired			emulsifiable concentrate	harmful chemical	IP			
 PESTON:0108821	pesticide product		8821	PROP 57	CHIMIBERG S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0114241	fungicide product	FUNGICIDA	14241	PROP READY	ADAMA ITALIA S.R.L.	Revocato	revoked			emulsion, oil in water			PFnPO (ornamental)		
 PESTON:0111156	herbicide product	DISERBANTE	11156	PROPA-GREEN	I.R.C.A. SERVICE S.P.A.	Revocato	revoked			emulsifiable concentrate					
@@ -11686,7 +11686,7 @@ PESTON:0111486	fungicide product	FUNGICIDA	11486	PROPACARB	ZAPI INDUSTRIE CHIMIC
 PESTON:0115399	herbicide product	DISERBANTE	15399	PROPACLOR 40 SC	PROBELTE S.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical				
 PESTON:0106243	pesticide product		6243	PROPACOR	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			liquid product format					
 PESTON:0101911	pesticide product		1911	PROPAL RISO	SIAPA S.R.L.	Revocato	revoked			emulsifiable concentrate					
-PESTON:0115683	fungicide product	FUNGICIDA	15683	PROPAMAX	CHEMIA S.P.A.	Scaduto	expired			soluble concentrate		pesticide parallel importing			
+PESTON:0115683	fungicide product	FUNGICIDA	15683	PROPAMAX	CHEMIA S.P.A.	Scaduto	expired			soluble concentrate		IP			
 PESTON:0109889	fungicide product	FUNGICIDA	9889	PROPAMOCARB AGRIM	AGRIM S.R.L.	Revocato	revoked			liquid product format	harmful chemical				
 PESTON:0109491	pesticide product		9491	PROPAN	AGRIPHAR ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0108395	herbicide product	DISERBANTE	8395	PROPANEX	AGRIPHAR ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate	harmful chemical				
@@ -11713,7 +11713,7 @@ PESTON:0108553	herbicide product	DISERBANTE	8553	PROPER ENERGY SH	HOECHST SCHERI
 PESTON:0108099	pesticide product		8099	PROPER H	HOECHST SCHERING AGREVO GMBH	Revocato	revoked			emulsion, oil in water					
 PESTON:0108708	pesticide product		8708	PROPER MIX	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked			emulsion, oil in water					
 PESTON:0111463	pesticide product		11463	PROPIC	AGRIMIX S.R.L.	Revocato	revoked	REVOCA NON CONFORMITA' ISCRIZIONE ALLEGATO I PROPICONAZOLO	04/05/2005	emulsifiable concentrate					
-PESTON:0114444	fungicide product	FUNGICIDA	14444	PROPICON 250	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0114444	fungicide product	FUNGICIDA	14444	PROPICON 250	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	IP			
 PESTON:0115036	fungicide product	FUNGICIDA	15036	PROPIFLOWER	ADAMA ITALIA S.R.L.	Revocato	revoked			liquid product format			PFnPO (ornamental)		
 PESTON:0112082	herbicide product	DISERBANTE	12082	PROPIL 35	CONAS S.R.L.	Revocato	revoked			emulsifiable concentrate	harmful chemical				
 PESTON:0112913	herbicide product	DISERBANTE	12913	PROPIL 80 DF	CONAS S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment				
@@ -11759,7 +11759,7 @@ PESTON:0109771	fungicide product	FUNGICIDA	9771	PROTER	AGRIPHAR ITALIA S.R.L.	Re
 PESTON:0109466	fungicide product	FUNGICIDA	9466	PROTER SC	AGRIPHAR ITALIA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0110975	pesticide product		10975	PROTEUS	CHIMIBERG S.R.L.	Revocato	revoked	REVOCA NON CONFORMITA' DM 16.10.04 (ISCRIZIONE PROPIZAMIDE)	29/09/2004	suspension concentrate (= flowable concentrate)					
 PESTON:0113465	insecticide product	INSETTICIDA	13465	PROTEUS 82.5 OTEQ	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			oil dispersion	harmful chemical|chemical dangerous for environment				
-PESTON:0115707	fungicide product	FUNGICIDA	15707	PROTHIZOLE 250	AGCHEM ACCESS LTD.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0115707	fungicide product	FUNGICIDA	15707	PROTHIZOLE 250	AGCHEM ACCESS LTD.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0110426	fungicide product	FUNGICIDA	10426	PROTIL EC	ADAMA ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment				
 PESTON:0114495	plant growth regulator product	FITOREGOLATORE	14495	PROTIVE	NUFARM ITALIA S.R.L.	Autorizzato	authorised			soluble concentrate					
 PESTON:0108586	pesticide product		8586	PROTON	HOECHST SCHERING AGREVO S.A.	Revocato	revoked			emulsifiable concentrate					
@@ -11781,13 +11781,13 @@ PESTON:0111313	fungicide product	FUNGICIDA	11313	PROXAN SL	ARYSTA LIFESCIENCE BE
 PESTON:0108819	fungicide product	FUNGICIDA	8819	PROXANIL	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			wettable powder	chemical irritant|chemical dangerous for environment				
 PESTON:0113834	fungicide product	FUNGICIDA	13834	PROXANIL BIANCO	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			wettable powder	chemical dangerous for environment|chemical irritant				
 PESTON:0114808	fungicide product	FUNGICIDA	14808	PROXANIL SC	ARYSTA LIFESCIENCE BENELUX SPRL	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	harmful chemical				
-PESTON:0115153	insecticide product	INSETTICIDA	15153	PROXIBEN	CHEMIA S.P.A.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0115153	insecticide product	INSETTICIDA	15153	PROXIBEN	CHEMIA S.P.A.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0116376	insecticide product	INSETTICIDA	16376	PROXIMO	INDUSTRIAS AFRASA S.A	Autorizzato	authorised			emulsifiable concentrate					
-PESTON:0115820	herbicide product	DISERBANTE	15820	PROZABEN	CHEMIA S.P.A.	Scaduto	expired			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0115820	herbicide product	DISERBANTE	15820	PROZABEN	CHEMIA S.P.A.	Scaduto	expired			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0111930	pesticide product		11930	PRUDENT SL	SCAM S.P.A.	Revocato	revoked			soluble concentrate					
 PESTON:0101362	adjuvant product	COADIUVANTE	1362	PRUNIG	GUABER S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0115519	insecticide product	INSETTICIDA	15519	PRYDONE 200 SL	NUFARM ITALIA S.R.L.	Revocato	revoked			soluble concentrate	chemical dangerous for environment|chemical irritant				
-PESTON:0114711	fungicide product	FUNGICIDA	14711	PUDONG	ROCCA FRUTTA S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0114711	fungicide product	FUNGICIDA	14711	PUDONG	ROCCA FRUTTA S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0111646	fungicide product	FUNGICIDA	11646	PUDONG 20 EW	ROCCA FRUTTA S.R.L.	Revocato	revoked			emulsion, water in oil	harmful chemical				
 PESTON:0110277	adjuvant product	COADIUVANTE	10277	PULIFRUT	SIPCAM ITALIA S.P.A.	Revocato	revoked			water soluble powder	chemical irritant				
 PESTON:0110675	adjuvant product	COADIUVANTE	10675	PULIFRUT L	GOWAN ITALIA S.R.L.	Revocato	revoked			soluble concentrate					
@@ -11798,9 +11798,9 @@ PESTON:0101644	pesticide product		1644	PULL	DU PONT DE NEMOURS ITALIANA S.R.L.	R
 PESTON:0108234	pesticide product		8234	PULL 44 DF	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked								
 PESTON:0108360	herbicide product	DISERBANTE	8360	PULL 52 DF	UPL IBERIA S.A.	Autorizzato	authorised			granule (generic, but defined size range)	chemical dangerous for environment				
 PESTON:0108190	pesticide product		8190	PULL 60 DF	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked								
-PESTON:0114418	herbicide product	DISERBANTE	14418	PULSAR 40 SL	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			soluble concentrate	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0114418	herbicide product	DISERBANTE	14418	PULSAR 40 SL	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			soluble concentrate	chemical dangerous for environment	IP			
 PESTON:0117498	herbicide product	DISERBANTE	17498	PULSAR EVO	BASF ITALIA S.P.A.	Autorizzato	authorised			soluble concentrate					
-PESTON:0116127	herbicide product	DISERBANTE	16127	PULSAR II	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			soluble concentrate	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0116127	herbicide product	DISERBANTE	16127	PULSAR II	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			soluble concentrate	chemical dangerous for environment	IP			
 PESTON:0116382	herbicide product	DISERBANTE	16382	PULSAR PLUS	BASF ITALIA S.P.A.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			soluble concentrate					
 PESTON:0117114	herbicide product	DIRADANTE	17114	PULSAR PLUS SL	BASF ITALIA S.P.A.	Autorizzato	authorised			soluble concentrate					
 PESTON:0106582	pesticide product		6582	PULSTAR	SYNGENTA ITALIA S.P.A.	Revocato	revoked			wettable powder					
@@ -11823,8 +11823,8 @@ PESTON:0111015	insecticide product	INSETTICIDA	11015	PYCHLOREX 480 EC	CORTEVA AG
 PESTON:0112566	insecticide product	INSETTICIDA	12566	PYGANIC 1.4	MGK MCLAUGHLIN GORMLEY KING EUROPE LTD	Ri-registrato	re-registered			emulsifiable concentrate	chemical dangerous for environment|chemical irritant			PFnPE (edible)	
 PESTON:0112763	insecticide product	INSETTICIDA	12763	PYGRAIN	NEWPHARM S.R.L.	Ri-registrato	re-registered			emulsifiable concentrate	chemical dangerous for environment				
 PESTON:0110139	fungicide product	FUNGICIDA	10139	PYKOS	ASCENZA ITALIA S.R.L.	Autorizzato	authorised			water dispersible granules	chemical harmful to aquatic life				
-PESTON:0115578	insecticide product	INSETTICIDA	15578	PYPHEN 10 EC	COLIA TRADE S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical irritant|chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115937	insecticide product	INSETTICIDA	15937	PYPHEN NEW 10 EC	COLIA TRADE S.R.L.	Scaduto	expired			emulsifiable concentrate	harmful chemical|chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115578	insecticide product	INSETTICIDA	15578	PYPHEN 10 EC	COLIA TRADE S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical irritant|chemical dangerous for environment	IP			
+PESTON:0115937	insecticide product	INSETTICIDA	15937	PYPHEN NEW 10 EC	COLIA TRADE S.R.L.	Scaduto	expired			emulsifiable concentrate	harmful chemical|chemical dangerous for environment	IP			
 PESTON:0114240	insecticide product	INSETTICIDA	14240	PYR PRONTO	ADAMA MAKHTESHIM LTD	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment				
 PESTON:0106235	pesticide product		6235	PYRACUR	BASF A.G. (AKTIENGESELLSHAFT)	Revocato	revoked			wettable powder					
 PESTON:0106234	pesticide product		6234	PYRACUR FL	BASF A.G. (AKTIENGESELLSHAFT)	Revocato	revoked			suspension concentrate (= flowable concentrate)					
@@ -11859,7 +11859,7 @@ PESTON:0111580	insecticide product	INSETTICIDA	11580	PYROS	SERBIOS S.R.L.	Revoca
 PESTON:0113998	fungicide product	FUNGICIDA	13998	PYRUS 400 SC	ARYSTA LIFESCIENCE BENELUX SPRL	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0115753	herbicide product	DISERBANTE	15753	PYXIDES DUO	SYNGENTA ITALIA S.P.A.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			suspension concentrate (= flowable concentrate)					
 PESTON:0115909	herbicide product	DISERBANTE	15909	PYXIDES WG	ADAMA ITALIA S.R.L.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			water dispersible granules					
-PESTON:0114706	herbicide product	DISERBANTE	14706	QUAD	S&B CONSULT SNC	Revocato	revoked			liquid product format	chemical dangerous for environment|very toxic chemical	pesticide parallel importing			
+PESTON:0114706	herbicide product	DISERBANTE	14706	QUAD	S&B CONSULT SNC	Revocato	revoked			liquid product format	chemical dangerous for environment|very toxic chemical	IP			
 PESTON:0114687	herbicide product	DISERBANTE	14687	QUAD-GLOB 200 SL	GLOBACHEM NV	Revocato	revoked			liquid product format	chemical dangerous for environment|very toxic chemical				
 PESTON:0109210	fungicide product	FUNGICIDA	9210	QUADRIS	SYNGENTA ITALIA S.P.A.	Ri-registrato	re-registered			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0109211	fungicide product	FUNGICIDA	9211	QUADRIS WG	SYNGENTA ITALIA S.P.A.	Revocato	revoked			water dispersible granules	chemical dangerous for environment				
@@ -12075,7 +12075,7 @@ PESTON:0109766	fungicide product	FUNGICIDA	9766	RAMEPLANT 40 PB	KOLLANT S.R.L.	R
 PESTON:0107907	fungicide product	FUNGICIDA	7907	RAMEPLANT 50	ISAGRO S.P.A.	Revocato	revoked			wettable powder	harmful chemical|chemical dangerous for environment				
 PESTON:0113576	fungicide product	FUNGICIDA	13576	RAMEPLANT WG	ISAGRO S.P.A.	Ri-registrato	re-registered			water dispersible granules	chemical dangerous for environment			PFnPE (edible)	
 PESTON:0111375	fungicide product	FUNGICIDA	11375	RAMESIM 50 DF	SIMAR S.R.L.	Revocato	revoked			water soluble granules	harmful chemical				
-PESTON:0115645	fungicide product	FUNGICIDA	15645	RAMESSE	ROCCA FRUTTA S.R.L.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
+PESTON:0115645	fungicide product	FUNGICIDA	15645	RAMESSE	ROCCA FRUTTA S.R.L.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|chemical irritant	IP			
 PESTON:0112063	fungicide product	FUNGICIDA	12063	RAMESSE 45 WG	ROCCA FRUTTA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment|harmful chemical				
 PESTON:0109427	fungicide product	FUNGICIDA	9427	RAMET 13	CIFO S.R.L.	Revocato	revoked			wettable powder	chemical dangerous for environment				
 PESTON:0103493	pesticide product		3493	RAMETRIN 16 PB	ENOTRIA S.P.A.	Revocato	revoked								
@@ -12211,16 +12211,16 @@ PESTON:0107047	pesticide product		7047	RAZON FLO	AVENTIS CROPSCIENCE ITALIA S.P.
 PESTON:0109846	herbicide product	DISERBANTE	9846	RAZOR	UPL EUROPE LTD	Autorizzato	authorised			granule (generic, but defined size range)	chemical dangerous for environment|chemical irritant				
 PESTON:0111505	herbicide product	DISERBANTE	11505	READY GERMIPLUS	ICL ITALIA TREVISO S.R.L.	Ri-registrato	re-registered			granule (generic, but defined size range)	chemical dangerous for environment|chemical irritant				
 PESTON:0110123	fungicide product	FUNGICIDA	10123	REAL GETA	BASF ITALIA S.P.A.	Revocato	revoked			flowable concentrate for seed treatment	chemical dangerous for environment|harmful chemical				
-PESTON:0115782	fungicide product	FUNGICIDA	15782	REALCHEMIE DIFENOCONAZOL	REALCHEMIE NEDERLAND B.V.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115321	fungicide product	FUNGICIDA	15321	REALCHEMIE DIFENOCONAZOL-I	REALCHEMIE NEDERLAND B.V.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115319	herbicide product	DISERBANTE	15319	REALCHEMIE DIQUAT 200	REALCHEMIE NEDERLAND B.V.	Scaduto	expired			liquid product format	chemical dangerous for environment|very toxic chemical	pesticide parallel importing			
-PESTON:0115785	herbicide product	DISERBANTE	15785	REALCHEMIE FLAZASULFURON	REALCHEMIE NEDERLAND B.V.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115786	fungicide product	FUNGICIDA	15786	REALCHEMIE MANCOZEB 75/1	REALCHEMIE NEDERLAND B.V.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
-PESTON:0115783	herbicide product	DISERBANTE	15783	REALCHEMIE METAZACHLOR	REALCHEMIE NEDERLAND B.V.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
-PESTON:0115784	herbicide product	DISERBANTE	15784	REALCHEMIE METAZACHLOR-I	REALCHEMIE NEDERLAND B.V.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
-PESTON:0115787	fungicide product	FUNGICIDA	15787	REALCHEMIE PENCONAZOL	REALCHEMIE NEDERLAND B.V.	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
-PESTON:0115788	fungicide product	FUNGICIDA	15788	REALCHEMIE PENCONAZOL-I	REALCHEMIE NEDERLAND B.V.	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
-PESTON:0115320	herbicide product	DISERBANTE	15320	REALCHIMIE DIQUAT 200-I	REALCHEMIE NEDERLAND B.V.	Scaduto	expired			liquid product format	chemical dangerous for environment|very toxic chemical	pesticide parallel importing			
+PESTON:0115782	fungicide product	FUNGICIDA	15782	REALCHEMIE DIFENOCONAZOL	REALCHEMIE NEDERLAND B.V.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	IP			
+PESTON:0115321	fungicide product	FUNGICIDA	15321	REALCHEMIE DIFENOCONAZOL-I	REALCHEMIE NEDERLAND B.V.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	IP			
+PESTON:0115319	herbicide product	DISERBANTE	15319	REALCHEMIE DIQUAT 200	REALCHEMIE NEDERLAND B.V.	Scaduto	expired			liquid product format	chemical dangerous for environment|very toxic chemical	IP			
+PESTON:0115785	herbicide product	DISERBANTE	15785	REALCHEMIE FLAZASULFURON	REALCHEMIE NEDERLAND B.V.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	IP			
+PESTON:0115786	fungicide product	FUNGICIDA	15786	REALCHEMIE MANCOZEB 75/1	REALCHEMIE NEDERLAND B.V.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|harmful chemical	IP			
+PESTON:0115783	herbicide product	DISERBANTE	15783	REALCHEMIE METAZACHLOR	REALCHEMIE NEDERLAND B.V.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|chemical irritant	IP			
+PESTON:0115784	herbicide product	DISERBANTE	15784	REALCHEMIE METAZACHLOR-I	REALCHEMIE NEDERLAND B.V.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|chemical irritant	IP			
+PESTON:0115787	fungicide product	FUNGICIDA	15787	REALCHEMIE PENCONAZOL	REALCHEMIE NEDERLAND B.V.	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment|chemical irritant	IP			
+PESTON:0115788	fungicide product	FUNGICIDA	15788	REALCHEMIE PENCONAZOL-I	REALCHEMIE NEDERLAND B.V.	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment|chemical irritant	IP			
+PESTON:0115320	herbicide product	DISERBANTE	15320	REALCHIMIE DIQUAT 200-I	REALCHEMIE NEDERLAND B.V.	Scaduto	expired			liquid product format	chemical dangerous for environment|very toxic chemical	IP			
 PESTON:0111050	herbicide product	DISERBANTE	11050	REBEET DUO SC	ADAMA DEUTSCHLAND GMBH	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0101051	pesticide product		1051	REBEL	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked								
 PESTON:0101501	pesticide product		1501	REBEL	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked								
@@ -12262,7 +12262,7 @@ PESTON:0117644	herbicide product	DISERBANTE	17644	REGISTER 25 WG	ASCENZA ITALIA 
 PESTON:0102194	pesticide product		2194	REGLEX	SIAPA S.R.L.	Revocato	revoked			soluble concentrate					
 PESTON:0102108	pesticide product		2108	REGLEX 10	SIAPA S.R.L.	Revocato	revoked			soluble concentrate					
 PESTON:0100631	pesticide product		631	REGLONE	SOLPLANT S.P.A.	Revocato	revoked								
-PESTON:0112716	herbicide product	DISERBANTE	12716	REGLONE	BEIKIRCHER GRUENLAND S.N.C.	Scaduto	expired			liquid product format	chemical dangerous for environment|very toxic chemical	pesticide parallel importing			
+PESTON:0112716	herbicide product	DISERBANTE	12716	REGLONE	BEIKIRCHER GRUENLAND S.N.C.	Scaduto	expired			liquid product format	chemical dangerous for environment|very toxic chemical	IP			
 PESTON:0100630	herbicide product	DISERBANTE	630	REGLONE W	SYNGENTA ITALIA S.P.A.	Revocato	revoked			liquid product format	chemical dangerous for environment|very toxic chemical				
 PESTON:0117522	fungicide product	FUNGICIDA	17522	REGNUM 25 EC	BASF ITALIA S.P.A.	Autorizzato	authorised			emulsifiable concentrate					
 PESTON:0107256	plant growth regulator product	FITOREGOLATORE	7256	REGOLATOR	AGRIMPORT S.P.A.	Revocato	revoked			emulsifiable concentrate					
@@ -12414,12 +12414,12 @@ PESTON:0110357	herbicide product	DISERBANTE	10357	RIGRON SG	BASF ITALIA S.P.A.	R
 PESTON:0116561	fungicide product	FUNGICIDA	16561	RIKALI	SYNGENTA ITALIA S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0113551	herbicide product	DISERBANTE	13551	RIKKI 300 SC	ASCENZA ITALIA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|chemical irritant				
 PESTON:0112507	pesticide product		12507	RIM	AGRIMIX S.R.L.	Revocato	revoked			water dispersible granules					
-PESTON:0114235	herbicide product	DISERBANTE	14235	RIMBEL 25 WG	GENETTI S.R.L.-GMBH	Scaduto	expired			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0114235	herbicide product	DISERBANTE	14235	RIMBEL 25 WG	GENETTI S.R.L.-GMBH	Scaduto	expired			water dispersible granules	chemical dangerous for environment	IP			
 PESTON:0117898	fungicide product	FUNGICIDA	17898	RIMENSIS	ADAMA MAKHTESHIM LTD	Autorizzato	authorised			water dispersible granules					
 PESTON:0109421	pesticide product		9421	RIMET 5	AGRIPHAR ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0112861	insecticide product	INSETTICIDA	12861	RIMON 10 EC	ADAMA MAKHTESHIM LTD	Scaduto	expired			emulsifiable concentrate	chemical irritant				
 PESTON:0116699	herbicide product	DISERBANTE	16699	RIMURON	HELM AG	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			water dispersible granules					
-PESTON:0115469	insecticide product	INSETTICIDA	15469	RINAPYR 200	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			soluble concentrate	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115469	insecticide product	INSETTICIDA	15469	RINAPYR 200	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			soluble concentrate	chemical dangerous for environment	IP			
 PESTON:0109372	pesticide product		9372	RING	SYNGENTA ITALIA S.P.A.	Revocato	revoked			water dispersible granules					
 PESTON:0101692	pesticide product		1692	RINGO	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
 PESTON:0116641	herbicide product	DISERBANTE	16641	RINIDI	SHARDA CROPCHEM ESPANA S.L.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			water dispersible granules					
@@ -12724,7 +12724,7 @@ PESTON:0109613	pesticide product		9613	SALICAL L	I.C.S. INDUSTRIA CHIMICA SUBALP
 PESTON:0112909	pesticide product		12909	SALIGAR	AGRIMPORT S.P.A.	Revocato	revoked			wettable powder					
 PESTON:0106273	pesticide product		6273	SALUT	BASF ITALIA S.P.A.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0109588	fungicide product	FUNGICIDA	9588	SALVADOR	ROCCA FRUTTA S.R.L.	Revocato	revoked			soluble concentrate					
-PESTON:0114442	fungicide product	FUNGICIDA	14442	SALVADOR STAR	ROCCA FRUTTA S.R.L.	Revocato	revoked			soluble concentrate		pesticide parallel importing			
+PESTON:0114442	fungicide product	FUNGICIDA	14442	SALVADOR STAR	ROCCA FRUTTA S.R.L.	Revocato	revoked			soluble concentrate		IP			
 PESTON:0100214	pesticide product		214	SALVAGRANO POLVERE	SCAM S.P.A.	Revocato	revoked			dispersible powder					
 PESTON:0104059	pesticide product		4059	SALVAPLANT	SIAPA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0100797	pesticide product		797	SALVATOR	SOCHIMISI S.P.A.	Revocato	revoked								
@@ -12890,15 +12890,15 @@ PESTON:0103768	fungicide product	FUNGICIDA	3768	SCLEROSAN 50	GOWAN COMERCIO INTE
 PESTON:0104182	pesticide product		4182	SCLEROSAN 50	SCAM S.P.A.	Revocato	revoked			wettable powder					
 PESTON:0111424	fungicide product	FUNGICIDA	11424	SCLEROTVEISS	SCAM S.P.A.	Revocato	revoked			wettable powder					
 PESTON:0115061	fungicide product	FUNGICIDA	15061	SCOMRID	CERTIS EUROPE B.V.	Ri-registrato	re-registered			aerosol dispenser	extremely flammable chemical				
-PESTON:0112935	pesticide product		12935	SCORE	GENETTI S.R.L.-GMBH	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0114293	fungicide product	FUNGICIDA	14293	SCORE	AGRIPHAR ITALIA S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0112935	pesticide product		12935	SCORE	GENETTI S.R.L.-GMBH	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	IP			
+PESTON:0114293	fungicide product	FUNGICIDA	14293	SCORE	AGRIPHAR ITALIA S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	IP			
 PESTON:0109744	fungicide product	FUNGICIDA	9744	SCORE 10 WG	SYNGENTA ITALIA S.P.A.	Ri-registrato	re-registered			water dispersible granules	chemical dangerous for environment|chemical irritant				
 PESTON:0108802	pesticide product		8802	SCORE 10 WP	SYNGENTA ITALIA S.P.A.	Revocato	revoked			wettable powder					
 PESTON:0108813	pesticide product		8813	SCORE 20 EC	SYNGENTA ITALIA S.P.A.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0108801	fungicide product	FUNGICIDA	8801	SCORE 25 EC	SYNGENTA ITALIA S.P.A.	Ri-registrato	re-registered			emulsifiable concentrate	chemical dangerous for environment				
 PESTON:0108812	pesticide product		8812	SCORE 5 WP	SYNGENTA ITALIA S.P.A.	Revocato	revoked			wettable powder					
 PESTON:0112314	fungicide product	FUNGICIDA	12314	SCORE HOBBY	COMPO ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate					
-PESTON:0115462	fungicide product	FUNGICIDA	15462	SCORE II	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115462	fungicide product	FUNGICIDA	15462	SCORE II	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment	IP			
 PESTON:0110005	herbicide product	DISERBANTE	10005	SCOTTS WEEDCONTROL	EVERGREEN GARDEN CARE FRANCE SAS	Ri-registrato	re-registered			granule (generic, but defined size range)				PFnPE (edible)	
 PESTON:0107039	pesticide product		7039	SCOUT	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0110425	fungicide product	FUNGICIDA	10425	SCUDEX	ASCENZA ITALIA S.R.L.	Autorizzato	authorised			emulsifiable concentrate	chemical irritant				
@@ -13123,7 +13123,7 @@ PESTON:0116825	insecticide product	INSETTICIDA	16825	SHERPA DUO	SBM DEVELOPPEMEN
 PESTON:0111834	fungicide product	FUNGICIDA	11834	SHEVA	SIPCAM S.P.A.	Revocato	revoked			wettable powder	chemical dangerous for environment|chemical irritant				
 PESTON:0111669	herbicide product	DISERBANTE	11669	SHINALA	SINON EU CORPORATION	Revocato	revoked			capsule suspension	harmful chemical|chemical dangerous for environment				
 PESTON:0110601	fungicide product	FUNGICIDA	10601	SHINCAR	SINON EU CORPORATION	Revocato	revoked			wettable powder					
-PESTON:0117597	fungicide product	FUNGICIDA	17597	SHINKON	NISSAN CHEMICAL EUROPE S.A.S	Autorizzato	authorised			suspension concentrate (= flowable concentrate)		pesticide parallel importing			
+PESTON:0117597	fungicide product	FUNGICIDA	17597	SHINKON	NISSAN CHEMICAL EUROPE S.A.S	Autorizzato	authorised			suspension concentrate (= flowable concentrate)		IP			
 PESTON:0110602	pesticide product		10602	SHINTHOATE	SINON EU CORPORATION	Revocato	revoked			emulsifiable concentrate					
 PESTON:0115454	fungicide product	FUNGICIDA	15454	SHIP	SHARDA CROPCHEM LIMITED	Revocato	revoked			water dispersible granules	chemical dangerous for environment|harmful chemical				
 PESTON:0108937	acaricide product	ACARICIDA	8937	SHIRUDO	BELCHIM CROP PROTECTION NV/SA	Ri-registrato	re-registered			wettable powder	chemical dangerous for environment|harmful chemical				
@@ -13592,7 +13592,7 @@ PESTON:0113537	herbicide product	DISERBANTE	13537	SKROLL 400	SCAM S.P.A.	Revocat
 PESTON:0111074	pesticide product		11074	SKROLL COMBI	SIVAM S.P.A.	Revocato	revoked	REVOCA NON CONFORMITA' DISPOSIZIONI ISCRIZIONE PENDIMETALIN ALL. I	30/06/2004	suspension concentrate (= flowable concentrate)					
 PESTON:0111073	herbicide product	DISERBANTE	11073	SKROLL WDG	SIVAM S.P.A.	Revocato	revoked			water dispersible granules	harmful chemical				
 PESTON:0105457	pesticide product		5457	SKULL 50 PB	EUROZOLFI S.R.L.	Revocato	revoked			dispersible powder					
-PESTON:0113606	herbicide product	DISERBANTE	13606	SL 950	AGROWIN BIOSCIENCES S.R.L.	Scaduto	expired			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
+PESTON:0113606	herbicide product	DISERBANTE	13606	SL 950	AGROWIN BIOSCIENCES S.R.L.	Scaduto	expired			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|chemical irritant	IP			
 PESTON:0113014	acaricide product	ACARICIDA	13014	SLAON	GOWAN ITALIA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|very toxic chemical				
 PESTON:0114033	insecticide product	INSETTICIDA	14033	SLAON 200 EC	GOWAN ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment				
 PESTON:0114036	insecticide product	INSETTICIDA	14036	SLAON WDG	GOWAN ITALIA S.R.L.	Revocato	revoked			granule (generic, but defined size range)	chemical dangerous for environment				
@@ -13846,9 +13846,9 @@ PESTON:0112690	insecticide product	INSETTICIDA	12690	SPRUZIT INSETTICIDA CONCENT
 PESTON:0112691	insecticide product	INSETTICIDA	12691	SPRUZIT INSETTICIDA PRONTO USO	W. NEUDORFF GMBH KG	Autorizzato	authorised			liquid product format	chemical harmful to aquatic life		PFnPO (ornamental)		
 PESTON:0113258	acaricide product	ACARICIDA	13258	SPYDER	CHEMIA S.P.A.	Revocato	revoked			emulsifiable concentrate	chemical irritant|chemical dangerous for environment				
 PESTON:0109757	fungicide product	FUNGICIDA	9757	SPYRALE	ADAMA ITALIA S.R.L.	Ri-registrato	re-registered			emulsifiable concentrate	harmful chemical				
-PESTON:0110684	fungicide product	FUNGICIDA	10684	SPYRALE	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Scaduto	expired			soluble concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
-PESTON:0114250	fungicide product	FUNGICIDA	14250	SPYRALE	PA.MAG S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
-PESTON:0114292	fungicide product	FUNGICIDA	14292	SPYRALE	ARYSTA LIFESCIENCE BENELUX SPRL	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0110684	fungicide product	FUNGICIDA	10684	SPYRALE	CONSORZIO AGRARIO PROVINCIALE DI PARMA	Scaduto	expired			soluble concentrate	chemical dangerous for environment|harmful chemical	IP			
+PESTON:0114250	fungicide product	FUNGICIDA	14250	SPYRALE	PA.MAG S.R.L.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
+PESTON:0114292	fungicide product	FUNGICIDA	14292	SPYRALE	ARYSTA LIFESCIENCE BENELUX SPRL	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0117477	insecticide product	INSETTICIDA	17477	SPYRAN	NUFARM ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0117107	fungicide product	FUNGICIDA	17107	SPYRIT 50 SC	ASCENZA ITALIA S.R.L.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			suspension concentrate (= flowable concentrate)					
 PESTON:0116153	fungicide product	FUNGICIDA	16153	SPYRIT GOLD	ASCENZA AGRO S.A.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			water dispersible granules					
@@ -14370,7 +14370,7 @@ PESTON:0104826	pesticide product		4826	TCA-NA	ISAGRO S.P.A.	Revocato	revoked	REV
 PESTON:0112702	pesticide product		12702	TEAK	SIPCAM S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0110768	fungicide product	FUNGICIDA	10768	TEAM	AGROWIN BIOSCIENCES S.R.L.	Revocato	revoked			wettable powder	chemical irritant				
 PESTON:0111803	fungicide product	FUNGICIDA	11803	TEAM WG	AGROWIN BIOSCIENCES S.R.L.	Revocato	revoked			water dispersible granules	chemical irritant				
-PESTON:0115815	fungicide product	FUNGICIDA	15815	TEBPRO	AGCHEM ACCESS LTD.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0115815	fungicide product	FUNGICIDA	15815	TEBPRO	AGCHEM ACCESS LTD.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0116710	fungicide product	FUNGICIDA	16710	TEBSEME	SHARDA WORLDWIDE EXPORTS PVT. LTD	Autorizzato in regime di Riconoscimento Reciproco	authorised - under mutual recognition - Regulation (EC) No 764/2008			soluble concentrate					
 PESTON:0113121	fungicide product	FUNGICIDA	13121	TEBUNUR 250 EW	GENETTI S.R.L.-GMBH	Revocato	revoked			emulsion, oil in water	chemical dangerous for environment|harmful chemical				
 PESTON:0114207	fungicide product	FUNGICIDA	14207	TEBUSHA NEW	SHARDA CROPCHEM ESPANA S.L.	Autorizzato	authorised			water dispersible granules	chemical dangerous for environment|harmful chemical				
@@ -14473,7 +14473,7 @@ PESTON:0101036	pesticide product		1036	TELURON	SIPCAM S.P.A.	Revocato	revoked
 PESTON:0100549	pesticide product		549	TELVAR	SOLPLANT S.P.A.	Revocato	revoked								
 PESTON:0102622	pesticide product		2622	TELVAR	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked								
 PESTON:0101946	pesticide product		1946	TEMAN	TECNITERRA S.R.L.	Revocato	revoked			wettable powder					
-PESTON:0115700	herbicide product	DISERBANTE	15700	TEMBO 44	AGCHEM ACCESS LTD.	Scaduto	expired			oil dispersion	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115700	herbicide product	DISERBANTE	15700	TEMBO 44	AGCHEM ACCESS LTD.	Scaduto	expired			oil dispersion	chemical dangerous for environment	IP			
 PESTON:0116483	fungicide product	FUNGICIDA	16483	TEMIDE 50 WG	ADAMA ITALIA S.R.L.	Autorizzato	authorised			water dispersible granules					
 PESTON:0116535	fungicide product	FUNGICIDA	16535	TEMIDE MZ	ADAMA ITALIA S.R.L.	Revocato	revoked			wettable powder					
 PESTON:0101407	pesticide product		1407	TEMIK	CAFFARO S.P.A.	Revocato	revoked								
@@ -14646,8 +14646,8 @@ PESTON:0111504	fungicide product	FUNGICIDA	11504	THIAMON PLUS	SYNGENTA ITALIA S.
 PESTON:0110747	fungicide product	FUNGICIDA	10747	THIAN	AGROWIN BIOSCIENCES S.R.L.	Revocato	revoked			wettable powder	harmful chemical				
 PESTON:0109670	fungicide product	FUNGICIDA	9670	THIANOSAN 80 WG	EASTMAN ITALIA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment|harmful chemical				
 PESTON:0108004	fungicide product	FUNGICIDA	8004	THIANOSAN ISTANTANEO	EASTMAN ITALIA S.R.L.	Revocato	revoked			water dispersible granules	harmful chemical|chemical dangerous for environment				
-PESTON:0115705	herbicide product	DISERBANTE	15705	THIFEN	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water soluble granules	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115938	herbicide product	DISERBANTE	15938	THIFEN 50	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115705	herbicide product	DISERBANTE	15705	THIFEN	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water soluble granules	chemical dangerous for environment	IP			
+PESTON:0115938	herbicide product	DISERBANTE	15938	THIFEN 50	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	IP			
 PESTON:0111084	pesticide product		11084	THILDER 25	AGRIMPORT S.P.A.	Revocato	revoked	REVOCA NON CONFORMITA' ISCRIZIONE ALLEGATO I PROPICONAZOLO	04/05/2005	emulsifiable concentrate					
 PESTON:0116333	plant growth regulator product	FITOREGOLATORE	16333	THIN GER 30 SL	L. GOBBI S.R.L.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			soluble concentrate					
 PESTON:0107499	pesticide product		7499	THIO FLOW 60	SIPSA S.R.L.	Revocato	revoked								
@@ -14744,8 +14744,8 @@ PESTON:0110268	pesticide product		10268	TILAZIN 45	SOCOA TRADING S.R.L.	Revocato
 PESTON:0106133	pesticide product		6133	TILT 1,5 EC	SYNGENTA ITALIA S.P.A.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0105748	fungicide product	FUNGICIDA	5748	TILT 10 EC	SYNGENTA ITALIA S.P.A.	Revocato	revoked			emulsifiable concentrate	harmful chemical				
 PESTON:0105755	fungicide product	FUNGICIDA	5755	TILT 25 EC	SYNGENTA ITALIA S.P.A.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
-PESTON:0114251	fungicide product	FUNGICIDA	14251	TILT 250 EC	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
-PESTON:0114252	fungicide product	FUNGICIDA	14252	TILT 250 EC	ARYSTA LIFESCIENCE BENELUX SPRL	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0114251	fungicide product	FUNGICIDA	14251	TILT 250 EC	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
+PESTON:0114252	fungicide product	FUNGICIDA	14252	TILT 250 EC	ARYSTA LIFESCIENCE BENELUX SPRL	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0108341	pesticide product		8341	TILT 5 WP	SYNGENTA ITALIA S.P.A.	Revocato	revoked			wettable powder					
 PESTON:0106573	pesticide product		6573	TILT CF	SYNGENTA ITALIA S.P.A.	Revocato	revoked								
 PESTON:0106132	pesticide product		6132	TILT MULTI	SYNGENTA ITALIA S.P.A.	Revocato	revoked								
@@ -14848,13 +14848,13 @@ PESTON:0104210	pesticide product		4210	TIOZIR	S.A.R.I.A.F. S.P.A.	Revocato	revok
 PESTON:0103965	pesticide product		3965	TIOZIR AZZURRO	S.A.R.I.A.F. S.P.A.	Revocato	revoked			dispersible powder					
 PESTON:0103231	pesticide product		3231	TIPOLAN	BAYER CROPSCIENCE S.R.L.	Revocato	revoked								
 PESTON:0103207	pesticide product		3207	TIPOLAN AS	BAYER CROPSCIENCE S.R.L.	Revocato	revoked								
-PESTON:0115979	herbicide product	DISERBANTE	15979	TIPPER 75	GENETTI S.R.L.-GMBH	Scaduto	expired			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115979	herbicide product	DISERBANTE	15979	TIPPER 75	GENETTI S.R.L.-GMBH	Scaduto	expired			water dispersible granules	chemical dangerous for environment	IP			
 PESTON:0108544	fungicide product	FUNGICIDA	8544	TIPTOR S	SYNGENTA ITALIA S.P.A.	Revocato	revoked			emulsifiable concentrate	harmful chemical				
 PESTON:0114967	fungicide product	FUNGICIDA	14967	TIPTOR ULTRA	SYNGENTA ITALIA S.P.A.	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
 PESTON:0113549	fungicide product	FUNGICIDA	13549	TIPTOR XCELL	SYNGENTA ITALIA S.P.A.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment				
 PESTON:0108770	pesticide product		8770	TIRAM DF	AGRIMIX S.R.L.	Scaduto	expired			water soluble granules					
 PESTON:0104927	pesticide product		4927	TISON	CHEMIA S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
-PESTON:0114504	herbicide product	DISERBANTE	14504	TITANIC WG	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
+PESTON:0114504	herbicide product	DISERBANTE	14504	TITANIC WG	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|chemical irritant	IP			
 PESTON:0112588	pesticide product		12588	TITANIUM	NUFARM ITALIA S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0108811	herbicide product	DISERBANTE	8811	TITER	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			wettable powder	harmful chemical|chemical dangerous for environment				
 PESTON:0108130	herbicide product	DISERBANTE	8130	TITUS	DU PONT DE NEMOURS ITALIANA S.R.L.	Ri-registrato	re-registered			water dispersible granules	chemical dangerous for environment|chemical irritant				
@@ -14922,7 +14922,7 @@ PESTON:0110285	herbicide product	DISERBANTE	10285	TOMAHAWK	NUFARM ITALIA S.R.L.	
 PESTON:0110076	plant growth regulator product	FITOREGOLATORE	10076	TOMATODOR	SCAM S.P.A.	Revocato	revoked			soluble concentrate	harmful chemical				
 PESTON:0109909	herbicide product	DISERBANTE	9909	TOMAZIN	SIVAM S.P.A.	Revocato	revoked			wettable powder	harmful chemical				
 PESTON:0112264	fungicide product	FUNGICIDA	12264	TOMCAT	ROCCA FRUTTA S.R.L.	Revocato	revoked			water dispersible granules	harmful chemical				
-PESTON:0114847	fungicide product	FUNGICIDA	14847	TOMCAT 20 EW	ROCCA FRUTTA S.R.L.	Scaduto	expired			emulsion, oil in water	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0114847	fungicide product	FUNGICIDA	14847	TOMCAT 20 EW	ROCCA FRUTTA S.R.L.	Scaduto	expired			emulsion, oil in water	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0113420	fungicide product	FUNGICIDA	13420	TOMCAT FLOW	ROCCA FRUTTA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical harmful to aquatic life				
 PESTON:0115056	herbicide product	DISERBANTE	15056	TOMCATO	PROBELTE S.A.	Autorizzato	authorised			soluble concentrate					
 PESTON:0110457	insecticide product	INSETTICIDA	10457	TOMIL 200	DIACHEM S.P.A.	Revocato	revoked			soluble concentrate	very toxic chemical				
@@ -14971,7 +14971,7 @@ PESTON:0106466	rodenticide product	RODENTICIDA	6466	TOPICIDA ITALCHIMICA	GAMMA I
 PESTON:0101434	pesticide product		1434	TOPICIDA SARIAF	GOWAN ITALIA S.R.L.	Revocato	revoked			bait (ready for use)					
 PESTON:0101433	pesticide product		1433	TOPICIDA SARIAF PER ESCHE	GOWAN ITALIA S.R.L.	Revocato	revoked			dispersible powder					
 PESTON:0106976	pesticide product		6976	TOPICLOR	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked			granule (generic, but defined size range)					
-PESTON:0114174	herbicide product	DISERBANTE	14174	TOPIK	GENETTI S.R.L.-GMBH	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
+PESTON:0114174	herbicide product	DISERBANTE	14174	TOPIK	GENETTI S.R.L.-GMBH	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|chemical irritant	IP			
 PESTON:0108929	herbicide product	DISERBANTE	8929	TOPIK 240 EC	ADAMA ITALIA S.R.L.	Autorizzato	authorised			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
 PESTON:0110063	herbicide product	DISERBANTE	10063	TOPIK 80 EC	ADAMA ITALIA S.R.L.	Ri-registrato	re-registered			emulsifiable concentrate	chemical dangerous for environment|chemical irritant				
 PESTON:0106025	pesticide product		6025	TOPIRAT KILLING (AG)	FARMOL SAFCA	Revocato	revoked	REVOCA PER MANCATO ADEMPIMENTO DM 258/90 E D.L.VO 194/95							
@@ -15059,7 +15059,7 @@ PESTON:0115386	insecticide product	INSETTICIDA	15386	TRACER FLY	CORTEVA AGRISCIE
 PESTON:0108538	pesticide product		8538	TRACKER 36 EC	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0111988	herbicide product	DISERBANTE	11988	TRADE 125	SHARDA CROPCHEM ESPANA S.L.	Autorizzato	authorised			emulsifiable concentrate					
 PESTON:0102408	pesticide product		2408	TRAFOS	P.K. PLANT KEMICAL S.R.L.	Revocato	revoked			emulsifiable concentrate					
-PESTON:0114821	herbicide product	DISERBANTE	14821	TRAIANUS 360	ROCCA FRUTTA S.R.L.	Scaduto	expired			soluble concentrate	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0114821	herbicide product	DISERBANTE	14821	TRAIANUS 360	ROCCA FRUTTA S.R.L.	Scaduto	expired			soluble concentrate	chemical dangerous for environment	IP			
 PESTON:0115563	herbicide product	DISERBANTE	15563	TRAILER	INDUSTRIAS AFRASA S.A	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			water dispersible granules				PFnPE (edible)	
 PESTON:0104421	pesticide product		4421	TRALIN	EMME ITALIA S.R.L.	Revocato	revoked								
 PESTON:0105416	pesticide product		5416	TRALIN	ENOTRIA S.P.A.	Revocato	revoked								
@@ -15607,23 +15607,23 @@ PESTON:0113405	fungicide product	FUNGICIDA	13405	VERBUM EW	ADAMA MAKHTESHIM LTD	
 PESTON:0102718	pesticide product		2718	VERCHIL DL	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
 PESTON:0101662	pesticide product		1662	VERCHIL G	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
 PESTON:0103358	pesticide product		3358	VERCRIT	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
-PESTON:0115605	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	15605	VERDE ACRINATRINA	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			emulsion, oil in water	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115632	herbicide product	DISERBANTE	15632	VERDE CLODINAFOP	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
-PESTON:0115245	insecticide product	INSETTICIDA	15245	VERDE CLORPIRIFOS	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
-PESTON:0115246	fungicide product	FUNGICIDA	15246	VERDE DIFENOCONAZOLO	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115457	herbicide product	DISERBANTE	15457	VERDE DIQUAT	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			liquid product format	chemical dangerous for environment|very toxic chemical	pesticide parallel importing			
-PESTON:0115978	insecticide product	INSETTICIDA	15978	VERDE ECHO PYRIPROXYFEN	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsion, oil in water	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115657	herbicide product	DISERBANTE	15657	VERDE FLAZASULFURON	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0114497	insecticide product	INSETTICIDA	14497	VERDE FLONICAMID	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			water dispersible granules	chemical harmful to aquatic life	pesticide parallel importing			
-PESTON:0114500	insecticide product	INSETTICIDA	14500	VERDE FLONICAMID PRO	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			water dispersible granules	chemical harmful to aquatic life	pesticide parallel importing			
-PESTON:0116440	herbicide product	DISERBANTE	16440	VERDE GLUFOSINATE	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Revocato	revoked			soluble concentrate		pesticide parallel importing			
-PESTON:0115243	herbicide product	DISERBANTE	15243	VERDE IMAZAMOX	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			soluble concentrate	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115472	herbicide product	DISERBANTE	15472	VERDE MESOSULFURON	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
-PESTON:0115685	fungicide product	FUNGICIDA	15685	VERDE PROPAMOCARB	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			soluble concentrate		pesticide parallel importing			
-PESTON:0115658	fungicide product	FUNGICIDA	15658	VERDE PROPICONAZOLO	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
-PESTON:0115244	insecticide product	INSETTICIDA	15244	VERDE PYRIPROXIFEN	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
-PESTON:0114417	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	14417	VERDE-ABAMECTINA	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
-PESTON:0114371	fungicide product	FUNGICIDA	14371	VERDE-AZOXYSTROBIN	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115605	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	15605	VERDE ACRINATRINA	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			emulsion, oil in water	chemical dangerous for environment	IP			
+PESTON:0115632	herbicide product	DISERBANTE	15632	VERDE CLODINAFOP	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
+PESTON:0115245	insecticide product	INSETTICIDA	15245	VERDE CLORPIRIFOS	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|harmful chemical	IP			
+PESTON:0115246	fungicide product	FUNGICIDA	15246	VERDE DIFENOCONAZOLO	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment	IP			
+PESTON:0115457	herbicide product	DISERBANTE	15457	VERDE DIQUAT	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			liquid product format	chemical dangerous for environment|very toxic chemical	IP			
+PESTON:0115978	insecticide product	INSETTICIDA	15978	VERDE ECHO PYRIPROXYFEN	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsion, oil in water	chemical dangerous for environment	IP			
+PESTON:0115657	herbicide product	DISERBANTE	15657	VERDE FLAZASULFURON	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment	IP			
+PESTON:0114497	insecticide product	INSETTICIDA	14497	VERDE FLONICAMID	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			water dispersible granules	chemical harmful to aquatic life	IP			
+PESTON:0114500	insecticide product	INSETTICIDA	14500	VERDE FLONICAMID PRO	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			water dispersible granules	chemical harmful to aquatic life	IP			
+PESTON:0116440	herbicide product	DISERBANTE	16440	VERDE GLUFOSINATE	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Revocato	revoked			soluble concentrate		IP			
+PESTON:0115243	herbicide product	DISERBANTE	15243	VERDE IMAZAMOX	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			soluble concentrate	chemical dangerous for environment	IP			
+PESTON:0115472	herbicide product	DISERBANTE	15472	VERDE MESOSULFURON	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			water dispersible granules	chemical dangerous for environment|chemical irritant	IP			
+PESTON:0115685	fungicide product	FUNGICIDA	15685	VERDE PROPAMOCARB	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			soluble concentrate		IP			
+PESTON:0115658	fungicide product	FUNGICIDA	15658	VERDE PROPICONAZOLO	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
+PESTON:0115244	insecticide product	INSETTICIDA	15244	VERDE PYRIPROXIFEN	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Scaduto	expired			emulsifiable concentrate	chemical dangerous for environment|chemical irritant	IP			
+PESTON:0114417	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	14417	VERDE-ABAMECTINA	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
+PESTON:0114371	fungicide product	FUNGICIDA	14371	VERDE-AZOXYSTROBIN	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment	IP			
 PESTON:0106631	pesticide product		6631	VERDEGAMMA C	SIPCAM S.P.A.	Revocato	revoked	REVOCA LISTA C RICLASSIFICAZIONE	31/12/2003	bait (ready for use)					
 PESTON:0103674	pesticide product		3674	VERDEGAMMA EN	SIPCAM S.P.A.	Revocato	revoked			bait (ready for use)					
 PESTON:0102781	pesticide product		2781	VERDEGAMMA INODORO	SIPCAM S.P.A.	Revocato	revoked	REVOCA PER NON ISCRIZIONE LINDANO ALL. 1 DIR. 91/414 (REVOCA ENTRO 20.6.01)	20/06/2001	bait (ready for use)					
@@ -15681,8 +15681,8 @@ PESTON:0107408	pesticide product		7408	VERSOL N	MARGARITA INTERNATIONAL	Revocato
 PESTON:0101015	pesticide product		1015	VERTHION 40 PB	BASF AGRO S.P.A.	Revocato	revoked			wettable powder					
 PESTON:0101016	pesticide product		1016	VERTHION 50 EC	BASF AGRO S.P.A.	Revocato	revoked								
 PESTON:0115292	fungicide product	FUNGICIDA	15292	VERTIARO	SYNGENTA ITALIA S.P.A.	Ri-registrato	re-registered			emulsifiable concentrate					
-PESTON:0112004	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	12004	VERTIMEC	GENETTI DI GENETTI KARL & C. KG S.A.S.	Scaduto	expired			emulsifiable concentrate		pesticide parallel importing			
-PESTON:0114416	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	14416	VERTIMEC	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	pesticide parallel importing			
+PESTON:0112004	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	12004	VERTIMEC	GENETTI DI GENETTI KARL & C. KG S.A.S.	Scaduto	expired			emulsifiable concentrate		IP			
+PESTON:0114416	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	14416	VERTIMEC	VERDE BIO SAS DI CUNIAL GIANANDREA & C.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical	IP			
 PESTON:0112597	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	12597	VERTIMEC 1.8	SYNGENTA ITALIA S.P.A.	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
 PESTON:0108795	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	8795	VERTIMEC EC	SYNGENTA ITALIA S.P.A.	Ri-registrato	re-registered			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
 PESTON:0115050	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	15050	VERTIMEC PRO	SYNGENTA ITALIA S.P.A.	Autorizzato	authorised			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical				
@@ -15709,7 +15709,7 @@ PESTON:0116272	fungicide product	FUNGICIDA	16272	VIBRANCE TRIO	SYNGENTA ITALIA S
 PESTON:0117316	fungicide product	FUNGICIDA	17316	VIBRANCE XL	SYNGENTA ITALIA S.P.A.	Revocato	revoked			flowable concentrate for seed treatment					
 PESTON:0104264	fungicide product	FUNGICIDA	4264	VIC 400 SC	ARYSTA LIFESCIENCE BENELUX SPRL	Ri-registrato	re-registered			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0109583	fungicide product	FUNGICIDA	9583	VICARB	GOWAN ITALIA S.R.L.	Revocato	revoked			liquid product format					
-PESTON:0114849	acaricide product	ACARICIDA	14849	VICTOR 240 SC	ROCCA FRUTTA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|chemical irritant	pesticide parallel importing			
+PESTON:0114849	acaricide product	ACARICIDA	14849	VICTOR 240 SC	ROCCA FRUTTA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|chemical irritant	IP			
 PESTON:0109615	fungicide product	FUNGICIDA	9615	VICTORY 25 SC	SEPRAN S.A.S.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0112076	acaricide product	ACARICIDA	12076	VICTRIX	NUFARM ITALIA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	very toxic chemical				
 PESTON:0111049	acaricide product	ACARICIDA	11049	VICTRIX-SC	SCAM S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)	very toxic chemical				
@@ -15967,7 +15967,7 @@ PESTON:0101133	pesticide product		1133	WEEDONE S 40	ISAGRO S.P.A.	Revocato	revok
 PESTON:0113686	insecticide product	INSETTICIDA	13686	WEISSOL	CHEMIA S.P.A.	Autorizzato	authorised			liquid product format				PFnPE (edible)	
 PESTON:0108979	pesticide product		8979	WELTER	CAFFARO S.P.A.	Revocato	revoked	REVOCA PER MANCATO RINNOVO	02/10/2002	emulsifiable concentrate					
 PESTON:0116260	fungicide product	FUNGICIDA	16260	WELTER MZ WG	UPL EUROPE LTD	Revocato	revoked			water dispersible granules					
-PESTON:0114848	herbicide product	DISERBANTE	14848	WESTERN 480	ROCCA FRUTTA S.R.L.	Scaduto	expired			soluble concentrate		pesticide parallel importing			
+PESTON:0114848	herbicide product	DISERBANTE	14848	WESTERN 480	ROCCA FRUTTA S.R.L.	Scaduto	expired			soluble concentrate		IP			
 PESTON:0109676	pesticide product		9676	WETTAGRO	AGRONOVA S.R.L.	Revocato	revoked	REVOCA LISTA C RICLASSIFICAZIONE	31/12/2003	soluble concentrate					
 PESTON:0111484	fungicide product	FUNGICIDA	11484	WETTASUL	SULPHUR MILLS LTD	Autorizzato	authorised			wettable powder	chemical irritant				
 PESTON:0102191	adjuvant product	COADIUVANTE	2191	WETTING PLUS	CHEMINOVA AGRO ITALIA S.R.L.	Autorizzato	authorised			liquid product format	chemical irritant				
@@ -16059,8 +16059,8 @@ PESTON:0110711	pesticide product		10711	ZAM	AGROWIN BIOSCIENCES S.R.L.	Revocato	
 PESTON:0113927	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	13927	ZAMIR 18	SYNGENTA ITALIA S.P.A.	Ri-registrato	re-registered			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
 PESTON:0109158	pesticide product		9158	ZAMIR 216	CHIMIBERG S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0115236	herbicide product	DISERBANTE	15236	ZAMMO	CHEMINOVA A/S	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical				
-PESTON:0115726	herbicide product	DISERBANTE	15726	ZAMOX 40	GENETTI S.R.L.-GMBH	Scaduto	expired			liquid product format	chemical dangerous for environment	pesticide parallel importing			
-PESTON:0115727	herbicide product	DISERBANTE	15727	ZAMOX RISO	GENETTI S.R.L.-GMBH	Scaduto	expired			soluble concentrate	chemical dangerous for environment	pesticide parallel importing			
+PESTON:0115726	herbicide product	DISERBANTE	15726	ZAMOX 40	GENETTI S.R.L.-GMBH	Scaduto	expired			liquid product format	chemical dangerous for environment	IP			
+PESTON:0115727	herbicide product	DISERBANTE	15727	ZAMOX RISO	GENETTI S.R.L.-GMBH	Scaduto	expired			soluble concentrate	chemical dangerous for environment	IP			
 PESTON:0107430	pesticide product		7430	ZANDREL	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
 PESTON:0115124	fungicide product	FUNGICIDA	15124	ZANTARA	BAYER CROPSCIENCE S.R.L.	Autorizzato provvisoriamente	temporarily authorised			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
 PESTON:0104839	pesticide product		4839	ZANTIR	ISAGRO S.P.A.	Revocato	revoked			dispersible powder					
