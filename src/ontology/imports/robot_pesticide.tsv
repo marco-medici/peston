@@ -4231,8 +4231,8 @@ PESTON:0109378	pesticide product		9378	DEFENDER R	SIPCAM S.P.A.	Scaduto	expired	
 PESTON:0104194	pesticide product		4194	DEFENSE	SCAM S.P.A.	Revocato	revoked								
 PESTON:0115022	fungicide product	FUNGICIDA	15022	DEFENSE 80 WP	INDOFIL INDUSTRIES LTD	Revocato	revoked			wettable powder	chemical dangerous for environment|harmful chemical				
 PESTON:0115289	fungicide product	FUNGICIDA	15289	DEFENSIS ORTO E GIARDINO	SBM DEVELOPPEMENT S.A.S.	Autorizzato	authorised			wettable powder				PFnPE (edible)	
-PESTON:0107549	insecticide product	INSETTICIDA	7549	DEGESCH MAGTOXIN	COLKIM S.R.L.	Ri-registrato	re-registered			smoke generator	higly flammable chemical|chemical dangerous for environment|very toxic chemical				
-PESTON:0106968	insecticide product	INSETTICIDA	6968	DEGESCH PLATE	COLKIM S.R.L.	Autorizzato	authorised			smoke generator	higly flammable chemical|chemical dangerous for environment|very toxic chemical				
+PESTON:0107549	insecticide product	INSETTICIDA	7549	DEGESCH MAGTOXIN	COLKIM S.R.L.	Ri-registrato	re-registered			smoke generator	highly flammable chemical|chemical dangerous for environment|very toxic chemical				
+PESTON:0106968	insecticide product	INSETTICIDA	6968	DEGESCH PLATE	COLKIM S.R.L.	Autorizzato	authorised			smoke generator	highly flammable chemical|chemical dangerous for environment|very toxic chemical				
 PESTON:0110130	pesticide product		10130	DEGRIM FL	AGRIM S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0108521	fungicide product	FUNGICIDA	8521	DELAN 500 SC	BASF ITALIA S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment|harmful chemical				
 PESTON:0112437	fungicide product	FUNGICIDA	12437	DELAN 70 WG	BASF ITALIA S.P.A.	Ri-registrato	re-registered			water dispersible granules	chemical dangerous for environment|harmful chemical				
@@ -11056,7 +11056,7 @@ PESTON:0114800	insecticide product	INSETTICIDA	14800	PHORIX	ADAMA ITALIA S.R.L.	
 PESTON:0102301	pesticide product		2301	PHOSALONE LIQUIDO	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
 PESTON:0102311	pesticide product		2311	PHOSALONE PB	CORTEVA AGRISCIENCE ITALIA S.R.L.	Revocato	revoked								
 PESTON:0108163	pesticide product		8163	PHOSFUME	INTRACHEM BIO ITALIA S.P.A.	Revocato	revoked			smoke generator					
-PESTON:0100974	insecticide product	INSETTICIDA	974	PHOSTOXIN	COLKIM S.R.L.	Autorizzato	authorised			smoke generator	higly flammable chemical|chemical dangerous for environment|very toxic chemical				
+PESTON:0100974	insecticide product	INSETTICIDA	974	PHOSTOXIN	COLKIM S.R.L.	Autorizzato	authorised			smoke generator	highly flammable chemical|chemical dangerous for environment|very toxic chemical				
 PESTON:0106529	pesticide product		6529	PHYOMONE	SOLPLANT S.P.A.	Revocato	revoked								
 PESTON:0111031	acaricide product	ACARICIDA	11031	PHYTOCAR	EURO TSA S.R.L.	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0114484	adjuvant product	COADIUVANTE	14484	PHYTOFILM	AZELIS ITALIA S.R.L.	Autorizzato	authorised			emulsifiable concentrate	chemical irritant				
@@ -13310,7 +13310,7 @@ PESTON:0100408	pesticide product		408	SILFUM	SIAPA S.R.L.	Revocato	revoked			smo
 PESTON:0100229	fungicide product	FUNGICIDA	229	SILFUR GD 50	TAMINCO ITALIA S.R.L.	Revocato	revoked			water dispersible granules	chemical dangerous for environment|harmful chemical				
 PESTON:0113409	fungicide product	FUNGICIDA	13409	SILFUR WG	EASTMAN ITALIA S.R.L.	Revocato	revoked			granule (generic, but defined size range)	chemical dangerous for environment|harmful chemical				
 PESTON:0104097	pesticide product		4097	SILGAMMA	SILIA S.P.A.	Revocato	revoked								
-PESTON:0107856	insecticide product	INSETTICIDA	7856	SILGAS B	UPL EUROPE LTD	Autorizzato	authorised			tablet	higly flammable chemical|chemical dangerous for environment|very toxic chemical				
+PESTON:0107856	insecticide product	INSETTICIDA	7856	SILGAS B	UPL EUROPE LTD	Autorizzato	authorised			tablet	highly flammable chemical|chemical dangerous for environment|very toxic chemical				
 PESTON:0108440	pesticide product		8440	SILGLIF	SIAPA S.R.L.	Revocato	revoked			soluble concentrate					
 PESTON:0109335	herbicide product	DISERBANTE	9335	SILGLIF MK	ADAMA AGAN LTD	Revocato	revoked			soluble concentrate	chemical dangerous for environment|chemical irritant				
 PESTON:0110715	herbicide product	DISERBANTE	10715	SILGLIF NF	NUFARM GMBH & CO KG	Revocato	revoked			emulsifiable concentrate	chemical dangerous for environment				
