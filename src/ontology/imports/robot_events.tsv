@@ -38015,3 +38015,960 @@ PESTON:0838012	38012	ZYNTEB BLU	pesticide issue date	1972-08-22^^xsd:date
 PESTON:0838013	38013	ZYNTEB BLU	pesticide revocation date	2001-07-12^^xsd:date
 PESTON:0838014	38014	ZYPAR	pesticide issue date	2018-07-30^^xsd:date
 PESTON:0838015	38015	ZYPAR	pesticide authorization expiry date	2031-12-31^^xsd:date
+PESTON:0838018	38018	ACARCID	pesticide revocation decision date	2002-01-08^^xsd:date
+PESTON:0838019	38019	ACARED KT	pesticide revocation decision date	2002-01-08^^xsd:date
+PESTON:0838020	38020	ACARFLOR CL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838021	38021	ACARICIDA RUMIANCA	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838022	38022	ACARIT	pesticide revocation decision date	2003-07-25^^xsd:date
+PESTON:0838023	38023	ACARITION	pesticide revocation decision date	2003-01-16^^xsd:date
+PESTON:0838024	38024	ACARMATE L	pesticide revocation decision date	2003-05-06^^xsd:date
+PESTON:0838025	38025	ACARSTIN 3	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838026	38026	ACARSTOP CD	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838027	38027	ACEBER 425	pesticide revocation decision date	2000-04-12^^xsd:date
+PESTON:0838028	38028	ACEFAM	pesticide revocation decision date	1999-12-13^^xsd:date
+PESTON:0838029	38029	ACEFON	pesticide revocation decision date	2001-06-18^^xsd:date
+PESTON:0838030	38030	ACESAN L	pesticide revocation decision date	1999-09-20^^xsd:date
+PESTON:0838031	38031	ACETIN F	pesticide revocation decision date	2004-11-29^^xsd:date
+PESTON:0838032	38032	ACETIN MICRO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838033	38033	ACORVO SIVAM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838034	38034	ACRITENE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838035	38035	ACTINET DF	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838036	38036	ACUPRIZOLFO	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838037	38037	ADDITIVO AS	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838038	38038	ADDITIVO ASB	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838039	38039	ADESIVO SIPCAM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838040	38040	ADIBETA	pesticide revocation decision date	2003-05-29^^xsd:date
+PESTON:0838041	38041	ADICUR FLOW	pesticide revocation decision date	2000-03-14^^xsd:date
+PESTON:0838042	38042	ADITEM	pesticide revocation decision date	2003-08-29^^xsd:date
+PESTON:0838043	38043	AFICIS	pesticide revocation decision date	2004-04-29^^xsd:date
+PESTON:0838044	38044	AFIDAN M40	pesticide revocation decision date	2001-04-10^^xsd:date
+PESTON:0838045	38045	AFIDON	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838046	38046	AFILENE SG	pesticide revocation decision date	2003-12-15^^xsd:date
+PESTON:0838047	38047	AFIMOR	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838048	38048	AFUNGIL	pesticide revocation decision date	2003-02-11^^xsd:date
+PESTON:0838049	38049	AGERFID P	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838050	38050	AGIBER	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838051	38051	AGIBER P	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838052	38052	AGRIFAT 40 SP	pesticide revocation decision date	2002-05-06^^xsd:date
+PESTON:0838053	38053	AGRITOP	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838054	38054	AGRIZIN EC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838055	38055	AGRO D	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838056	38056	AGRODINA FLOW	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838057	38057	AGROFOS	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838058	38058	AGROFOS 20	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838059	38059	AGROFOS 92/3	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838060	38060	AGROFOS NORMALE 3	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838061	38061	AGRORISO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838062	38062	AGROSTIM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838063	38063	AGRUMOL GIARDINI	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838064	38064	AIRONE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838065	38065	AKARTEC 18-6	pesticide revocation decision date	2001-04-10^^xsd:date
+PESTON:0838066	38066	ALANAP 3	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838067	38067	ALBA COMBI	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838068	38068	ALDICARB 5G ENICHEM AGRICOLTURA	pesticide revocation decision date	2003-09-16^^xsd:date
+PESTON:0838069	38069	ALDICARB ADICA AGROCARB GR	pesticide revocation decision date	2003-09-16^^xsd:date
+PESTON:0838070	38070	ALDICARB-VILCAR DICARB 5 G	pesticide revocation decision date	2003-09-16^^xsd:date
+PESTON:0838071	38071	ALFA TAB	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838072	38072	ALINOR DF	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838073	38073	AMESIP L	pesticide revocation decision date	2003-05-05^^xsd:date
+PESTON:0838074	38074	AMICINA	pesticide revocation decision date	2005-06-30^^xsd:date
+PESTON:0838075	38075	AMICINA P	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838076	38076	AMIROX	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838077	38077	AMIZINA	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838078	38078	AMIZINA 50 L	pesticide revocation decision date	2004-04-14^^xsd:date
+PESTON:0838079	38079	ANDOR	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838080	38080	ANELDA 85 E	pesticide revocation decision date	2003-05-29^^xsd:date
+PESTON:0838081	38081	ANTICAD	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838082	38082	ANTICRITTOGAMICO MC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838083	38083	ANTICRITTOGAMICO SPRAY C-75	pesticide revocation decision date	2001-08-30^^xsd:date
+PESTON:0838084	38084	ANTISCALDA PER MELE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838085	38085	ANTISPORAL ID	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838086	38086	ANTISPORAL MICRONIZZATO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838087	38087	ANTRACOL BLU	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838088	38088	ANTRACOL BM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838089	38089	ANTRACOL CM BLU	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838090	38090	ANTRACOL R BLU	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838091	38091	ANTRACOL RAMATO MICRO CM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838092	38092	APPONON	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838093	38093	ARAGOL P	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838094	38094	ARATIOS	pesticide revocation decision date	2003-06-16^^xsd:date
+PESTON:0838095	38095	ARES	pesticide revocation decision date	2004-03-18^^xsd:date
+PESTON:0838096	38096	ARES COMBI	pesticide revocation decision date	2004-03-18^^xsd:date
+PESTON:0838097	38097	ARGILETUM	pesticide revocation decision date	2003-09-30^^xsd:date
+PESTON:0838098	38098	ARNET S	pesticide revocation decision date	2003-05-06^^xsd:date
+PESTON:0838099	38099	ARTIL WG	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838100	38100	ARTIS	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838101	38101	AS PG	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838102	38102	ASP	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838103	38103	ASP 2	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838104	38104	ATOPAN	pesticide revocation decision date	2004-03-18^^xsd:date
+PESTON:0838105	38105	ATOPAN ESCA	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838106	38106	ATOPAN NT	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838107	38107	ATREX 25	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838108	38108	ATTIVAR 90	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838109	38109	AUTOVAP	pesticide revocation decision date	2004-04-29^^xsd:date
+PESTON:0838110	38110	AUXENE L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838111	38111	AUXIGER LG	pesticide revocation decision date	2019-07-04^^xsd:date
+PESTON:0838112	38112	AVENINE	pesticide revocation decision date	2003-05-06^^xsd:date
+PESTON:0838113	38113	AXIS	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838114	38114	AZIMET PB	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838115	38115	AZOSAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838116	38116	AZURAM COMBI	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838117	38117	BAGNANTE AG	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838118	38118	BAGNANTE EMULSOL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838119	38119	BAPAR ETIL	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838120	38120	BARBETOL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838121	38121	BAYCOR ANTRACOL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838122	38122	BAYCOR CAPTAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838123	38123	BAYCOR MZ	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838124	38124	BAYLETON SK	pesticide revocation decision date	2004-04-01^^xsd:date
+PESTON:0838125	38125	BAYSOL LIZETAN	pesticide revocation decision date	2003-07-02^^xsd:date
+PESTON:0838126	38126	BENAL M	pesticide revocation decision date	2003-12-15^^xsd:date
+PESTON:0838127	38127	BENAZEB M 8-65	pesticide revocation decision date	2003-12-15^^xsd:date
+PESTON:0838128	38128	BENGALA	pesticide revocation decision date	2003-07-24^^xsd:date
+PESTON:0838129	38129	BENGRAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838130	38130	BENOSAN D	pesticide revocation decision date	2003-02-11^^xsd:date
+PESTON:0838131	38131	BENPROP	pesticide revocation decision date	2002-12-20^^xsd:date
+PESTON:0838132	38132	BENPROP M	pesticide revocation decision date	2002-12-20^^xsd:date
+PESTON:0838133	38133	BENTIOR	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838134	38134	BENTIOR M	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838135	38135	BENTOSOL 35	pesticide revocation decision date	2020-10-28^^xsd:date
+PESTON:0838136	38136	BENULIN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838137	38137	BETACIT	pesticide revocation decision date	2003-05-29^^xsd:date
+PESTON:0838138	38138	BETAMIN LIQUIDO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838139	38139	BETAPLANT	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838140	38140	BETOSIP DUO	pesticide revocation decision date	2003-08-29^^xsd:date
+PESTON:0838141	38141	BETOZON COMBI	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838142	38142	BETOZON L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838143	38143	BETOZON S	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838144	38144	BETOZON SL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838145	38145	BETRANIX	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838146	38146	BETTER	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838147	38147	BETTER DF	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838148	38148	BEZIN 80	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838149	38149	BIKI M	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838150	38150	BIOBIT DF	pesticide revocation decision date	2021-06-16^^xsd:date
+PESTON:0838151	38151	BIOGLYF	pesticide revocation decision date	2002-05-09^^xsd:date
+PESTON:0838152	38152	BLAST	pesticide revocation decision date	2002-12-20^^xsd:date
+PESTON:0838153	38153	BLAST S	pesticide revocation decision date	2002-12-20^^xsd:date
+PESTON:0838154	38154	BONALAN	pesticide revocation decision date	2016-08-09^^xsd:date
+PESTON:0838155	38155	BORDO 20 IQV	pesticide revocation decision date	2019-04-01^^xsd:date
+PESTON:0838156	38156	BORIAL FL	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838157	38157	BORNEO	pesticide revocation decision date	2021-04-01^^xsd:date
+PESTON:0838158	38158	BOTRIRAM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838159	38159	BOTRIRAM B	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838160	38160	BRACKET	pesticide revocation decision date	2002-12-20^^xsd:date
+PESTON:0838161	38161	BRANDOL 20 PB	pesticide revocation decision date	2003-05-06^^xsd:date
+PESTON:0838162	38162	BRANDOL 25 L	pesticide revocation decision date	2003-05-06^^xsd:date
+PESTON:0838163	38163	BREK L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838164	38164	BRUTIACID PARA	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838165	38165	BUGGY 72 DF	pesticide revocation decision date	2005-09-08^^xsd:date
+PESTON:0838166	38166	BUGGY 800 SG N.E.T.	pesticide revocation decision date	2005-09-08^^xsd:date
+PESTON:0838167	38167	BUGGY FL N.E.T.	pesticide revocation decision date	2005-09-08^^xsd:date
+PESTON:0838168	38168	BUTANET	pesticide revocation decision date	2003-05-29^^xsd:date
+PESTON:0838169	38169	BUTANET COMBI L	pesticide revocation decision date	2003-05-29^^xsd:date
+PESTON:0838170	38170	BUTAZIN FL	pesticide revocation decision date	2003-05-29^^xsd:date
+PESTON:0838171	38171	CALODIN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838172	38172	CAPTAN SK	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838173	38173	CAPTOL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838174	38174	CARBAL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838175	38175	CARBAL S	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838176	38176	CARBAVAL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838177	38177	CARBAVIT M	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838178	38178	CARBITAL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838179	38179	CARBOCID S	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838180	38180	CARBOFURAN SCAM FURASCAM 5G	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838181	38181	CARBOVAX	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838182	38182	CARBOVAX 2M	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838183	38183	CARBOVIS 5 GR	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838184	38184	CARPENE BLU	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838185	38185	CARPOMON 20	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838186	38186	CASTOP AGR	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838187	38187	CER 30	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838188	38188	CER 50	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838189	38189	CER 88	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838190	38190	CERCOFEN 20	pesticide revocation decision date	2002-12-27^^xsd:date
+PESTON:0838191	38191	CEREDOR	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838192	38192	CEREMAL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838193	38193	CERENONE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838194	38194	CERESAN L	pesticide revocation decision date	1997-07-23^^xsd:date
+PESTON:0838195	38195	CERNET	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838196	38196	CEROPLAST	pesticide revocation decision date	2002-12-18^^xsd:date
+PESTON:0838197	38197	CHEMIAN G4	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838198	38198	CHEMIAN P.B.	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838199	38199	CHEMIAN P5	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838200	38200	CHEMYN G4	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838201	38201	CHEMYN G6	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838202	38202	CHEMYN P5	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838203	38203	CHEMYN P50	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838204	38204	CHIMIGOR 20	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838205	38205	CHLORMEZYL 500 EC	pesticide revocation decision date	2003-12-15^^xsd:date
+PESTON:0838206	38206	CICLOBIET	pesticide revocation decision date	2003-05-29^^xsd:date
+PESTON:0838207	38207	CICLOPIR FLOW	pesticide revocation decision date	2003-05-29^^xsd:date
+PESTON:0838208	38208	CICLOSIP	pesticide revocation decision date	2003-05-29^^xsd:date
+PESTON:0838209	38209	CIDIAL 5 GRANULI	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838210	38210	CIDIAL 50 L	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838211	38211	CIDIAL OLIO	pesticide revocation decision date	2002-07-30^^xsd:date
+PESTON:0838212	38212	CIDIAL PB 40	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838213	38213	CIMORAM BLU	pesticide revocation decision date	2019-03-18^^xsd:date
+PESTON:0838214	38214	CLEVER	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838215	38215	CLICK DUO	pesticide revocation decision date	2015-06-01^^xsd:date
+PESTON:0838216	38216	CLORESENE GRANULARE	pesticide revocation decision date	2001-06-20^^xsd:date
+PESTON:0838217	38217	CLORMEFOS SIPCAM-CLOMETON 5G	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838218	38218	CLORSIM	pesticide revocation decision date	2002-07-30^^xsd:date
+PESTON:0838219	38219	CLORTICINE 90	pesticide revocation decision date	2000-12-13^^xsd:date
+PESTON:0838220	38220	CLORTONIL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838221	38221	CLORTOSIP R	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838222	38222	CLOZOLIN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838223	38223	COLFIX	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838224	38224	COMBIRAM	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838225	38225	COMPO ACARICIDA PRONTO	pesticide revocation decision date	2003-07-10^^xsd:date
+PESTON:0838226	38226	CONAZOL 25 EC	pesticide revocation decision date	2005-05-04^^xsd:date
+PESTON:0838227	38227	CONCIASEM MZ 60	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838228	38228	CONCORD	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838229	38229	CONSULT 100 EC	pesticide revocation decision date	2004-03-18^^xsd:date
+PESTON:0838230	38230	CONTRALEN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838231	38231	CRYPTOLINA	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838232	38232	CUIVROCHIM 40	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838233	38233	CUPRAVIT	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838234	38234	CUPRAVIT BLU	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838235	38235	CUPREX MORMINO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838236	38236	CUPRIFLOW	pesticide revocation decision date	2016-08-09^^xsd:date
+PESTON:0838237	38237	CUPRO TAIFEN	pesticide revocation decision date	2004-09-29^^xsd:date
+PESTON:0838238	38238	CUPROCAFFARO MICRO	pesticide revocation decision date	2005-08-22^^xsd:date
+PESTON:0838239	38239	CUPROL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838240	38240	CUPROMAN 17+17	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838241	38241	CUPROSCAM MZ BLU	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838242	38242	CUPROSPOR Z 95 BIANCO	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838243	38243	CURAME 25 WG	pesticide revocation decision date	2019-05-13^^xsd:date
+PESTON:0838244	38244	CURENOX 50 WP	pesticide revocation decision date	2019-04-01^^xsd:date
+PESTON:0838245	38245	CUTHIOL	pesticide revocation decision date	2019-04-01^^xsd:date
+PESTON:0838246	38246	CYMACUR R	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838247	38247	DACTHAL W 75	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838248	38248	DACUTRIN 20 EC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838249	38249	DANADIM EC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838250	38250	DANAGOR	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838251	38251	DAZOM L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838252	38252	DAZOSCAM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838253	38253	DAZOVAL P.S. 98	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838254	38254	DELPHINE	pesticide revocation decision date	2004-04-29^^xsd:date
+PESTON:0838255	38255	DELTACROP SC	pesticide revocation decision date	2004-04-29^^xsd:date
+PESTON:0838256	38256	DELTAMICRO	pesticide revocation decision date	2004-04-29^^xsd:date
+PESTON:0838257	38257	DELTIDRAL	pesticide revocation decision date	2004-04-29^^xsd:date
+PESTON:0838258	38258	DES-I-CATE	pesticide revocation decision date	2003-06-16^^xsd:date
+PESTON:0838259	38259	DI-ELLE 20	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838260	38260	DIADANTER	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838261	38261	DIAFON	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838262	38262	DIANTHUS 20	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838263	38263	DIAZIN PB 25	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838264	38264	DIAZITHION 10 G	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838265	38265	DICAP-25 P.B.	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838266	38266	DICLAN	pesticide revocation decision date	2002-12-18^^xsd:date
+PESTON:0838267	38267	DICLOTIR	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838268	38268	DICOFOL EC BAYER	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838269	38269	DICONTAL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838270	38270	DICOTION	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838271	38271	DIDIVIPI 50	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838272	38272	DIETOL 20	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838273	38273	DIFEN 80	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838274	38274	DIFENAMIDE 90W	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838275	38275	DIGERMIN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838276	38276	DIM L20	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838277	38277	DIMAFIR 20 E	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838278	38278	DIMAN WP	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838279	38279	DIMETOX L.B.I.	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838280	38280	DINOCAP L.E.	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838281	38281	DINOSIP LC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838282	38282	DINOSIP P2	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838283	38283	DINOSIVAM EC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838284	38284	DINOTANE P1	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838285	38285	DIPEL DF	pesticide revocation decision date	2021-08-31^^xsd:date
+PESTON:0838286	38286	DIPION A	pesticide revocation decision date	2003-07-26^^xsd:date
+PESTON:0838287	38287	DIPION E	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838288	38288	DIPION S	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838289	38289	DIPION SP	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838290	38290	DIPTEREX 50	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838291	38291	DIPTEREX GRANULARE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838292	38292	DIPYLON	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838293	38293	DISEGRAN	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838294	38294	DISERBAGRO 2,4 D	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838295	38295	DISERBAX	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838296	38296	DISERBENE DS	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838297	38297	DISERBO C	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838298	38298	DISERBO E	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838299	38299	DISERBO L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838300	38300	DISERBONE K33	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838301	38301	DITHANE BLEU	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838302	38302	DITIANROC 75 PB	pesticide revocation decision date	2003-07-07^^xsd:date
+PESTON:0838303	38303	DIURON SIPCAM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838304	38304	DIVAL 10	pesticide revocation decision date	2002-12-18^^xsd:date
+PESTON:0838305	38305	DIVAM	pesticide revocation decision date	2003-07-07^^xsd:date
+PESTON:0838306	38306	DLAPON	pesticide revocation decision date	2003-07-25^^xsd:date
+PESTON:0838307	38307	DOCTRIN	pesticide revocation decision date	2021-05-21^^xsd:date
+PESTON:0838308	38308	DOGUADIL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838309	38309	DOMOFLOR	pesticide revocation decision date	2001-08-30^^xsd:date
+PESTON:0838310	38310	DOZEB	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838311	38311	DREPAMON 70	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838312	38312	DREPAMON SE 50	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838313	38313	DUECI ANTICRITTOGAMICO POLVERE	pesticide revocation decision date	2001-08-01^^xsd:date
+PESTON:0838314	38314	DURSBAN 22	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838315	38315	E 605 FT 20	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838316	38316	EFISAN	pesticide revocation decision date	1998-09-17^^xsd:date
+PESTON:0838317	38317	ELSET COMBI	pesticide revocation decision date	2003-07-07^^xsd:date
+PESTON:0838318	38318	EMAR DF	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838319	38319	EMULSOL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838320	38320	ENDOMED 35 L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838321	38321	ENDOMED 35 PB	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838322	38322	ENOCUPROL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838323	38323	ENOCUR B	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838324	38324	ENONODER	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838325	38325	ENOSED TM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838326	38326	ENOTIOL RAMATO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838327	38327	ENOVIT METIL P	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838328	38328	ENOVIT PZ	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838329	38329	ENTOS EC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838330	38330	EPIK	pesticide revocation decision date	2019-08-13^^xsd:date
+PESTON:0838331	38331	ERBITAL	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838332	38332	ERBITOX GIRASOLE	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838333	38333	ERITOX 20	pesticide revocation decision date	2001-04-10^^xsd:date
+PESTON:0838334	38334	ERREZETA SEI	pesticide revocation decision date	2005-11-02^^xsd:date
+PESTON:0838335	38335	ESCA PROTEICA MONTEDISON	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838336	38336	ESCARB	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838337	38337	ESPEROL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838338	38338	ETAN 3 G	pesticide revocation decision date	2001-06-20^^xsd:date
+PESTON:0838339	38339	ETILFOS	pesticide revocation decision date	2002-11-28^^xsd:date
+PESTON:0838340	38340	ETOAX	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838341	38341	ETOCIL	pesticide revocation decision date	2003-08-29^^xsd:date
+PESTON:0838342	38342	ETOMAT	pesticide revocation decision date	2003-08-29^^xsd:date
+PESTON:0838343	38343	ETOXIN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838344	38344	EUPAREN	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838345	38345	EUPAREN R	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838346	38346	EUROCARB	pesticide revocation decision date	2001-07-19^^xsd:date
+PESTON:0838347	38347	EUROMITE	pesticide revocation decision date	1998-09-17^^xsd:date
+PESTON:0838348	38348	EVEREST	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838349	38349	EXPANDER	pesticide revocation decision date	2003-07-07^^xsd:date
+PESTON:0838350	38350	EXPLORER	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838351	38351	FAIR-TAC TM	pesticide revocation decision date	2003-07-07^^xsd:date
+PESTON:0838352	38352	FALCON 25	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838353	38353	FARGO	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838354	38354	FEINEX WDG	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838355	38355	FEINTRAZ	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838356	38356	FENACLOR DF	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838357	38357	FENADIN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838358	38358	FENADIN S	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838359	38359	FENADOR MIX	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838360	38360	FENAMAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838361	38361	FENASAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838362	38362	FENASIP	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838363	38363	FENASIP 12 EC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838364	38364	FENASIP 6 PB	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838365	38365	FENASIP COMBI F	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838366	38366	FENASIP COMBI L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838367	38367	FENASIP FL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838368	38368	FENIDIN	pesticide revocation decision date	1998-11-26^^xsd:date
+PESTON:0838369	38369	FENILENE	pesticide revocation decision date	2002-12-27^^xsd:date
+PESTON:0838370	38370	FENISTAR	pesticide revocation decision date	2004-11-29^^xsd:date
+PESTON:0838371	38371	FENISUPER	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838372	38372	FENITHION 10 G	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838373	38373	FENMEDIFAM BAYER	pesticide revocation decision date	2005-09-08^^xsd:date
+PESTON:0838374	38374	FENOCAP 25	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838375	38375	FENODENE 30	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838376	38376	FENODIT 44	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838377	38377	FENODIT 80	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838378	38378	FENOGRAN	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838379	38379	FENORIS	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838380	38380	FENOTRAL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838381	38381	FENOTRIN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838382	38382	FENPROP	pesticide revocation decision date	1998-09-17^^xsd:date
+PESTON:0838383	38383	FENTER 10 MG	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838384	38384	FENVAL	pesticide revocation decision date	1998-11-26^^xsd:date
+PESTON:0838385	38385	FESONE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838386	38386	FIGO	pesticide revocation decision date	2004-09-29^^xsd:date
+PESTON:0838387	38387	FIGO TOP	pesticide revocation decision date	2004-09-29^^xsd:date
+PESTON:0838388	38388	FITO-INSETTICIDA DELTA 2,5	pesticide revocation decision date	2004-04-29^^xsd:date
+PESTON:0838389	38389	FITOFIL ASG	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838390	38390	FITOPEN	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838391	38391	FITOSAN	pesticide revocation decision date	2004-04-29^^xsd:date
+PESTON:0838392	38392	FITOSAN 10	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838393	38393	FLORAMITE 240 SC	pesticide revocation decision date	2022-07-07^^xsd:date
+PESTON:0838394	38394	FLOROZIN S	pesticide revocation decision date	2001-08-30^^xsd:date
+PESTON:0838395	38395	FLORVITA FUNGICIDA	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838396	38396	FLORVITA INSETTICIDA	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838397	38397	FLUANY DF	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838398	38398	FLUMILAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838399	38399	FLUNITOX	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838400	38400	FOLDITION M	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838401	38401	FOLITHION	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838402	38402	FOLPAN 80 WDG	pesticide revocation decision date	2005-10-27^^xsd:date
+PESTON:0838403	38403	FOLPET BAYER	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838404	38404	FOLPET RAMATO BAYER	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838405	38405	FOLPETAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838406	38406	FOLVIT 80 WDG	pesticide revocation decision date	2021-07-07^^xsd:date
+PESTON:0838407	38407	FONOFOS ENICHEM AGRICOLTURA	pesticide revocation decision date	2001-06-05^^xsd:date
+PESTON:0838408	38408	FOPET 50	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838409	38409	FORATE CHEMIA	pesticide revocation decision date	2001-11-29^^xsd:date
+PESTON:0838410	38410	FORATE SARIAF 4,5 GR	pesticide revocation decision date	2000-01-13^^xsd:date
+PESTON:0838411	38411	FORUM STAR	pesticide revocation decision date	2009-09-14^^xsd:date
+PESTON:0838412	38412	FOSFET 20	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838413	38413	FOSMET 25 PB	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838414	38414	FOSMET 50 PB	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838415	38415	FOSTER L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838416	38416	FOSTOX 1%	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838417	38417	FOSTOX 25 P.B.	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838418	38418	FOSTOX E 20	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838419	38419	FRUMIDOR CP	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838420	38420	FRUMIDOR M	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838421	38421	FRUTTAL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838422	38422	FRUTTAL MG	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838423	38423	FRUTTENE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838424	38424	FRUTTENE AZZURRO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838425	38425	FUNGI FLOW	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838426	38426	FUNGI MZ P 7,5	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838427	38427	FUNGICIDA KB	pesticide revocation decision date	2005-05-04^^xsd:date
+PESTON:0838428	38428	FUNGIGREEN	pesticide revocation decision date	2001-04-11^^xsd:date
+PESTON:0838429	38429	FUNGISOL 80 WDG	pesticide revocation decision date	2021-08-09^^xsd:date
+PESTON:0838430	38430	FUNGURAN OH	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838431	38431	FUSAR 40	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838432	38432	FUSAR L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838433	38433	GALLANT	pesticide revocation decision date	2003-05-05^^xsd:date
+PESTON:0838434	38434	GALPRO	pesticide revocation decision date	2003-05-05^^xsd:date
+PESTON:0838435	38435	GASTEROX	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838436	38436	GASTROCID	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838437	38437	GEMAFOS 10 G	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838438	38438	GEMAFOS 50	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838439	38439	GEMINISTAR	pesticide revocation decision date	2021-06-16^^xsd:date
+PESTON:0838440	38440	GEODISINFESTANTE GREEN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838441	38441	GEOFOS	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838442	38442	GEOSAN 33	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838443	38443	GERBA 4 LG	pesticide revocation decision date	2019-05-31^^xsd:date
+PESTON:0838444	38444	GLIALKA	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838445	38445	GLITER	pesticide revocation decision date	2005-09-08^^xsd:date
+PESTON:0838446	38446	GLYPER	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838447	38447	GLYWEED	pesticide revocation decision date	2005-10-17^^xsd:date
+PESTON:0838448	38448	GOST	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838449	38449	GRAINTOX	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838450	38450	GRAMICIDIN	pesticide revocation decision date	2003-07-25^^xsd:date
+PESTON:0838451	38451	GRANEX	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838452	38452	GRANEX DM	pesticide revocation decision date	2003-04-01^^xsd:date
+PESTON:0838453	38453	GRANONET	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838454	38454	GRANONET MP	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838455	38455	GRASIPAN	pesticide revocation decision date	2003-05-05^^xsd:date
+PESTON:0838456	38456	GRASSKILLER S	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838457	38457	GRAZON	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838458	38458	GREENSTOP	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838459	38459	GUNNER WG	pesticide revocation decision date	2021-07-07^^xsd:date
+PESTON:0838460	38460	GUSATHION MS	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838461	38461	HEDONAL MCPP	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838462	38462	HERBITOTAL	pesticide revocation decision date	2003-07-25^^xsd:date
+PESTON:0838463	38463	HORMOALFA	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838464	38464	HORMOFIT	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838465	38465	HYPRO FLOW	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838466	38466	ICUR 50	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838467	38467	IDRAZENE MH 360	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838468	38468	IDROX	pesticide revocation decision date	2003-07-07^^xsd:date
+PESTON:0838469	38469	IGUASU'	pesticide revocation decision date	2000-11-27^^xsd:date
+PESTON:0838470	38470	ILDENAL PLUS	pesticide revocation decision date	1999-07-23^^xsd:date
+PESTON:0838471	38471	INEX	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838472	38472	INSOVER	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838473	38473	IPOCIDE V	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838474	38474	IPPON 500 SC	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838475	38475	IPROMIX SC	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838476	38476	IPROTEC	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838477	38477	ISMAROL ESCA	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838478	38478	ITAL FEN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838479	38479	ITIRAM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838480	38480	KARAFLOR	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838481	38481	KARATHANE FN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838482	38482	KAYMAN	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838483	38483	KEMAZIN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838484	38484	KERALON	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838485	38485	KORON WDG	pesticide revocation decision date	2019-09-30^^xsd:date
+PESTON:0838486	38486	KORTHANE LC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838487	38487	KUPFERSOL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838488	38488	KUPFERSOL L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838489	38489	KUPRUM 35	pesticide revocation decision date	2001-12-07^^xsd:date
+PESTON:0838490	38490	KUPRUM 50	pesticide revocation decision date	2001-12-07^^xsd:date
+PESTON:0838491	38491	LABIOTOX METIL	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838492	38492	LALSTOP K61 WP	pesticide revocation decision date	2021-04-28^^xsd:date
+PESTON:0838493	38493	LARVATOX	pesticide revocation decision date	2003-07-17^^xsd:date
+PESTON:0838494	38494	LASSO LINURON L	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838495	38495	LEGUMIN	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838496	38496	LENTAGRAN COMBI	pesticide revocation decision date	2002-12-18^^xsd:date
+PESTON:0838497	38497	LERMOL MIX	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838498	38498	LEVEL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838499	38499	LEVEN	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838500	38500	LEVEN ZOLFO	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838501	38501	LIFLAN	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838502	38502	LIG	pesticide revocation decision date	2001-06-20^^xsd:date
+PESTON:0838503	38503	LIMESCA	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838504	38504	LINEXIN	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838505	38505	LINTOX 1 GRANULARE	pesticide revocation decision date	2001-06-20^^xsd:date
+PESTON:0838506	38506	LINTOX 2 GRANULARE	pesticide revocation decision date	2001-06-20^^xsd:date
+PESTON:0838507	38507	LINURON PAVONI	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838508	38508	LIPEN 330 EC	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838509	38509	LITOX	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838510	38510	LONTREL CM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838511	38511	LURON	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838512	38512	LUVONIL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838513	38513	MAGNATE 20 EC	pesticide revocation decision date	2004-02-17^^xsd:date
+PESTON:0838514	38514	MALAFID M.G.	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838515	38515	MALATOX P 20	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838516	38516	MALAVIS 50 EC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838517	38517	MALERBANE C	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838518	38518	MALERPLANT	pesticide revocation decision date	2000-12-11^^xsd:date
+PESTON:0838519	38519	MALERTOX ASPARAGI	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838520	38520	MALERTOX BIETOMIN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838521	38521	MALERTOX BIETONET	pesticide revocation decision date	2005-09-08^^xsd:date
+PESTON:0838522	38522	MALERTOX D.P.NA	pesticide revocation decision date	2003-07-25^^xsd:date
+PESTON:0838523	38523	MALERTOX DMU	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838524	38524	MALERTOX GP SODICO	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838525	38525	MALERTOX GR AMMINICO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838526	38526	MALERTOX GR ESTERE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838527	38527	MALERTOX LURON FLUID	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838528	38528	MALERTOX MEDICA S	pesticide revocation decision date	2004-09-29^^xsd:date
+PESTON:0838529	38529	MALERTOX PRATI	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838530	38530	MALERTOX PREMERG TL	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838531	38531	MALERTOX RISO GRANULI	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838532	38532	MALERTOX TOTALE	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838533	38533	MALMONT L 50	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838534	38534	MAN 50	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838535	38535	MANEB 80 SIPCAM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838536	38536	MANTEB	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838537	38537	MANZEB	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838538	38538	MATACAR FLO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838539	38539	MATACAR L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838540	38540	MAVRIK 20 L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838541	38541	MAVRIK 25 DRY	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838542	38542	MAVRIK COMBI	pesticide revocation decision date	1999-10-05^^xsd:date
+PESTON:0838543	38543	MAXYL PB	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838544	38544	MAZINAM FL	pesticide revocation decision date	2017-12-19^^xsd:date
+PESTON:0838545	38545	MEBANE AZZURRO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838546	38546	MEBANE BIANCO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838547	38547	MEBANE RAME	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838548	38548	METACLOR	pesticide revocation decision date	2001-04-10^^xsd:date
+PESTON:0838549	38549	METANET	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838550	38550	METARAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838551	38551	METATHION E	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838552	38552	METHIOCARB ENICHEM AGRICOLTURA	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838553	38553	METICIDE	pesticide revocation decision date	2021-06-16^^xsd:date
+PESTON:0838554	38554	METILAN	pesticide revocation decision date	2001-04-10^^xsd:date
+PESTON:0838555	38555	METILDIENE K	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838556	38556	METLIN EC	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838557	38557	METOGRAN	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838558	38558	METOSIP COMBI	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838559	38559	METRIPAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838560	38560	METRYS EC	pesticide revocation decision date	2004-04-29^^xsd:date
+PESTON:0838561	38561	MEZOBET FL	pesticide revocation decision date	2000-09-06^^xsd:date
+PESTON:0838562	38562	MICENE F	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838563	38563	MICENOL DL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838564	38564	MICERAM NT	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838565	38565	MICETOX 65	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838566	38566	MICEVIT P	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838567	38567	MICEVIT PZ	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838568	38568	MICOFLOR	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838569	38569	MICROCIDE PB	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838570	38570	MICRORAM 20 FLOW	pesticide revocation decision date	2021-09-20^^xsd:date
+PESTON:0838571	38571	MICROSAR	pesticide revocation decision date	2004-04-29^^xsd:date
+PESTON:0838572	38572	MICROZINEB SB	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838573	38573	MICROZOLFO 60	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838574	38574	MILTAM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838575	38575	MITRAZON	pesticide revocation decision date	2003-05-06^^xsd:date
+PESTON:0838576	38576	MITRAZON L	pesticide revocation decision date	2003-05-06^^xsd:date
+PESTON:0838577	38577	MOLINAM COMBI	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838578	38578	MOLINAM DP	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838579	38579	MOLINAM G	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838580	38580	MOLINAM M	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838581	38581	MOLINAM MDP	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838582	38582	MOLINATE G	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838583	38583	MOLINATE LE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838584	38584	MORIS 7,5 GRANULI	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838585	38585	MOST	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838586	38586	MULTIDIS	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838587	38587	MULTIKUR LS	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838588	38588	MULTIVALL 40	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838589	38589	MURVIS	pesticide revocation decision date	1999-02-03^^xsd:date
+PESTON:0838590	38590	MYRTOS DUO	pesticide revocation decision date	2002-12-18^^xsd:date
+PESTON:0838591	38591	MYRTOS READY	pesticide revocation decision date	2002-12-18^^xsd:date
+PESTON:0838592	38592	NAFTALON	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838593	38593	NEMISPOR 50 BLU	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838594	38594	NEMISPOR 60	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838595	38595	NEORAM WG	pesticide revocation decision date	2019-08-03^^xsd:date
+PESTON:0838596	38596	NESPOR PB 80	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838597	38597	NETARD MIX	pesticide revocation decision date	2003-05-06^^xsd:date
+PESTON:0838598	38598	NETARD S	pesticide revocation decision date	2003-05-06^^xsd:date
+PESTON:0838599	38599	NETOX 5 G	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838600	38600	NICOTAN C	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838601	38601	NICOTEB C	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838602	38602	NICOTEB CP	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838603	38603	NICOTEB P	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838604	38604	NIFAM 50	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838605	38605	NIK 250	pesticide revocation decision date	2016-10-07^^xsd:date
+PESTON:0838606	38606	NIK WDG	pesticide revocation decision date	2021-07-07^^xsd:date
+PESTON:0838607	38607	NISSORUN	pesticide revocation decision date	2019-09-11^^xsd:date
+PESTON:0838608	38608	NITROL	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838609	38609	NO-TIC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838610	38610	NOVAP	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838611	38611	NOVAPRATI DICOTILEDONI	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838612	38612	NOXETAL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838613	38613	OBAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838614	38614	OFF SHOOT T 85	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838615	38615	OLEOVIS ATTIVATO	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838616	38616	OLZER 80	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838617	38617	OMNIRAT	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838618	38618	OPTIX R DISPERSS	pesticide revocation decision date	2019-05-29^^xsd:date
+PESTON:0838619	38619	ORMOSEP COMBI	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838620	38620	ORTHAK	pesticide revocation decision date	2000-12-13^^xsd:date
+PESTON:0838621	38621	ORTHENE	pesticide revocation decision date	1999-10-05^^xsd:date
+PESTON:0838622	38622	ORTHENE S	pesticide revocation decision date	2003-03-21^^xsd:date
+PESTON:0838623	38623	ORTIGRAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838624	38624	OSSICLOR 20 BLU FLOW	pesticide revocation decision date	2019-04-01^^xsd:date
+PESTON:0838625	38625	OSSICLOR 20 FLOW	pesticide revocation decision date	2019-04-01^^xsd:date
+PESTON:0838626	38626	OSSICLOR 35 WG	pesticide revocation decision date	2019-04-01^^xsd:date
+PESTON:0838627	38627	OSSIRAM 20 SC	pesticide revocation decision date	2019-04-01^^xsd:date
+PESTON:0838628	38628	OSSIRAME 20 PB BLU	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838629	38629	OSSIRAME LV	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838630	38630	OSSIRAME OL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838631	38631	OSSIRAME OL 16	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838632	38632	OSSIRAME PB	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838633	38633	OVERAL EC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838634	38634	OVEROT	pesticide revocation decision date	2004-04-29^^xsd:date
+PESTON:0838635	38635	OVIR	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838636	38636	OXA-RICE	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838637	38637	OXACUR	pesticide revocation decision date	2000-07-20^^xsd:date
+PESTON:0838638	38638	OXAVIT M	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838639	38639	OXAVIT-R	pesticide revocation decision date	2001-09-25^^xsd:date
+PESTON:0838640	38640	OXIL MZ	pesticide revocation decision date	2001-12-18^^xsd:date
+PESTON:0838641	38641	OXIL STRONG WDG	pesticide revocation decision date	2002-03-28^^xsd:date
+PESTON:0838642	38642	OXIL-F WDG	pesticide revocation decision date	2002-01-24^^xsd:date
+PESTON:0838643	38643	OXIL-R WDG	pesticide revocation decision date	2002-03-13^^xsd:date
+PESTON:0838644	38644	PAICER 10 G	pesticide revocation decision date	2000-09-06^^xsd:date
+PESTON:0838645	38645	PANAM PB 85	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838646	38646	PANTER	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838647	38647	PANTOX NT	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838648	38648	PARACOCCIDOL	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838649	38649	PARAGRIN S	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838650	38650	PARALBENE	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838651	38651	PARAQUIN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838652	38652	PARASHOOT	pesticide revocation decision date	2002-05-13^^xsd:date
+PESTON:0838653	38653	PARATHION 20	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838654	38654	PARATHION 25 PB SIPCAM	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838655	38655	PARATHION ITAL AGRO 20	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838656	38656	PARATION G10	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838657	38657	PARATION G4	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838658	38658	PARATOIL E	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838659	38659	PARED	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838660	38660	PARSIFAL	pesticide revocation decision date	2002-10-16^^xsd:date
+PESTON:0838661	38661	PARTNER	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838662	38662	PENDICLOR	pesticide revocation decision date	1999-09-28^^xsd:date
+PESTON:0838663	38663	PENDILIN	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838664	38664	PENDITOX L	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838665	38665	PENETRENE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838666	38666	PENLIN EC	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838667	38667	PENNFLO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838668	38668	PENNTHAL 19	pesticide revocation decision date	2003-06-16^^xsd:date
+PESTON:0838669	38669	PERMIDRAL	pesticide revocation decision date	2001-06-27^^xsd:date
+PESTON:0838670	38670	PERTIL	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838671	38671	PHALTAN 50	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838672	38672	PHORATE 5G ENICHEM AGRICOLTURA	pesticide revocation decision date	2001-06-05^^xsd:date
+PESTON:0838673	38673	PINENE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838674	38674	PIRAZONE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838675	38675	PIUGRANO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838676	38676	PIZETA	pesticide revocation decision date	2005-05-04^^xsd:date
+PESTON:0838677	38677	POLI-ORGAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838678	38678	POLI-ORGAN 50	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838679	38679	POLISOLFURO DI BARIO LIQUIDO POLISENIO	pesticide revocation decision date	2000-09-12^^xsd:date
+PESTON:0838680	38680	POLITHIOL	pesticide revocation decision date	2020-10-28^^xsd:date
+PESTON:0838681	38681	POLT CU 20	pesticide revocation decision date	2001-12-07^^xsd:date
+PESTON:0838682	38682	POLTIGLIA MANICA 20 WG	pesticide revocation decision date	2020-12-27^^xsd:date
+PESTON:0838683	38683	POLTIGLIA Z 50	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838684	38684	POLTIGLIA Z7	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838685	38685	POLTIL D	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838686	38686	POLVERE LABIO 40	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838687	38687	POLVERE SIPCAM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838688	38688	POLVOSOL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838689	38689	POLVOSOL CUPRO 3 BLEU	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838690	38690	POLVOSOL F-5	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838691	38691	POMARSOL ZF	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838692	38692	PORT BLU	pesticide revocation decision date	2004-04-29^^xsd:date
+PESTON:0838693	38693	POSEIDON	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838694	38694	POX KONZ	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838695	38695	PREBAN	pesticide revocation decision date	2003-05-29^^xsd:date
+PESTON:0838696	38696	PREMIN	pesticide revocation decision date	2004-09-29^^xsd:date
+PESTON:0838697	38697	PRIMIAL	pesticide revocation decision date	2021-07-28^^xsd:date
+PESTON:0838698	38698	PROFEN	pesticide revocation decision date	1998-09-17^^xsd:date
+PESTON:0838699	38699	PROFUIT WDG	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838700	38700	PROMAG	pesticide revocation decision date	2021-07-07^^xsd:date
+PESTON:0838701	38701	PROMET	pesticide revocation decision date	2001-06-12^^xsd:date
+PESTON:0838702	38702	PROMETALIN	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838703	38703	PROPANIL S	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838704	38704	PROPIC	pesticide revocation decision date	2005-05-04^^xsd:date
+PESTON:0838705	38705	PROPILAN	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838706	38706	PROSIT 200 EC	pesticide revocation decision date	2002-02-03^^xsd:date
+PESTON:0838707	38707	PROTECTOR	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838708	38708	PROTEUS	pesticide revocation decision date	2004-09-29^^xsd:date
+PESTON:0838709	38709	PULIRIS	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838710	38710	PYRISIP 12 EC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838711	38711	PYRISIP 12 L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838712	38712	QUALITY	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838713	38713	QUID 5 TOP	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838714	38714	QUILFOS EC	pesticide revocation decision date	1999-04-09^^xsd:date
+PESTON:0838715	38715	RACUMIN 57	pesticide revocation decision date	2004-03-18^^xsd:date
+PESTON:0838716	38716	RACUMIN 57 ESCA	pesticide revocation decision date	2004-03-18^^xsd:date
+PESTON:0838717	38717	RAGUMON PB 25	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838718	38718	RAMATO P1	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838719	38719	RAMOLIO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838720	38720	RAMOTHAL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838721	38721	RAMOTHAL L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838722	38722	RAMPAR TZ	pesticide revocation decision date	2005-06-30^^xsd:date
+PESTON:0838723	38723	RAMROD	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838724	38724	RANGE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838725	38725	RECORD	pesticide revocation decision date	2001-01-22^^xsd:date
+PESTON:0838726	38726	RELDAN S	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838727	38727	REMEDIER	pesticide revocation decision date	2021-04-28^^xsd:date
+PESTON:0838728	38728	RESITHION	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838729	38729	RHODOS	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838730	38730	RISINA AVVELENATA SIAPA P	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838731	38731	RISOVERD E	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838732	38732	ROGODIAL	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838733	38733	ROSTER GR	pesticide revocation decision date	2000-07-20^^xsd:date
+PESTON:0838734	38734	ROTRAN CMPP	pesticide revocation decision date	2004-11-29^^xsd:date
+PESTON:0838735	38735	SAIFLOS	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838736	38736	SANTHANE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838737	38737	SANTHANE DF	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838738	38738	SANVEX 1P	pesticide revocation decision date	2003-07-25^^xsd:date
+PESTON:0838739	38739	SANVEX 25 PS	pesticide revocation decision date	2003-07-25^^xsd:date
+PESTON:0838740	38740	SANVEX 2P	pesticide revocation decision date	2003-07-25^^xsd:date
+PESTON:0838741	38741	SARGREEN	pesticide revocation decision date	2004-04-29^^xsd:date
+PESTON:0838742	38742	SATURN 10 G	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838743	38743	SATURN 7 G	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838744	38744	SATURN E 50	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838745	38745	SCIANDOR	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838746	38746	SCION	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838747	38747	SCIRPELIN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838748	38748	SCLEROSAN 4 PS	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838749	38749	SEATOTAL	pesticide revocation decision date	2001-08-30^^xsd:date
+PESTON:0838750	38750	SELEMIDE 80	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838751	38751	SELENE B/A 80	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838752	38752	SELEVIT B	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838753	38753	SELEVIT PS	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838754	38754	SEMER	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838755	38755	SEMIXIN	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838756	38756	SERIT COMBI	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838757	38757	SERTOX	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838758	38758	SEVILAN 5 PS	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838759	38759	SIACIDIN	pesticide revocation decision date	1998-11-26^^xsd:date
+PESTON:0838760	38760	SIACIDIN 5	pesticide revocation decision date	1998-11-26^^xsd:date
+PESTON:0838761	38761	SIAFOS COMBI	pesticide revocation decision date	2006-09-01^^xsd:date
+PESTON:0838762	38762	SIAGRAN TRIS	pesticide revocation decision date	2003-12-15^^xsd:date
+PESTON:0838763	38763	SIANURON	pesticide revocation decision date	2000-06-13^^xsd:date
+PESTON:0838764	38764	SIGRAN 80	pesticide revocation decision date	2004-04-14^^xsd:date
+PESTON:0838765	38765	SILTYLATE A PASTA	pesticide revocation decision date	2003-05-29^^xsd:date
+PESTON:0838766	38766	SIMAZ	pesticide revocation decision date	2004-04-14^^xsd:date
+PESTON:0838767	38767	SIMAZENO 50	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838768	38768	SIMAZIN L	pesticide revocation decision date	2004-04-14^^xsd:date
+PESTON:0838769	38769	SIMAZINA 50	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838770	38770	SIMAZINE 90 WG	pesticide revocation decision date	2004-04-14^^xsd:date
+PESTON:0838771	38771	SIMETOL	pesticide revocation decision date	2001-07-19^^xsd:date
+PESTON:0838772	38772	SINDIONE	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838773	38773	SIPCAPLANT	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838774	38774	SIPCAPLANT OF	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838775	38775	SIPCASAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838776	38776	SIPCASAN B	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838777	38777	SIPCAVIT	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838778	38778	SIPCAVIT Z	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838779	38779	SIPLEN B	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838780	38780	SIPLEN L	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838781	38781	SIRDATE MZ DF	pesticide revocation decision date	2002-05-06^^xsd:date
+PESTON:0838782	38782	SIVAM 10 MICROGRANULARE	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838783	38783	SIVAMCARB P 7,5	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838784	38784	SIVAMDOD	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838785	38785	SIVAMVOS 5	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838786	38786	SIVAMWARF	pesticide revocation decision date	2004-03-18^^xsd:date
+PESTON:0838787	38787	SIVAMWARF ESCA	pesticide revocation decision date	2004-03-18^^xsd:date
+PESTON:0838788	38788	SIVAMWARF ESCA DOSATA	pesticide revocation decision date	2004-03-18^^xsd:date
+PESTON:0838789	38789	SKIPP 22	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838790	38790	SKROLL COMBI	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838791	38791	SLIM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838792	38792	SOFICARB	pesticide revocation decision date	2001-07-19^^xsd:date
+PESTON:0838793	38793	SOFIZIN 80	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838794	38794	SOLARAN	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838795	38795	SOLBAR S	pesticide revocation decision date	1999-07-09^^xsd:date
+PESTON:0838796	38796	SOLFIREN FLOW	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838797	38797	SOLFRAME	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838798	38798	SOLFRAME N	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838799	38799	SOLFRAME NT	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838800	38800	SONALEN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838801	38801	SPOT 45 DF	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838802	38802	STAAY	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838803	38803	START	pesticide revocation decision date	2000-03-14^^xsd:date
+PESTON:0838804	38804	START COMBI	pesticide revocation decision date	1998-12-23^^xsd:date
+PESTON:0838805	38805	STERASIP	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838806	38806	STERASIP G	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838807	38807	STIKER	pesticide revocation decision date	2019-05-31^^xsd:date
+PESTON:0838808	38808	STOP SCALD	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838809	38809	STOP-RIS	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838810	38810	SUGARBETA PLUS	pesticide revocation decision date	2003-08-29^^xsd:date
+PESTON:0838811	38811	SUKER	pesticide revocation decision date	2003-08-29^^xsd:date
+PESTON:0838812	38812	SULFADAN TERRA	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838813	38813	SULFOZIN	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838814	38814	SULFUR R	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838815	38815	SULFURAM 3%	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838816	38816	SULPHUR	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838817	38817	SULTYLATE A	pesticide revocation decision date	2003-05-29^^xsd:date
+PESTON:0838818	38818	SUMICIDIN	pesticide revocation decision date	1998-11-26^^xsd:date
+PESTON:0838819	38819	SUMICIDIN 11 EC	pesticide revocation decision date	1998-11-26^^xsd:date
+PESTON:0838820	38820	SUMICIDIN 5	pesticide revocation decision date	1998-11-26^^xsd:date
+PESTON:0838821	38821	SUMICIDIN FIORI	pesticide revocation decision date	1998-11-26^^xsd:date
+PESTON:0838822	38822	SUMICOMBI 30 EC	pesticide revocation decision date	1998-11-26^^xsd:date
+PESTON:0838823	38823	SUMIZAR 25 EC	pesticide revocation decision date	1998-11-26^^xsd:date
+PESTON:0838824	38824	SURCOPUR	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838825	38825	SYMBOL EC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838826	38826	SYSTEM	pesticide revocation decision date	2003-06-16^^xsd:date
+PESTON:0838827	38827	TAIWAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838828	38828	TALPICIDA R1	pesticide revocation decision date	2004-03-18^^xsd:date
+PESTON:0838829	38829	TANTOGRAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838830	38830	TCA-NA	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838831	38831	TEDI'	pesticide revocation decision date	2003-07-14^^xsd:date
+PESTON:0838832	38832	TEPETA 5 DUST	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838833	38833	TERABOL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838834	38834	TERBAZINA FL 4	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838835	38835	TERBUFOS ADICA ADIBUF 4G	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838836	38836	TERBUFOS AGRIMONT CALVER 4G	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838837	38837	TERBUFOS CYANAMID COUNTER 2 G	pesticide revocation decision date	1998-11-25^^xsd:date
+PESTON:0838838	38838	TERBUFOS CYANAMID COUNTER 3,5 G	pesticide revocation decision date	1998-11-25^^xsd:date
+PESTON:0838839	38839	TERBUFOS CYANAMID COUNTER 5 G	pesticide revocation decision date	1998-11-25^^xsd:date
+PESTON:0838840	38840	TERFOS 10 GRANULARE	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838841	38841	TERLIN 3G	pesticide revocation decision date	2001-06-20^^xsd:date
+PESTON:0838842	38842	TERSOL	pesticide revocation decision date	2000-08-02^^xsd:date
+PESTON:0838843	38843	TETRAFID	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838844	38844	TETRAFID NORMALE 6	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838845	38845	TETRAFOS 10 G	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838846	38846	TETRAFOS 200	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838847	38847	THILDER 25	pesticide revocation decision date	2005-05-04^^xsd:date
+PESTON:0838848	38848	THIONE 20	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838849	38849	TIOBAR	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838850	38850	TIOBLU	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838851	38851	TIOCUPRIN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838852	38852	TIOCUPROL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838853	38853	TIOCUZIN PS 56	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838854	38854	TIODAL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838855	38855	TIOFLOR WDG	pesticide revocation decision date	2020-10-28^^xsd:date
+PESTON:0838856	38856	TIOGEL COLLOIDALE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838857	38857	TIOKOLL 50	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838858	38858	TIOLERBANE COMBI	pesticide revocation decision date	2002-10-16^^xsd:date
+PESTON:0838859	38859	TIOLPET	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838860	38860	TIOLPET R	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838861	38861	TIORAM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838862	38862	TIOSIP	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838863	38863	TIOSOL B	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838864	38864	TIOSOL FLOWABLE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838865	38865	TIOSOL RAMATO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838866	38866	TIOWETTING FL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838867	38867	TMTD 50 AZZURRO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838868	38868	TOBACOL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838869	38869	TOLURANE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838870	38870	TORNADO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838871	38871	TORNADO SC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838872	38872	TOTAL FLOR	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838873	38873	TOXALIN	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838874	38874	TOXER CANALI	pesticide revocation decision date	2003-07-25^^xsd:date
+PESTON:0838875	38875	TOXER EB	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838876	38876	TOXIR	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838877	38877	TRAST	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838878	38878	TRATTO 10 SC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838879	38879	TRIACETANE 200	pesticide revocation decision date	2002-12-27^^xsd:date
+PESTON:0838880	38880	TRIBEL M	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838881	38881	TRICEL M	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838882	38882	TRICLOR	pesticide revocation decision date	2001-10-17^^xsd:date
+PESTON:0838883	38883	TRIFENE 30	pesticide revocation decision date	2002-12-27^^xsd:date
+PESTON:0838884	38884	TRIFENE L	pesticide revocation decision date	2002-12-27^^xsd:date
+PESTON:0838885	38885	TRIHERBIDE C.I.P.C.	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838886	38886	TRILEN	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838887	38887	TRILIANE	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838888	38888	TRILIXON	pesticide revocation decision date	2002-12-31^^xsd:date
+PESTON:0838889	38889	TRILURON	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838890	38890	TRIMEC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838891	38891	TRIMEC A	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838892	38892	TRIMEC AF	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838893	38893	TRIMEC E	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838894	38894	TRIMESOL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838895	38895	TRINULAN	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838896	38896	TRIPAMEC A	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838897	38897	TRIPAMEC E	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838898	38898	TRIPAMEC S	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838899	38899	TRIPAN DP	pesticide revocation decision date	2003-06-04^^xsd:date
+PESTON:0838900	38900	TRIPAN M	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838901	38901	TRIPION E	pesticide revocation decision date	2020-10-28^^xsd:date
+PESTON:0838902	38902	TRIPLANT	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838903	38903	TRIPLEN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838904	38904	TRIPLO NEW	pesticide revocation decision date	2003-08-29^^xsd:date
+PESTON:0838905	38905	TRIPOMOL 80 WP	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838906	38906	TRIRAM	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838907	38907	TRISIP 25	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838908	38908	TRITICON	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838909	38909	TRITICON LIQUIDO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838910	38910	TRITIFEN	pesticide revocation decision date	2004-06-30^^xsd:date
+PESTON:0838911	38911	TROID	pesticide revocation decision date	1999-10-11^^xsd:date
+PESTON:0838912	38912	UNIFOS	pesticide revocation decision date	1998-10-01^^xsd:date
+PESTON:0838913	38913	UNIVER	pesticide revocation decision date	2001-06-27^^xsd:date
+PESTON:0838914	38914	URONIL	pesticide revocation decision date	2001-07-19^^xsd:date
+PESTON:0838915	38915	V-5 P.S.	pesticide revocation decision date	2001-07-19^^xsd:date
+PESTON:0838916	38916	V.I.P. FLOW	pesticide revocation decision date	2021-07-07^^xsd:date
+PESTON:0838917	38917	VALIANT SC	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838918	38918	VARADERO	pesticide revocation decision date	2004-09-29^^xsd:date
+PESTON:0838919	38919	VAROL	pesticide revocation decision date	2002-12-31^^xsd:date
+PESTON:0838920	38920	VENTUROL 50 SC	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838921	38921	VERDEGAMMA C	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838922	38922	VERDEGAMMA INODORO	pesticide revocation decision date	2001-06-20^^xsd:date
+PESTON:0838923	38923	VERDERIN E	pesticide revocation decision date	2001-06-20^^xsd:date
+PESTON:0838924	38924	VERODAZINA	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838925	38925	VERPHOS	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838926	38926	VIDESOL	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838927	38927	VILCARCID	pesticide revocation decision date	2004-03-30^^xsd:date
+PESTON:0838928	38928	VIRONEX BORDO	pesticide revocation decision date	2019-04-01^^xsd:date
+PESTON:0838929	38929	VISFOS 25 PB	pesticide revocation decision date	2002-01-09^^xsd:date
+PESTON:0838930	38930	VITAZIR	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838931	38931	VITENE 35	pesticide revocation decision date	2005-06-30^^xsd:date
+PESTON:0838932	38932	VITOL 96	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838933	38933	VITTORIA 24 SC	pesticide revocation decision date	2019-05-31^^xsd:date
+PESTON:0838934	38934	VOLATHION GRANULARE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838935	38935	WEDONE EMULSAMINE	pesticide revocation decision date	2003-03-14^^xsd:date
+PESTON:0838936	38936	WEEDAR MCP 30	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838937	38937	WELTER	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838938	38938	WETTAGRO	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838939	38939	XEDAZOLO 30	pesticide revocation decision date	2005-05-04^^xsd:date
+PESTON:0838940	38940	XEDAZOLO AEROSOL	pesticide revocation decision date	2005-05-04^^xsd:date
+PESTON:0838941	38941	XIMOL	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838942	38942	YUKAMATE COMBI	pesticide revocation decision date	2003-06-16^^xsd:date
+PESTON:0838943	38943	YUKAMATE COMBI L	pesticide revocation decision date	2003-06-16^^xsd:date
+PESTON:0838944	38944	YUKAMATE G	pesticide revocation decision date	2003-06-16^^xsd:date
+PESTON:0838945	38945	YUKAMATE L	pesticide revocation decision date	2003-06-16^^xsd:date
+PESTON:0838946	38946	YUKASIP G	pesticide revocation decision date	2003-06-16^^xsd:date
+PESTON:0838947	38947	YUKASIP L	pesticide revocation decision date	2003-06-16^^xsd:date
+PESTON:0838948	38948	YUKASIP T	pesticide revocation decision date	2003-06-16^^xsd:date
+PESTON:0838949	38949	ZAP C.E.	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838950	38950	ZEANOL	pesticide revocation decision date	2003-05-29^^xsd:date
+PESTON:0838951	38951	ZETARAM B	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838952	38952	ZETARAM L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838953	38953	ZINCUPRO	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838954	38954	ZINEB 80	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838955	38955	ZINENE 80	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838956	38956	ZINEZIR	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838957	38957	ZIRAM DF	pesticide revocation decision date	2002-10-02^^xsd:date
+PESTON:0838958	38958	ZIRANE	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838959	38959	ZM PASTA	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838960	38960	ZOLFO 80	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838961	38961	ZOLFO A.&A. F.LLI ZANUCCOLI TRIVENTILATO 93% S	pesticide revocation decision date	2020-10-28^^xsd:date
+PESTON:0838962	38962	ZOLFO A.&A. F.LLI ZANUCCOLI VENTILATO 85% S	pesticide revocation decision date	2020-10-28^^xsd:date
+PESTON:0838963	38963	ZOLFO DOPPIO VENTILATO SCORREVOLE 85% S	pesticide revocation decision date	2008-03-31^^xsd:date
+PESTON:0838964	38964	ZOLFO LERCARA SCORREVOLE 95%	pesticide revocation decision date	2020-10-28^^xsd:date
+PESTON:0838965	38965	ZOLFO LERCARA TRIVENTILATO SCORREVOLE 93%	pesticide revocation decision date	2020-10-28^^xsd:date
+PESTON:0838966	38966	ZOLFO MANICA DOPPIO RAFFINATO VENTILATO RAMATO 3% NEW	pesticide revocation decision date	2019-04-01^^xsd:date
+PESTON:0838967	38967	ZOLFO MANICA SCORREVOLE DOPPIO RAFFINATO	pesticide revocation decision date	2020-10-28^^xsd:date
+PESTON:0838968	38968	ZOLFO ZINEB 35/10	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838969	38969	ZOLFO ZINEB 60/4	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838970	38970	ZOLFO ZINEB 85/4,8	pesticide revocation decision date	2001-07-12^^xsd:date
+PESTON:0838971	38971	ZOLTAN	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838972	38972	ZOLTER L	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838973	38973	ZOLTER PB	pesticide revocation decision date	2003-12-31^^xsd:date
+PESTON:0838974	38974	ZOLVIS FL	pesticide revocation decision date	2003-12-31^^xsd:date
