@@ -769,7 +769,7 @@ PESTON:0103460	pesticide product		3460	ALLISAN 8% PS	FORMENTI S.P.A.	Revocato	re
 PESTON:0111880	fungicide product	FUNGICIDA	11880	ALLISAN AGRI 5-F	GOWAN COMERCIO INTERNACIONAL E SERVICOS, LIMITADA	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0115884	molluscicide product	MOLLUSCHICIDA	15884	ALLOWIN	DE SANGOSSE SAS	Autorizzato in regime di Riconoscimento Reciproco	authorised - under mutual recognition - Regulation (EC) No 764/2008			bait (ready for use)					
 PESTON:0109523	pesticide product		9523	ALLUM	NUFARM ITALIA S.R.L.	Revocato	revoked			wettable powder					
-PESTON:0110947	fungicide product	FUNGICIDA	10947	ALLUM COMBI R	NUFARM ITALIA S.R.L.	Revocato	revoked			wettable powder	|harmful chemical				
+PESTON:0110947	fungicide product	FUNGICIDA	10947	ALLUM COMBI R	NUFARM ITALIA S.R.L.	Revocato	revoked			wettable powder	harmful chemical				
 PESTON:0110949	fungicide product	FUNGICIDA	10949	ALLUM MZ	NUFARM ITALIA S.R.L.	Revocato	revoked			wettable powder	chemical irritant				
 PESTON:0110501	fungicide product	FUNGICIDA	10501	ALLUM R	DU PONT DE NEMOURS ITALIANA S.R.L.	Revocato	revoked			water dispersible granules	toxic chemical				
 PESTON:0111115	fungicide product	FUNGICIDA	11115	ALLUM TRIPLO	NUFARM ITALIA S.R.L.	Revocato	revoked			wettable powder	chemical irritant|chemical dangerous for environment				
