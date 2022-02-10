@@ -104,7 +104,9 @@ Declaration(Class(obo:PESTON_0001080))
 Declaration(Class(obo:PESTON_0001081))
 Declaration(Class(obo:PESTON_0001082))
 Declaration(Class(obo:PESTON_0001083))
-Declaration(Class(obo:PESTON_0003000))
+Declaration(Class(obo:PESTON_0001084))
+Declaration(Class(obo:PESTON_0001085))
+Declaration(Class(obo:PESTON_0001086))
 Declaration(ObjectProperty(obo:RO_0000087))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000221>))
 Declaration(ObjectProperty(<https://schema.org/addressCountry>))
@@ -180,11 +182,11 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000002 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000002 "pesticide authorized"@en)
 SubClassOf(obo:PESTON_0000002 obo:PESTON_0000001)
 
-# Class: obo:PESTON_0000003 (pesticide revolked)
+# Class: obo:PESTON_0000003 (pesticide revoked)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000003 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000003 "2021-11-23T00:18:01Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000003 "pesticide revolked"@en)
+AnnotationAssertion(rdfs:label obo:PESTON_0000003 "pesticide revoked"@en)
 SubClassOf(obo:PESTON_0000003 obo:PESTON_0000001)
 
 # Class: obo:PESTON_0000004 (pesticide re-registered)
@@ -200,7 +202,7 @@ SubClassOf(obo:PESTON_0000004 obo:PESTON_0000001)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000005 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000005 "2021-11-23T00:19:40Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000005 "pesticide revocation date"@en)
-SubClassOf(obo:PESTON_0000005 obo:NCIT_C25164)
+SubClassOf(obo:PESTON_0000005 obo:PESTON_0001086)
 
 # Class: obo:PESTON_0000006 (phytosanitary product)
 
@@ -768,12 +770,23 @@ AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001083 "XX")
 AnnotationAssertion(rdfs:label obo:PESTON_0001083 "others")
 SubClassOf(obo:PESTON_0001083 obo:PESTON_0001043)
 
-# Class: obo:PESTON_0003000 (pesticide ingredient)
+# Class: obo:PESTON_0001084 (pesticide ingredient)
 
-AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0003000 <http://orcid.org/0000-0002-8844-9165>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0003000 "2022-01-31T21:08:42Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0003000 "pesticide ingredient"@en)
-SubClassOf(obo:PESTON_0003000 obo:BFO_0000040)
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0001084 <http://orcid.org/0000-0002-8844-9165>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0001084 "2022-01-31T21:08:42Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label obo:PESTON_0001084 "pesticide ingredient"@en)
+SubClassOf(obo:PESTON_0001084 obo:BFO_0000040)
+
+# Class: obo:PESTON_0001085 (IP)
+
+AnnotationAssertion(rdfs:comment obo:PESTON_0001085 "Parallel importing refer to branded goods that have been manufactured by or under license of the brand owner, but they may have been formulated or packaged for a particular market and are imported into a different jurisdiction in contradiction to the brand owner’s intention, thereby sold at reduced price. Parallel importing is regulated differently between countries."@en)
+AnnotationAssertion(rdfs:label obo:PESTON_0001085 "IP")
+SubClassOf(obo:PESTON_0001085 obo:IAO_0000030)
+
+# Class: obo:PESTON_0001086 (events)
+
+SubClassOf(obo:PESTON_0001086 obo:NCIT_C25164)
+
 
 
 )
