@@ -207,15 +207,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label xml:lang="en">quality</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
@@ -285,16 +276,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C25164 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25164">
-        <obo:IAO_0000115>The particular day, month and year an event has happened or will happen.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Date</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C25464 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25464">
@@ -342,9 +323,7 @@
     <!-- http://purl.obolibrary.org/obo/PESTON_0000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PESTON_0000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25164"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>pesticide authorization expiry date</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/TR/owl-time/#time:Instant"/>
     </owl:Class>
     
 
@@ -352,10 +331,7 @@
     <!-- http://purl.obolibrary.org/obo/PESTON_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PESTON_0000047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25164"/>
-        <obo:IAO_0000115>A date of an official approvation, recognition, or acceptance as satisfactory.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>pesticide issue date</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/TR/owl-time/#time:Instant"/>
     </owl:Class>
     
 
@@ -363,8 +339,7 @@
     <!-- http://purl.obolibrary.org/obo/PESTON_0000048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PESTON_0000048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25164"/>
-        <rdfs:label>pesticide revocation date</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/TR/owl-time/#time:Instant"/>
     </owl:Class>
     
 
@@ -378,6 +353,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label xml:lang="en">postal address</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- https://www.w3.org/TR/owl-time/#time:Instant -->
+
+    <owl:Class rdf:about="https://www.w3.org/TR/owl-time/#time:Instant"/>
 </rdf:RDF>
 
 

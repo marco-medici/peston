@@ -115,6 +115,7 @@ Declaration(DataProperty(<https://schema.org/addressRegion>))
 Declaration(DataProperty(<https://schema.org/postOfficeBoxNumber>))
 Declaration(DataProperty(<https://schema.org/postalCode>))
 Declaration(DataProperty(<https://schema.org/streetAddress>))
+Declaration(DataProperty(<https://www.w3.org/TR/owl-time/#time:inXSDDate>))
 Declaration(AnnotationProperty(obo:IAO_0000117))
 Declaration(AnnotationProperty(obo:PESTON_0001003))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
@@ -148,6 +149,11 @@ AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000221> 
 # Data Property: <http://semanticscience.org/resource/SIO_000300> (has value)
 
 AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000300> "has value"@en)
+
+# Data Property: <https://www.w3.org/TR/owl-time/#time:inXSDDate> (<https://www.w3.org/TR/owl-time/#time:inXSDDate>)
+
+DataPropertyDomain(<https://www.w3.org/TR/owl-time/#time:inXSDDate> <https://www.w3.org/TR/owl-time/#time:Instant>)
+DataPropertyRange(<https://www.w3.org/TR/owl-time/#time:inXSDDate> xsd:date)
 
 
 
@@ -771,5 +777,14 @@ AnnotationAssertion(rdfs:comment obo:PESTON_0001085 "Parallel importing refer to
 AnnotationAssertion(rdfs:label obo:PESTON_0001085 "IP")
 SubClassOf(obo:PESTON_0001085 obo:IAO_0000030)
 
+# Class: <https://www.w3.org/TR/owl-time/#time:Instant> (<https://www.w3.org/TR/owl-time/#time:Instant>)
 
+AnnotationAssertion(obo:IAO_0000115 <https://www.w3.org/TR/owl-time/#time:Instant> "The particular day, month and year an event has happened or will happen.")
+
+
+AnnotationAssertion(obo:IAO_0000412 obo:PESTON_0000038 obo:ncit.owl)
+AnnotationAssertion(rdfs:label obo:PESTON_0000038 "pesticide authorization expiry date")
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000047 "A date of an official approvation, recognition, or acceptance as satisfactory.")
+AnnotationAssertion(rdfs:label obo:PESTON_0000047 "pesticide issue date")
+AnnotationAssertion(rdfs:label obo:PESTON_0000048 "pesticide revocation date")
 )
