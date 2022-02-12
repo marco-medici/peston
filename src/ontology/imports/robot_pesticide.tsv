@@ -1,4 +1,4 @@
-id	Chemical_role	Chemical_role_ITA	Reg_no	Product	Company	Authorization_status	Authorization_status_en	Revocation_reason	Revocation_decision_date	Formulation_description	Hazard_mention	parallel imported product	PFnPO	PFnPE	Comment
+id	Chemical_role	Chemical_role_ITA	Reg_no	Product	Company	Authorization_status	Authorization_status_en	Revocation_reason	Revocation_decision_date	Formulation_description	Hazard_mention	parallel imported product	PFnPO (ornamental)	PFnPE (edible)	Comment
 ID	TYPE SPLIT=|		AT hasAlternativeId^^xsd:nonNegativeInteger	AL rdfs:label@it	I 'produced by'					TI % SPLIT=|	TI % SPLIT=|	TI %	TI %	TI %	
 PESTON:0115779	insecticide product	INSETTICIDA	15779	ABANTO	INDUSTRIAS AFRASA S.A	Ri-registrato	re-registered			emulsifiable concentrate	chemical dangerous for environment				
 PESTON:0111399	fungicide product	FUNGICIDA	11399	ABOTRIL PB	MANICA S.P.A.	Revocato	revoked			wettable powder	chemical dangerous for environment				
