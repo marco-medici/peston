@@ -106,6 +106,8 @@ Declaration(Class(obo:PESTON_0001082))
 Declaration(Class(obo:PESTON_0001083))
 Declaration(Class(obo:PESTON_0001084))
 Declaration(Class(obo:PESTON_0001085))
+Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>))
+Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001>))
 Declaration(ObjectProperty(obo:RO_0000087))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000221>))
 Declaration(ObjectProperty(<https://schema.org/addressCountry>))
@@ -771,11 +773,25 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0001084 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0001084 "pesticide ingredient"@en)
 SubClassOf(obo:PESTON_0001084 obo:BFO_0000040)
 
-# Class: obo:PESTON_0001085 (IP)
+# Class: obo:PESTON_0001085 (parallel imported product)
 
 AnnotationAssertion(rdfs:comment obo:PESTON_0001085 "Parallel importing refer to branded goods that have been manufactured by or under license of the brand owner, but they may have been formulated or packaged for a particular market and are imported into a different jurisdiction in contradiction to the brand owner’s intention, thereby sold at reduced price. Parallel importing is regulated differently between countries."@en)
-AnnotationAssertion(rdfs:label obo:PESTON_0001085 "IP")
+AnnotationAssertion(rdfs:label obo:PESTON_0001085 "parallel imported product")
 SubClassOf(obo:PESTON_0001085 obo:IAO_0000030)
+
+# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> (PFnPO (ornamental))
+
+AnnotationAssertion(obo:IAO_0000119 <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> "https://www.gazzettaufficiale.it/eli/id/2018/04/16/18G00058/sg")
+AnnotationAssertion(rdfs:comment <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> "PFnPO concerns pesticide products that can be used on ornamental crops, such as those cultivated in homes, balconies, and home gardens.")
+AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> "PFnPO (ornamental)")
+SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> obo:IAO_0000030)
+
+# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> (PFnPE (edible))
+
+AnnotationAssertion(obo:IAO_0000119 <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> "https://www.gazzettaufficiale.it/eli/id/2018/04/16/18G00058/sg")
+AnnotationAssertion(rdfs:comment <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> "PFnPE refers to pesticide products that can be applied to edible crops in vegetable gardens, small orchards, or small vineyards, olive groves and cereals cultivations.")
+AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> "PFnPE (edible)")
+SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> obo:IAO_0000030)
 
 # Class: <https://www.w3.org/TR/owl-time/#time:Instant> (<https://www.w3.org/TR/owl-time/#time:Instant>)
 
