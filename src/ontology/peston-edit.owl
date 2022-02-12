@@ -108,6 +108,7 @@ Declaration(Class(obo:PESTON_0001084))
 Declaration(Class(obo:PESTON_0001085))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001>))
+Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002>))
 Declaration(ObjectProperty(obo:RO_0000087))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000221>))
 Declaration(ObjectProperty(<https://schema.org/addressCountry>))
@@ -792,6 +793,11 @@ AnnotationAssertion(obo:IAO_0000119 <http://www.co-ode.org/ontologies/ont.owl#PE
 AnnotationAssertion(rdfs:comment <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> "PFnPE refers to pesticide products that can be applied to edible crops in vegetable gardens, small orchards, or small vineyards, olive groves and cereals cultivations.")
 AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> "PFnPE (edible)")
 SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> obo:IAO_0000030)
+
+# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> (revocation reason)
+
+AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> "revocation reason")
+SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:IAO_0000300)
 
 # Class: <https://www.w3.org/TR/owl-time/#time:Instant> (<https://www.w3.org/TR/owl-time/#time:Instant>)
 
