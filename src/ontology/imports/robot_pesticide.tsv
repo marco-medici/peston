@@ -4211,7 +4211,7 @@ PESTON:0116436	insecticide product	INSETTICIDA	16436	DECIS PROTECT EC	BAYER CROP
 PESTON:0116497	insecticide product	INSETTICIDA	16497	DECIS PROTECT EW	BAYER CROPSCIENCE S.R.L.	Autorizzato	authorised			emulsion, oil in water				PFnPE (edible)	
 PESTON:0105858	pesticide product		5858	DECIS QUICK	BAYER CROPSCIENCE S.R.L.	Revocato	revoked			emulsifiable concentrate					
 PESTON:0115759	insecticide product	INSETTICIDA	15759	DECIS TRAP	BAYER CROPSCIENCE S.R.L.	Autorizzato	authorised			bait (ready for use)	chemical dangerous for environment				
-PESTON:0117853	insecticide product	INSETTICIDA	17853	DECIS TRAP CILIEGIO	BAYER CROPSCIENCE S.R.L.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			chemical product format					
+PESTON:0117853	insecticide product	INSETTICIDA	17853	DECIS TRAP CILIEGIO	BAYER CROPSCIENCE S.R.L.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			others					
 PESTON:0116611	insecticide product	INSETTICIDA	16611	DECIS TRAP NOCE	BAYER CROPSCIENCE S.R.L.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			bait (ready for use)					
 PESTON:0117259	insecticide product	INSETTICIDA	17259	DECIS TRAP OLIVO	BAYER CROPSCIENCE S.R.L.	Autorizzato con procedura zonale	authorised - Regulation (EC) No 1107/2009			bait (ready for use)					
 PESTON:0105677	pesticide product		5677	DECIS ZOLFO	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked			dispersible powder					
@@ -5149,7 +5149,7 @@ PESTON:0117025	molluscicide product	MOLLUSCHICIDA	17025	ECOMETAL	SHARDA CROPCHEM
 PESTON:0117369	adjuvant product	COADIUVANTE	17369	ECOMIX	MICROCIDE LTD	Autorizzato	authorised			emulsifiable concentrate					
 PESTON:0111553	pheromone product	FEROMONE	11553	ECOPOM	ISAGRO S.P.A.	Revocato	revoked			vapour releasing product	chemical irritant				
 PESTON:0109753	pesticide product		9753	ECOPYR	COPYR S.P.A.	Revocato	revoked			emulsifiable concentrate					
-PESTON:0114231	insecticide product	INSETTICIDA	14231	ECOTAPE FTF	CERTIS EUROPE B.V.	Revocato	revoked			chemical product format					
+PESTON:0114231	insecticide product	INSETTICIDA	14231	ECOTAPE FTF	CERTIS EUROPE B.V.	Revocato	revoked			others					
 PESTON:0108226	pesticide product		8226	ECOTECH	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
 PESTON:0108281	pesticide product		8281	ECOTECH BIO	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked			wettable powder					
 PESTON:0108282	pesticide product		8282	ECOTECH PRO	AVENTIS CROPSCIENCE ITALIA S.P.A.	Revocato	revoked			suspension concentrate (= flowable concentrate)					
@@ -8785,7 +8785,7 @@ PESTON:0115369	fungicide product	FUNGICIDA	15369	MAGMA TRIPLE	INDUSTRIAS AFRASA 
 PESTON:0113164	fungicide product	FUNGICIDA	13164	MAGNATE 100 SL	ADAMA MAKHTESHIM LTD	Revocato	revoked			soluble concentrate	chemical irritant|chemical dangerous for environment				
 PESTON:0109784	pesticide product		9784	MAGNATE 20 EC	ADAMA MAKHTESHIM LTD	Revocato	revoked	REVOCA PER MANCATA PRESENTAZIONE ALL. III (SA IMAZALIL)	17/02/2004	emulsifiable concentrate					
 PESTON:0109783	fungicide product	FUNGICIDA	9783	MAGNATE 500 EC	ADAMA MAKHTESHIM LTD	Ri-registrato (Air 1 Fase 1)	re-registered			emulsifiable concentrate	chemical dangerous for environment|harmful chemical				
-PESTON:0114942	insecticide product	INSETTICIDA	14942	MAGNET MED	SUTERRA EUROPE BIOCONTROL S.L.	Autorizzato	authorised			chemical product format	chemical dangerous for environment|chemical irritant				
+PESTON:0114942	insecticide product	INSETTICIDA	14942	MAGNET MED	SUTERRA EUROPE BIOCONTROL S.L.	Autorizzato	authorised			others	chemical dangerous for environment|chemical irritant				
 PESTON:0114907	insecticide product	INSETTICIDA	14907	MAGNET OLEARIA	AGRISENSE BCS LTD	Revocato	revoked				chemical irritant				
 PESTON:0112272	insecticide product	INSETTICIDA	12272	MAGNET OLI	AGRISENSE BCS LTD	Revocato	revoked			bait (ready for use)	chemical dangerous for environment				
 PESTON:0106769	pesticide product		6769	MAGNUM	BASF A.G. (AKTIENGESELLSHAFT)	Revocato	revoked			suspension concentrate (= flowable concentrate)					
@@ -12577,7 +12577,7 @@ PESTON:0113413	insecticide product	INSETTICIDA	13413	ROPIR	CHEMIA S.P.A.	Revocat
 PESTON:0114030	fungicide product | nematicide product	INSETTICIDA-ACARICIDA	14030	RORIS	LINFA S.P.A. CURA DEL VERDE	Revocato	revoked			suspension concentrate (= flowable concentrate)	chemical dangerous for environment				
 PESTON:0116111	herbicide product	DISERBANTE	16111	ROSAN	SYNGENTA ITALIA S.P.A.	Autorizzato	authorised			water dispersible granules					
 PESTON:0115807	insecticide product	INSETTICIDA	15807	ROSANIL	ARYSTA LIFESCIENCE BENELUX SPRL	Revocato	revoked			micro-emulsion			PFnPO (ornamental)		
-PESTON:0112345	aphicide product	AFICIDA	12345	ROSAPLAST	EVERGREEN GARDEN CARE FRANCE SAS	Revocato	revoked			chemical product format			PFnPO (ornamental)		
+PESTON:0112345	aphicide product	AFICIDA	12345	ROSAPLAST	EVERGREEN GARDEN CARE FRANCE SAS	Revocato	revoked			others			PFnPO (ornamental)		
 PESTON:0109518	herbicide product	DISERBANTE	9518	ROSATE 36	ALBAUGH UK LTD.	Revocato	revoked			soluble concentrate	chemical dangerous for environment				
 PESTON:0116991	herbicide product	DISERBANTE	16991	ROSATE 360 TF	MONSANTO AGRICOLTURA ITALIA S.P.A.	Autorizzato	authorised			soluble concentrate					
 PESTON:0116532	herbicide product	DISERBANTE	16532	ROSBAY	ROTAM AGROCHEMICAL EUROPE LIMITED	Autorizzato	authorised			water dispersible granules					
