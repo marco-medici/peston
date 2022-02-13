@@ -107,7 +107,6 @@ Declaration(Class(obo:PESTON_0001083))
 Declaration(Class(obo:PESTON_0001084))
 Declaration(Class(obo:PESTON_0001085))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001>))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002>))
 Declaration(ObjectProperty(obo:RO_0000087))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000221>))
@@ -219,6 +218,7 @@ SubClassOf(obo:PESTON_0000007 obo:PESTON_0000006)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000008 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000008 "2021-11-23T00:21:36Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment obo:PESTON_0000008 "PFnPE refers to pesticide products that can be applied to edible crops in vegetable gardens, small orchards, or small vineyards, olive groves and cereals cultivations.")
 AnnotationAssertion(rdfs:label obo:PESTON_0000008 "PFnPE (edible)"@en)
 SubClassOf(obo:PESTON_0000008 obo:PESTON_0000007)
 
@@ -226,6 +226,7 @@ SubClassOf(obo:PESTON_0000008 obo:PESTON_0000007)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000009 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000009 "2021-11-23T00:21:45Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment obo:PESTON_0000009 "PFnPO concerns pesticide products that can be used on ornamental crops, such as those cultivated in homes, balconies, and home gardens.")
 AnnotationAssertion(rdfs:label obo:PESTON_0000009 "PFnPO (ornamental)"@en)
 SubClassOf(obo:PESTON_0000009 obo:PESTON_0000007)
 
@@ -506,7 +507,11 @@ SubClassOf(obo:PESTON_0000046 obo:PESTON_0000027)
 
 # Class: obo:PESTON_0001000 (chemical product format)
 
-AnnotationAssertion(rdfs:comment obo:PESTON_0001000 "SHOULD THIS BE MERGED WITH \"product format\" ?")
+AnnotationAssertion(rdfs:comment obo:PESTON_0001000 "SHOULD THIS BE MERGED WITH \"product format\" ?
+
+YES, \"chemical product format\" is not defined elsewhere. 
+The class \"any other liquid\" is a type of official classification but has no instances.
+The 4 products listed under \"chemical product format\" are actually under \"others\" (I've adjusted robot_pesticide.tsv\")")
 AnnotationAssertion(rdfs:label obo:PESTON_0001000 "chemical product format")
 SubClassOf(obo:PESTON_0001000 obo:PESTON_0001043)
 
@@ -786,13 +791,6 @@ AnnotationAssertion(obo:IAO_0000119 <http://www.co-ode.org/ontologies/ont.owl#PE
 AnnotationAssertion(rdfs:comment <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> "PFnPO concerns pesticide products that can be used on ornamental crops, such as those cultivated in homes, balconies, and home gardens.")
 AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> "PFnPO (ornamental)")
 SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> obo:IAO_0000030)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> (PFnPE (edible))
-
-AnnotationAssertion(obo:IAO_0000119 <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> "https://www.gazzettaufficiale.it/eli/id/2018/04/16/18G00058/sg")
-AnnotationAssertion(rdfs:comment <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> "PFnPE refers to pesticide products that can be applied to edible crops in vegetable gardens, small orchards, or small vineyards, olive groves and cereals cultivations.")
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> "PFnPE (edible)")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> obo:IAO_0000030)
 
 # Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> (revocation reason)
 
