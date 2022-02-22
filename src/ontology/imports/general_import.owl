@@ -323,7 +323,7 @@
     <!-- http://purl.obolibrary.org/obo/PESTON_0000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PESTON_0000038">
-        <rdfs:subClassOf rdf:resource="https://www.w3.org/TR/owl-time/#time:Instant"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PESTON_0000050"/>
     </owl:Class>
     
 
@@ -331,7 +331,7 @@
     <!-- http://purl.obolibrary.org/obo/PESTON_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PESTON_0000047">
-        <rdfs:subClassOf rdf:resource="https://www.w3.org/TR/owl-time/#time:Instant"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PESTON_0000050"/>
     </owl:Class>
     
 
@@ -339,8 +339,14 @@
     <!-- http://purl.obolibrary.org/obo/PESTON_0000048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PESTON_0000048">
-        <rdfs:subClassOf rdf:resource="https://www.w3.org/TR/owl-time/#time:Instant"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PESTON_0000050"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PESTON_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PESTON_0000050"/>
     
 
 
