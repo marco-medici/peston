@@ -63,8 +63,7 @@ Declaration(Class(obo:PESTON_0000045))
 Declaration(Class(obo:PESTON_0000046))
 Declaration(Class(obo:PESTON_0000049))
 Declaration(Class(obo:PESTON_0000050))
-Declaration(Class(obo:PESTON_0001000))
-Declaration(Class(obo:PESTON_0001005))
+
 Declaration(Class(obo:PESTON_0001043))
 Declaration(Class(obo:PESTON_0001044))
 Declaration(Class(obo:PESTON_0001045))
@@ -518,22 +517,6 @@ AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000050 <http://orcid.org/0000-00
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000050 "2022-02-22T03:55:00Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000050 "pesticide regulatory date"@en)
 SubClassOf(obo:PESTON_0000050 <https://www.w3.org/TR/owl-time/#time:Instant>)
-
-# Class: obo:PESTON_0001000 (chemical product format)
-
-AnnotationAssertion(rdfs:comment obo:PESTON_0001000 "SHOULD THIS BE MERGED WITH \"product format\" ?
-
-YES, \"chemical product format\" is not defined elsewhere. 
-The class \"any other liquid\" is a type of official classification but has no instances.
-The 4 products listed under \"chemical product format\" are actually under \"others\" (I've adjusted robot_pesticide.tsv\")")
-AnnotationAssertion(rdfs:label obo:PESTON_0001000 "chemical product format")
-SubClassOf(obo:PESTON_0001000 obo:PESTON_0001043)
-
-# Class: obo:PESTON_0001005 (any other liquid)
-
-AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001005 "AL")
-AnnotationAssertion(rdfs:label obo:PESTON_0001005 "any other liquid")
-SubClassOf(obo:PESTON_0001005 obo:PESTON_0001000)
 
 # Class: obo:PESTON_0001043 (product format)
 
