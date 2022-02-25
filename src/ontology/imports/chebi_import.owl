@@ -190,6 +190,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_132272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_132272">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">herbicide safener</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33286"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound used with herbicides that reduces the effect of the herbicide on crop plants or otherwise improves the selectivity of the herbicide for weed species over the crop plant.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_132300 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_132300">
@@ -542,6 +553,78 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_136643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_136643">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">propesticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_136859"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A prodrug that, on administration, undergoes chemical conversion by biochemical (enzymatic), chemical (possibly following an enzymatic step), or physical (e.g. photochemical) activation processes before becoming the pharmacologically active pesticide for which it is a propesticide.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_136644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_136644">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proinsecticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_136643"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound that, on administration, must undergo chemical conversion by metabolic processes before becoming the pharmacologically active insecticide for which it is a proinsecticide.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_136645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_136645">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">profungicide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_136643"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24127"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound that, on administration, must undergo chemical conversion by metabolic processes before becoming the pharmacologically active fungicide for which it is a profungicide.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_136646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_136646">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proherbicide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_136643"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24527"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound that, on administration, must undergo chemical conversion by biochemical (enzymatic), chemical (possibly following an enzymatic step), or physical (e.g. photochemical) activation processes before becoming the pharmacologically active herbicide for which it is a proherbicide.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_136647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_136647">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proacaricide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_136643"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22153"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound that, on administration, must undergo chemical conversion by metabolic processes before becoming the pharmacologically active insecticide for which it is a proacaricide.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_136648 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_136648">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prosafener</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_132272"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_136643"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound that, on administration, must undergo chemical conversion by biochemical (enzymatic), chemical (possibly following an enzymatic step), or physical (e.g. photochemical) activation processes before becoming the pharmacologically active herbicide savener for which it is a prosafener.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_136684 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_136684">
@@ -550,6 +633,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38104"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic heterobicyclic compound whose skeleton consists of a pyrazole ring ortho-fused to a diazepine ring.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_136859 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_136859">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pro-agent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound that, on administration, undergoes conversion by biochemical (enzymatic), chemical (possibly following an enzymatic step), or physical (e.g. photochemical) activation processes before becoming the active agent for which it is a pro-agent.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -809,6 +903,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_141153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_141153">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quinone outside inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24127"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38499"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mitochondrial cytochrome-bc1 complex inhibitor that acts at the Quinone &#39;outer&#39; (Qo) binding site of the cytochrome-bc1 complex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_141213 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_141213">
@@ -819,6 +925,18 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76224"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_83565"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A member of the class of isoxazoles that is 1,2-oxazole substituted by a 2-(methanesulfonyl)-4-(trifluoromethyl)benzoyl group and a cyclopropyl group at positions 4 and 5, respectively. It is a 4-hydroxyphenylpyruvate dioxygenase inhibitor which is used as a herbicide for weed control in maize and sugarcane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_141301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_141301">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pronematicide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_136643"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25491"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound that, on administration, must undergo chemical conversion by metabolic processes before becoming the pharmacologically active nematicide for which it is a pronematicide.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -1087,6 +1205,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_146222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_146222">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ryanoid insecticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38809"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_147435 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_147435">
@@ -1334,6 +1463,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_167183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_167183">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">piscicide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance which is poisonous to fish and is primarily used to eliminate dominant species of fish in water.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_167523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_167523">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovicide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any insecticide that is capable of killing egg cells.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_167559 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_167559">
@@ -1434,6 +1585,19 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_171726">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange B</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36336"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17192">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3,5-dibromo-4-hydroxybenzonitrile</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24730"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37147"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dibromobenzene that is 2,6-dibromophenol substituted by a cyano group at position 4.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -1998,12 +2162,35 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22153">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acaricide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance used to destroy pests of the subclass Acari (mites and ticks).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_22160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22160">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetamides</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37622"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds with the general formula RNHC(=O)CH3.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22180">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC 2.2.1.6 (acetolactate synthase) inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24527"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76876"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An EC 2.2.1.* (transketolase/transaldolase) inhibitor that interferes with the action of acetolactate synthase (EC 2.2.1.6).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -2167,6 +2354,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22583">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antifeedant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance that prevents pests from feeding.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_22645 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22645">
@@ -2317,6 +2515,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22917 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22917">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phytogenic insecticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An insecticide compound naturally occurring in plants.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_22926 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22926">
@@ -2388,6 +2597,27 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbonates</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organooxygen compounds that are salts or esters of carbonic acid, H2CO3.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23092">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemosterilant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance intended to sterilize any organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23100">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chitin synthesis inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24851"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -2704,6 +2934,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23529">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytochrome-b6f complex inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26087"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23582">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">defoliant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24527"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A herbicide which when sprayed or dusted on plants causes its leaves to fall off.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_23636 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23636">
@@ -2800,6 +3051,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23888">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52217"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any substance which when absorbed into a living organism may modify one or more of its functions. The term is generally accepted for a substance taken for a therapeutic purpose, but is also commonly used for abused substances.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23891 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23891">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecdysone antagonists</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24851"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_23905 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23905">
@@ -2817,6 +3089,18 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoatomic cation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24867"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36916"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23924 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23924">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzyme inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52206"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound or agent that combines with an enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -3208,6 +3492,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24730">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydroxynitrile</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18379"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any nitrile compound which also contains a hydroxy group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24745 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24745">
@@ -3319,6 +3614,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24851">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insect growth regulator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39317"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A growth regulator that inhibits the life cycle of an insect.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24852 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24852">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strictly, a substance intended to kill members of the class Insecta.  In common usage, any substance used for preventing, destroying, repelling or controlling insects.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24860 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24860">
@@ -3410,6 +3728,26 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any lipid formally derived from isoprene (2-methylbuta-1,3-diene), the skeleton of which can generally be discerned in repeated occurrence in the molecule. The skeleton of isoprenoids may differ from strict additivity of isoprene units by loss or shift of a fragment, commonly a methyl group. The class includes both hydrocarbons and oxygenated derivatives.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24941 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24941">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile hormone antagonists</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24851"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24942">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile hormone mimic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24851"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -3544,6 +3882,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25355">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial respiratory-chain inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38497"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25367 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25367">
@@ -3631,6 +3979,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25491">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nematicide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance used to destroy pests of the phylum Nematoda (roundworms).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25529 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25529">
@@ -3638,6 +3997,19 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26421"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37622"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A member of the class of pyridines that is a substituted pyridine in which at least one of the substituents is a carboxamide or N-substituted caraboxamide group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25540">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neonicotinoid insectide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47958"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50910"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A class of neuro-active insecticides that act at the nicotinic acetylcholine receptor.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -4004,6 +4376,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25943 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25943">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pesticide synergist</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance that increases the efficacy of a pesticide.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25944 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25944">
@@ -4113,6 +4496,37 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26087">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photosynthetic electron-transport chain inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24527"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38496"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26088">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photosystem-I inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26087"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26089">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photosystem-II inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26087"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_26144 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26144">
@@ -4206,6 +4620,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26217"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35479"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any alkali metal salt having potassium(1+) as the cation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26220">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">precocenes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24941"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -4313,6 +4737,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26410">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrazoles</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23677"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26413">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrethroid insecticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39000"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -5807,6 +6242,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33286">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agrochemical</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An agrochemical is a substance that is used in agriculture or horticulture.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33288">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rodenticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance used to destroy rodent pests.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33289">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">avicide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance used to destroy bird pests (class Aves).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33296">
@@ -6865,6 +7333,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33904 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33904">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molluscicide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance used to destroy pests of the phylum Mollusca.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_3392 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3392">
@@ -7016,6 +7495,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34623">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chlordane</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23457"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34625">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chlorobenside</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16385"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -7530,6 +8019,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35222">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance that diminishes the rate of a chemical reaction.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_35238 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35238">
@@ -7789,6 +8289,51 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-glucoside</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24278"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any glucoside in which the glycoside group is derived from D-glucose.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35441">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antiinfective agent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance used in the prophylaxis or therapy of infectious diseases.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35442">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antiparasitic agent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35441"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance used to treat or prevent parasitic infections.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35443">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthelminthic drug</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35442"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance intended to kill parasitic worms (helminths).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35444 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35444">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antinematodal drug</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25491"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35443"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance used in the treatment or control of nematode infestations.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -8181,11 +8726,35 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35942">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurotransmitter agent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52210"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance used for its pharmacological action on any aspect of neurotransmitter systems. Neurotransmitter agents include agonists, antagonists, degradation inhibitors, uptake inhibitors, depleters, precursors, and modulators of receptor function.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_35950 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35950">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-oxo monocarboxylic acid</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35871"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36053">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acaricide drug</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22153"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35442"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A drug used to treat infestations with arthropods of the subclass Acari (mites and ticks).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -8862,6 +9431,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37147">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dibromobenzene</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37149"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any member of the class of bromobenzenes that consists of a benzene or a substituted benzene ring carrying two bromo groups at unspecified positions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37149">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bromobenzenes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22712"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37141"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A member of the class of benzenes that is benzene substituted by at least one bromo group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_37163 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37163">
@@ -9261,6 +9853,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38060">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">triazine insecticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_38069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38069">
@@ -9590,6 +10192,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38323">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholinergic drug</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35942"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any drug used for its actions on cholinergic systems. Included here are agonists and antagonists, drugs that affect the life cycle of acetylcholine, and drugs that affect the survival of cholinergic neurons.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38324">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholinergic agonist</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38323"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any drug that binds to and activates cholinergic receptors.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_38329 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38329">
@@ -9699,6 +10323,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38456">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecdysone agonist</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24851"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38461">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbamate insecticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38462"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Derivatives of carbamic acid with insecticidal properties of general formula ROC(=O)NR(1)R(2), where ROH is an alcohol, oxime, or phenol and R(1) is hydrogen or methyl. Like organophosphate insecticides, they are cholinesterase inhibitors, but carbamate insecticides differ in action from the organophosphates in that the inhibitory effect on cholinesterase is generally brief.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38462">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC 3.1.1.7 (acetylcholinesterase) inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76773"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An EC 3.1.1.* (carboxylic ester hydrolase) inhibitor that interferes with the action of enzyme acetylcholinesterase (EC 3.1.1.7), which helps breaking down of acetylcholine into choline and acetic acid.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_38465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38465">
@@ -9798,6 +10455,47 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38495">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aluminium phosphide</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35510"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38496">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electron-transport chain inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76932"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38497">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory-chain inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38496"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38499">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial cytochrome-bc1 complex inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25355"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38502"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38502">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytochrome-bc1 complex inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38497"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -10060,6 +10758,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38632">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane transport modulator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52208"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any agent that affects the transport of molecular entities across a biological membrane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_38639 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38639">
@@ -10249,6 +10958,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inorganic sodium salt</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24839"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26714"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38706">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pediculicide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance used to treat lice (genus Pediculus) infestation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -10476,6 +11196,27 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38806">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organofluorine acaricide</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38805"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38808 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38808">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calcium channel modulator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38632"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A membrane transport modulator that is able to regulate intracellular calcium levels.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38809 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38809">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ryanodine receptor modulator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38808"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -10716,6 +11457,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium channel modulator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38632"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_39087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39087">
@@ -10805,6 +11556,16 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrethrins</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50351"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The active insecticidal constituents of Chrysanthemum cinerariifolium flowers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39116">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrethroid ester insecticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26413"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -10948,6 +11709,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39208">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibiotic insecticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39215"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_39209 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39209">
@@ -10999,6 +11771,39 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39219"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60004"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixture of 80% avermectin B1a and 20% avermectin B1b.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39215">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibiotic pesticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33281"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39216">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibiotic acaricide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22153"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39215"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39217">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibiotic nematicide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25491"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39215"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -11163,6 +11968,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39259">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrethroid ester acaricide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22153"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_39260 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39260">
@@ -11170,6 +11985,28 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26421"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35618"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aromatic ether that consists of propylene glycol having a 2-pyridyl group at the O-1 position and a 4-phenoxyphenyl group at the O-3 position.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39276">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fumigant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A volatile or volatilizable chemical compound utilized for control of pests in buildings, soil, grain, as well as during processing of goods to be imported or exported to prevent transfer of exotic organisms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39277">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fumigant insecticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39276"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -11287,6 +12124,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39301">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfite ester acaricide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22153"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_39311 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39311">
@@ -11318,6 +12165,38 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39321"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_83403"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tetrazine that is 1,2,4,5-tetrazine in which both of the hydrogens have been replaced by o-chlorophenyl groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39316">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mite growth regulator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22153"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39317"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39317">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth regulator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any chemical substance that inhibits the life-cycle of an organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39318">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetrazine acaricide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22153"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -11446,6 +12325,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39351">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrethroid ether insecticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26413"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_39353 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39353">
@@ -11510,6 +12399,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39369">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrethroid ether acaricide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22153"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_39375 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39375">
@@ -11519,6 +12418,26 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38582"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51454"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_83403"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39378">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homopteran inhibitor of chitin biosynthesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23100"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39379">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lepidopteran inhibitor of chitin biosynthesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23100"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -11639,6 +12558,26 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,2,4-triazines</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38102"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any compound with a 1,2,4-triazine skeleton, in which nitrogen atoms replace carbon at positions 1, 2 and 4 of the core benzene ring structure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39412">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bridged diphenyl acaricide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22153"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39415">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dinitrophenol insecticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -12202,6 +13141,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thiocarboxamide</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33256"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any primary amide having its amide oxygen replaced by sulfur.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47958 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47958">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nicotinic acetylcholine receptor agonist</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38324"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An agonist that selectively binds to and activates a nicotinic acetylcholine receptor.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -12893,6 +13843,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50910 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50910">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurotoxin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52209"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64909"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A poison that interferes with the functions of the nervous system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_50917 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50917">
@@ -12996,6 +13958,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51069">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic halide salt</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24868"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51076">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antifouling biocide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound that inhibits the growth of marine organisms.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -13391,6 +14364,49 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biochemical role</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological role played by the molecular entity or part thereof within a biochemical context.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52208">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biophysical role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52209">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aetiopathogenetic role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A role played by the molecular entity or part thereof which causes the development of a pathological process.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52210">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharmacological role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological role which describes how a drug interacts within a biological system and how the interactions affect its medicinal properties.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52217">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pharmaceutical</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any substance introduced into a living organism with therapeutic or diagnostic purpose.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -14119,6 +15135,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_60575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_60575">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenoxy herbicide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24527"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any member of the class of herbicides whose members contain a phenoxy or substituted phenoxy group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_60600 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_60600">
@@ -14570,6 +15597,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64909">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poison</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any substance that causes disturbance to organisms by chemical reaction or other activity on the molecular scale, when a sufficient quantity is absorbed by the organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_65212 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_65212">
@@ -14641,6 +15679,18 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4-dicarboxylic acid</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35692"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any dicarboxylic acid that contains four carbon atoms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_67105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_67105">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insect sterilant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemosterilant intended to sterilize insects.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -14868,6 +15918,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_71300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_71300">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC 2.* (transferase) inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23924"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An enzyme inhibitor that inhibits the action of a transferase (EC 2.*)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_71543 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_71543">
@@ -14875,6 +15936,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72544"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72579"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Members of the class of tetrahydrochromenochromene that consists of a cis-fused tetrahydrochromeno[3,4-b]chromene skeleton and its substituted derivatives. The term was originally restricted to natural products, but is now also used to describe semi-synthetic and fully synthetic compounds.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_71692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_71692">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insect repellent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An insecticide that acts as a repellent to insects.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -15045,6 +16117,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acibenzolar</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48864"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A benzothiadiazole that is 1,2,3-benzothiadiazole in which the hydrogen at position 7 is replaced by a sulfanylcarbonyl group. It is used (particularly as its S-methyl thioester) as a fungicide and plant activator.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_73333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_73333">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scabicide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22153"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An acaricide that kills mites of the genus Sarcoptes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -15417,6 +16500,72 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chartaceone A4</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76572"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chartaceone A with 2S, 5&#39;&#39;S-configuration.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_76660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76660">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC 2.2.* (aldehyde or ketone transferase) inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_71300"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A transferase inhibitor interfering with the action of any transferase that transfers an aldehyde or ketone group (EC 2.2.*.*).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_76759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76759">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC 3.* (hydrolase) inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23924"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any enzyme inhibitor that interferes with the action of a hydrolase (EC 3.*.*.*).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_76760 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76760">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC 3.1.* (ester hydrolase) inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76759"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hydrolase inhibitor that interferes with the action of any ester hydrolase (EC 3.1.*.*).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_76773 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76773">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC 3.1.1.* (carboxylic ester hydrolase) inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76760"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An EC 3.1.* (ester hydrolase) inhibitor that interferes with the action of a carboxylic ester hydrolase (EC 3.1.1.*).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_76876 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76876">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC 2.2.1.* (transketolase/transaldolase) inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76660"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An EC 2.2.* (aldehyde or ketone transferase) inhibitor that interferes with the action of any (transketolase or transaldolase (EC 2.2.1.*).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_76932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76932">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathway inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23924"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An enzyme inhibitor that interferes with one or more steps in a metabolic pathway.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -19088,6 +20237,19 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conazole antifungal agent</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_68452"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound that has a structure that is related to miconazole, contains an azole (imidazole or triazole) moiety, and has significant systemic antifungal properties.  They inhibit cytochrome P450-dependent enzymes (particularly C14-demethylase) involved in the biosynthesis of ergosterol, which is required for fungal cell membrane structure and function.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_86328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_86328">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antifungal agrochemical</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24127"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25944"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33286"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any substance used in acriculture, horticulture, forestry, etc. for its fungicidal properties.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     

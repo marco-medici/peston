@@ -21,8 +21,7 @@ CHEBI
 
 http://purl.obolibrary.org/obo/CHEBI_60004 # mixture
 http://purl.obolibrary.org/obo/CHEBI_25944 # pesticide
-http://purl.obolibrary.org/obo/CHEBI_24527 # herbicide
-http://purl.obolibrary.org/obo/CHEBI_24127 # fungicide
+includeAllChildren
 
 http://purl.obolibrary.org/obo/CHEBI_31020  # (+)-Sceletium A4
 http://purl.obolibrary.org/obo/CHEBI_83855  # (1S,2S)-bitertanol
@@ -845,7 +844,7 @@ http://purl.obolibrary.org/obo/CHEBI_82048  # zoxamide
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_24431
-
+http://purl.obolibrary.org/obo/CHEBI_50906 # role
 
 [Source term retrieval setting]
 includeAllIntermediates
