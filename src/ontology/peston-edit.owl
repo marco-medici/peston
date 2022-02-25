@@ -12,10 +12,11 @@ Import(<http://purl.obolibrary.org/obo/pestico/chebi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pestico/general_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pestico/wikidata_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/address_import.owl>)
-Import(<http://purl.obolibrary.org/obo/peston/imports/ai_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/company_import.owl>)
-Import(<http://purl.obolibrary.org/obo/peston/imports/event_pesticide_import.owl>)
-Import(<http://purl.obolibrary.org/obo/peston/imports/events_import.owl>)
+Import(<http://purl.obolibrary.org/obo/peston/imports/event_import.owl>)
+Import(<http://purl.obolibrary.org/obo/peston/imports/ingredient_concentration_import.owl>)
+Import(<http://purl.obolibrary.org/obo/peston/imports/ingredient_import.owl>)
+Import(<http://purl.obolibrary.org/obo/peston/imports/pesticide_event_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/pesticide_import.owl>)
 
 Declaration(Class(obo:PESTON_0000001))
@@ -109,6 +110,8 @@ Declaration(Class(obo:PESTON_0001083))
 Declaration(Class(obo:PESTON_0001084))
 Declaration(Class(obo:PESTON_0001085))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002>))
+Declaration(Class(<https://schema.org/PostalAddress>))
+Declaration(Class(<https://www.w3.org/TR/owl-time/#time:Instant>))
 Declaration(ObjectProperty(obo:RO_0000087))
 Declaration(ObjectProperty(<http://semanticscience.org/resource/SIO_000221>))
 Declaration(ObjectProperty(<https://schema.org/addressCountry>))
@@ -370,11 +373,11 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000026 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000026 "food preservative product"@en)
 SubClassOf(obo:PESTON_0000026 obo:PESTON_0000012)
 
-# Class: obo:PESTON_0000027 (chemical hazard)
+# Class: obo:PESTON_0000027 (hazardous chemical)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000027 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000027 "2022-01-29T08:25:19Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000027 "chemical hazard"@en)
+AnnotationAssertion(rdfs:label obo:PESTON_0000027 "hazardous chemical"@en)
 SubClassOf(obo:PESTON_0000027 obo:BFO_0000040)
 
 # Class: obo:PESTON_0000028 (molluscicide product)
@@ -454,6 +457,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000037 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000037 "harmful chemical"@en)
 SubClassOf(obo:PESTON_0000037 obo:PESTON_0000027)
 
+# Class: obo:PESTON_0000038 (pesticide authorization expiry date)
+
+AnnotationAssertion(obo:IAO_0000412 obo:PESTON_0000038 obo:ncit.owl)
+AnnotationAssertion(rdfs:label obo:PESTON_0000038 "pesticide authorization expiry date")
+SubClassOf(obo:PESTON_0000038 obo:PESTON_0000050)
+
 # Class: obo:PESTON_0000039 (very toxic chemical)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000039 <http://orcid.org/0000-0002-8844-9165>)
@@ -509,6 +518,17 @@ AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000046 <http://orcid.org/0000-00
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000046 "2022-01-29T08:37:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000046 "flammable chemical"@en)
 SubClassOf(obo:PESTON_0000046 obo:PESTON_0000027)
+
+# Class: obo:PESTON_0000047 (pesticide issue date)
+
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000047 "A date of an official approvation, recognition, or acceptance as satisfactory.")
+AnnotationAssertion(rdfs:label obo:PESTON_0000047 "pesticide issue date")
+SubClassOf(obo:PESTON_0000047 obo:PESTON_0000050)
+
+# Class: obo:PESTON_0000048 (pesticide revocation date)
+
+AnnotationAssertion(rdfs:label obo:PESTON_0000048 "pesticide revocation date")
+SubClassOf(obo:PESTON_0000048 obo:PESTON_0000050)
 
 # Class: obo:PESTON_0000049 (pesticide revocation decision date)
 
@@ -795,6 +815,10 @@ AnnotationAssertion(rdfs:comment obo:PESTON_0001085 "Parallel importing refer to
 AnnotationAssertion(rdfs:label obo:PESTON_0001085 "parallel imported product")
 SubClassOf(obo:PESTON_0001085 obo:BFO_0000040)
 
+# Class: obo:UO_0000187 (percent)
+
+SubClassOf(obo:UO_0000187 obo:IAO_0000030)
+
 # Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> (revocation reason)
 
 AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> "revocation reason")
@@ -805,9 +829,4 @@ SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:IAO_000
 AnnotationAssertion(obo:IAO_0000115 <https://www.w3.org/TR/owl-time/#time:Instant> "The particular day, month and year an event has happened or will happen.")
 
 
-AnnotationAssertion(obo:IAO_0000412 obo:PESTON_0000038 obo:ncit.owl)
-AnnotationAssertion(rdfs:label obo:PESTON_0000038 "pesticide authorization expiry date")
-AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000047 "A date of an official approvation, recognition, or acceptance as satisfactory.")
-AnnotationAssertion(rdfs:label obo:PESTON_0000047 "pesticide issue date")
-AnnotationAssertion(rdfs:label obo:PESTON_0000048 "pesticide revocation date")
 )

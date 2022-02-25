@@ -109,7 +109,11 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a part and its whole</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">part_of</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <rdfs:label xml:lang="en">part of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -118,7 +122,11 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a whole and its part</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -135,11 +143,49 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <obo:IAO_0000115 xml:lang="en">Inverse of characteristic_of</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">bearer_of</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">is bearer of</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <rdfs:label xml:lang="en">has characteristic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">has_quality</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <rdfs:label xml:lang="en">has quality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+        <obo:IAO_0000115 xml:lang="en">a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">has_role</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <rdfs:label xml:lang="en">has role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002131 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002131">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002323"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115>x overlaps y if and only if there exists some z such that x has part z and z part of y</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <rdfs:label xml:lang="en">overlaps</rdfs:label>
     </owl:ObjectProperty>
@@ -150,6 +196,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002248">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <obo:IAO_0000115>A relationship that holds between a substance and a chemical entity, if the chemical entity is part of the substance, and the chemical entity forms the biologically active component of the substance.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <rdfs:label>has active ingredient</rdfs:label>
     </owl:ObjectProperty>
@@ -160,6 +207,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002249">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        <obo:IAO_0000115>inverse of has active ingredient</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <rdfs:label>active ingredient in</rdfs:label>
     </owl:ObjectProperty>
@@ -169,6 +217,7 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002323 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002323">
+        <obo:IAO_0000115>A mereological relationship or a topological relationship</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <rdfs:label xml:lang="en">mereotopologically related to</rdfs:label>
     </owl:ObjectProperty>
@@ -179,6 +228,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003001">
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115>a produced_by b iff some process that occurs_in b has_output a.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <rdfs:label xml:lang="en">produced by</rdfs:label>
     </owl:ObjectProperty>
@@ -212,6 +262,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
         <obo:IAO_0000115 xml:lang="en">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <rdfs:label xml:lang="en">material entity</rdfs:label>
     </owl:Class>
     
@@ -255,6 +306,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000422">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A textual entity that is used as directive to deliver something to a person, or organization</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">postal address</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16632 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16632">
@@ -283,6 +346,16 @@
         <obo:IAO_0000115>A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label>Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C51981 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C51981">
+        <obo:IAO_0000115>That which enters into a compound, or is a component part of any combination or mixture; an element; a constituent.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Ingredient</rdfs:label>
     </owl:Class>
     
 
@@ -320,51 +393,12 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PESTON_0000038 -->
+    <!-- http://purl.obolibrary.org/obo/UO_0000187 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PESTON_0000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PESTON_0000050"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000187">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PESTON_0000047 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PESTON_0000047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PESTON_0000050"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PESTON_0000048 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PESTON_0000048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PESTON_0000050"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PESTON_0000050 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PESTON_0000050"/>
-    
-
-
-    <!-- https://schema.org/PostalAddress -->
-
-    <owl:Class rdf:about="https://schema.org/PostalAddress">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000115>A textual entity that is used as directive to deliver something to a person, or organization</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label xml:lang="en">postal address</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://www.w3.org/TR/owl-time/#time:Instant -->
-
-    <owl:Class rdf:about="https://www.w3.org/TR/owl-time/#time:Instant"/>
 </rdf:RDF>
 
 

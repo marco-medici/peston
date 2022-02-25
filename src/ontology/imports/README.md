@@ -20,11 +20,18 @@ robot template --template robot_company.tsv \
   --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/pesticide_import.owl" \
   --output pesticide_import.owl
 
-./robot.bat template --template robot_active_ingredient.tsv \
+./robot.bat template --template robot_ingredient.tsv \
   --input "peston-merged.owl" \
   --prefix "PESTON:http://purl.obolibrary.org/obo/PESTON_" \
-  --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/ai_import.owl" \
-  --output ai_import.owl
+  --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/ingredient_import.owl" \
+  --output ingredient_import.owl
+
+./robot.bat template --template robot_ingredient_concentration.tsv \
+  --input "peston-merged.owl" \
+  --prefix "PESTON:http://purl.obolibrary.org/obo/PESTON_" \
+  --prefix "UOM:https://w3id.org/uom/" \
+  --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/ingredient_concentration_import.owl" \
+  --output ingredient_concentration_import.owl
 
 ./robot.bat template --template robot_address.tsv \
   --input "peston-merged.owl" \
@@ -32,12 +39,16 @@ robot template --template robot_company.tsv \
   --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/address_import.owl" \
   --output address_import.owl
 
-./robot.bat template --template robot_events.tsv \
+./robot.bat template --template robot_event.tsv \
   --input "peston-merged.owl" \
   --prefix "PESTON:http://purl.obolibrary.org/obo/PESTON_" \
-  --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/events_import.owl" \
-  --output events_import.owl
+  --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/event_import.owl" \
+  --output event_import.owl
 
-./robot.bat template --template robot_event_pesticide.tsv   --input "peston-merged.owl"   --prefix "PESTON:http://purl.obolibrary.org/obo/PESTON_"   --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/event_pesticide_import.owl"   --output event_pesticide_import.owl
+./robot.bat template --template robot_pesticide_event.tsv \
+  --prefix "PESTON:http://purl.obolibrary.org/obo/PESTON_" \
+  --prefix "time:https://www.w3.org/TR/owl-time/#time:" \
+  --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/pesticide_event_import.owl" \
+  --output pesticide_event_import.owl
 
 

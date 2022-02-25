@@ -10,17 +10,12 @@ http://purl.obolibrary.org/obo/NCIT_C25464 # country
 http://purl.obolibrary.org/obo/NCIT_C25160 # city OR http://purl.obolibrary.org/obo/ENVO_00000856
 http://purl.obolibrary.org/obo/NCIT_C54131 # company
 
-#http://purl.obolibrary.org/obo/NCIT_C71476 # approval date (issue date)
-#http://purl.obolibrary.org/obo/NCIT_C164516 # expiration date
-
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCIT_C16632 # geographic area
-http://purl.obolibrary.org/obo/NCIT_C25164 # date
 
 http://purl.obolibrary.org/obo/NCIT_C51981 # Ingredient
 http://purl.obolibrary.org/obo/NCIT_C82533 #    Active Ingredient
-http://purl.obolibrary.org/obo/NCIT_C177929 #   Drug Product Component
 
 
 [Source term retrieval setting]
@@ -150,5 +145,31 @@ http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
 [Source annotation URIs to be excluded]
 
 
-http://purl.obolibrary.org/obo/UO_0000187
+# *******************************************
+
+[Source ontology]
+UO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UO_0000187 # percent
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UO_0000187 # unit
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000119
+http://purl.obolibrary.org/obo/OBI_0001886
+
+http://www.w3.org/2002/07/owl#deprecated
+http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
+
+[Source annotation URIs to be excluded]
 
