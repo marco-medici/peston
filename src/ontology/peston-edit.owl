@@ -109,7 +109,13 @@ Declaration(Class(obo:PESTON_0001082))
 Declaration(Class(obo:PESTON_0001083))
 Declaration(Class(obo:PESTON_0001084))
 Declaration(Class(obo:PESTON_0001085))
+Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>))
+Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001>))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002>))
+Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003>))
+Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004>))
+Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001005>))
+Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001006>))
 Declaration(Class(<https://schema.org/PostalAddress>))
 Declaration(Class(<https://www.w3.org/TR/owl-time/#time:Instant>))
 Declaration(ObjectProperty(obo:RO_0000087))
@@ -224,6 +230,7 @@ SubClassOf(obo:PESTON_0000007 obo:PESTON_0000006)
 
 # Class: obo:PESTON_0000008 (PFnPE (edible))
 
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000008 <http://orcid.org/ 0000-0003-4684-7672>)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000008 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000008 "2021-11-23T00:21:36Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:comment obo:PESTON_0000008 "PFnPE refers to pesticide products that can be applied to edible crops in vegetable gardens, small orchards, or small vineyards, olive groves and cereals cultivations.")
@@ -232,6 +239,7 @@ SubClassOf(obo:PESTON_0000008 obo:PESTON_0000007)
 
 # Class: obo:PESTON_0000009 (PFnPO (ornamental))
 
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000009 <http://orcid.org/ 0000-0003-4684-7672>)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000009 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000009 "2021-11-23T00:21:45Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:comment obo:PESTON_0000009 "PFnPO concerns pesticide products that can be used on ornamental crops, such as those cultivated in homes, balconies, and home gardens.")
@@ -373,11 +381,11 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000026 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000026 "food preservative product"@en)
 SubClassOf(obo:PESTON_0000026 obo:PESTON_0000012)
 
-# Class: obo:PESTON_0000027 (hazardous chemical)
+# Class: obo:PESTON_0000027 (chemical hazard)
 
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000027 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000027 "2022-01-29T08:25:19Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000027 "hazardous chemical"@en)
+AnnotationAssertion(rdfs:label obo:PESTON_0000027 "chemical hazard"@en)
 SubClassOf(obo:PESTON_0000027 obo:BFO_0000040)
 
 # Class: obo:PESTON_0000028 (molluscicide product)
@@ -807,10 +815,11 @@ SubClassOf(obo:PESTON_0001083 obo:PESTON_0001043)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0001084 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0001084 "2022-01-31T21:08:42Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0001084 "pesticide ingredient"@en)
-SubClassOf(obo:PESTON_0001084 obo:BFO_0000040)
+SubClassOf(obo:PESTON_0001084 obo:NCIT_C16632)
 
 # Class: obo:PESTON_0001085 (parallel imported product)
 
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0001085 < http://orcid.org/ 0000-0003-4684-7672>)
 AnnotationAssertion(rdfs:comment obo:PESTON_0001085 "Parallel importing refer to branded goods that have been manufactured by or under license of the brand owner, but they may have been formulated or packaged for a particular market and are imported into a different jurisdiction in contradiction to the brand owner’s intention, thereby sold at reduced price. Parallel importing is regulated differently between countries."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0001085 "parallel imported product")
 SubClassOf(obo:PESTON_0001085 obo:BFO_0000040)
@@ -819,10 +828,40 @@ SubClassOf(obo:PESTON_0001085 obo:BFO_0000040)
 
 SubClassOf(obo:UO_0000187 obo:IAO_0000030)
 
+# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> (pesticide authorized - in derogation from Regulation (EC) No 1107/2009, art. 53)
+
+AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> "pesticide authorized - in derogation from Regulation (EC) No 1107/2009, art. 53")
+SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> obo:PESTON_0000002)
+
+# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> (pesticide authorized - Regulation (EC) No 1107/2009)
+
+AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> "pesticide authorized - Regulation (EC) No 1107/2009")
+SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> obo:PESTON_0000002)
+
 # Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> (revocation reason)
 
 AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> "revocation reason")
 SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:IAO_0000300)
+
+# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> (pesticide authorized - under mutual recognition - Regulation (EC) No 764/2008)
+
+AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> "pesticide authorized - under mutual recognition - Regulation (EC) No 764/2008")
+SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> obo:PESTON_0000002)
+
+# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004> (pesticide expired)
+
+AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004> "pesticide expired")
+SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004> obo:PESTON_0000001)
+
+# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001005> (pesticide suspended)
+
+AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001005> "pesticide suspended")
+SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001005> obo:PESTON_0000001)
+
+# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001006> (pesticide temporarily authorized)
+
+AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001006> "pesticide temporarily authorized")
+SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001006> obo:PESTON_0000001)
 
 # Class: <https://www.w3.org/TR/owl-time/#time:Instant> (<https://www.w3.org/TR/owl-time/#time:Instant>)
 
