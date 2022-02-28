@@ -66,6 +66,9 @@ Declaration(Class(obo:PESTON_0000046))
 Declaration(Class(obo:PESTON_0000049))
 Declaration(Class(obo:PESTON_0000050))
 Declaration(Class(obo:PESTON_0000051))
+Declaration(Class(obo:PESTON_0001000))
+Declaration(Class(obo:PESTON_0001001))
+Declaration(Class(obo:PESTON_0001003))
 Declaration(Class(obo:PESTON_0001043))
 Declaration(Class(obo:PESTON_0001044))
 Declaration(Class(obo:PESTON_0001045))
@@ -109,10 +112,7 @@ Declaration(Class(obo:PESTON_0001082))
 Declaration(Class(obo:PESTON_0001083))
 Declaration(Class(obo:PESTON_0001084))
 Declaration(Class(obo:PESTON_0001085))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001>))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003>))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004>))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001005>))
 Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001006>))
@@ -140,6 +140,7 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 # Annotation Property: obo:PESTON_0001003 (formulation code)
 
 AnnotationAssertion(rdfs:label obo:PESTON_0001003 "formulation code")
+AnnotationAssertion(rdfs:label obo:PESTON_0001003 "pesticide authorized - under mutual recognition - Regulation (EC) No 764/2008")
 
 
 ############################
@@ -559,6 +560,20 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000051 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000051 "ingredient concentration"@en)
 SubClassOf(obo:PESTON_0000051 obo:IAO_0000027)
 
+# Class: obo:PESTON_0001000 (pesticide authorized - in derogation from Regulation (EC) No 1107/2009, art. 53)
+
+AnnotationAssertion(rdfs:label obo:PESTON_0001000 "pesticide authorized - in derogation from Regulation (EC) No 1107/2009, art. 53")
+SubClassOf(obo:PESTON_0001000 obo:PESTON_0000002)
+
+# Class: obo:PESTON_0001001 (pesticide authorized - Regulation (EC) No 1107/2009)
+
+AnnotationAssertion(rdfs:label obo:PESTON_0001001 "pesticide authorized - Regulation (EC) No 1107/2009")
+SubClassOf(obo:PESTON_0001001 obo:PESTON_0000002)
+
+# Class: obo:PESTON_0001003 (formulation code)
+
+SubClassOf(obo:PESTON_0001003 obo:PESTON_0000002)
+
 # Class: obo:PESTON_0001043 (product format)
 
 AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001043 "A mixture or structure prepared according to a specific formula.")
@@ -828,25 +843,10 @@ SubClassOf(obo:PESTON_0001085 obo:BFO_0000040)
 
 SubClassOf(obo:UO_0000187 obo:IAO_0000030)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> (pesticide authorized - in derogation from Regulation (EC) No 1107/2009, art. 53)
-
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> "pesticide authorized - in derogation from Regulation (EC) No 1107/2009, art. 53")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001000> obo:PESTON_0000002)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> (pesticide authorized - Regulation (EC) No 1107/2009)
-
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> "pesticide authorized - Regulation (EC) No 1107/2009")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001001> obo:PESTON_0000002)
-
 # Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> (revocation reason)
 
 AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> "revocation reason")
 SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:IAO_0000300)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> (pesticide authorized - under mutual recognition - Regulation (EC) No 764/2008)
-
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> "pesticide authorized - under mutual recognition - Regulation (EC) No 764/2008")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001003> obo:PESTON_0000002)
 
 # Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004> (pesticide expired)
 
