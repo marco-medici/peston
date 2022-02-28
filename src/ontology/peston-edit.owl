@@ -68,7 +68,11 @@ Declaration(Class(obo:PESTON_0000050))
 Declaration(Class(obo:PESTON_0000051))
 Declaration(Class(obo:PESTON_0001000))
 Declaration(Class(obo:PESTON_0001001))
+Declaration(Class(obo:PESTON_0001002))
 Declaration(Class(obo:PESTON_0001003))
+Declaration(Class(obo:PESTON_0001004))
+Declaration(Class(obo:PESTON_0001005))
+Declaration(Class(obo:PESTON_0001006))
 Declaration(Class(obo:PESTON_0001043))
 Declaration(Class(obo:PESTON_0001044))
 Declaration(Class(obo:PESTON_0001045))
@@ -112,10 +116,6 @@ Declaration(Class(obo:PESTON_0001082))
 Declaration(Class(obo:PESTON_0001083))
 Declaration(Class(obo:PESTON_0001084))
 Declaration(Class(obo:PESTON_0001085))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001005>))
-Declaration(Class(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001006>))
 Declaration(Class(<https://schema.org/PostalAddress>))
 Declaration(Class(<https://www.w3.org/TR/owl-time/#time:Instant>))
 Declaration(ObjectProperty(obo:RO_0000087))
@@ -189,6 +189,7 @@ SubClassOf(obo:NCIT_C82533 obo:PESTON_0001084)
 
 # Class: obo:PESTON_0000001 (pesticide authorization status)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000001 "The stage of a pesticide product authorization."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000001 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000001 "2021-11-23T00:16:58Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000001 "pesticide authorization status"@en)
@@ -196,6 +197,7 @@ SubClassOf(obo:PESTON_0000001 obo:IAO_0000027)
 
 # Class: obo:PESTON_0000002 (pesticide authorized)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000002 "A pesticide product authorized is a product that can enter the market."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000002 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000002 "2021-11-23T00:17:43Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000002 "pesticide authorized"@en)
@@ -203,6 +205,7 @@ SubClassOf(obo:PESTON_0000002 obo:PESTON_0000001)
 
 # Class: obo:PESTON_0000003 (pesticide revoked)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000003 "A pesticide product revoked is a product whose authorization is permanently removed."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000003 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000003 "2021-11-23T00:18:01Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000003 "pesticide revoked"@en)
@@ -210,6 +213,7 @@ SubClassOf(obo:PESTON_0000003 obo:PESTON_0000001)
 
 # Class: obo:PESTON_0000004 (pesticide re-registered)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000004 "The re-registration of pesticide products ensure that older products conform to present health and safety requirements."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000004 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000004 "2021-11-23T00:18:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000004 "pesticide re-registered"@en)
@@ -224,6 +228,7 @@ SubClassOf(obo:PESTON_0000006 obo:BFO_0000040)
 
 # Class: obo:PESTON_0000007 (phytosanitary product intended for non-professional users)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000007 "An official authorization regulating pesticide products characterized by limited hazard, and whose packaging, formulation and method of application are suitable with a limited exposure risk."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000007 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000007 "2021-11-23T00:20:53Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000007 "phytosanitary product intended for non-professional users"@en)
@@ -249,6 +254,7 @@ SubClassOf(obo:PESTON_0000009 obo:PESTON_0000007)
 
 # Class: obo:PESTON_0000010 (primary address)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000010 "A primary address is the physical address where a physical entity is situated."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000010 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000010 "2021-11-23T00:23:08Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000010 "primary address"@en)
@@ -256,6 +262,7 @@ SubClassOf(obo:PESTON_0000010 <https://schema.org/PostalAddress>)
 
 # Class: obo:PESTON_0000011 (legally registered address)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000011 "The address at which a physical entity is declared resident."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000011 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000011 "2021-11-23T00:23:38Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000011 "legally registered address"@en)
@@ -263,6 +270,7 @@ SubClassOf(obo:PESTON_0000011 <https://schema.org/PostalAddress>)
 
 # Class: obo:PESTON_0000012 (pesticide product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000012 "A pesticide product  is any substance used for preventing, destroying, or repelling pests."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000012 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000012 "2021-11-23T00:37:23Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000012 "pesticide product"@en)
@@ -384,6 +392,7 @@ SubClassOf(obo:PESTON_0000026 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000027 (chemical hazard)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000027 "A chemical hazard is related to a substance with the potential to cause harm to life or health."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000027 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000027 "2022-01-29T08:25:19Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000027 "chemical hazard"@en)
@@ -431,6 +440,7 @@ SubClassOf(obo:PESTON_0000032 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000033 (chemical irritant)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000033 "A chemical that can damage skin, eyes, pharynx, and/or larynx."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000033 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000033 "2022-01-29T08:27:01Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000033 "chemical irritant"@en)
@@ -454,6 +464,7 @@ SubClassOf(obo:PESTON_0000035 obo:PESTON_0000012)
 
 # Class: obo:PESTON_0000036 (toxic chemical)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000036 "Chemical that can cause death or serious damage to health."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000036 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000036 "2022-01-29T08:27:39Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000036 "toxic chemical"@en)
@@ -461,6 +472,7 @@ SubClassOf(obo:PESTON_0000036 obo:PESTON_0000027)
 
 # Class: obo:PESTON_0000037 (harmful chemical)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000037 "A chemical product that can cause damage to health, rarely fatal."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000037 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000037 "2022-01-29T08:33:17Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000037 "harmful chemical"@en)
@@ -468,12 +480,14 @@ SubClassOf(obo:PESTON_0000037 obo:PESTON_0000027)
 
 # Class: obo:PESTON_0000038 (pesticide authorization expiry date)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000038 "A date from which a product authorization is no longer valid."@en)
 AnnotationAssertion(obo:IAO_0000412 obo:PESTON_0000038 obo:ncit.owl)
 AnnotationAssertion(rdfs:label obo:PESTON_0000038 "pesticide authorization expiry date")
 SubClassOf(obo:PESTON_0000038 obo:PESTON_0000050)
 
 # Class: obo:PESTON_0000039 (very toxic chemical)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000039 "Chemical that can cause cancer or genetic mutations, and damage to organs, reproductive functions, and the fetus."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000039 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000039 "2022-01-29T08:34:16Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000039 "very toxic chemical"@en)
@@ -481,6 +495,7 @@ SubClassOf(obo:PESTON_0000039 obo:PESTON_0000027)
 
 # Class: obo:PESTON_0000040 (corrosive chemical)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000040 "A chemical that can cause skin burns, severe eye injuries and can corrode metals."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000040 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000040 "2022-01-29T08:34:25Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000040 "corrosive chemical"@en)
@@ -488,6 +503,7 @@ SubClassOf(obo:PESTON_0000040 obo:PESTON_0000027)
 
 # Class: obo:PESTON_0000041 (oxidizing chemical)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000041 "A chemical that in contact with flammable substances can create an exothermic reaction with a high risk of fire or explosion."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000041 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000041 "2022-01-29T08:34:37Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000041 "oxidizing chemical"@en)
@@ -495,6 +511,7 @@ SubClassOf(obo:PESTON_0000041 obo:PESTON_0000027)
 
 # Class: obo:PESTON_0000042 (highly flammable chemical)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000042 "A chemical with a low flash point that can ignite in contact with air."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000042 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000042 "2022-01-29T08:34:49Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000042 "highly flammable chemical"@en)
@@ -502,6 +519,7 @@ SubClassOf(obo:PESTON_0000042 obo:PESTON_0000027)
 
 # Class: obo:PESTON_0000043 (extremely flammable chemical)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000043 "A chemical with a very low flash point that can easily ignite in contact with air."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000043 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000043 "2022-01-29T08:35:02Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000043 "extremely flammable chemical"@en)
@@ -509,6 +527,7 @@ SubClassOf(obo:PESTON_0000043 obo:PESTON_0000027)
 
 # Class: obo:PESTON_0000044 (chemical harmful to aquatic life)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000044 "A chemical that can cause long-term damage to aquatic organisms."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000044 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000044 "2022-01-29T08:35:11Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000044 "chemical harmful to aquatic life"@en)
@@ -516,6 +535,7 @@ SubClassOf(obo:PESTON_0000044 obo:PESTON_0000027)
 
 # Class: obo:PESTON_0000045 (chemical dangerous for environment)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000045 "A chemical that can cause long-term damage to the environment."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000045 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000045 "2022-01-29T08:35:42Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000045 "chemical dangerous for environment"@en)
@@ -523,6 +543,7 @@ SubClassOf(obo:PESTON_0000045 obo:PESTON_0000027)
 
 # Class: obo:PESTON_0000046 (flammable chemical)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000046 "A low flammability substance."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000046 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000046 "2022-01-29T08:37:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000046 "flammable chemical"@en)
@@ -530,17 +551,20 @@ SubClassOf(obo:PESTON_0000046 obo:PESTON_0000027)
 
 # Class: obo:PESTON_0000047 (pesticide issue date)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000047 "A date from which a product was authorized."@en)
 AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000047 "A date of an official approvation, recognition, or acceptance as satisfactory.")
 AnnotationAssertion(rdfs:label obo:PESTON_0000047 "pesticide issue date")
 SubClassOf(obo:PESTON_0000047 obo:PESTON_0000050)
 
 # Class: obo:PESTON_0000048 (pesticide revocation date)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000048 "The date of revocation of a pesticide product."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0000048 "pesticide revocation date")
 SubClassOf(obo:PESTON_0000048 obo:PESTON_0000050)
 
 # Class: obo:PESTON_0000049 (pesticide revocation decision date)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000049 "The date in which the decision of the official product revocation was produced."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000049 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000049 "2022-02-21T17:48:13Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000049 "pesticide revocation decision date"@en)
@@ -548,13 +572,15 @@ SubClassOf(obo:PESTON_0000049 obo:PESTON_0000050)
 
 # Class: obo:PESTON_0000050 (pesticide regulatory date)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000050 "A date when an official event concerning the issue, the authorization, ot the revocation of a product took place."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000050 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000050 "2022-02-22T03:55:00Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000050 "pesticide regulatory date"@en)
-SubClassOf(obo:PESTON_0000050 <https://www.w3.org/TR/owl-time/#time:Instant>)
+SubClassOf(obo:PESTON_0000050 <https://schema.org/PostalAddress>)
 
 # Class: obo:PESTON_0000051 (ingredient concentration)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000051 "The concentration of an active ingredient in a substance."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000051 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000051 "2022-02-25T06:24:12Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0000051 "ingredient concentration"@en)
@@ -570,9 +596,32 @@ SubClassOf(obo:PESTON_0001000 obo:PESTON_0000002)
 AnnotationAssertion(rdfs:label obo:PESTON_0001001 "pesticide authorized - Regulation (EC) No 1107/2009")
 SubClassOf(obo:PESTON_0001001 obo:PESTON_0000002)
 
+# Class: obo:PESTON_0001002 (revocation reason)
+
+AnnotationAssertion(rdfs:label obo:PESTON_0001002 "revocation reason")
+SubClassOf(obo:PESTON_0001002 obo:IAO_0000300)
+
 # Class: obo:PESTON_0001003 (formulation code)
 
 SubClassOf(obo:PESTON_0001003 obo:PESTON_0000002)
+
+# Class: obo:PESTON_0001004 (pesticide expired)
+
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001004 "A pesticide product expired is a product whose authorization is expired."@en)
+AnnotationAssertion(rdfs:label obo:PESTON_0001004 "pesticide expired")
+SubClassOf(obo:PESTON_0001004 obo:PESTON_0000001)
+
+# Class: obo:PESTON_0001005 (pesticide suspended)
+
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001005 "A pesticide product suspended is a product whose authorization is temporarily suspended."@en)
+AnnotationAssertion(rdfs:label obo:PESTON_0001005 "pesticide suspended")
+SubClassOf(obo:PESTON_0001005 obo:PESTON_0000001)
+
+# Class: obo:PESTON_0001006 (pesticide temporarily authorized)
+
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001006 "A pesticide product temporarily authorized is a product that can enter the market with a short-term time limit."@en)
+AnnotationAssertion(rdfs:label obo:PESTON_0001006 "pesticide temporarily authorized")
+SubClassOf(obo:PESTON_0001006 obo:PESTON_0000001)
 
 # Class: obo:PESTON_0001043 (product format)
 
@@ -583,72 +632,84 @@ SubClassOf(obo:PESTON_0001043 obo:BFO_0000040)
 
 # Class: obo:PESTON_0001044 (aerosol dispenser)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001044 "An aerosol dispenser is composed of a container, an actuator (button), a valve, and a propellant."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001044 "AE")
 AnnotationAssertion(rdfs:label obo:PESTON_0001044 "aerosol dispenser")
 SubClassOf(obo:PESTON_0001044 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001045 (liquid product format)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001045 "A liquid bottled."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001045 "AL")
 AnnotationAssertion(rdfs:label obo:PESTON_0001045 "liquid product format")
 SubClassOf(obo:PESTON_0001045 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001046 (bait concentrate)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001046 "A substance used to attract and catch pests."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001046 "CB")
 AnnotationAssertion(rdfs:label obo:PESTON_0001046 "bait concentrate")
 SubClassOf(obo:PESTON_0001046 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001047 (contact powder)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001047 "A powder that is ready to use."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001047 "CP")
 AnnotationAssertion(rdfs:label obo:PESTON_0001047 "contact powder")
 SubClassOf(obo:PESTON_0001047 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001048 (capsule suspension)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001048 "A combination of an active ingredient encapsulated in polymer shell suspended in water."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001048 "CS")
 AnnotationAssertion(rdfs:label obo:PESTON_0001048 "capsule suspension")
 SubClassOf(obo:PESTON_0001048 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001049 (dispersible concentrate)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001049 "A liquid homogeneous preparation to be applied after dilution in water."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001049 "DC")
 AnnotationAssertion(rdfs:label obo:PESTON_0001049 "dispersible concentrate")
 SubClassOf(obo:PESTON_0001049 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001050 (dispersible powder)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001050 "A powder suitable for dusting."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001050 "DP")
 AnnotationAssertion(rdfs:label obo:PESTON_0001050 "dispersible powder")
 SubClassOf(obo:PESTON_0001050 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001051 (powder for dry seed treatment)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001051 "A powder for application in the dry state directly to seeds."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001051 "DS")
 AnnotationAssertion(rdfs:label obo:PESTON_0001051 "powder for dry seed treatment")
 SubClassOf(obo:PESTON_0001051 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001052 (emulsifiable concentrate)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001052 "A liquid preparation that can be used as an emulsion after dilution in water."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001052 "EC")
 AnnotationAssertion(rdfs:label obo:PESTON_0001052 "emulsifiable concentrate")
 SubClassOf(obo:PESTON_0001052 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001053 (emulsifiable granule)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001053 "A granular preparation that can be used as an emulsion after dilution in water."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001053 "EG")
 AnnotationAssertion(rdfs:label obo:PESTON_0001053 "emulsifiable granule")
 SubClassOf(obo:PESTON_0001053 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001054 (emulsion, water in oil)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001054 "A heterogeneous preparation composed by a dispersion of fine globules in an organic liquid in a continuous organic liquid phase."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001054 "EO")
 AnnotationAssertion(rdfs:label obo:PESTON_0001054 "emulsion, water in oil")
 SubClassOf(obo:PESTON_0001054 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001055 (emulsifiable dust)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001055 "A powder preparation that can be used as an emulsion after dilution in water."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001055 "EP")
 AnnotationAssertion(rdfs:label obo:PESTON_0001055 "emulsifiable dust")
 SubClassOf(obo:PESTON_0001055 obo:PESTON_0001043)
@@ -661,30 +722,35 @@ SubClassOf(obo:PESTON_0001056 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001057 (emulsion, oil in water)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001057 "A heterogeneous preparation composed by a dispersion of fine globules in an organic liquid in a continuous water phase."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001057 "EW")
 AnnotationAssertion(rdfs:label obo:PESTON_0001057 "emulsion, oil in water")
 SubClassOf(obo:PESTON_0001057 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001058 (flowable concentrate for seed treatment)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001058 "A stable suspension for application to the seed."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001058 "FS")
 AnnotationAssertion(rdfs:label obo:PESTON_0001058 "flowable concentrate for seed treatment")
 SubClassOf(obo:PESTON_0001058 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001059 (smoke generator)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001059 "A combustible preparation which once ignited releases active substance in the form of a smoke."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001059 "FU")
 AnnotationAssertion(rdfs:label obo:PESTON_0001059 "smoke generator")
 SubClassOf(obo:PESTON_0001059 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001060 (gas)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001060 "A gas contined in a pressure bottle or in a pressure tank."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001060 "GA")
 AnnotationAssertion(rdfs:label obo:PESTON_0001060 "gas")
 SubClassOf(obo:PESTON_0001060 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001061 (granule (generic, but defined size range))
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001061 "A solid preparation of a defined granule size range ready for use."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001061 "GR")
 AnnotationAssertion(rdfs:comment obo:PESTON_0001061 "generic, but defined size range")
 AnnotationAssertion(rdfs:label obo:PESTON_0001061 "granule (generic, but defined size range)")
@@ -692,30 +758,35 @@ SubClassOf(obo:PESTON_0001061 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001062 (grease)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001062 "A high viscous preparation based on oil or fat."@en)
 AnnotationAssertion(rdfs:comment obo:PESTON_0001062 "GS")
 AnnotationAssertion(rdfs:label obo:PESTON_0001062 "grease")
 SubClassOf(obo:PESTON_0001062 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001063 (hot fogging concentrate)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001063 "A preparation suitable for application by means of fogging equipment."@en)
 AnnotationAssertion(rdfs:comment obo:PESTON_0001063 "HN")
 AnnotationAssertion(rdfs:label obo:PESTON_0001063 "hot fogging concentrate")
 SubClassOf(obo:PESTON_0001063 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001064 (micro-emulsion)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001064 "Dispersion made of water, oil, and surfactants with a domain diameter varying approximately from 1 to 100 nm."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001064 "ME")
 AnnotationAssertion(rdfs:label obo:PESTON_0001064 "micro-emulsion")
 SubClassOf(obo:PESTON_0001064 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001065 (oil dispersion)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001065 "A solid active ingredient dispersed in oil."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001065 "OD")
 AnnotationAssertion(rdfs:label obo:PESTON_0001065 "oil dispersion")
 SubClassOf(obo:PESTON_0001065 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001066 (oil miscible flowable concentrate (oil miscible suspension))
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001066 "A stable suspension of concentrate fluid that can be diluted in an organic liquid before use."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001066 "OF")
 AnnotationAssertion(rdfs:label obo:PESTON_0001066 "oil miscible flowable concentrate (oil miscible suspension)")
 AnnotationAssertion(rdfs:label obo:PESTON_0001066 "oil miscible suspension")
@@ -723,18 +794,22 @@ SubClassOf(obo:PESTON_0001066 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001067 (oil miscible liquid)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001067 "A liquid preparation that can be applied after dilution in an organic liquid."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001067 "OL")
 AnnotationAssertion(rdfs:label obo:PESTON_0001067 "oil miscible liquid")
 SubClassOf(obo:PESTON_0001067 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001068 (oil dispersible powder)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001068 "A powder preparation that can be applied as a suspension after dispersion
+in an organic liquid."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001068 "OP")
 AnnotationAssertion(rdfs:label obo:PESTON_0001068 "oil dispersible powder")
 SubClassOf(obo:PESTON_0001068 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001069 (paste (water-based, film forming))
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001069 "A water based film forming preparation."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001069 "PA")
 AnnotationAssertion(rdfs:comment obo:PESTON_0001069 "water-based, film forming")
 AnnotationAssertion(rdfs:label obo:PESTON_0001069 "paste (water-based, film forming)")
@@ -742,12 +817,14 @@ SubClassOf(obo:PESTON_0001069 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001070 (plant rodlet)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001070 "A small rodlet containing active substance."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001070 "PR")
 AnnotationAssertion(rdfs:label obo:PESTON_0001070 "plant rodlet")
 SubClassOf(obo:PESTON_0001070 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001071 (bait (ready for use))
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001071 "A physical device with small amounts of substance used to attract and catch pests."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001071 "RB")
 AnnotationAssertion(rdfs:comment obo:PESTON_0001071 "ready for use")
 AnnotationAssertion(rdfs:label obo:PESTON_0001071 "bait (ready for use)")
@@ -755,66 +832,78 @@ SubClassOf(obo:PESTON_0001071 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001072 (suspension concentrate (= flowable concentrate))
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001072 "A stable suspension of active substances in a fluid intended for dilution in water before use."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001072 "SC")
 AnnotationAssertion(rdfs:label obo:PESTON_0001072 "suspension concentrate (= flowable concentrate)")
 SubClassOf(obo:PESTON_0001072 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001073 (suspo-emulsion)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001073 "A heterogeneous preparation consisting of a stable dispersion of active substances in the form of solid particles and of fine globules in a continuous water phase."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001073 "SE")
 AnnotationAssertion(rdfs:label obo:PESTON_0001073 "suspo-emulsion")
 SubClassOf(obo:PESTON_0001073 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001074 (water soluble granules)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001074 "A preparation consisting of granules to be applied after dissolution in water. It may contain insoluble inert ingredients."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001074 "SG")
 AnnotationAssertion(rdfs:label obo:PESTON_0001074 "water soluble granules")
 SubClassOf(obo:PESTON_0001074 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001075 (soluble concentrate)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001075 "A homogenous preparation to be used after dilution in water."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001075 "SL")
 AnnotationAssertion(rdfs:label obo:PESTON_0001075 "soluble concentrate")
 SubClassOf(obo:PESTON_0001075 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001076 (water soluble powder)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001076 "A powder preparation to be applied after dissolution in water. It may contain insoluble inert ingredients."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001076 "SP")
 AnnotationAssertion(rdfs:label obo:PESTON_0001076 "water soluble powder")
 SubClassOf(obo:PESTON_0001076 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001077 (ultra-low volume (ulv) suspension)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001077 "A suspension ready for use by means of ULV equipment."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001077 "SU")
 AnnotationAssertion(rdfs:label obo:PESTON_0001077 "ultra-low volume (ulv) suspension")
 SubClassOf(obo:PESTON_0001077 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001078 (tablet)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001078 "A solid preparation in the form of plates for dissolution in water."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001078 "TB")
 AnnotationAssertion(rdfs:label obo:PESTON_0001078 "tablet")
 SubClassOf(obo:PESTON_0001078 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001079 (vapour releasing product)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001079 "A preparation containing one or more volatile ingredients  whose vapours are released into the air."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001079 "VP")
 AnnotationAssertion(rdfs:label obo:PESTON_0001079 "vapour releasing product")
 SubClassOf(obo:PESTON_0001079 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001080 (water dispersible granules)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001080 "A preparation consisting of granules to be applied after disintegration/dispersion in water."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001080 "WG")
 AnnotationAssertion(rdfs:label obo:PESTON_0001080 "water dispersible granules")
 SubClassOf(obo:PESTON_0001080 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001081 (wettable powder)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001081 "A powder preparation that can be applied as a suspension after dispersion
+in water."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001081 "WP")
 AnnotationAssertion(rdfs:label obo:PESTON_0001081 "wettable powder")
 SubClassOf(obo:PESTON_0001081 obo:PESTON_0001043)
 
 # Class: obo:PESTON_0001082 (water dispersible powder for slurry seed treatment)
 
+AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0001082 "A powder that can be dispersed in water before being applied as a slurry to the seed."@en)
 AnnotationAssertion(obo:PESTON_0001003 obo:PESTON_0001082 "WS")
 AnnotationAssertion(rdfs:label obo:PESTON_0001082 "water dispersible powder for slurry seed treatment")
 SubClassOf(obo:PESTON_0001082 obo:PESTON_0001043)
@@ -843,25 +932,9 @@ SubClassOf(obo:PESTON_0001085 obo:BFO_0000040)
 
 SubClassOf(obo:UO_0000187 obo:IAO_0000030)
 
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> (revocation reason)
+# Class: <https://schema.org/PostalAddress> (<https://schema.org/PostalAddress>)
 
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> "revocation reason")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001002> obo:IAO_0000300)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004> (pesticide expired)
-
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004> "pesticide expired")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001004> obo:PESTON_0000001)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001005> (pesticide suspended)
-
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001005> "pesticide suspended")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001005> obo:PESTON_0000001)
-
-# Class: <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001006> (pesticide temporarily authorized)
-
-AnnotationAssertion(rdfs:label <http://www.co-ode.org/ontologies/ont.owl#PESTON_0001006> "pesticide temporarily authorized")
-SubClassOf(<http://www.co-ode.org/ontologies/ont.owl#PESTON_0001006> obo:PESTON_0000001)
+AnnotationAssertion(obo:IAO_0000115 <https://schema.org/PostalAddress> "An address is a collection of information describing a location with street names as references.")
 
 # Class: <https://www.w3.org/TR/owl-time/#time:Instant> (<https://www.w3.org/TR/owl-time/#time:Instant>)
 
