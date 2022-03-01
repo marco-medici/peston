@@ -919,7 +919,7 @@ SubClassOf(obo:PESTON_0001083 obo:PESTON_0001043)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0001084 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0001084 "2022-01-31T21:08:42Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label obo:PESTON_0001084 "pesticide ingredient"@en)
-SubClassOf(obo:PESTON_0001084 obo:NCIT_C16632)
+SubClassOf(obo:PESTON_0001084 obo:BFO_0000040)
 
 # Class: obo:PESTON_0001085 (parallel imported product)
 
