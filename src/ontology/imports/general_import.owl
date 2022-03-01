@@ -350,16 +350,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C51981 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C51981">
-        <obo:IAO_0000115>That which enters into a compound, or is a component part of any combination or mixture; an element; a constituent.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Ingredient</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C54131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C54131">
