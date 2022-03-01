@@ -16,6 +16,7 @@ Import(<http://purl.obolibrary.org/obo/peston/imports/company_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/event_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/ingredient_concentration_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/ingredient_import.owl>)
+Import(<http://purl.obolibrary.org/obo/peston/imports/pesticide_authorization_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/pesticide_event_import.owl>)
 Import(<http://purl.obolibrary.org/obo/peston/imports/pesticide_import.owl>)
 
@@ -137,9 +138,8 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 #   Annotation Properties
 ############################
 
-# Annotation Property: obo:PESTON_0001003 (formulation code)
+# Annotation Property: obo:PESTON_0001003 (pesticide authorized - under mutual recognition - Regulation (EC) No 764/2008)
 
-AnnotationAssertion(rdfs:label obo:PESTON_0001003 "formulation code")
 AnnotationAssertion(rdfs:label obo:PESTON_0001003 "pesticide authorized - under mutual recognition - Regulation (EC) No 764/2008")
 
 
@@ -601,7 +601,7 @@ SubClassOf(obo:PESTON_0001001 obo:PESTON_0000002)
 AnnotationAssertion(rdfs:label obo:PESTON_0001002 "revocation reason")
 SubClassOf(obo:PESTON_0001002 obo:IAO_0000300)
 
-# Class: obo:PESTON_0001003 (formulation code)
+# Class: obo:PESTON_0001003 (pesticide authorized - under mutual recognition - Regulation (EC) No 764/2008)
 
 SubClassOf(obo:PESTON_0001003 obo:PESTON_0000002)
 
@@ -939,6 +939,43 @@ AnnotationAssertion(obo:IAO_0000115 <https://schema.org/PostalAddress> "An addre
 # Class: <https://www.w3.org/TR/owl-time/#time:Instant> (<https://www.w3.org/TR/owl-time/#time:Instant>)
 
 AnnotationAssertion(obo:IAO_0000115 <https://www.w3.org/TR/owl-time/#time:Instant> "The particular day, month and year an event has happened or will happen.")
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: obo:PESTON_0000002 (pesticide authorized)
+
+ClassAssertion(obo:PESTON_0000002 obo:PESTON_0000002)
+
+# Individual: obo:PESTON_0000003 (pesticide revoked)
+
+ClassAssertion(obo:PESTON_0000003 obo:PESTON_0000003)
+
+# Individual: obo:PESTON_0000004 (pesticide re-registered)
+
+ClassAssertion(obo:PESTON_0000004 obo:PESTON_0000004)
+
+# Individual: obo:PESTON_0001000 (pesticide authorized - in derogation from Regulation (EC) No 1107/2009, art. 53)
+
+ClassAssertion(obo:PESTON_0001003 obo:PESTON_0001000)
+
+# Individual: obo:PESTON_0001001 (pesticide authorized - Regulation (EC) No 1107/2009)
+
+ClassAssertion(obo:PESTON_0001001 obo:PESTON_0001001)
+
+# Individual: obo:PESTON_0001004 (pesticide expired)
+
+ClassAssertion(obo:PESTON_0001004 obo:PESTON_0001004)
+
+# Individual: obo:PESTON_0001005 (pesticide suspended)
+
+ClassAssertion(obo:PESTON_0001005 obo:PESTON_0001005)
+
+# Individual: obo:PESTON_0001006 (pesticide temporarily authorized)
+
+ClassAssertion(obo:PESTON_0001006 obo:PESTON_0001006)
 
 
 )

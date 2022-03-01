@@ -20,6 +20,11 @@ robot template --template robot_company.tsv \
   --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/pesticide_import.owl" \
   --output pesticide_import.owl
 
+./robot.bat template --template robot_pesticide_authorization.tsv \
+  --prefix "PESTON:http://purl.obolibrary.org/obo/PESTON_" \
+  --ontology-iri "http://purl.obolibrary.org/obo/peston/imports/pesticide_authorization_import.owl" \
+  --output pesticide_authorization_import.owl
+
 ./robot.bat template --template robot_ingredient.tsv \
   --input "peston-merged.owl" \
   --prefix "PESTON:http://purl.obolibrary.org/obo/PESTON_" \
