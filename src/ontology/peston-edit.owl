@@ -390,12 +390,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000026 "2
 AnnotationAssertion(rdfs:label obo:PESTON_0000026 "food preservative product"@en)
 SubClassOf(obo:PESTON_0000026 obo:PESTON_0000012)
 
-# Class: obo:PESTON_0000027 (chemical hazard)
+# Class: obo:PESTON_0000027 (hazardous chemical)
 
 AnnotationAssertion(obo:IAO_0000115 obo:PESTON_0000027 "A chemical hazard is related to a substance with the potential to cause harm to life or health."@en)
 AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0000027 <http://orcid.org/0000-0002-8844-9165>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> obo:PESTON_0000027 "2022-01-29T08:25:19Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label obo:PESTON_0000027 "chemical hazard"@en)
+AnnotationAssertion(rdfs:label obo:PESTON_0000027 "hazardous chemical"@en)
 SubClassOf(obo:PESTON_0000027 obo:BFO_0000040)
 
 # Class: obo:PESTON_0000028 (molluscicide product)
