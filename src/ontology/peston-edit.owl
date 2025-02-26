@@ -923,7 +923,7 @@ SubClassOf(obo:PESTON_0001084 obo:BFO_0000040)
 
 # Class: obo:PESTON_0001085 (parallel imported product)
 
-AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0001085 < http://orcid.org/ 0000-0003-4684-7672>)
+AnnotationAssertion(obo:IAO_0000117 obo:PESTON_0001085 <http://orcid.org/0000-0003-4684-7672>)
 AnnotationAssertion(rdfs:comment obo:PESTON_0001085 "Parallel importing refer to branded goods that have been manufactured by or under license of the brand owner, but they may have been formulated or packaged for a particular market and are imported into a different jurisdiction in contradiction to the brand owner’s intention, thereby sold at reduced price. Parallel importing is regulated differently between countries."@en)
 AnnotationAssertion(rdfs:label obo:PESTON_0001085 "parallel imported product")
 SubClassOf(obo:PESTON_0001085 obo:BFO_0000040)
